@@ -1,0 +1,1085 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta name="csrf-param" content="authenticity_token"/>
+<meta name="csrf-token" 
+content="R6okvIb1E4Hc4q80aFo/Opyo/L6SHsPc4FCOYWOIWhC/tcREShUwl/cqo+Rr786Yj+yfRlRkj1zpdNEqznh3fg=="/>
+<meta charset='utf-8'>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+<meta content='#337AB7' name='theme-color'>
+<title>
+Player Stats - Overcast Network
+</title>
+<link rel="shortcut icon" type="image/x-icon" 
+href="https://cdn.oc.tc/assets/favicon.ico"/>
+<link rel="apple-touch-icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-57x57-c773bb9eed44bec814183ea9c338a8d24261d8cf4dd837ebfd11316567fd81e6.png"/>
+<link rel="apple-touch-icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-76x76-9b6f7b609f77f40e69d6c3e05780e0fe93ce4fbf6e39c6c749df63a5c526e294.png" 
+sizes="76x76"/>
+<link rel="apple-touch-icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-120x120-4bf1cbf6c6c04c8b98dfd7c828b08c681c8d7533621ab949131c7542344e0a93.png" 
+sizes="120x120"/>
+<link rel="apple-touch-icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-152x152-9285e43ba8ebd0609dad331dc1edb03224b6237f088b999bfd14f81cf716cab6.png" 
+sizes="152x152"/>
+<link rel="apple-touch-icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-167x167-2b722464c6abcaddf5c0d3f64c3292de32c59c079a8ec829a34c0c064f13b55c.png" 
+sizes="167x167"/>
+<link rel="apple-touch-icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-180x180-feb73f6835138a9162af22513c17b7d077fd3ce7f9ef41744eca3e6cbcdee771.png" 
+sizes="180x180"/>
+<link rel="icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-128x128-e17c0fec61348260984daac0ffa7fb9471a25501ca49ef41b2a0daa3130f8ff4.png" 
+sizes="128x128"/>
+<link rel="icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-192x192-c93c1e496617fec85cd89aa9d3abc62db2232eb1cf901924b5bc81c32bc44ed6.png" 
+sizes="192x192"/>
+<link rel="stylesheet" media="screen" 
+href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css"/>
+<link rel="stylesheet" media="screen" 
+href="https://static.oc.tc/assets/application-bfa7ca518e1a8ca212fef53aaa0650a6f5b4475c06914e7178ff5bec94070752.css"/>
+<link rel="stylesheet" media="screen" 
+href="//fonts.googleapis.com/css?family=Lato:700,400,300"/>
+<link rel="stylesheet" media="screen" 
+href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"/>
+<script 
+src="https://static.oc.tc/assets/libraries-912fd655d5f42721ec0f4b257ad9e600219d21f56ed23b0125feaf20b7f6e28e.js"></script>
+<script 
+src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script 
+src="https://static.oc.tc/assets/application-279754d779d3df8a6e34571f7a04537497dcab3d7ff24f26101905b5bdcd2e1b.js"></script>
+<script 
+src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-3-typeahead/4.0.0/bootstrap3-typeahead.min.js"></script>
+<script>
+  var 
+_gaq=_gaq||[];_gaq.push(["_setAccount","UA-30515952-1"]);_gaq.push(["_trackPageview"]);(function(){var 
+e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var 
+t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})()
+</script>
+</head>
+<body>
+<nav class='navbar navbar-default navbar-static-top'>
+<div class='container'>
+<div class='navbar-header'>
+<button class='navbar-toggle collapsed' 
+data-target='#top-navbar-collapse' data-toggle='collapse' 
+id='top-navbar-collapse-button'>
+<span class='fa fa-bars'></span>
+</button>
+<a class='navbar-brand' href='/'>
+<img class='pull-left' height='34' 
+src='https://cdn.oc.tc/assets/logo.png'>
+Overcast Network
+</a>
+</div>
+<div class='navbar-collapse collapse' id='top-navbar-collapse'>
+<ul class='nav navbar-nav' style='margin-right: 0;'>
+<li>
+<a href='/play'>
+<i class='fa fa-play'></i>
+Play
+</a>
+</li>
+<li>
+<a href='/maps'>
+<i class='fa fa-cubes'></i>
+Maps
+</a>
+</li>
+<li class='active dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+<i class='fa fa-user'></i>
+Players
+<b class='caret'></b>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a href='https://oc.tc/leaderboard'>
+<i class='fa fa-star'></i>
+Rankings
+</a>
+</li>
+<li>
+<a href='https://oc.tc/stats'>
+<i class='fa fa-line-chart'></i>
+Stats
+</a>
+</li>
+<li>
+<a href='/channels'>
+<i class='fa fa-youtube-play'></i>
+Channels
+</a>
+</li>
+<form class='player-search'>
+<input class='input-sm form-control typeahead' id='player-search' 
+name='search' placeholder='Search for a player' type='text'>
+</form>
+</ul>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+<i class='fa fa-trophy'></i>
+League
+<b class='caret'></b>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a href='/teams'>
+<i class='fa fa-group'></i>
+Teams
+</a>
+</li>
+<li>
+<a href='/tournaments'>
+<i class='fa fa-flag'></i>
+Tournaments
+</a>
+</li>
+</ul>
+</li>
+<li>
+<a href='/forums'>
+<i class='fa fa-comments'></i>
+Forum
+</a>
+</li>
+</ul>
+<hr class='visible-xs visible-sm' style='margin: 4px; border-color: 
+#e7e7e7;'>
+<ul class='nav navbar-nav pull-right'>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#' 
+style='outline: none; '>
+<i class='fa fa-user'></i>
+<div class='visible-xs-inline visible-sm-inline'>
+Account
+</div>
+<b class='caret'></b>
+</a>
+<ul class='dropdown-menu dropdown-menu-right'>
+<li>
+<a href='/users/sign_in'>Login</a>
+</li>
+<li>
+<a href='/users/sign_up'>Register</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<div class='container'>
+<div class='flash' style='margin-top: 20px;'>
+</div>
+<section>
+<div class='page-header playerstats'>
+<h1>
+Player Stats
+</h1>
+</div>
+<div class='row'>
+<div class='col-md-12'>
+<div class='form-inline pull-right'>
+<div class='form-group'>
+<label class='sr-only'>Find Player</label>
+<div class='input-group'>
+<input class='form-control input-sm typeahead' id='search-username' 
+name='user' placeholder='Username' type='text'>
+<div class='input-group-btn'>
+<button class='btn btn-sm btn-primary' id='search-button'>Find 
+Player</button>
+</div>
+</div>
+</div>
+</div>
+<div class='form-inline'>
+<div class='form-group'>
+<label>Playing</label>
+<select class='form-control input-sm playerstats-control' 
+id='playerstats-game'>
+<option selected value='pgm-public'>Objectives/Deathmatch</option>
+<option value='mini'>Mini</option>
+<option value='blitz-public'>Blitz</option>
+<option value='micro'>Micro</option>
+<option value='global'>all games (time only)</option>
+</select>
+</div>
+<div class='form-group'>
+<label>for</label>
+<select class='form-control input-sm playerstats-control' 
+id='playerstats-time'>
+<option selected value='day'>the last 24 hours</option>
+<option value='week'>the last 7 days</option>
+<option value='eternity'>all time</option>
+</select>
+</div>
+<div class='form-group'>
+<label>sorted by</label>
+<select class='form-control input-sm playerstats-control' 
+id='playerstats-sort'>
+<option selected value='kills'>kills</option>
+<option value='deaths'>deaths</option>
+<option value='deaths_player'>killed</option>
+<option value='playing_time'>playing time</option>
+</select>
+</div>
+</div>
+<br>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-12'>
+<ul class='pagination pagination-sm'>
+<li class='active'>
+<a>1</a>
+</li>
+<li>
+<a href='/stats?page=2'>2</a>
+</li>
+<li>
+<a href='/stats?page=3'>3</a>
+</li>
+<li>
+<a href='/stats?page=4'>4</a>
+</li>
+<li>
+<a href='/stats?page=5'>5</a>
+</li>
+<li class='disabled'>
+<a>&hellip;</a>
+</li>
+<li>
+<a href='/stats?page=21794'>Last &raquo;</a>
+</li>
+</ul>
+<div class='table-container'>
+<table class='table table-bordered table-striped'>
+<thead>
+<tr>
+<th width='8%'></th>
+<th width='22%'>Playing Time</th>
+<th width='8%'>Kills</th>
+<th width='8%'>Deaths</th>
+<th width='8%'>Killed</th>
+<th width='8%'>K/D</th>
+<th width='8%'>K/K</th>
+<th>Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+1
+</td>
+<td>
+4 hours, 45 minutes
+</td>
+<td>
+389
+</td>
+<td>
+130
+</td>
+<td>
+121
+</td>
+<td>
+2.992
+</td>
+<td>
+3.215
+</td>
+<td>
+<img style="width: 16px;height: 16px;border-radius: 3px;" width="16" 
+height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/4ed106c212b943d283c72e963440444f/16@2x.png" 
+alt="ItsCal" title="ItsCal"/>
+<a style="color: #08c; " href="/ItsCal">ItsCal</a>
+</td>
+</tr>
+<tr>
+<td>
+2
+</td>
+<td>
+4 hours, 59 minutes
+</td>
+<td>
+361
+</td>
+<td>
+128
+</td>
+<td>
+113
+</td>
+<td>
+2.82
+</td>
+<td>
+3.195
+</td>
+<td>
+<img style="width: 16px;height: 16px;border-radius: 3px;" width="16" 
+height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/8642cd1459704ff2841c8a548fd69c69/16@2x.png" 
+alt="Viceak" title="Viceak"/>
+<a style="color: #08c; " href="/Viceak">Viceak</a>
+</td>
+</tr>
+<tr>
+<td>
+3
+</td>
+<td>
+4 hours, 12 minutes
+</td>
+<td>
+302
+</td>
+<td>
+159
+</td>
+<td>
+146
+</td>
+<td>
+1.899
+</td>
+<td>
+2.068
+</td>
+<td>
+<img style="width: 16px;height: 16px;border-radius: 3px;" width="16" 
+height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/98fccebed58b47359e0379683ca47bc4/16@2x.png" 
+alt="anbu_" title="anbu_"/>
+<a style="color: #08c; " href="/anbu_">anbu_</a>
+</td>
+</tr>
+<tr>
+<td>
+4
+</td>
+<td>
+5 hours, 4 minutes
+</td>
+<td>
+271
+</td>
+<td>
+22
+</td>
+<td>
+20
+</td>
+<td>
+12.318
+</td>
+<td>
+13.55
+</td>
+<td>
+<img style="width: 16px;height: 16px;border-radius: 3px;" width="16" 
+height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/fb5232808c744e2fbd34f1b663c040f3/16@2x.png" 
+alt="leMaCderp" title="leMaCderp"/>
+<a style="color: #08c; " href="/leMaCderp">leMaCderp</a>
+</td>
+</tr>
+<tr>
+<td>
+5
+</td>
+<td>
+3 hours, 26 minutes
+</td>
+<td>
+235
+</td>
+<td>
+36
+</td>
+<td>
+31
+</td>
+<td>
+6.528
+</td>
+<td>
+7.581
+</td>
+<td>
+<img style="width: 16px;height: 16px;border-radius: 3px;" width="16" 
+height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/f3cca62d22cf49b0bcb1119fe1da7a6d/16@2x.png" 
+alt="xDeah" title="xDeah"/>
+<a style="color: #08c; " href="/xDeah">xDeah</a>
+</td>
+</tr>
+<tr>
+<td>
+6
+</td>
+<td>
+10 hours, 24 minutes
+</td>
+<td>
+208
+</td>
+<td>
+368
+</td>
+<td>
+267
+</td>
+<td>
+0.565
+</td>
+<td>
+0.779
+</td>
+<td>
+<img style="width: 16px;height: 16px;border-radius: 3px;" width="16" 
+height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/93aa7c3913274d4a939c219e3bb5b2af/16@2x.png" 
+alt="quiereme" title="quiereme"/>
+<a style="color: #08c; " href="/quiereme">quiereme</a>
+</td>
+</tr>
+<tr>
+<td>
+7
+</td>
+<td>
+5 hours, 50 minutes
+</td>
+<td>
+202
+</td>
+<td>
+112
+</td>
+<td>
+99
+</td>
+<td>
+1.804
+</td>
+<td>
+2.04
+</td>
+<td>
+<img style="width: 16px;height: 16px;border-radius: 3px;" width="16" 
+height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/f92c3a47c5494a4280abc5f0afef76a6/16@2x.png" 
+alt="Promesse" title="Promesse"/>
+<a style="color: #08c; " href="/Promesse">Promesse</a>
+</td>
+</tr>
+<tr>
+<td>
+8
+</td>
+<td>
+9 hours, 0 minutes
+</td>
+<td>
+180
+</td>
+<td>
+339
+</td>
+<td>
+270
+</td>
+<td>
+0.531
+</td>
+<td>
+0.667
+</td>
+<td>
+<img style="width: 16px;height: 16px;border-radius: 3px;" width="16" 
+height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/6633fe45142c459a8a064132be828690/16@2x.png" 
+alt="ImNotHacked" title="ImNotHacked"/>
+<a style="color: #08c; " href="/ImNotHacked">ImNotHacked</a>
+</td>
+</tr>
+<tr>
+<td>
+9
+</td>
+<td>
+1 hour, 54 minutes
+</td>
+<td>
+175
+</td>
+<td>
+115
+</td>
+<td>
+109
+</td>
+<td>
+1.522
+</td>
+<td>
+1.606
+</td>
+<td>
+<img style="width: 16px;height: 16px;border-radius: 3px;" width="16" 
+height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/0c3373d0093040d3a7fcb187554613e0/16@2x.png" 
+alt="Rau1" title="Rau1"/>
+<a style="color: #08c; " href="/Rau1">Rau1</a>
+</td>
+</tr>
+<tr>
+<td>
+10
+</td>
+<td>
+1 hour, 56 minutes
+</td>
+<td>
+173
+</td>
+<td>
+78
+</td>
+<td>
+67
+</td>
+<td>
+2.218
+</td>
+<td>
+2.582
+</td>
+<td>
+<img style="width: 16px;height: 16px;border-radius: 3px;" width="16" 
+height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/0311216d711c4075aeefe65671f07958/16@2x.png" 
+alt="DCKingz" title="DCKingz"/>
+<a style="color: #08c; " href="/DCKingz">DCKingz</a>
+</td>
+</tr>
+<tr>
+<td>
+11
+</td>
+<td>
+5 hours, 1 minute
+</td>
+<td>
+169
+</td>
+<td>
+142
+</td>
+<td>
+117
+</td>
+<td>
+1.19
+</td>
+<td>
+1.444
+</td>
+<td>
+<img style="width: 16px;height: 16px;border-radius: 3px;" width="16" 
+height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/a476fac676514340ac4b3e3a0168b43e/16@2x.png" 
+alt="Daiinty" title="Daiinty"/>
+<a style="color: #08c; " href="/Daiinty">Daiinty</a>
+</td>
+</tr>
+<tr>
+<td>
+12
+</td>
+<td>
+5 hours, 1 minute
+</td>
+<td>
+167
+</td>
+<td>
+109
+</td>
+<td>
+90
+</td>
+<td>
+1.532
+</td>
+<td>
+1.856
+</td>
+<td>
+<img style="width: 16px;height: 16px;border-radius: 3px;" width="16" 
+height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/acacb90c2cab465fa6e4e15c3917ec33/16@2x.png" 
+alt="Ariesson100" title="Ariesson100"/>
+<a style="color: #08c; " href="/Ariesson100">Ariesson100</a>
+</td>
+</tr>
+<tr>
+<td>
+13
+</td>
+<td>
+10 hours, 35 minutes
+</td>
+<td>
+166
+</td>
+<td>
+307
+</td>
+<td>
+248
+</td>
+<td>
+0.541
+</td>
+<td>
+0.669
+</td>
+<td>
+<img style="width: 16px;height: 16px;border-radius: 3px;" width="16" 
+height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/54698f3384ae40fa920e75f3ffaae074/16@2x.png" 
+alt="Grithorde" title="Grithorde"/>
+<a style="color: #08c; " href="/Grithorde">Grithorde</a>
+</td>
+</tr>
+<tr>
+<td>
+14
+</td>
+<td>
+2 hours, 50 minutes
+</td>
+<td>
+165
+</td>
+<td>
+83
+</td>
+<td>
+70
+</td>
+<td>
+1.988
+</td>
+<td>
+2.357
+</td>
+<td>
+<img style="width: 16px;height: 16px;border-radius: 3px;" width="16" 
+height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/2d4ca3ba16c9440197ac025791dd41ff/16@2x.png" 
+alt="Ruzeh" title="Ruzeh"/>
+<a style="color: #08c; " href="/Ruzeh">Ruzeh</a>
+</td>
+</tr>
+<tr>
+<td>
+15
+</td>
+<td>
+2 hours, 30 minutes
+</td>
+<td>
+162
+</td>
+<td>
+26
+</td>
+<td>
+22
+</td>
+<td>
+6.231
+</td>
+<td>
+7.364
+</td>
+<td>
+<img style="width: 16px;height: 16px;border-radius: 3px;" width="16" 
+height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/71963c194e554889bc06d21504f1a384/16@2x.png" 
+alt="Dwoox" title="Dwoox"/>
+<a style="color: #08c; " href="/Dwoox">Dwoox</a>
+</td>
+</tr>
+<tr>
+<td>
+16
+</td>
+<td>
+3 hours, 18 minutes
+</td>
+<td>
+153
+</td>
+<td>
+41
+</td>
+<td>
+35
+</td>
+<td>
+3.732
+</td>
+<td>
+4.371
+</td>
+<td>
+<img style="width: 16px;height: 16px;border-radius: 3px;" width="16" 
+height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/8bd2e6341d624c2ba4f55d6bbdb84577/16@2x.png" 
+alt="LoveCompiBlood" title="LoveCompiBlood"/>
+<a style="color: #08c; " href="/LoveCompiBlood">LoveCompiBlood</a>
+</td>
+</tr>
+<tr>
+<td>
+17
+</td>
+<td>
+3 hours, 43 minutes
+</td>
+<td>
+145
+</td>
+<td>
+160
+</td>
+<td>
+115
+</td>
+<td>
+0.906
+</td>
+<td>
+1.261
+</td>
+<td>
+<img style="width: 16px;height: 16px;border-radius: 3px;" width="16" 
+height="16" class="avatar glow" 
+src="https://cravatar.eu/helmavatar/16044c6a564944b5a6dd44b61820a472/16@2x.png" 
+alt="Iire" title="Iire"/>
+<a style="color: #08c; " href="/Iire">Iire</a>
+</td>
+</tr>
+<tr>
+<td>
+18
+</td>
+<td>
+3 hours, 22 minutes
+</td>
+<td>
+139
+</td>
+<td>
+142
+</td>
+<td>
+116
+</td>
+<td>
+0.979
+</td>
+<td>
+1.198
+</td>
+<td>
+<img style="width: 16px;height: 16px;border-radius: 3px;" width="16" 
+height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/0d05df1f2106408fabee571bd17cd90d/16@2x.png" 
+alt="Menla_TPL" title="Menla_TPL"/>
+<a style="color: #08c; " href="/Menla_TPL">Menla_TPL</a>
+</td>
+</tr>
+<tr>
+<td>
+19
+</td>
+<td>
+3 hours, 33 minutes
+</td>
+<td>
+137
+</td>
+<td>
+52
+</td>
+<td>
+47
+</td>
+<td>
+2.635
+</td>
+<td>
+2.915
+</td>
+<td>
+<img style="width: 16px;height: 16px;border-radius: 3px;" width="16" 
+height="16" class="avatar glow" 
+src="https://cravatar.eu/helmavatar/aaa24b72244048ce81d6897ecf9f804d/16@2x.png" 
+alt="NintendoCube" title="NintendoCube"/>
+<a style="color: #08c; " href="/NintendoCube">NintendoCube</a>
+</td>
+</tr>
+<tr>
+<td>
+19
+</td>
+<td>
+6 hours, 19 minutes
+</td>
+<td>
+137
+</td>
+<td>
+89
+</td>
+<td>
+56
+</td>
+<td>
+1.539
+</td>
+<td>
+2.446
+</td>
+<td>
+<img style="width: 16px;height: 16px;border-radius: 3px;" width="16" 
+height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/bfcc005a34bd43edb3089bd8f266341b/16@2x.png" 
+alt="Trion_PvPx" title="Trion_PvPx"/>
+<a style="color: #08c; " href="/Trion_PvPx">Trion_PvPx</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<ul class='pagination pagination-sm'>
+<li class='active'>
+<a>1</a>
+</li>
+<li>
+<a href='/stats?page=2'>2</a>
+</li>
+<li>
+<a href='/stats?page=3'>3</a>
+</li>
+<li>
+<a href='/stats?page=4'>4</a>
+</li>
+<li>
+<a href='/stats?page=5'>5</a>
+</li>
+<li class='disabled'>
+<a>&hellip;</a>
+</li>
+<li>
+<a href='/stats?page=21794'>Last &raquo;</a>
+</li>
+</ul>
+</div>
+</div>
+</section>
+<hr>
+<div class='modal fade' id='contact'>
+<div class='modal-dialog'>
+<div class='modal-content'>
+<form class="simple_form new_inquiry" id="new_inquiry" action="/inquire" 
+accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" 
+value="&#x2713;"/><input type="hidden" name="authenticity_token" 
+value="XDERwWvAmT+K5QXdfOOReLed78+0M4Y6hYGCZ6XUtnakLvE5pyC6KaEtCQ1/VmDapNmMN3JJyrqMpd0sCCSbGA=="/><input 
+class='subj' name='type' type='hidden' value=''>
+<div class='modal-header'>
+<button class='close' data-dismiss='modal'>&times;</button>
+<h3 class='modal-title'>
+Contact Overcast Network
+<small class='subject'></small>
+</h3>
+</div>
+<div class='modal-body'>
+<div class='row'>
+<div class='col-md-6'>
+<div class='form-group'>
+<label class="string optional control-label" 
+for="inquiry_username">Username</label>
+<input required="required" class="form-control" type="text" 
+name="inquiry[username]" id="inquiry_username"/>
+</div>
+<div class='form-group'>
+<label class="string optional control-label" 
+for="inquiry_message">Message</label>
+<textarea rows="10" class="form-control" name="inquiry[message]" 
+id="inquiry_message">
+</textarea>
+</div>
+</div>
+<div class='col-md-6'>
+<div class='form-group'>
+<label class="email optional control-label" 
+for="inquiry_email">Email</label>
+<input required="required" class="form-control" type="email" 
+name="inquiry[email]" id="inquiry_email"/>
+</div>
+<div class='form-group'>
+<label class="string optional control-label" 
+for="inquiry_subject">Subject</label>
+<input required="required" class="form-control" type="text" 
+name="inquiry[subject]" id="inquiry_subject"/>
+</div>
+<p>We usually respond within 1-2 days if you provide a valid email</p>
+<p>Please be as clear and concise as possible. It will help us process 
+your inquiry faster.</p>
+</div>
+</div>
+</div>
+<div class='modal-footer'>
+<a class='btn btn-default' data-dismiss='modal' href='#'>Close</a>
+<input class='btn btn-primary' data-disable-with='Sending...' 
+type='submit' value='Send'>
+</div>
+</form>
+</div>
+</div>
+</div>
+<footer>
+<div class='row'>
+<div class='col-md-2 col-sm-4 col-xs-6'>
+<ul class='nav nav-pills nav-stacked'>
+<li class='heading'>
+Policies
+</li>
+<li>
+<a href='/rules'>Player Rules</a>
+</li>
+<li>
+<a href='/terms'>Terms of Service</a>
+</li>
+<li>
+<a href='/privacy'>Privacy Policy</a>
+</li>
+<li>
+<a href='/refund'>Refund Policy</a>
+</li>
+</ul>
+</div>
+<div class='col-md-2 col-sm-4 col-xs-6'>
+<ul class='nav nav-pills nav-stacked'>
+<li class='heading'>
+Moderation
+</li>
+<li>
+<a href='/report'>Report a Player</a>
+</li>
+<li>
+<a href='/appeal'>Appeal a Punishment</a>
+</li>
+<li>
+<a href='/punishments'>Recent Punishments</a>
+</li>
+</ul>
+</div>
+<div class='clearfix visible-xs-block' style='padding-bottom: 
+20px;'></div>
+<div class='col-md-2 col-sm-4 col-xs-6'>
+<ul class='nav nav-pills nav-stacked'>
+<li class='heading'>
+Organization
+</li>
+<li>
+<a href='/staff'>Staff Listing</a>
+</li>
+<li>
+<a href='/revisions'>Development Logs</a>
+</li>
+<li>
+<a href='https://github.com/OvercastNetwork/Issues'>Report a Bug</a>
+</li>
+</ul>
+</div>
+<div class='clearfix visible-sm-block' style='padding-bottom: 
+20px;'></div>
+<div class='col-md-2 col-sm-4 col-xs-6'>
+<ul class='nav nav-pills nav-stacked'>
+<li class='heading'>
+Contact Us
+</li>
+<li>
+<a class='inquiry' data-toggle='modal' href='#contact'>General 
+Inquiries</a>
+</li>
+<li>
+<a class='inquiry' data-toggle='modal' href='#contact'>Shop Purchases</a>
+</li>
+<li>
+<a href='/appeal'>Ban Appeals</a>
+</li>
+</ul>
+</div>
+<div class='clearfix visible-xs-block' style='padding-bottom: 
+20px;'></div>
+<div class='col-md-2 col-sm-4'>
+<ul class='nav nav-pills nav-stacked follow-us'>
+<li class='heading'>
+Follow Us
+</li>
+<li>
+<a href='https://twitter.com/OvercastPGM
+'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+Twitter
+</a>
+<a href='https://www.facebook.com/OvercastNetwork'>
+<img 
+src='https://static.oc.tc/assets/facebook_icon-34f4e0ba3a52886710c0360d3f8f35352b6c0a73c7181f690c135b1d24eaa8f0.png'>
+Facebook
+</a>
+<a href='https://www.youtube.com/c/OvercastNetwork'>
+<img 
+src='https://static.oc.tc/assets/youtube_icon-a724516a1d426e48bae525ea6e04abc3e1cf8234989b3f300ed294a61a6c893d.png'>
+YouTube
+</a>
+<a href='http://www.twitch.tv/ocnlive'>
+<img 
+src='https://static.oc.tc/assets/twitch_icon-6604f0ced4759bd1c8bb6a01de875a66024f422c14789a752024980d57ba7398.png'>
+Twitch
+</a>
+</li>
+</ul>
+</div>
+<div class='clearfix visible-xs-block' style='padding-bottom: 
+20px;'></div>
+<div class='col-md-2 col-sm-4' style='text-align: center;'>
+Servers provided by
+<a href='/host'>
+<img class='img-responsive' 
+src='https://static.oc.tc/assets/beastnode-844f199a7f8d0aa2903d26a73ce554bbea1d6030baf3f28bface484c944b5d50.png'>
+</a>
+<div class='copyright'>
+&copy; 2012-2016 Overcast Network
+</div>
+</div>
+</div>
+</footer>
+</div>
+</body>
+</html>

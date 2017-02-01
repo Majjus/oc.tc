@@ -1,169 +1,394 @@
-<!DOCTYPE html>
-<html lang='en'>
-<head>
-<meta name="csrf-param" content="authenticity_token"/>
+<html lang="en" 
+data-minimalscrollbar="yes"><style>html::-webkit-scrollbar{display:none 
+!important}body::-webkit-scrollbar{display:none !important}</style><head>
+
+
+<script type="text/javascript" async="" 
+src="/web/20170110211625/https://ssl.google-analytics.com/ga.js"></script><script 
+type="text/javascript" src="/static/js/analytics.js"></script>
+<script 
+type="text/javascript">archive_analytics.values.server_name="wwwb-app17.us.archive.org";archive_analytics.values.server_ms=640;</script>
+<link type="text/css" rel="stylesheet" 
+href="/static/css/banner-styles.css">
+
+
+<meta name="csrf-param" content="authenticity_token">
 <meta name="csrf-token" 
-content="FApJOnWYLu1u9TpZkmgJJZmYUZwr8rjXQl7c+joQeAL8Y+dCHkkgpWbDUIqHN/eZPhtL0W4cwGOr7UTmdn6yMw=="/>
-<meta charset='utf-8'>
-<meta content='width=device-width, initial-scale=1' name='viewport'>
-<meta content='#337AB7' name='theme-color'>
+content="XV9E2zNxWsJowW7tU3kpzXjUTtm8cnLWsyT0PBkjPJvGkKJAoqGeZVni1aeF//c4mDt0P83Aqjg9pzY0i+LeGg==">
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<meta content="#337AB7" name="theme-color">
 <title>
-Home - Overcast Network Forum
+Overcast Network - Minecraft PvP
 </title>
 <link rel="shortcut icon" type="image/x-icon" 
-href="https://cdn.oc.tc/assets/favicon.ico"/>
+href="/web/20170110211625im_/https://static.oc.tc/favicon.ico?v=3">
 <link rel="apple-touch-icon" type="image/png" 
-href="https://static.oc.tc/assets/icons/icon-57x57-c773bb9eed44bec814183ea9c338a8d24261d8cf4dd837ebfd11316567fd81e6.png"/>
+href="https://static.oc.tc/assets/icons/icon-57x57-c773bb9eed44bec814183ea9c338a8d24261d8cf4dd837ebfd11316567fd81e6.png">
 <link rel="apple-touch-icon" type="image/png" 
 href="https://static.oc.tc/assets/icons/icon-76x76-9b6f7b609f77f40e69d6c3e05780e0fe93ce4fbf6e39c6c749df63a5c526e294.png" 
-sizes="76x76"/>
+sizes="76x76">
 <link rel="apple-touch-icon" type="image/png" 
 href="https://static.oc.tc/assets/icons/icon-120x120-4bf1cbf6c6c04c8b98dfd7c828b08c681c8d7533621ab949131c7542344e0a93.png" 
-sizes="120x120"/>
+sizes="120x120">
 <link rel="apple-touch-icon" type="image/png" 
 href="https://static.oc.tc/assets/icons/icon-152x152-9285e43ba8ebd0609dad331dc1edb03224b6237f088b999bfd14f81cf716cab6.png" 
-sizes="152x152"/>
+sizes="152x152">
 <link rel="apple-touch-icon" type="image/png" 
 href="https://static.oc.tc/assets/icons/icon-167x167-2b722464c6abcaddf5c0d3f64c3292de32c59c079a8ec829a34c0c064f13b55c.png" 
-sizes="167x167"/>
+sizes="167x167">
 <link rel="apple-touch-icon" type="image/png" 
 href="https://static.oc.tc/assets/icons/icon-180x180-feb73f6835138a9162af22513c17b7d077fd3ce7f9ef41744eca3e6cbcdee771.png" 
-sizes="180x180"/>
+sizes="180x180">
 <link rel="icon" type="image/png" 
 href="https://static.oc.tc/assets/icons/icon-128x128-e17c0fec61348260984daac0ffa7fb9471a25501ca49ef41b2a0daa3130f8ff4.png" 
-sizes="128x128"/>
+sizes="128x128">
 <link rel="icon" type="image/png" 
 href="https://static.oc.tc/assets/icons/icon-192x192-c93c1e496617fec85cd89aa9d3abc62db2232eb1cf901924b5bc81c32bc44ed6.png" 
-sizes="192x192"/>
+sizes="192x192">
 <link rel="stylesheet" media="screen" 
-href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css"/>
+href="/web/20170110211625cs_/https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
 <link rel="stylesheet" media="screen" 
-href="https://static.oc.tc/assets/application-bfa7ca518e1a8ca212fef53aaa0650a6f5b4475c06914e7178ff5bec94070752.css"/>
+href="/web/20170110211625cs_/https://static.oc.tc/assets/application-bfa7ca518e1a8ca212fef53aaa0650a6f5b4475c06914e7178ff5bec94070752.css">
 <link rel="stylesheet" media="screen" 
-href="//fonts.googleapis.com/css?family=Lato:700,400,300"/>
+href="/web/20170110211625cs_/https://fonts.googleapis.com/css?family=Lato:700,400,300">
 <link rel="stylesheet" media="screen" 
-href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"/>
+href="/web/20170110211625cs_/https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
 <script 
-src="https://static.oc.tc/assets/libraries-912fd655d5f42721ec0f4b257ad9e600219d21f56ed23b0125feaf20b7f6e28e.js"></script>
+src="/web/20170110211625js_/https://static.oc.tc/assets/libraries-912fd655d5f42721ec0f4b257ad9e600219d21f56ed23b0125feaf20b7f6e28e.js"></script>
 <script 
-src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+src="/web/20170110211625js_/https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <script 
-src="https://static.oc.tc/assets/application-279754d779d3df8a6e34571f7a04537497dcab3d7ff24f26101905b5bdcd2e1b.js"></script>
+src="/web/20170110211625js_/https://static.oc.tc/assets/application-279754d779d3df8a6e34571f7a04537497dcab3d7ff24f26101905b5bdcd2e1b.js"></script>
 <script 
-src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-3-typeahead/4.0.0/bootstrap3-typeahead.min.js"></script>
+src="/web/20170110211625js_/https://cdnjs.cloudflare.com/ajax/libs/bootstrap-3-typeahead/4.0.0/bootstrap3-typeahead.min.js"></script>
 <script>
   var 
 _gaq=_gaq||[];_gaq.push(["_setAccount","UA-30515952-1"]);_gaq.push(["_trackPageview"]);(function(){var 
-e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var 
+e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"==document.location.protocol?"/web/20170110211625/https://ssl":"/web/20170110211625/http://www")+".google-analytics.com/ga.js";var 
 t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})()
 </script>
 </head>
-<body>
-<nav class='navbar navbar-default navbar-static-top'>
-<div class='container'>
-<div class='navbar-header'>
-<button class='navbar-toggle collapsed' 
-data-target='#top-navbar-collapse' data-toggle='collapse' 
-id='top-navbar-collapse-button'>
-<span class='fa fa-bars'></span>
+<body style="display: block;"><div id="wm-ipp" lang="en" style="display: 
+none;">
+
+<div style="position:fixed;left:0;top:0;width:100%!important">
+<div id="wm-ipp-inside">
+   <table style="width:100%;"><tbody><tr>
+   <td id="wm-logo">
+       <a href="/web/" title="Wayback Machine home page"><img 
+src="/static/images/toolbar/wayback-toolbar-logo.png" alt="Wayback 
+Machine" width="110" height="39" border="0"></a>
+   </td>
+   <td class="c">
+       <table style="margin:0 auto;"><tbody><tr>
+       <td class="u" colspan="2">
+       <form target="_top" method="get" action="/web/form-submit.jsp" 
+name="wmtb" id="wmtb"><input type="text" name="url" id="wmtbURL" 
+value="https://oc.tc/" style="width:400px;" 
+onfocus="this.focus();this.select();"><input type="hidden" name="type" 
+value="replay"><input type="hidden" name="date" 
+value="20170110211625"><input type="submit" value="Go"><span 
+id="wm_tb_options" style="display:block;"></span></form>
+       </td>
+       <td class="n" rowspan="2">
+           <table><tbody>
+           <!-- NEXT/PREV MONTH NAV AND MONTH INDICATOR -->
+           <tr class="m">
+           	<td class="b" nowrap="nowrap">
+		
+		    <a href="/web/20161203164816/https://oc.tc/" title="3 
+dec 2016">DEC</a>
+		
+		</td>
+		<td class="c" id="displayMonthEl" title="You are here: 
+21:16:25 jan 10, 2017">JAN</td>
+		<td class="f" nowrap="nowrap">
+		
+		    feb
+		
+                </td>
+	    </tr>
+           <!-- NEXT/PREV CAPTURE NAV AND DAY OF MONTH INDICATOR -->
+           <tr class="d">
+               <td class="b" nowrap="nowrap">
+               
+                   <a href="/web/20170110211624/http://oc.tc" 
+title="21:16:24 jan 10, 2017"><img 
+src="/static/images/toolbar/wm_tb_prv_on.png" alt="Previous capture" 
+width="14" height="16" border="0"></a>
+               
+               </td>
+               <td class="c" id="displayDayEl" 
+style="width:34px;font-size:24px;" title="You are here: 21:16:25 jan 10, 
+2017">10</td>
+	       <td class="f" nowrap="nowrap">
+               
+		   <a href="/web/20170125235315/http://oc.tc" 
+title="23:53:15 jan 25, 2017"><img 
+src="/static/images/toolbar/wm_tb_nxt_on.png" alt="Next capture" 
+width="14" height="16" border="0"></a>
+	       
+	       </td>
+           </tr>
+           <!-- NEXT/PREV YEAR NAV AND YEAR INDICATOR -->
+           <tr class="y">
+	       <td class="b" nowrap="nowrap">
+               
+                   <a href="/web/20160109161802/https://oc.tc/" title="9 
+jan 2016"><strong>2016</strong></a>
+               
+               </td>
+               <td class="c" id="displayYearEl" title="You are here: 
+21:16:25 jan 10, 2017">2017</td>
+	       <td class="f" nowrap="nowrap">
+               
+                   2018
+               
+	       </td>
+           </tr>
+           </tbody></table>
+       </td>
+       </tr>
+       <tr>
+       <td class="s">
+           <a class="t" href="/web/20170110211625*/https://oc.tc/" 
+title="See a list of every capture for this URL">170 captures</a>
+           <div class="r" title="Timespan for captures of this URL">20 
+okt 07 - 28 jan 17</div>
+       </td>
+       <td class="k">
+       <a href="" id="wm-graph-anchor">
+       <div id="wm-ipp-sparkline" title="Explore captures for this URL">
+	 <img id="sparklineImgId" alt="sparklines" 
+onmouseover="__wm.st(1)" onmouseout="__wm.st(0)" 
+onmousemove="__wm.mv(event,this)" width="550" height="27" border="0" 
+src="/web/jsp/graph.jsp?graphdata=550_27_1996:-1:000000000000_1997:-1:000000000000_1998:-1:000000000000_1999:-1:000000000000_2000:-1:000000000000_2001:-1:000000000000_2002:-1:000000000000_2003:-1:000000000000_2004:-1:000000000000_2005:-1:000000000000_2006:-1:000000000000_2007:-1:000000000111_2008:-1:111000001100_2009:-1:000000000000_2010:-1:000000000000_2011:-1:000010111000_2012:-1:000110100001_2013:-1:001511131312_2014:-1:331026023104_2015:-1:284111011062_2016:-1:a67e503e9604_2017:0:500000000000">
+       <div class="yt" style="display: none; width: 25px; height: 
+27px;"></div><div class="mt" style="display: none; width: 2px; height: 
+27px;"></div></div>
+       </a>
+       </td>
+       </tr></tbody></table>
+   </td>
+   <td class="r">
+       <a href="#close" onclick="__wm.h();return false;" 
+style="background-image:url(/static/images/toolbar/wm_tb_close.png);top:5px;" 
+title="Close the toolbar">Close</a>
+       <a href="http://faq.web.archive.org/" 
+style="background-image:url(/static/images/toolbar/wm_tb_help.png);bottom:5px;" 
+title="Get some help using the Wayback Machine">Help</a>
+   </td>
+   </tr></tbody></table>
+</div>
+</div>
+</div>
+
+
+<!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script type="text/javascript" 
+src="/static/js/disclaim-element.js"></script>
+<script type="text/javascript" src="/static/js/graph-calc.js"></script>
+<script type="text/javascript">//<![CDATA[
+var __wm = (function(imgWidth,imgHeight,yearImgWidth,monthImgWidth){
+var wbPrefix = "/web/";
+var wbCurrentUrl = "https://oc.tc/";
+
+var firstYear = 1996;
+var displayDay = "10";
+var displayMonth = "jan";
+var displayYear = "2017";
+var prettyMonths = 
+["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+var $D=document,$=function(n){return document.getElementById(n)};
+var trackerVal,curYear = -1,curMonth = -1;
+var yearTracker,monthTracker;
+function showTrackers(val) {
+  if (val===trackerVal) return;
+  var $ipp=$("wm-ipp");
+  var $y=$("displayYearEl"),$m=$("displayMonthEl"),$d=$("displayDayEl");
+  if (val) {
+    $ipp.className="hi";
+  } else {
+    $ipp.className="";
+    
+$y.innerHTML=displayYear;$m.innerHTML=displayMonth;$d.innerHTML=displayDay;
+  }
+  yearTracker.style.display=val?"inline":"none";
+  monthTracker.style.display=val?"inline":"none";
+  trackerVal = val;
+}
+function trackMouseMove(event,element) {
+  var eventX = getEventX(event);
+  var elementX = getElementX(element);
+  var xOff = Math.min(Math.max(0, eventX - elementX),imgWidth);
+  var monthOff = xOff % yearImgWidth;
+
+  var year = Math.floor(xOff / yearImgWidth);
+  var monthOfYear = Math.min(11,Math.floor(monthOff / monthImgWidth));
+  // 1 extra border pixel at the left edge of the year:
+  var month = (year * 12) + monthOfYear;
+  var day = monthOff % 2==1?15:1;
+  var dateString = zeroPad(year + firstYear) + zeroPad(monthOfYear+1,2) +
+    zeroPad(day,2) + "000000";
+
+  $("displayYearEl").innerHTML=year+firstYear;
+  $("displayMonthEl").innerHTML=prettyMonths[monthOfYear];
+  // looks too jarring when it changes..
+  //$("displayDayEl").innerHTML=zeroPad(day,2);
+  var url = wbPrefix + dateString + '/' +  wbCurrentUrl;
+  $("wm-graph-anchor").href=url;
+
+  if(curYear != year) {
+    var yrOff = year * yearImgWidth;
+    yearTracker.style.left = yrOff + "px";
+    curYear = year;
+  }
+  if(curMonth != month) {
+    var mtOff = year + (month * monthImgWidth) + 1;
+    monthTracker.style.left = mtOff + "px";
+    curMonth = month;
+  }
+}
+function hideToolbar() {
+  $("wm-ipp").style.display="none";
+}
+function bootstrap() {
+  var $spk=$("wm-ipp-sparkline");
+  yearTracker=$D.createElement('div');
+  yearTracker.className='yt';
+  with(yearTracker.style){
+    display='none';width=yearImgWidth+"px";height=imgHeight+"px";
+  }
+  monthTracker=$D.createElement('div');
+  monthTracker.className='mt';
+  with(monthTracker.style){
+    display='none';width=monthImgWidth+"px";height=imgHeight+"px";
+  }
+  $spk.appendChild(yearTracker);
+  $spk.appendChild(monthTracker);
+
+  var $ipp=$("wm-ipp");
+  $ipp&&disclaimElement($ipp);
+}
+return{st:showTrackers,mv:trackMouseMove,h:hideToolbar,bt:bootstrap};
+})(550, 27, 25, 2);//]]>
+</script>
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  min-width:800px !important;
+}
+</style>
+
+<script type="text/javascript">__wm.bt();</script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+
+<nav class="navbar navbar-default navbar-static-top">
+<div class="container">
+<div class="navbar-header">
+<button class="navbar-toggle collapsed" 
+data-target="#top-navbar-collapse" data-toggle="collapse" 
+id="top-navbar-collapse-button">
+<span class="fa fa-bars"></span>
 </button>
-<a class='navbar-brand' href='/'>
-<img class='pull-left' height='34' 
-src='https://cdn.oc.tc/assets/logo.png'>
-Overcast Network
+<a class="navbar-brand" href="/web/20170110211625/https://oc.tc/">
+<img class="pull-left" height="34" 
+src="/web/20170110211625im_/https://static.oc.tc/assets/logo-d21fa4a4fc78ea882d0a906d9ae73cf126ab8c09e0b1cd757e9f4e4b61732f82.png">
 </a>
 </div>
-<div class='navbar-collapse collapse' id='top-navbar-collapse'>
-<ul class='nav navbar-nav' style='margin-right: 0;'>
+<div class="navbar-collapse collapse" id="top-navbar-collapse">
+<ul class="nav navbar-nav" style="margin-right: 0;">
 <li>
-<a href='/play'>
-<i class='fa fa-play'></i>
+<a href="/web/20170110211625/https://oc.tc/play">
+<i class="fa fa-play"></i>
 Play
 </a>
 </li>
 <li>
-<a href='/maps'>
-<i class='fa fa-cubes'></i>
+<a href="/web/20170110211625/https://oc.tc/maps">
+<i class="fa fa-cubes"></i>
 Maps
 </a>
 </li>
-<li class='dropdown'>
-<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-<i class='fa fa-user'></i>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+<i class="fa fa-user"></i>
 Players
-<b class='caret'></b>
+<b class="caret"></b>
 </a>
-<ul class='dropdown-menu'>
+<ul class="dropdown-menu">
 <li>
-<a href='https://oc.tc/leaderboard'>
-<i class='fa fa-star'></i>
+<a href="/web/20170110211625/https://oc.tc/leaderboard">
+<i class="fa fa-star"></i>
 Rankings
 </a>
 </li>
 <li>
-<a href='https://oc.tc/stats'>
-<i class='fa fa-line-chart'></i>
+<a href="/web/20170110211625/https://oc.tc/stats">
+<i class="fa fa-line-chart"></i>
 Stats
 </a>
 </li>
 <li>
-<a href='/channels'>
-<i class='fa fa-youtube-play'></i>
+<a href="/web/20170110211625/https://oc.tc/channels">
+<i class="fa fa-youtube-play"></i>
 Channels
 </a>
 </li>
-<form class='player-search'>
-<input class='input-sm form-control typeahead' id='player-search' 
-name='search' placeholder='Search for a player' type='text'>
+<form class="player-search">
+<input class="input-sm form-control typeahead" id="player-search" 
+name="search" placeholder="Search for a player" type="text">
 </form>
 </ul>
 </li>
-<li class='dropdown'>
-<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
-<i class='fa fa-trophy'></i>
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+<i class="fa fa-trophy"></i>
 League
-<b class='caret'></b>
+<b class="caret"></b>
 </a>
-<ul class='dropdown-menu'>
+<ul class="dropdown-menu">
 <li>
-<a href='/teams'>
-<i class='fa fa-group'></i>
+<a href="/web/20170110211625/https://oc.tc/teams">
+<i class="fa fa-group"></i>
 Teams
 </a>
 </li>
 <li>
-<a href='/oc.tc/tournaments'>
-<i class='fa fa-flag'></i>
+<a href="/web/20170110211625/https://oc.tc/tournaments">
+<i class="fa fa-flag"></i>
 Tournaments
 </a>
 </li>
 </ul>
 </li>
-<li class='active'>
-<a href='/forums'>
-<i class='fa fa-comments'></i>
+<li>
+<a href="/web/20170110211625/https://oc.tc/forums">
+<i class="fa fa-comments"></i>
 Forum
 </a>
 </li>
 </ul>
-<hr class='visible-xs visible-sm' style='margin: 4px; border-color: 
-#e7e7e7;'>
-<ul class='nav navbar-nav pull-right'>
-<li class='dropdown'>
-<a class='dropdown-toggle' data-toggle='dropdown' href='#' 
-style='outline: none; '>
-<i class='fa fa-user'></i>
-<div class='visible-xs-inline visible-sm-inline'>
+<hr class="visible-xs visible-sm" style="margin: 4px; border-color: 
+#e7e7e7;">
+<ul class="nav navbar-nav pull-right">
+<li class="dropdown">
+<a class="dropdown-toggle" data-toggle="dropdown" href="#" 
+style="outline: none; ">
+<i class="fa fa-user"></i>
+<div class="visible-xs-inline visible-sm-inline">
 Account
 </div>
-<b class='caret'></b>
+<b class="caret"></b>
 </a>
-<ul class='dropdown-menu dropdown-menu-right'>
+<ul class="dropdown-menu dropdown-menu-right">
 <li>
-<a href='/users/sign_in'>Login</a>
+<a href="/web/20170110211625/https://oc.tc/users/sign_in">Login</a>
 </li>
 <li>
-<a href='/users/sign_up'>Register</a>
+<a href="/web/20170110211625/https://oc.tc/users/sign_up">Register</a>
 </li>
 </ul>
 </li>
@@ -171,1469 +396,141 @@ Account
 </div>
 </div>
 </nav>
-<div class='container'>
-<div class='flash' style='margin-top: 20px;'>
-</div>
-<section>
-<div class='page-header'>
-<div class='row'>
-<div class='col-md-9'>
-<div class='pull-right'>
-<button class='btn btn-warning btn-sm visible-xs visible-sm' 
-data-target='#subforum-list' data-toggle='collapse' 
-onclick="$(this).toggleClass('active');">
-<i class='fa fa-th-list'></i>
-Subforums
-</button>
-</div>
-<h1 style='margin-top: 0'>
-Forums
-<small>Socialize with your friends</small>
-</h1>
-</div>
-<div class='col-md-3'>
-<script>
-  (function() {
-      var cx = '008943541052059734538:koqmcyiy3cw';
-      var gcse = document.createElement('script');
-      gcse.type = 'text/javascript';
-      gcse.async = true;
-      gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-      var s = document.getElementsByTagName('script')[0];
-      s.parentNode.insertBefore(gcse, s);
-  })();
-</script>
-<gcse:searchbox-only></gcse:searchbox-only>
-</div>
-</div>
-</div>
-<div class='row'>
-<div class='col-md-3 forum-sidebar'>
-<div class='collapse' id='subforum-list'>
-<ul class='nav nav-pills nav-stacked'>
-<li class='active'>
-<a href='/oc.tc/forums/'>What's New?</a>
-</li>
-</ul>
-<h4>Overcast Network</h4>
-<ul class='nav nav-pills nav-stacked'>
-<li>
-<a href='/oc.tc/forums/4fc17119c463751492000018'>
-Announcements
-</a>
-</li>
-<li>
-<a href='/oc.tc/forums/5704dd50c2963502110000a5'>
-All About Overcast
-</a>
-</li>
-<li>
-<a href='/oc.tc/forums/4fc17142c46375149200001c'>
-Questions &amp; Feedback
-</a>
-</li>
-<li>
-<a href='/oc.tc/forums/557e21685f35b92506006f9e'>
-Ask the Admins
-</a>
-</li>
-</ul>
-<h4>Community</h4>
-<ul class='nav nav-pills nav-stacked'>
-<li>
-<a href='/oc.tc/forums/4fc171b7c463751492000020'>
-General Discussion
-</a>
-</li>
-<li>
-<a href='/oc.tc/forums/513014bfba6087c5760002b0'>
-Introduce Yourself
-</a>
-</li>
-<li>
-<a href='/oc.tc/forums/4fc171fcc46375149200002c'>
-Skill &amp; Strategy
-</a>
-</li>
-<li>
-<a href='/oc.tc/forums/4fc17212c463751492000030'>
-Creative Content
-</a>
-</li>
-<li>
-<a href='/oc.tc/forums/54f6928667d522d227000340'>
-Let's Play Applications
-</a>
-</li>
-<li>
-<a href='/oc.tc/forums/4fc17a47c4637515f7000020'>
-Other Games
-</a>
-</li>
-<li>
-<a href='/oc.tc/forums/4fc17a31c4637515f700001e'>
-Off Topic
-</a>
-</li>
-</ul>
-<h4>Map Making</h4>
-<ul class='nav nav-pills nav-stacked'>
-<li>
-<a href='/oc.tc/forums/4fc17267c463751492000034'>
-Information
-</a>
-</li>
-<li>
-<a href='/oc.tc/forums/53f7a8d0d7c83698b7b67498'>
-Discussion
-</a>
-</li>
-<li>
-<a href='/oc.tc/forums/4fc17996c4637515f7000016'>
-Maps
-</a>
-</li>
-<li>
-<a href='/oc.tc/forums/53f7a8d1d7c83698b7b67499'>
-Submissions
-</a>
-</li>
-</ul>
-<h4>Events</h4>
-<ul class='nav nav-pills nav-stacked'>
-<li>
-<a href='/oc.tc/forums/53f7ed775f35b9e339000a9a'>
-Information
-</a>
-</li>
-<li>
-<a href='/oc.tc/forums/52e4937c12ca952d000010f9'>
-Discussion
-</a>
-</li>
-<li>
-<a href='/oc.tc/forums/52e48f6d12ca959a96000e76'>
-Looking for Team
-</a>
-</li>
-<li>
-<a href='/oc.tc/forums/52e48f8612ca95ab56000fc1'>
-Looking for Members
-</a>
-</li>
-<li>
-<a href='/oc.tc/forums/52e48f9c12ca959ad0000daa'>
-Looking for Scrimmage
-</a>
-</li>
-</ul>
-</div>
-<div class='hidden-xs hidden-sm'>
-<h4>
-Online Users
-<small>47</small>
-</h4>
-<small><a style="color: #A00" href="/Deoz">Deoz</a>, <a style="color: 
-#A00" href="/Noel">Noel</a>, <a style="color: #2233aa" 
-href="/Tigo">Tigo</a>, <a style="color: #F20" 
-href="/Snuskenmaxi">Snuskenmaxi</a>, <a style="color: #F20" 
-href="/AMSGamingTQ">AMSGamingTQ</a>, <a style="color: #08c" 
-href="/Gitano2">Gitano2</a>, <a style="color: #08c" 
-href="/Yoyo_">Yoyo_</a>, <a style="color: #08c" href="/Buw">Buw</a>, <a 
-style="color: #08c" href="/Rau1">Rau1</a>, <a style="color: #08c" 
-href="/Ralloi">Ralloi</a>, <a style="color: #08c" href="/Dnsy">Dnsy</a>, 
-<a style="color: #08c" href="/AgeAdam">AgeAdam</a>, <a style="color: 
-#08c" href="/Katzuu_">Katzuu_</a>, <a style="color: #08c" 
-href="/FLIMBI">FLIMBI</a>, <a style="color: #08c" 
-href="/Legoche">Legoche</a>, <a style="color: #08c" 
-href="/MattJames36">MattJames36</a>, <a style="color: #08c" 
-href="/Daksah">Daksah</a>, <a style="color: #08c" 
-href="/ttiku">ttiku</a>, <a style="color: #08c" 
-href="/HardstyleRaver2">HardstyleRaver2</a>, <a style="color: #08c" 
-href="/Hoodovah">Hoodovah</a>, <a style="color: #08c" 
-href="/obrkill">obrkill</a>, <a style="color: #08c" 
-href="/Whateverbro">Whateverbro</a>, <a style="color: #08c" 
-href="/karnyyy">karnyyy</a>, <a style="color: #08c" 
-href="/ssjkml">ssjkml</a>, <a style="color: #08c" 
-href="/MrDandS97">MrDandS97</a>, <a style="color: #08c" 
-href="/Sujetador">Sujetador</a>, <a style="color: #08c" 
-href="/Zaoki">Zaoki</a>, <a style="color: #08c" 
-href="/Cythias">Cythias</a>, <a style="color: #08c" 
-href="/PizzaGato">PizzaGato</a>, <a style="color: #08c" 
-href="/Cip">Cip</a>, <a style="color: #08c" href="/Cqmp3r_">Cqmp3r_</a>, 
-<a style="color: #08c" href="/Salty_Dude">Salty_Dude</a>, <a 
-style="color: #08c" href="/byRobo">byRobo</a>, <a style="color: #08c" 
-href="/Joyful">Joyful</a>, <a style="color: #08c" 
-href="/Koro_">Koro_</a>, <a style="color: #08c" 
-href="/OsvalDoReMi">OsvalDoReMi</a>, <a style="color: #08c" 
-href="/Chertan">Chertan</a>, <a style="color: #08c" 
-href="/Whateversis">Whateversis</a>, <a style="color: #08c" 
-href="/Jeremy_Wade">Jeremy_Wade</a>, <a style="color: #08c" 
-href="/Vorhn">Vorhn</a>, <a style="color: #08c" href="/Xuph">Xuph</a>, <a 
-style="color: #08c" href="/nichome">nichome</a>, <a style="color: #08c" 
-href="/erogevick225">erogevick225</a>, <a style="color: #08c" 
-href="/Ammzzy">Ammzzy</a>, <a style="color: #08c" 
-href="/Lordiguel">Lordiguel</a>, <a style="color: #08c" 
-href="/yvproz33">yvproz33</a>, <a style="color: #08c" 
-href="/CyborgSmoker">CyborgSmoker</a></small>
-<h4>
-Discord
-</h4>
-<div class='text-center'>
-<a href='https://discord.gg/PGM'>
+<div class="carousel slide" id="hero" style="position: absolute;">
+<div class="carousel-inner" style="z-index: -1">
+<div class="active item">
 <img 
-src='https://discordapp.com/api/guilds/86514356862320640/widget.png?style=shield'>
-</a>
+src="/web/20170110211625im_/https://static.oc.tc/assets/index/marketing/6-fd474e1ae745830f6ed77d6c7726abd9e11ac80a1dec13c89e35ec2a53f7650e.jpg">
 </div>
 </div>
 </div>
-<div class='col-md-9 clearfix'>
-<div class='forum-header'>
-<h3>What's New</h3>
+<div class="jumbotron main masthead">
+<div class="container">
+<h1>Overcast Network</h1>
+<p>Formerly Overcast Network!</p>
+<a class="btn btn-primary btn-lg btn-success" 
+href="/web/20170110211625/https://oc.tc/lifeboat">More Info »</a>
 </div>
-<ul class='pagination pagination-sm'>
-<li class='active'>
-<a>1</a>
+</div>
+<div class="bs-docs-social">
+<div class="container">
+<ul class="bs-docs-social-buttons">
+<li>Latest Announcements:</li>
+<li>
+<a data-placement="bottom" 
+href="/web/20170110211625/https://oc.tc/oc.tc/forums/topics/587536015f35b93118000008" 
+rel="tooltip" title="" data-original-title="Created 2 hours ago">PGM 
+Shutdown Date: January 31, 2017</a>
 </li>
 <li>
-<a href='/oc.tc/forums/?page=2'>2</a>
+<a data-placement="bottom" 
+href="/web/20170110211625/https://oc.tc/oc.tc/forums/topics/586acdc967d52240e8000008" 
+rel="tooltip" title="" data-original-title="Created 8 days ago">New 
+Senior Moderators!</a>
 </li>
 <li>
-<a href='/oc.tc/forums/?page=3'>3</a>
+<a data-placement="bottom" 
+href="/web/20170110211625/https://oc.tc/oc.tc/forums/topics/5863de8ec296353c3400003a" 
+rel="tooltip" title="" data-original-title="Created 13 days ago">Why the 
+shift to a simpler network architecture</a>
 </li>
 <li>
-<a href='/oc.tc/forums/?page=4'>4</a>
-</li>
-<li>
-<a href='/oc.tc/forums/?page=5'>5</a>
-</li>
-<li class='disabled'>
-<a>&hellip;</a>
-</li>
-<li>
-<a href='/oc.tc/forums/?page=11'>Last &raquo;</a>
+<a data-placement="bottom" 
+href="/web/20170110211625/https://oc.tc/oc.tc/forums/topics/585da9b367d52231fb000004" 
+rel="tooltip" title="" data-original-title="Created 18 days ago">Survival 
+games has been released!</a>
 </li>
 </ul>
-<div class='listing'>
-<div class='row headings'>
-<div class='col-xs-12 col-sm-7' style='padding-left: 45px;'>
-Topic
 </div>
-<div class='hidden-xs col-sm-3 col-sm-offset-0'>
-Latest
 </div>
-<div class='hidden-xs col-sm-1 text-center'>
-Posts
+<div class="container">
+<div class="flash" style="margin-top: 20px;">
 </div>
-<div class='hidden-xs col-sm-1 text-center'>
-Views
-</div>
-</div>
-<div class='row topic'>
-<div class='col-xs-12 col-sm-7'>
-<div class='topic-listing-entry'>
-<div class='topic-listing-entry-title'>
-<a href="/oc.tc/forums/topics/588c6d0c5f35b91efe000016">AMA</a>
-</div>
-<small class='started-by'>
-<a href='/Zegita' style='color: #08c'>Zegita</a>
-<span data-container='body' data-placement='top' rel='tooltip' 
-title='January 28th, 2017 -  4:06 AM'>1 hour ago</span>
-<small>in</small>
-<a href='/oc.tc/forums/513014bfba6087c5760002b0'>
-<small>
-Community
-&#8594;
-Introduce Yourself
-</small>
-</a>
-</small>
-</div>
-</div>
-<div class='col-xs-12 col-sm-3'>
-<div style='position:relative'>
-<a class='pull-left hidden-xs' style='position:relative; margin: 4px 5px 
-0 0;'>
-<img style="width: 32px;height: 32px;border-radius: 3px;vertical-align: 
-bottom;" width="32" height="32" class="avatar" 
-src="https://cravatar.eu/helmavatar/
-f7f8d84ddea24b45ba68b5bc77503e35/32.png
-" 
-alt="Joyful" title="Joyful"/>
-</a>
-<div class='latest-post'>
-<span class='visible-xs-inline'>
-Latest:
-<img style="width: 14px;height: 14px;border-radius: 3px;margin-left: 
-3px;vertical-align: bottom;" width="14" height="14" class="avatar" 
-src="https://cravatar.eu/helmavatar/
-f7f8d84ddea24b45ba68b5bc77503e35/14.png
-" 
-alt="Joyful" title="Joyful"/>
-</span>
-<a style="color: #08c; " href="/Joyful">Joyful</a>
-<div class='visible-xs-inline visible-sm-block visible-md-block 
-visible-lg-block'>
-<small><a rel="tooltip" title="January 28th, 2017 -  4:59 AM" 
-data-placement="top" data-container="body" 
-href="/oc.tc/forums/posts/588c79915f35b93131000018">7 minutes ago</a></small>
-</div>
-</div>
-</div>
-</div>
-<div class='hidden-xs col-sm-1 text-center'>
-<strong>18</strong>
-</div>
-<div class='hidden-xs col-sm-1 text-center'>
-<strong>22</strong>
-</div>
-</div>
-<div class='row topic'>
-<div class='col-xs-12 col-sm-7'>
-<div class='topic-listing-entry'>
-<div class='topic-listing-entry-title'>
-<a href="/oc.tc/forums/topics/588863a3c29635348d00001d">[AMA] A Regular, 
-Resident Mapmaker, and Builder</a>
-</div>
-<small class='started-by'>
-<a href='/rockymine' style='color: #06d'>rockymine</a>
-<span data-container='body' data-placement='top' rel='tooltip' 
-title='January 25th, 2017 -  2:36 AM'>3 days ago</span>
-<small>in</small>
-<a href='/oc.tc/forums/513014bfba6087c5760002b0'>
-<small>
-Community
-&#8594;
-Introduce Yourself
-</small>
-</a>
-</small>
-</div>
-</div>
-<div class='col-xs-12 col-sm-3'>
-<div style='position:relative'>
-<a class='pull-left hidden-xs' style='position:relative; margin: 4px 5px 
-0 0;'>
-<img style="width: 32px;height: 32px;border-radius: 3px;vertical-align: 
-bottom;" width="32" height="32" class="avatar" 
-src="https://cravatar.eu/helmavatar/
-d1e3251cdef54328a7e909335934d316/32.png
-" 
-alt="byRobo" title="byRobo"/>
-</a>
-<div class='latest-post'>
-<span class='visible-xs-inline'>
-Latest:
-<img style="width: 14px;height: 14px;border-radius: 3px;margin-left: 
-3px;vertical-align: bottom;" width="14" height="14" class="avatar" 
-src="https://cravatar.eu/helmavatar/
-d1e3251cdef54328a7e909335934d316/14.png
-" 
-alt="byRobo" title="byRobo"/>
-</span>
-<a style="color: #08c; " href="/byRobo">byRobo</a>
-<div class='visible-xs-inline visible-sm-block visible-md-block 
-visible-lg-block'>
-<small><a rel="tooltip" title="January 28th, 2017 -  4:58 AM" 
-data-placement="top" data-container="body" 
-href="/oc.tc/forums/posts/588c7957c296351b4500002b">7 minutes ago</a></small>
-</div>
-</div>
-</div>
-</div>
-<div class='hidden-xs col-sm-1 text-center'>
-<strong>30</strong>
-</div>
-<div class='hidden-xs col-sm-1 text-center'>
-<strong>95</strong>
-</div>
-</div>
-<div class='row topic'>
-<div class='col-xs-12 col-sm-7'>
-<div class='topic-listing-entry'>
-<div class='topic-listing-entry-title'>
-<a href="/oc.tc/forums/topics/588c389c5f35b95a09000008">PureBlox is ready for 
-Rogue Gamemodes</a>
-</div>
-<small class='started-by'>
-<a href='/Wenaa' style='color: #08c'>Wenaa</a>
-<span data-container='body' data-placement='top' rel='tooltip' 
-title='January 28th, 2017 - 12:22 AM'>5 hours ago</span>
-<small>in</small>
-<a href='/oc.tc/forums/4fc17212c463751492000030'>
-<small>
-Community
-&#8594;
-Creative Content
-</small>
-</a>
-</small>
-</div>
-</div>
-<div class='col-xs-12 col-sm-3'>
-<div style='position:relative'>
-<a class='pull-left hidden-xs' style='position:relative; margin: 4px 5px 
-0 0;'>
-<img style="width: 32px;height: 32px;border-radius: 3px;vertical-align: 
-bottom;" width="32" height="32" class="avatar" 
-src="https://cravatar.eu/helmavatar/
-3abaec7ff08749c09cfb1e3676057ba1/32.png
-" 
-alt="Cip" title="Cip"/>
-</a>
-<div class='latest-post'>
-<span class='visible-xs-inline'>
-Latest:
-<img style="width: 14px;height: 14px;border-radius: 3px;margin-left: 
-3px;vertical-align: bottom;" width="14" height="14" class="avatar" 
-src="https://cravatar.eu/helmavatar/
-3abaec7ff08749c09cfb1e3676057ba1/14.png
-" 
-alt="Cip" title="Cip"/>
-</span>
-<a style="color: #08c; " href="/Cip">Cip</a>
-<div class='visible-xs-inline visible-sm-block visible-md-block 
-visible-lg-block'>
-<small><a rel="tooltip" title="January 28th, 2017 -  4:54 AM" 
-data-placement="top" data-container="body" 
-href="/oc.tc/forums/posts/588c7875c296351b7800003f">11 minutes ago</a></small>
-</div>
-</div>
-</div>
-</div>
-<div class='hidden-xs col-sm-1 text-center'>
-<strong>4</strong>
-</div>
-<div class='hidden-xs col-sm-1 text-center'>
-<strong>67</strong>
-</div>
-</div>
-<div class='row topic'>
-<div class='col-xs-12 col-sm-7'>
-<div class='topic-listing-entry'>
-<div class='topic-listing-entry-title'>
-<a href="/oc.tc/forums/topics/588ba0955f35b95cfb000004">What First Round 
-matches should we stream?</a>
-</div>
-<small class='started-by'>
-<a href='/Karatedude' style='color: #08c'>Karatedude</a>
-<span data-container='body' data-placement='top' rel='tooltip' 
-title='January 27th, 2017 -  1:33 PM'>16 hours ago</span>
-<small>in</small>
-<a href='/oc.tc/forums/52e4937c12ca952d000010f9'>
-<small>
-Events
-&#8594;
-Discussion
-</small>
-</a>
-</small>
-</div>
-</div>
-<div class='col-xs-12 col-sm-3'>
-<div style='position:relative'>
-<a class='pull-left hidden-xs' style='position:relative; margin: 4px 5px 
-0 0;'>
-<img style="width: 32px;height: 32px;border-radius: 3px;vertical-align: 
-bottom;" width="32" height="32" class="avatar" 
-src="https://cravatar.eu/helmavatar/
-3abaec7ff08749c09cfb1e3676057ba1/32.png
-" 
-alt="Cip" title="Cip"/>
-</a>
-<div class='latest-post'>
-<span class='visible-xs-inline'>
-Latest:
-<img style="width: 14px;height: 14px;border-radius: 3px;margin-left: 
-3px;vertical-align: bottom;" width="14" height="14" class="avatar" 
-src="https://cravatar.eu/helmavatar/
-3abaec7ff08749c09cfb1e3676057ba1/14.png
-" 
-alt="Cip" title="Cip"/>
-</span>
-<a style="color: #08c; " href="/Cip">Cip</a>
-<div class='visible-xs-inline visible-sm-block visible-md-block 
-visible-lg-block'>
-<small><a rel="tooltip" title="January 28th, 2017 -  4:40 AM" 
-data-placement="top" data-container="body" 
-href="/oc.tc/forums/posts/588c752f67d522529600003b">25 minutes ago</a></small>
-</div>
-</div>
-</div>
-</div>
-<div class='hidden-xs col-sm-1 text-center'>
-<strong>22</strong>
-</div>
-<div class='hidden-xs col-sm-1 text-center'>
-<strong>149</strong>
-</div>
-</div>
-<div class='row topic'>
-<div class='col-xs-12 col-sm-7'>
-<div class='topic-listing-entry'>
-<div class='topic-listing-entry-title'>
-<a href="/oc.tc/forums/topics/5889208267d52212d5000036">The Final Tournament 
-Trash Talk Thread.</a>
-</div>
-<small class='started-by'>
-<a href='/BrettOgden' style='color: #f89406'>BrettOgden</a>
-<span data-container='body' data-placement='top' rel='tooltip' 
-title='January 25th, 2017 -  4:02 PM'>3 days ago</span>
-<small>in</small>
-<a href='/oc.tc/forums/52e4937c12ca952d000010f9'>
-<small>
-Events
-&#8594;
-Discussion
-</small>
-</a>
-</small>
-</div>
-</div>
-<div class='col-xs-12 col-sm-3'>
-<div style='position:relative'>
-<a class='pull-left hidden-xs' style='position:relative; margin: 4px 5px 
-0 0;'>
-<img style="width: 32px;height: 32px;border-radius: 3px;vertical-align: 
-bottom;" width="32" height="32" class="avatar" 
-src="https://cravatar.eu/helmavatar/
-3abaec7ff08749c09cfb1e3676057ba1/32.png
-" 
-alt="Cip" title="Cip"/>
-</a>
-<div class='latest-post'>
-<span class='visible-xs-inline'>
-Latest:
-<img style="width: 14px;height: 14px;border-radius: 3px;margin-left: 
-3px;vertical-align: bottom;" width="14" height="14" class="avatar" 
-src="https://cravatar.eu/helmavatar/
-3abaec7ff08749c09cfb1e3676057ba1/14.png
-" 
-alt="Cip" title="Cip"/>
-</span>
-<a style="color: #08c; " href="/Cip">Cip</a>
-<div class='visible-xs-inline visible-sm-block visible-md-block 
-visible-lg-block'>
-<small><a rel="tooltip" title="January 28th, 2017 -  4:35 AM" 
-data-placement="top" data-container="body" 
-href="/oc.tc/forums/posts/588c740667d522529600003a">30 minutes ago</a></small>
-</div>
-</div>
-</div>
-</div>
-<div class='hidden-xs col-sm-1 text-center'>
-<strong>337</strong>
-</div>
-<div class='hidden-xs col-sm-1 text-center'>
-<strong>569</strong>
-</div>
-</div>
-<div class='row topic'>
-<div class='col-xs-12 col-sm-7'>
-<div class='topic-listing-entry'>
-<div class='topic-listing-entry-title'>
-<a href="/oc.tc/forums/topics/5884cc9a5f35b96288000001"><img 
-alt="chocolate_bar" 
-src="https://static.oc.tc/images/emoji/unicode/1f36b.png" 
-style="vertical-align:middle;" width="16" height="16"/> AMA Eudaldca</a>
-</div>
-<small class='started-by'>
-<a href='/Eudaldca' style='color: #A00'>Eudaldca</a>
-<span data-container='body' data-placement='top' rel='tooltip' 
-title='January 22nd, 2017 -  9:15 AM'>6 days ago</span>
-<small>in</small>
-<a href='/oc.tc/forums/513014bfba6087c5760002b0'>
-<small>
-Community
-&#8594;
-Introduce Yourself
-</small>
-</a>
-</small>
-</div>
-</div>
-<div class='col-xs-12 col-sm-3'>
-<div style='position:relative'>
-<a class='pull-left hidden-xs' style='position:relative; margin: 4px 5px 
-0 0;'>
-<img style="width: 32px;height: 32px;border-radius: 3px;vertical-align: 
-bottom;" width="32" height="32" class="avatar" 
-src="https://cravatar.eu/helmavatar/
-809c9222049e4086881113f3c4686be5/32.png
-" 
-alt="Zegita" title="Zegita"/>
-</a>
-<div class='latest-post'>
-<span class='visible-xs-inline'>
-Latest:
-<img style="width: 14px;height: 14px;border-radius: 3px;margin-left: 
-3px;vertical-align: bottom;" width="14" height="14" class="avatar" 
-src="https://cravatar.eu/helmavatar/
-809c9222049e4086881113f3c4686be5/14.png
-" 
-alt="Zegita" title="Zegita"/>
-</span>
-<a style="color: #08c; " href="/Zegita">Zegita</a>
-<div class='visible-xs-inline visible-sm-block visible-md-block 
-visible-lg-block'>
-<small><a rel="tooltip" title="January 28th, 2017 -  4:27 AM" 
-data-placement="top" data-container="body" 
-href="/oc.tc/forums/posts/588c7226c296351b36000049">38 minutes ago</a></small>
-</div>
-</div>
-</div>
-</div>
-<div class='hidden-xs col-sm-1 text-center'>
-<strong>45</strong>
-</div>
-<div class='hidden-xs col-sm-1 text-center'>
-<strong>203</strong>
-</div>
-</div>
-<div class='row topic'>
-<div class='col-xs-12 col-sm-7'>
-<div class='topic-listing-entry'>
-<div class='topic-listing-entry-title'>
-<a href="/oc.tc/forums/topics/588c703b67d522529d00003c">Ambi&#39;s AMA</a>
-</div>
-<small class='started-by'>
-<a href='/lordteddey' style='color: #08c'>lordteddey</a>
-<span data-container='body' data-placement='top' rel='tooltip' 
-title='January 28th, 2017 -  4:19 AM'>1 hour ago</span>
-<small>in</small>
-<a href='/oc.tc/forums/513014bfba6087c5760002b0'>
-<small>
-Community
-&#8594;
-Introduce Yourself
-</small>
-</a>
-</small>
-</div>
-</div>
-<div class='col-xs-12 col-sm-3'>
-<div style='position:relative'>
-<a class='pull-left hidden-xs' style='position:relative; margin: 4px 5px 
-0 0;'>
-<img style="width: 32px;height: 32px;border-radius: 3px;vertical-align: 
-bottom;" width="32" height="32" class="avatar" 
-src="https://cravatar.eu/helmavatar/
-39f75d7d279e4ba1ab4f20256f941df9/32.png
-" 
-alt="xDutch" title="xDutch"/>
-</a>
-<div class='latest-post'>
-<span class='visible-xs-inline'>
-Latest:
-<img style="width: 14px;height: 14px;border-radius: 3px;margin-left: 
-3px;vertical-align: bottom;" width="14" height="14" class="avatar" 
-src="https://cravatar.eu/helmavatar/
-39f75d7d279e4ba1ab4f20256f941df9/14.png
-" 
-alt="xDutch" title="xDutch"/>
-</span>
-<a style="color: #08c; " href="/xDutch">xDutch</a>
-<div class='visible-xs-inline visible-sm-block visible-md-block 
-visible-lg-block'>
-<small><a rel="tooltip" title="January 28th, 2017 -  4:26 AM" 
-data-placement="top" data-container="body" 
-href="/oc.tc/forums/posts/588c71c6c296351b5400004c">40 minutes ago</a></small>
-</div>
-</div>
-</div>
-</div>
-<div class='hidden-xs col-sm-1 text-center'>
-<strong>3</strong>
-</div>
-<div class='hidden-xs col-sm-1 text-center'>
-<strong>7</strong>
-</div>
-</div>
-<div class='row topic'>
-<div class='col-xs-12 col-sm-7'>
-<div class='topic-listing-entry'>
-<div class='topic-listing-entry-title'>
-<a href="/oc.tc/forums/topics/588b36f25f35b96b21000076">AMA beanbutt</a>
-</div>
-<small class='started-by'>
-<a href='/beanbutt' style='color: #08c'>beanbutt</a>
-<span data-container='body' data-placement='top' rel='tooltip' 
-title='January 27th, 2017 -  6:02 AM'>23 hours ago</span>
-<small>in</small>
-<a href='/oc.tc/forums/513014bfba6087c5760002b0'>
-<small>
-Community
-&#8594;
-Introduce Yourself
-</small>
-</a>
-</small>
-</div>
-</div>
-<div class='col-xs-12 col-sm-3'>
-<div style='position:relative'>
-<a class='pull-left hidden-xs' style='position:relative; margin: 4px 5px 
-0 0;'>
-<img style="width: 32px;height: 32px;border-radius: 3px;vertical-align: 
-bottom;" width="32" height="32" class="avatar" 
-src="https://cravatar.eu/helmavatar/
-0fdf1faa6a984f27983c968648e12720/32.png
-" 
-alt="AMSGamingTQ" title="AMSGamingTQ"/>
-</a>
-<div class='latest-post'>
-<span class='visible-xs-inline'>
-Latest:
-<img style="width: 14px;height: 14px;border-radius: 3px;margin-left: 
-3px;vertical-align: bottom;" width="14" height="14" class="avatar" 
-src="https://cravatar.eu/helmavatar/
-0fdf1faa6a984f27983c968648e12720/14.png
-" 
-alt="AMSGamingTQ" title="AMSGamingTQ"/>
-</span>
-<a style="color: #F20; " href="/AMSGamingTQ">AMSGamingTQ</a>
-<div class='visible-xs-inline visible-sm-block visible-md-block 
-visible-lg-block'>
-<small><a rel="tooltip" title="January 28th, 2017 -  4:21 AM" 
-data-placement="top" data-container="body" 
-href="/oc.tc/forums/posts/588c70b0c296351b6c00002e">44 minutes ago</a></small>
-</div>
-</div>
-</div>
-</div>
-<div class='hidden-xs col-sm-1 text-center'>
-<strong>42</strong>
-</div>
-<div class='hidden-xs col-sm-1 text-center'>
-<strong>98</strong>
-</div>
-</div>
-<div class='row topic'>
-<div class='col-xs-12 col-sm-7'>
-<div class='topic-listing-entry'>
-<div class='topic-listing-entry-title'>
-<a href="/oc.tc/forums/topics/5888db5667d522252500011e">[AMA] DoomyBoy</a>
-</div>
-<small class='started-by'>
-<a href='/DoomyBoy' style='color: #2233aa'>DoomyBoy</a>
-<span data-container='body' data-placement='top' rel='tooltip' 
-title='January 25th, 2017 - 11:07 AM'>3 days ago</span>
-<small>in</small>
-<a href='/oc.tc/forums/513014bfba6087c5760002b0'>
-<small>
-Community
-&#8594;
-Introduce Yourself
-</small>
-</a>
-</small>
-</div>
-</div>
-<div class='col-xs-12 col-sm-3'>
-<div style='position:relative'>
-<a class='pull-left hidden-xs' style='position:relative; margin: 4px 5px 
-0 0;'>
-<img style="width: 32px;height: 32px;border-radius: 3px;vertical-align: 
-bottom;" width="32" height="32" class="avatar" 
-src="https://cravatar.eu/helmavatar/
-dff980ed9f69491eb79c30c21350baf2/32.png
-" 
-alt="DoomyBoy" title="DoomyBoy"/>
-</a>
-<div class='latest-post'>
-<span class='visible-xs-inline'>
-Latest:
-<img style="width: 14px;height: 14px;border-radius: 3px;margin-left: 
-3px;vertical-align: bottom;" width="14" height="14" class="avatar" 
-src="https://cravatar.eu/helmavatar/
-dff980ed9f69491eb79c30c21350baf2/14.png
-" 
-alt="DoomyBoy" title="DoomyBoy"/>
-</span>
-<a style="color: #2233aa; " href="/DoomyBoy">DoomyBoy</a>
-<div class='visible-xs-inline visible-sm-block visible-md-block 
-visible-lg-block'>
-<small><a rel="tooltip" title="January 28th, 2017 -  4:06 AM" 
-data-placement="top" data-container="body" 
-href="/oc.tc/forums/posts/588c6d2a5f35b9206700001c">1 hour ago</a></small>
-</div>
-</div>
-</div>
-</div>
-<div class='hidden-xs col-sm-1 text-center'>
-<strong>47</strong>
-</div>
-<div class='hidden-xs col-sm-1 text-center'>
-<strong>86</strong>
-</div>
-</div>
-<div class='row topic'>
-<div class='col-xs-12 col-sm-7'>
-<div class='topic-listing-entry'>
-<div class='topic-listing-entry-title'>
-<a href="/oc.tc/forums/topics/588ae74767d522133d000018">[AMA] zoodi -goodbye 
-pgm-</a>
-</div>
-<small class='started-by'>
-<a href='/Matolaina' style='color: #08c'>Matolaina</a>
-<span data-container='body' data-placement='top' rel='tooltip' 
-title='January 27th, 2017 - 12:23 AM'>1 day ago</span>
-<small>in</small>
-<a href='/oc.tc/forums/513014bfba6087c5760002b0'>
-<small>
-Community
-&#8594;
-Introduce Yourself
-</small>
-</a>
-</small>
-</div>
-</div>
-<div class='col-xs-12 col-sm-3'>
-<div style='position:relative'>
-<a class='pull-left hidden-xs' style='position:relative; margin: 4px 5px 
-0 0;'>
-<img style="width: 32px;height: 32px;border-radius: 3px;vertical-align: 
-bottom;" width="32" height="32" class="avatar" 
-src="https://cravatar.eu/helmavatar/
-0745d300eb9f4c8a84312fd5d6a4dacc/32.png
-" 
-alt="Mintace" title="Mintace"/>
-</a>
-<div class='latest-post'>
-<span class='visible-xs-inline'>
-Latest:
-<img style="width: 14px;height: 14px;border-radius: 3px;margin-left: 
-3px;vertical-align: bottom;" width="14" height="14" class="avatar" 
-src="https://cravatar.eu/helmavatar/
-0745d300eb9f4c8a84312fd5d6a4dacc/14.png
-" 
-alt="Mintace" title="Mintace"/>
-</span>
-<a style="color: #08c; " href="/Mintace">Mintace</a>
-<div class='visible-xs-inline visible-sm-block visible-md-block 
-visible-lg-block'>
-<small><a rel="tooltip" title="January 28th, 2017 -  4:01 AM" 
-data-placement="top" data-container="body" 
-href="/oc.tc/forums/posts/588c6bf55f35b93a0f00001a">1 hour ago</a></small>
-</div>
-</div>
-</div>
-</div>
-<div class='hidden-xs col-sm-1 text-center'>
-<strong>56</strong>
-</div>
-<div class='hidden-xs col-sm-1 text-center'>
-<strong>118</strong>
-</div>
-</div>
-<div class='row topic'>
-<div class='col-xs-12 col-sm-7'>
-<div class='topic-listing-entry'>
-<div class='topic-listing-entry-title'>
-<a href="/oc.tc/forums/topics/5882323b5f35b950d6000096">[Podcast] The true 
-story of Overcast - submit your questions!</a>
-</div>
-<small class='started-by'>
-<a href='/Martin' style='color: #A00'>Martin</a>
-<span data-container='body' data-placement='top' rel='tooltip' 
-title='January 20th, 2017 -  9:52 AM'>8 days ago</span>
-<small>in</small>
-<a href='/oc.tc/forums/4fc171b7c463751492000020'>
-<small>
-Community
-&#8594;
-General Discussion
-</small>
-</a>
-</small>
-</div>
-</div>
-<div class='col-xs-12 col-sm-3'>
-<div style='position:relative'>
-<a class='pull-left hidden-xs' style='position:relative; margin: 4px 5px 
-0 0;'>
-<img style="width: 32px;height: 32px;border-radius: 3px;vertical-align: 
-bottom;" width="32" height="32" class="avatar" 
-src="https://cravatar.eu/helmavatar/
-1536f38ef5b9427fa4c7baf74a0658ff/32.png
-" 
-alt="pixelman1234" title="pixelman1234"/>
-</a>
-<div class='latest-post'>
-<span class='visible-xs-inline'>
-Latest:
-<img style="width: 14px;height: 14px;border-radius: 3px;margin-left: 
-3px;vertical-align: bottom;" width="14" height="14" class="avatar" 
-src="https://cravatar.eu/helmavatar/
-1536f38ef5b9427fa4c7baf74a0658ff/14.png
-" 
-alt="pixelman1234" title="pixelman1234"/>
-</span>
-<a style="color: #08c; " href="/pixelman1234">pixelman1234</a>
-<div class='visible-xs-inline visible-sm-block visible-md-block 
-visible-lg-block'>
-<small><a rel="tooltip" title="January 28th, 2017 -  2:31 AM" 
-data-placement="top" data-container="body" 
-href="/oc.tc/forums/posts/588c56f95f35b91eed00000e">3 hours ago</a></small>
-</div>
-</div>
-</div>
-</div>
-<div class='hidden-xs col-sm-1 text-center'>
-<strong>79</strong>
-</div>
-<div class='hidden-xs col-sm-1 text-center'>
-<strong>449</strong>
-</div>
-</div>
-<div class='row topic'>
-<div class='col-xs-12 col-sm-7'>
-<div class='topic-listing-entry'>
-<div class='topic-listing-entry-title'>
-<a href="/oc.tc/forums/topics/588b96e85f35b93b87000004">[AMA] IvanKeyz 
-experience &amp; my cheesy music</a>
-</div>
-<small class='started-by'>
-<a href='/IvanKeyz' style='color: #08c'>IvanKeyz</a>
-<span data-container='body' data-placement='top' rel='tooltip' 
-title='January 27th, 2017 - 12:52 PM'>16 hours ago</span>
-<small>in</small>
-<a href='/oc.tc/forums/513014bfba6087c5760002b0'>
-<small>
-Community
-&#8594;
-Introduce Yourself
-</small>
-</a>
-</small>
-</div>
-</div>
-<div class='col-xs-12 col-sm-3'>
-<div style='position:relative'>
-<a class='pull-left hidden-xs' style='position:relative; margin: 4px 5px 
-0 0;'>
-<img style="width: 32px;height: 32px;border-radius: 3px;vertical-align: 
-bottom;" width="32" height="32" class="avatar" 
-src="https://cravatar.eu/helmavatar/
-736b787d518a42f29c5e1139cc71c351/32.png
-" 
-alt="_Monty" title="_Monty"/>
-</a>
-<div class='latest-post'>
-<span class='visible-xs-inline'>
-Latest:
-<img style="width: 14px;height: 14px;border-radius: 3px;margin-left: 
-3px;vertical-align: bottom;" width="14" height="14" class="avatar" 
-src="https://cravatar.eu/helmavatar/
-736b787d518a42f29c5e1139cc71c351/14.png
-" 
-alt="_Monty" title="_Monty"/>
-</span>
-<a style="color: #08c; " href="/_Monty">_Monty</a>
-<div class='visible-xs-inline visible-sm-block visible-md-block 
-visible-lg-block'>
-<small><a rel="tooltip" title="January 28th, 2017 -  1:01 AM" 
-data-placement="top" data-container="body" 
-href="/oc.tc/forums/posts/588c41d667d522529a000023">4 hours ago</a></small>
-</div>
-</div>
-</div>
-</div>
-<div class='hidden-xs col-sm-1 text-center'>
-<strong>53</strong>
-</div>
-<div class='hidden-xs col-sm-1 text-center'>
-<strong>94</strong>
-</div>
-</div>
-<div class='row topic'>
-<div class='col-xs-12 col-sm-7'>
-<div class='topic-listing-entry'>
-<div class='topic-listing-entry-title'>
-<a href="/oc.tc/forums/topics/588c14b967d5225294000022">Final tourney scrim 
-montage</a>
-</div>
-<small class='started-by'>
-<a href='/Winnerizor' style='color: #08c'>Winnerizor</a>
-<span data-container='body' data-placement='top' rel='tooltip' 
-title='January 27th, 2017 -  9:49 PM'>7 hours ago</span>
-<small>in</small>
-<a href='/oc.tc/forums/4fc17212c463751492000030'>
-<small>
-Community
-&#8594;
-Creative Content
-</small>
-</a>
-</small>
-</div>
-</div>
-<div class='col-xs-12 col-sm-3'>
-<div style='position:relative'>
-<a class='pull-left hidden-xs' style='position:relative; margin: 4px 5px 
-0 0;'>
-<img style="width: 32px;height: 32px;border-radius: 3px;vertical-align: 
-bottom;" width="32" height="32" class="avatar" 
-src="https://cravatar.eu/helmavatar/
-0b886f803d3c4b1b8f79fa7bfd58119f/32.png
-" 
-alt="chespie" title="chespie"/>
-</a>
-<div class='latest-post'>
-<span class='visible-xs-inline'>
-Latest:
-<img style="width: 14px;height: 14px;border-radius: 3px;margin-left: 
-3px;vertical-align: bottom;" width="14" height="14" class="avatar" 
-src="https://cravatar.eu/helmavatar/
-0b886f803d3c4b1b8f79fa7bfd58119f/14.png
-" 
-alt="chespie" title="chespie"/>
-</span>
-<a style="color: #08c; " href="/chespie">chespie</a>
-<div class='visible-xs-inline visible-sm-block visible-md-block 
-visible-lg-block'>
-<small><a rel="tooltip" title="January 28th, 2017 - 12:06 AM" 
-data-placement="top" data-container="body" 
-href="/oc.tc/forums/posts/588c34f1c296351b7100002e">5 hours ago</a></small>
-</div>
-</div>
-</div>
-</div>
-<div class='hidden-xs col-sm-1 text-center'>
-<strong>3</strong>
-</div>
-<div class='hidden-xs col-sm-1 text-center'>
-<strong>61</strong>
-</div>
-</div>
-<div class='row topic'>
-<div class='col-xs-12 col-sm-7'>
-<div class='topic-listing-entry'>
-<div class='topic-listing-entry-title'>
-<a href="/oc.tc/forums/topics/587539675f35b932db000007">[Last AMA] Deivi</a>
-</div>
-<small class='started-by'>
-<a href='/t_pazolite' style='color: #08c'>t_pazolite</a>
-<span data-container='body' data-placement='top' rel='tooltip' 
-title='January 10th, 2017 -  1:43 PM'>18 days ago</span>
-<small>in</small>
-<a href='/oc.tc/forums/513014bfba6087c5760002b0'>
-<small>
-Community
-&#8594;
-Introduce Yourself
-</small>
-</a>
-</small>
-</div>
-</div>
-<div class='col-xs-12 col-sm-3'>
-<div style='position:relative'>
-<a class='pull-left hidden-xs' style='position:relative; margin: 4px 5px 
-0 0;'>
-<img style="width: 32px;height: 32px;border-radius: 3px;vertical-align: 
-bottom;" width="32" height="32" class="avatar" 
-src="https://cravatar.eu/helmavatar/
-6ee56076acdd464f83867b45716cfcdd/32.png
-" 
-alt="t_pazolite" title="t_pazolite"/>
-</a>
-<div class='latest-post'>
-<span class='visible-xs-inline'>
-Latest:
-<img style="width: 14px;height: 14px;border-radius: 3px;margin-left: 
-3px;vertical-align: bottom;" width="14" height="14" class="avatar" 
-src="https://cravatar.eu/helmavatar/
-6ee56076acdd464f83867b45716cfcdd/14.png
-" 
-alt="t_pazolite" title="t_pazolite"/>
-</span>
-<a style="color: #08c; " href="/t_pazolite">t_pazolite</a>
-<div class='visible-xs-inline visible-sm-block visible-md-block 
-visible-lg-block'>
-<small><a rel="tooltip" title="January 28th, 2017 - 12:06 AM" 
-data-placement="top" data-container="body" 
-href="/oc.tc/forums/posts/588c34c75f35b9206700000b">5 hours ago</a></small>
-</div>
-</div>
-</div>
-</div>
-<div class='hidden-xs col-sm-1 text-center'>
-<strong>43</strong>
-</div>
-<div class='hidden-xs col-sm-1 text-center'>
-<strong>78</strong>
-</div>
-</div>
-<div class='row topic'>
-<div class='col-xs-12 col-sm-7'>
-<div class='topic-listing-entry'>
-<div class='topic-listing-entry-title'>
-<a href="/oc.tc/forums/topics/570b098667d5222720000009">[AMA] Ny_</a>
-</div>
-<small class='started-by'>
-<a href='/Ny_' style='color: #08c'>Ny_</a>
-<span data-container='body' data-placement='top' rel='tooltip' 
-title='April 10th, 2016 -  9:18 PM'>10 months ago</span>
-<small>in</small>
-<a href='/oc.tc/forums/513014bfba6087c5760002b0'>
-<small>
-Community
-&#8594;
-Introduce Yourself
-</small>
-</a>
-</small>
-</div>
-</div>
-<div class='col-xs-12 col-sm-3'>
-<div style='position:relative'>
-<a class='pull-left hidden-xs' style='position:relative; margin: 4px 5px 
-0 0;'>
-<img style="width: 32px;height: 32px;border-radius: 3px;vertical-align: 
-bottom;" width="32" height="32" class="avatar" 
-src="https://cravatar.eu/helmavatar/
-a43135a4d7b949abac8da16bb2513c8d/32.png
-" 
-alt="Ny_" title="Ny_"/>
-</a>
-<div class='latest-post'>
-<span class='visible-xs-inline'>
-Latest:
-<img style="width: 14px;height: 14px;border-radius: 3px;margin-left: 
-3px;vertical-align: bottom;" width="14" height="14" class="avatar" 
-src="https://cravatar.eu/helmavatar/
-a43135a4d7b949abac8da16bb2513c8d/14.png
-" 
-alt="Ny_" title="Ny_"/>
-</span>
-<a style="color: #08c; " href="/Ny_">Ny_</a>
-<div class='visible-xs-inline visible-sm-block visible-md-block 
-visible-lg-block'>
-<small><a rel="tooltip" title="January 28th, 2017 - 12:03 AM" 
-data-placement="top" data-container="body" 
-href="/oc.tc/forums/posts/588c341c67d522528d000024">5 hours ago</a></small>
-</div>
-</div>
-</div>
-</div>
-<div class='hidden-xs col-sm-1 text-center'>
-<strong>306</strong>
-</div>
-<div class='hidden-xs col-sm-1 text-center'>
-<strong>429</strong>
-</div>
-</div>
-<div class='row topic'>
-<div class='col-xs-12 col-sm-7'>
-<div class='topic-listing-entry'>
-<div class='topic-listing-entry-title'>
-<a href="/oc.tc/forums/topics/588bca2f67d52252a0000004">AMA repigme and 
-ParacetamolMC/ParadiosMC</a>
-</div>
-<small class='started-by'>
-<a href='/ParadiosMC' style='color: #08c'>ParadiosMC</a>
-<span data-container='body' data-placement='top' rel='tooltip' 
-title='January 27th, 2017 -  4:31 PM'>13 hours ago</span>
-<small>in</small>
-<a href='/oc.tc/forums/513014bfba6087c5760002b0'>
-<small>
-Community
-&#8594;
-Introduce Yourself
-</small>
-</a>
-</small>
-</div>
-</div>
-<div class='col-xs-12 col-sm-3'>
-<div style='position:relative'>
-<a class='pull-left hidden-xs' style='position:relative; margin: 4px 5px 
-0 0;'>
-<img style="width: 32px;height: 32px;border-radius: 3px;vertical-align: 
-bottom;" width="32" height="32" class="avatar" 
-src="https://cravatar.eu/helmavatar/
-0862986203ac4335a071ebbedeb8a1b2/32.png
-" 
-alt="okayhey" title="okayhey"/>
-</a>
-<div class='latest-post'>
-<span class='visible-xs-inline'>
-Latest:
-<img style="width: 14px;height: 14px;border-radius: 3px;margin-left: 
-3px;vertical-align: bottom;" width="14" height="14" class="avatar" 
-src="https://cravatar.eu/helmavatar/
-0862986203ac4335a071ebbedeb8a1b2/14.png
-" 
-alt="okayhey" title="okayhey"/>
-</span>
-<a style="color: #08c; " href="/okayhey">okayhey</a>
-<div class='visible-xs-inline visible-sm-block visible-md-block 
-visible-lg-block'>
-<small><a rel="tooltip" title="January 28th, 2017 - 12:01 AM" 
-data-placement="top" data-container="body" 
-href="/oc.tc/forums/posts/588c33cfc296351b54000037">5 hours ago</a></small>
-</div>
-</div>
-</div>
-</div>
-<div class='hidden-xs col-sm-1 text-center'>
-<strong>9</strong>
-</div>
-<div class='hidden-xs col-sm-1 text-center'>
-<strong>25</strong>
-</div>
-</div>
-<div class='row topic'>
-<div class='col-xs-12 col-sm-7'>
-<div class='topic-listing-entry'>
-<div class='topic-listing-entry-title'>
-<a href="/oc.tc/forums/topics/587aec1b5f35b927a9000001">thspig AMA marry me 
-tomlas &lt;333333333333333333</a>
-</div>
-<small class='started-by'>
-<a href='/Thsjig' style='color: #08c'>Thsjig</a>
-<span data-container='body' data-placement='top' rel='tooltip' 
-title='January 14th, 2017 -  9:27 PM'>13 days ago</span>
-<small>in</small>
-<a href='/oc.tc/forums/513014bfba6087c5760002b0'>
-<small>
-Community
-&#8594;
-Introduce Yourself
-</small>
-</a>
-</small>
-</div>
-</div>
-<div class='col-xs-12 col-sm-3'>
-<div style='position:relative'>
-<a class='pull-left hidden-xs' style='position:relative; margin: 4px 5px 
-0 0;'>
-<img style="width: 32px;height: 32px;border-radius: 3px;vertical-align: 
-bottom;" width="32" height="32" class="avatar" 
-src="https://cravatar.eu/helmavatar/
-a1d48d68f73845419911dfb03dbce697/32.png
-" 
-alt="Thepawer" title="Thepawer"/>
-</a>
-<div class='latest-post'>
-<span class='visible-xs-inline'>
-Latest:
-<img style="width: 14px;height: 14px;border-radius: 3px;margin-left: 
-3px;vertical-align: bottom;" width="14" height="14" class="avatar" 
-src="https://cravatar.eu/helmavatar/
-a1d48d68f73845419911dfb03dbce697/14.png
-" 
-alt="Thepawer" title="Thepawer"/>
-</span>
-<a style="color: #08c; " href="/Thepawer">Thepawer</a>
-<div class='visible-xs-inline visible-sm-block visible-md-block 
-visible-lg-block'>
-<small><a rel="tooltip" title="January 27th, 2017 - 11:58 PM" 
-data-placement="top" data-container="body" 
-href="/oc.tc/forums/posts/588c331967d52252ac00002c">5 hours ago</a></small>
-</div>
-</div>
-</div>
-</div>
-<div class='hidden-xs col-sm-1 text-center'>
-<strong>67</strong>
-</div>
-<div class='hidden-xs col-sm-1 text-center'>
-<strong>149</strong>
-</div>
-</div>
-<div class='row topic'>
-<div class='col-xs-12 col-sm-7'>
-<div class='topic-listing-entry'>
-<div class='topic-listing-entry-title'>
-<a href="/oc.tc/forums/topics/587536015f35b93118000008">PGM Shutdown Date: 
-January 31, 2017</a>
-</div>
-<small class='started-by'>
-<a href='/LifeboatLuke' style='color: #f89406'>LifeboatLuke</a>
-<span data-container='body' data-placement='top' rel='tooltip' 
-title='January 10th, 2017 -  1:29 PM'>18 days ago</span>
-<small>in</small>
-<a href='/oc.tc/forums/4fc17119c463751492000018'>
-<small>
-Overcast Network
-&#8594;
-Announcements
-</small>
-</a>
-</small>
-</div>
-</div>
-<div class='col-xs-12 col-sm-3'>
-<div style='position:relative'>
-<a class='pull-left hidden-xs' style='position:relative; margin: 4px 5px 
-0 0;'>
-<img style="width: 32px;height: 32px;border-radius: 3px;vertical-align: 
-bottom;" width="32" height="32" class="avatar" 
-src="https://cravatar.eu/helmavatar/
-2194939a21e649a496094d6c2a238f46/32.png
-" 
-alt="PineFrost64" title="PineFrost64"/>
-</a>
-<div class='latest-post'>
-<span class='visible-xs-inline'>
-Latest:
-<img style="width: 14px;height: 14px;border-radius: 3px;margin-left: 
-3px;vertical-align: bottom;" width="14" height="14" class="avatar" 
-src="https://cravatar.eu/helmavatar/
-2194939a21e649a496094d6c2a238f46/14.png
-" 
-alt="PineFrost64" title="PineFrost64"/>
-</span>
-<a style="color: #08c; " href="/PineFrost64">PineFrost64</a>
-<div class='visible-xs-inline visible-sm-block visible-md-block 
-visible-lg-block'>
-<small><a rel="tooltip" title="January 27th, 2017 - 11:27 PM" 
-data-placement="top" data-container="body" 
-href="/oc.tc/forums/posts/588c2bc0c296351b5a00002c">6 hours ago</a></small>
-</div>
-</div>
-</div>
-</div>
-<div class='hidden-xs col-sm-1 text-center'>
-<strong>490</strong>
-</div>
-<div class='hidden-xs col-sm-1 text-center'>
-<strong>1435</strong>
-</div>
-</div>
-</div>
-<ul class='pagination pagination-sm'>
-<li class='active'>
-<a>1</a>
-</li>
-<li>
-<a href='/oc.tc/forums/?page=2'>2</a>
-</li>
-<li>
-<a href='/oc.tc/forums/?page=3'>3</a>
-</li>
-<li>
-<a href='/oc.tc/forums/?page=4'>4</a>
-</li>
-<li>
-<a href='/oc.tc/forums/?page=5'>5</a>
-</li>
-<li class='disabled'>
-<a>&hellip;</a>
-</li>
-<li>
-<a href='/oc.tc/forums/?page=11'>Last &raquo;</a>
-</li>
-</ul>
-<div class='pull-right hidden-xs'>
-<a href='/host'>
+<style>body{padding-bottom:40px;}</style>
+<script>$(function(){$('#hero').carousel('cycle')});</script>
+<div class="row marketing">
+<div class="col-md-4">
 <img 
-src='https://static.oc.tc/assets/host/beastnode3-8be3719394c6d45cfc9647763f2c37c8074462230b5e41b97c030cb118a71f3e.png'>
-</a>
+src="/web/20170110211625im_/https://static.oc.tc/assets/index/variety-4cdd957a937ce0e0189e711925c70ba9dfa6e45fd6de878587d396e3d3ff73d9.png">
+<h2>Variety</h2>
+<p>Overcast Network provides many different maps and play styles that 
+appeal to a wide variety of players. Unlike other servers, we specialize 
+in offering a unique and exclusive experience to everyone.</p>
+<p>
+<a class="btn btn-default" 
+href="/web/20170110211625/https://oc.tc/maps">View the Maps »</a>
+</p>
+</div>
+<div class="col-md-4">
+<img 
+src="/web/20170110211625im_/https://static.oc.tc/assets/index/competition-f89706b2e21b5ca10b3a33f7c53d9d6f276c29a4327cc1983a6b85902514a6dd.png">
+<h2>Competition</h2>
+<p>Our servers appeal to a wide range of audiences with varying skills 
+and play styles. With such a large and diverse player base, you'll never 
+be bored fighting the same people over and over again!</p>
+<p>
+<a class="btn btn-default" 
+href="/web/20170110211625/https://oc.tc/stats">Check the Stats »</a>
+</p>
+</div>
+<div class="col-md-4">
+<img 
+src="/web/20170110211625im_/https://static.oc.tc/assets/index/reliability-a0305bb992611223b40e9aaff3ed38f9fc50a204f64df662b4ef06e08c3a76e0.png">
+<h2>Reliability</h2>
+<p>Overcast Network was designed with scalability and uptime in mind. 
+Development continues at a rapid pace, providing you and your friends 
+with the best gameplay possible.</p>
+<p>
+<a class="btn btn-default" 
+href="/web/20170110211625/https://oc.tc/play">Running Servers »</a>
+</p>
 </div>
 </div>
-<div class='col-xs-12 visible-xs visible-sm'>
-<div class='forum-footer'>
-<h4>
-Online Users
-<small>47</small>
-</h4>
-<small><a style="color: #A00" href="/Deoz">Deoz</a>, <a style="color: 
-#A00" href="/Noel">Noel</a>, <a style="color: #2233aa" 
-href="/Tigo">Tigo</a>, <a style="color: #F20" 
-href="/Snuskenmaxi">Snuskenmaxi</a>, <a style="color: #F20" 
-href="/AMSGamingTQ">AMSGamingTQ</a>, <a style="color: #08c" 
-href="/Gitano2">Gitano2</a>, <a style="color: #08c" 
-href="/Yoyo_">Yoyo_</a>, <a style="color: #08c" href="/Buw">Buw</a>, <a 
-style="color: #08c" href="/Rau1">Rau1</a>, <a style="color: #08c" 
-href="/Ralloi">Ralloi</a>, <a style="color: #08c" href="/Dnsy">Dnsy</a>, 
-<a style="color: #08c" href="/AgeAdam">AgeAdam</a>, <a style="color: 
-#08c" href="/Katzuu_">Katzuu_</a>, <a style="color: #08c" 
-href="/FLIMBI">FLIMBI</a>, <a style="color: #08c" 
-href="/Legoche">Legoche</a>, <a style="color: #08c" 
-href="/MattJames36">MattJames36</a>, <a style="color: #08c" 
-href="/Daksah">Daksah</a>, <a style="color: #08c" 
-href="/ttiku">ttiku</a>, <a style="color: #08c" 
-href="/HardstyleRaver2">HardstyleRaver2</a>, <a style="color: #08c" 
-href="/Hoodovah">Hoodovah</a>, <a style="color: #08c" 
-href="/obrkill">obrkill</a>, <a style="color: #08c" 
-href="/Whateverbro">Whateverbro</a>, <a style="color: #08c" 
-href="/karnyyy">karnyyy</a>, <a style="color: #08c" 
-href="/ssjkml">ssjkml</a>, <a style="color: #08c" 
-href="/MrDandS97">MrDandS97</a>, <a style="color: #08c" 
-href="/Sujetador">Sujetador</a>, <a style="color: #08c" 
-href="/Zaoki">Zaoki</a>, <a style="color: #08c" 
-href="/Cythias">Cythias</a>, <a style="color: #08c" 
-href="/PizzaGato">PizzaGato</a>, <a style="color: #08c" 
-href="/Cip">Cip</a>, <a style="color: #08c" href="/Cqmp3r_">Cqmp3r_</a>, 
-<a style="color: #08c" href="/Salty_Dude">Salty_Dude</a>, <a 
-style="color: #08c" href="/byRobo">byRobo</a>, <a style="color: #08c" 
-href="/Joyful">Joyful</a>, <a style="color: #08c" 
-href="/Koro_">Koro_</a>, <a style="color: #08c" 
-href="/OsvalDoReMi">OsvalDoReMi</a>, <a style="color: #08c" 
-href="/Chertan">Chertan</a>, <a style="color: #08c" 
-href="/Whateversis">Whateversis</a>, <a style="color: #08c" 
-href="/Jeremy_Wade">Jeremy_Wade</a>, <a style="color: #08c" 
-href="/Vorhn">Vorhn</a>, <a style="color: #08c" href="/Xuph">Xuph</a>, <a 
-style="color: #08c" href="/nichome">nichome</a>, <a style="color: #08c" 
-href="/erogevick225">erogevick225</a>, <a style="color: #08c" 
-href="/Ammzzy">Ammzzy</a>, <a style="color: #08c" 
-href="/Lordiguel">Lordiguel</a>, <a style="color: #08c" 
-href="/yvproz33">yvproz33</a>, <a style="color: #08c" 
-href="/CyborgSmoker">CyborgSmoker</a></small>
-</div>
-</div>
-</div>
-</section>
 <hr>
-<div class='modal fade' id='contact'>
-<div class='modal-dialog'>
-<div class='modal-content'>
-<form class="simple_form new_inquiry" id="new_inquiry" action="/inquire" 
-accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" 
-value="&#x2713;"/><input type="hidden" name="authenticity_token" 
-value="noTCk+kKjBNx85/4C7HARFK2/W7oHHJ7Upr434FjOn127WzrgtuCW3nF9Sse7j749TXnI63yCs+7KWDDzQ3wTA=="/><input 
-class='subj' name='type' type='hidden' value=''>
-<div class='modal-header'>
-<button class='close' data-dismiss='modal'>&times;</button>
-<h3 class='modal-title'>
+<div class="modal fade" id="contact">
+<div class="modal-dialog">
+<div class="modal-content">
+<form class="simple_form new_inquiry" id="new_inquiry" 
+action="/web/20170110211625/https://oc.tc/inquire" accept-charset="UTF-8" 
+method="post"><input name="utf8" type="hidden" value="✓"><input 
+type="hidden" name="authenticity_token" 
+value="XV9E2zNxWsJowW7tU3kpzXjUTtm8cnLWsyT0PBkjPJvGkKJAoqGeZVni1aeF//c4mDt0P83Aqjg9pzY0i+LeGg=="><input 
+class="subj" name="type" type="hidden" value="">
+<div class="modal-header">
+<button class="close" data-dismiss="modal">×</button>
+<h3 class="modal-title">
 Contact Overcast Network
-<small class='subject'></small>
+<small class="subject"></small>
 </h3>
 </div>
-<div class='modal-body'>
-<div class='row'>
-<div class='col-md-6'>
-<div class='form-group'>
+<div class="modal-body">
+<div class="row">
+<div class="col-md-6">
+<div class="form-group">
 <label class="string optional control-label" 
 for="inquiry_username">Username</label>
 <input required="required" class="form-control" type="text" 
-name="inquiry[username]" id="inquiry_username"/>
+name="inquiry[username]" id="inquiry_username">
 </div>
-<div class='form-group'>
+<div class="form-group">
 <label class="string optional control-label" 
 for="inquiry_message">Message</label>
 <textarea rows="10" class="form-control" name="inquiry[message]" 
-id="inquiry_message">
-</textarea>
+id="inquiry_message"></textarea>
 </div>
 </div>
-<div class='col-md-6'>
-<div class='form-group'>
+<div class="col-md-6">
+<div class="form-group">
 <label class="email optional control-label" 
 for="inquiry_email">Email</label>
 <input required="required" class="form-control" type="email" 
-name="inquiry[email]" id="inquiry_email"/>
+name="inquiry[email]" id="inquiry_email">
 </div>
-<div class='form-group'>
+<div class="form-group">
 <label class="string optional control-label" 
 for="inquiry_subject">Subject</label>
 <input required="required" class="form-control" type="text" 
-name="inquiry[subject]" id="inquiry_subject"/>
+name="inquiry[subject]" id="inquiry_subject">
 </div>
 <p>We usually respond within 1-2 days if you provide a valid email</p>
 <p>Please be as clear and concise as possible. It will help us process 
@@ -1641,134 +538,164 @@ your inquiry faster.</p>
 </div>
 </div>
 </div>
-<div class='modal-footer'>
-<a class='btn btn-default' data-dismiss='modal' href='#'>Close</a>
-<input class='btn btn-primary' data-disable-with='Sending...' 
-type='submit' value='Send'>
+<div class="modal-footer">
+<a class="btn btn-default" data-dismiss="modal" href="#">Close</a>
+<input class="btn btn-primary" data-disable-with="Sending..." 
+type="submit" value="Send">
 </div>
 </form>
 </div>
 </div>
 </div>
 <footer>
-<div class='row'>
-<div class='col-md-2 col-sm-4 col-xs-6'>
-<ul class='nav nav-pills nav-stacked'>
-<li class='heading'>
+<div class="row">
+<div class="col-md-2 col-sm-4 col-xs-6">
+<ul class="nav nav-pills nav-stacked">
+<li class="heading">
 Policies
 </li>
 <li>
-<a href='/rules'>Player Rules</a>
+<a href="/web/20170110211625/https://oc.tc/rules">Player Rules</a>
 </li>
 <li>
-<a href='/terms'>Terms of Service</a>
+<a href="/web/20170110211625/https://oc.tc/terms">Terms of Service</a>
 </li>
 <li>
-<a href='/privacy'>Privacy Policy</a>
+<a href="/web/20170110211625/https://oc.tc/privacy">Privacy Policy</a>
 </li>
 <li>
-<a href='/refund'>Refund Policy</a>
+<a href="/web/20170110211625/https://oc.tc/refund">Refund Policy</a>
 </li>
 </ul>
 </div>
-<div class='col-md-2 col-sm-4 col-xs-6'>
-<ul class='nav nav-pills nav-stacked'>
-<li class='heading'>
+<div class="col-md-2 col-sm-4 col-xs-6">
+<ul class="nav nav-pills nav-stacked">
+<li class="heading">
 Moderation
 </li>
 <li>
-<a href='/report'>Report a Player</a>
+<a href="/web/20170110211625/https://oc.tc/report">Report a Player</a>
 </li>
 <li>
-<a href='/appeal'>Appeal a Punishment</a>
+<a href="/web/20170110211625/https://oc.tc/appeal">Appeal a 
+Punishment</a>
 </li>
 <li>
-<a href='/punishments'>Recent Punishments</a>
+<a href="/web/20170110211625/https://oc.tc/punishments">Recent 
+Punishments</a>
 </li>
 </ul>
 </div>
-<div class='clearfix visible-xs-block' style='padding-bottom: 
-20px;'></div>
-<div class='col-md-2 col-sm-4 col-xs-6'>
-<ul class='nav nav-pills nav-stacked'>
-<li class='heading'>
+<div class="clearfix visible-xs-block" style="padding-bottom: 
+20px;"></div>
+<div class="col-md-2 col-sm-4 col-xs-6">
+<ul class="nav nav-pills nav-stacked">
+<li class="heading">
 Organization
 </li>
 <li>
-<a href='/staff'>Staff Listing</a>
+<a href="/web/20170110211625/https://oc.tc/staff">Staff Listing</a>
 </li>
 <li>
-<a href='/revisions'>Development Logs</a>
+<a href="/web/20170110211625/https://oc.tc/revisions">Development 
+Logs</a>
 </li>
 <li>
-<a href='https://github.com/OvercastNetwork/Issues'>Report a Bug</a>
+<a 
+href="/web/20170110211625/https://github.com/OvercastNetwork/Issues">Report 
+a Bug</a>
 </li>
 </ul>
 </div>
-<div class='clearfix visible-sm-block' style='padding-bottom: 
-20px;'></div>
-<div class='col-md-2 col-sm-4 col-xs-6'>
-<ul class='nav nav-pills nav-stacked'>
-<li class='heading'>
+<div class="clearfix visible-sm-block" style="padding-bottom: 
+20px;"></div>
+<div class="col-md-2 col-sm-4 col-xs-6">
+<ul class="nav nav-pills nav-stacked">
+<li class="heading">
 Contact Us
 </li>
 <li>
-<a class='inquiry' data-toggle='modal' href='#contact'>General 
+<a class="inquiry" data-toggle="modal" href="#contact">General 
 Inquiries</a>
 </li>
 <li>
-<a class='inquiry' data-toggle='modal' href='#contact'>Shop Purchases</a>
+<a class="inquiry" data-toggle="modal" href="#contact">Shop Purchases</a>
 </li>
 <li>
-<a href='/appeal'>Ban Appeals</a>
+<a href="/web/20170110211625/https://oc.tc/appeal">Ban Appeals</a>
 </li>
 </ul>
 </div>
-<div class='clearfix visible-xs-block' style='padding-bottom: 
-20px;'></div>
-<div class='col-md-2 col-sm-4'>
-<ul class='nav nav-pills nav-stacked follow-us'>
-<li class='heading'>
+<div class="clearfix visible-xs-block" style="padding-bottom: 
+20px;"></div>
+<div class="col-md-2 col-sm-4">
+<ul class="nav nav-pills nav-stacked follow-us">
+<li class="heading">
 Follow Us
 </li>
 <li>
-<a href='https://twitter.com/OvercastPGM'>
+<a href="/web/20170110211625/https://twitter.com/OvercastPGM
+">
 <img 
-src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+src="/web/20170110211625im_/https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png">
 Twitter
 </a>
-<a href='https://www.facebook.com/OvercastNetwork'>
+<a href="/web/20170110211625/https://www.facebook.com/OvercastNetwork">
 <img 
-src='https://static.oc.tc/assets/facebook_icon-34f4e0ba3a52886710c0360d3f8f35352b6c0a73c7181f690c135b1d24eaa8f0.png'>
+src="/web/20170110211625im_/https://static.oc.tc/assets/facebook_icon-34f4e0ba3a52886710c0360d3f8f35352b6c0a73c7181f690c135b1d24eaa8f0.png">
 Facebook
 </a>
-<a href='https://www.youtube.com/c/OvercastNetwork'>
+<a href="/web/20170110211625/https://www.youtube.com/c/OvercastNetwork">
 <img 
-src='https://static.oc.tc/assets/youtube_icon-a724516a1d426e48bae525ea6e04abc3e1cf8234989b3f300ed294a61a6c893d.png'>
+src="/web/20170110211625im_/https://static.oc.tc/assets/youtube_icon-a724516a1d426e48bae525ea6e04abc3e1cf8234989b3f300ed294a61a6c893d.png">
 YouTube
 </a>
-<a href='http://www.twitch.tv/ocnlive'>
+<a href="/web/20170110211625/http://www.twitch.tv/ocnlive">
 <img 
-src='https://static.oc.tc/assets/twitch_icon-6604f0ced4759bd1c8bb6a01de875a66024f422c14789a752024980d57ba7398.png'>
+src="/web/20170110211625im_/https://static.oc.tc/assets/twitch_icon-6604f0ced4759bd1c8bb6a01de875a66024f422c14789a752024980d57ba7398.png">
 Twitch
 </a>
 </li>
 </ul>
 </div>
-<div class='clearfix visible-xs-block' style='padding-bottom: 
-20px;'></div>
-<div class='col-md-2 col-sm-4' style='text-align: center;'>
+<div class="clearfix visible-xs-block" style="padding-bottom: 
+20px;"></div>
+<div class="col-md-2 col-sm-4" style="text-align: center;">
 Servers provided by
-<a href='/host'>
-<img class='img-responsive' 
-src='https://static.oc.tc/assets/beastnode-844f199a7f8d0aa2903d26a73ce554bbea1d6030baf3f28bface484c944b5d50.png'>
+<a href="/web/20170110211625/https://oc.tc/host">
+<img class="img-responsive" 
+src="/web/20170110211625im_/https://static.oc.tc/assets/beastnode-844f199a7f8d0aa2903d26a73ce554bbea1d6030baf3f28bface484c944b5d50.png">
 </a>
-<div class='copyright'>
-&copy; 2012-2016 Overcast Network
+<div class="copyright">
+© 2012-2016 Overcast Network
 </div>
 </div>
 </div>
 </footer>
 </div>
-</body>
-</html>
+
+
+
+
+
+
+
+<!--
+     FILE ARCHIVED ON 21:16:25 jan 10, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 5:25:03 feb 1, 2017.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<div id="scrollrail-vertical" class="" style="width: 4.3575px; 
+border-left-width: 0.363125px;"><div id="scrollbar-vertical" 
+style="visibility: hidden; border-radius: 1.81563px 2.54188px; 
+box-shadow: rgba(255, 255, 255, 0.901961) 0px 0px 0.363125px 0.363125px; 
+height: 226.83px; top: 0.72625px; opacity: 0;"></div></div><div 
+id="scrollrail-horizontal" class="" style="height: 4.3575px; 
+border-top-width: 0.363125px;"><div id="scrollbar-horizontal" 
+style="visibility: hidden; border-radius: 5.08375px 3.63125px; 
+box-shadow: rgba(255, 255, 255, 0.901961) 0px 0px 0.363125px 0.363125px; 
+width: 419.305px; left: 0.72625px; opacity: 
+0;"></div></div></body></html>
