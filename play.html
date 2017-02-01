@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta name="csrf-param" content="authenticity_token"/>
+<meta name="csrf-token" 
+content="1qjTjmW+Yz+RDv6JJAaZtG+mgp1a3RJZo0I3UhtZEamFjfxHbyt7rdl2kqdM+eqNkv37Rvw/mXZik6bCOtn5Iw=="/>
+<meta charset='utf-8'>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+<meta content='#337AB7' name='theme-color'>
+<title>
+Play - Overcast Network
+</title>
+<link rel="shortcut icon" type="image/x-icon" 
+href="https://cdn.oc.tc/assets/favicon.ico"/>
+<link rel="apple-touch-icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-57x57-c773bb9eed44bec814183ea9c338a8d24261d8cf4dd837ebfd11316567fd81e6.png"/>
+<link rel="apple-touch-icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-76x76-9b6f7b609f77f40e69d6c3e05780e0fe93ce4fbf6e39c6c749df63a5c526e294.png" 
+sizes="76x76"/>
+<link rel="apple-touch-icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-120x120-4bf1cbf6c6c04c8b98dfd7c828b08c681c8d7533621ab949131c7542344e0a93.png" 
+sizes="120x120"/>
+<link rel="apple-touch-icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-152x152-9285e43ba8ebd0609dad331dc1edb03224b6237f088b999bfd14f81cf716cab6.png" 
+sizes="152x152"/>
+<link rel="apple-touch-icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-167x167-2b722464c6abcaddf5c0d3f64c3292de32c59c079a8ec829a34c0c064f13b55c.png" 
+sizes="167x167"/>
+<link rel="apple-touch-icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-180x180-feb73f6835138a9162af22513c17b7d077fd3ce7f9ef41744eca3e6cbcdee771.png" 
+sizes="180x180"/>
+<link rel="icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-128x128-e17c0fec61348260984daac0ffa7fb9471a25501ca49ef41b2a0daa3130f8ff4.png" 
+sizes="128x128"/>
+<link rel="icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-192x192-c93c1e496617fec85cd89aa9d3abc62db2232eb1cf901924b5bc81c32bc44ed6.png" 
+sizes="192x192"/>
+<link rel="stylesheet" media="screen" 
+href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css"/>
+<link rel="stylesheet" media="screen" 
+href="https://static.oc.tc/assets/application-bfa7ca518e1a8ca212fef53aaa0650a6f5b4475c06914e7178ff5bec94070752.css"/>
+<link rel="stylesheet" media="screen" 
+href="//fonts.googleapis.com/css?family=Lato:700,400,300"/>
+<link rel="stylesheet" media="screen" 
+href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"/>
+<script 
+src="https://static.oc.tc/assets/libraries-912fd655d5f42721ec0f4b257ad9e600219d21f56ed23b0125feaf20b7f6e28e.js"></script>
+<script 
+src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script 
+src="https://static.oc.tc/assets/application-279754d779d3df8a6e34571f7a04537497dcab3d7ff24f26101905b5bdcd2e1b.js"></script>
+<script 
+src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-3-typeahead/4.0.0/bootstrap3-typeahead.min.js"></script>
+<script>
+  var 
+_gaq=_gaq||[];_gaq.push(["_setAccount","UA-30515952-1"]);_gaq.push(["_trackPageview"]);(function(){var 
+e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var 
+t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})()
+</script>
+</head>
+<body>
+<nav class='navbar navbar-default navbar-static-top'>
+<div class='container'>
+<div class='navbar-header'>
+<button class='navbar-toggle collapsed' 
+data-target='#top-navbar-collapse' data-toggle='collapse' 
+id='top-navbar-collapse-button'>
+<span class='fa fa-bars'></span>
+</button>
+<a class='navbar-brand' href='/'>
+<img class='pull-left' height='34' 
+src='https://cdn.oc.tc/assets/logo.png'>
+Overcast Network
+</a>
+</div>
+<div class='navbar-collapse collapse' id='top-navbar-collapse'>
+<ul class='nav navbar-nav' style='margin-right: 0;'>
+<li class='active'>
+<a href='/play'>
+<i class='fa fa-play'></i>
+Play
+</a>
+</li>
+<li>
+<a href='/maps'>
+<i class='fa fa-cubes'></i>
+Maps
+</a>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+<i class='fa fa-user'></i>
+Players
+<b class='caret'></b>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a href='https://oc.tc/leaderboard'>
+<i class='fa fa-star'></i>
+Rankings
+</a>
+</li>
+<li>
+<a href='https://oc.tc/stats'>
+<i class='fa fa-line-chart'></i>
+Stats
+</a>
+</li>
+<li>
+<a href='/channels'>
+<i class='fa fa-youtube-play'></i>
+Channels
+</a>
+</li>
+<form class='player-search'>
+<input class='input-sm form-control typeahead' id='player-search' 
+name='search' placeholder='Search for a player' type='text'>
+</form>
+</ul>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+<i class='fa fa-trophy'></i>
+League
+<b class='caret'></b>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a href='/teams'>
+<i class='fa fa-group'></i>
+Teams
+</a>
+</li>
+<li>
+<a href='/tournaments'>
+<i class='fa fa-flag'></i>
+Tournaments
+</a>
+</li>
+</ul>
+</li>
+<li>
+<a href='/forums'>
+<i class='fa fa-comments'></i>
+Forum
+</a>
+</li>
+</ul>
+<hr class='visible-xs visible-sm' style='margin: 4px; border-color: 
+#e7e7e7;'>
+<ul class='nav navbar-nav pull-right'>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#' 
+style='outline: none; '>
+<i class='fa fa-user'></i>
+<div class='visible-xs-inline visible-sm-inline'>
+Account
+</div>
+<b class='caret'></b>
+</a>
+<ul class='dropdown-menu dropdown-menu-right'>
+<li>
+<a href='/users/sign_in'>Login</a>
+</li>
+<li>
+<a href='/users/sign_up'>Register</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<div class='container'>
+<div class='flash' style='margin-top: 20px;'>
+</div>
+<section class='clearfix play'>
+<div class='page-header'>
+<h1>
+Servers
+<small>Play anywhere, anytime</small>
+<a class='pull-right' href='/host' rel='tooltip' title='Servers by 
+BeastNode'>
+<img 
+src='https://static.oc.tc/assets/host/beastnode2-ff395c140276f29cee329726658e40927ff940b0d6c33d368075da823d4470f0.png'>
+</a>
+</h1>
+</div><div class='sidebar'>
+<div class='well connect'>
+<table class='table'>
+<thead>
+<tr>
+<th colspan='2'>Connect To</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class='hostname'>
+<input class='input' onClick='this.select();' readonly type='text' 
+value='us.oc.tc'>
+</td>
+<td class='details'>
+<div class='location'>Global</div>
+<strong>87</strong>
+<small>players</small>
+<br>
+<strong>9</strong>
+<small>servers</small>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class='well seen'>
+<table class='table'>
+<thead>
+<tr>
+<th colspan='2'>Online Staff</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class='server text-nowrap'>Capture1 <small>(US)</small></td>
+<td class='players'>
+<div>
+<nobr>
+<a href="/ShinyDialga"><img style="width: 16px;height: 
+16px;border-radius: 3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+17feaec5961649d8a50783026050dd8f/16@2x.png" 
+alt="ShinyDialga" title="ShinyDialga"/></a>
+<a style="color: #F20; " href="/ShinyDialga">ShinyDialga</a>
+</nobr>
+</div>
+<div>
+<nobr>
+<a href="/ItzaMeLuigi"><img style="width: 16px;height: 
+16px;border-radius: 3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+57f5535d6b9e4013ad71e2cc63ec8d7c/16@2x.png" 
+alt="ItzaMeLuigi" title="ItzaMeLuigi"/></a>
+<a style="color: #F20; " href="/ItzaMeLuigi">ItzaMeLuigi</a>
+</nobr>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div><div class='server-container'>
+<div class='thumbnail'>
+<div class='server-box' style='background-image: 
+url("https://maps.oc.tc/CTW/Standard/Fairy%20Tales%202/map.png");'>
+<div class='top-box'>
+<div class='title'>Capture1 <small>(US)</small></div>
+<div class='players'>
+55
+<small>
+/
+64
+players
+</small>
+</div>
+</div>
+<div class='bottom-box'>
+<div>
+<div class='current-map-label'>playing</div>
+<div class='current-map'>
+<nobr><a href="/maps/fairy_tales_2_a_tale_or_two">Fairy Tales 2: A Tale 
+or Two</a></nobr>
+</div>
+</div>
+<div>
+<div class='next-map-label'>next</div>
+<div class='next-map'>
+<nobr><a href="/maps/circus_ctw">Circus CTW</a></nobr>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class='server-container'>
+<div class='thumbnail'>
+<div class='server-box' style='background-image: 
+url("https://maps.oc.tc/DTM/Standard/DATAbasin/map.png");'>
+<div class='top-box'>
+<div class='title'>Destroy <small>(US)</small></div>
+<div class='players'>
+11
+<small>
+/
+80
+players
+</small>
+</div>
+</div>
+<div class='bottom-box'>
+<div>
+<div class='current-map-label'>playing</div>
+<div class='current-map'>
+<nobr><a href="/maps/databasin">DATAbasin</a></nobr>
+</div>
+</div>
+<div>
+<div class='next-map-label'>next</div>
+<div class='next-map'>
+<nobr><a href="/maps/midnight_train">Midnight Train</a></nobr>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class='server-container'>
+<div class='thumbnail'>
+<div class='server-box' style='background-image: 
+url("https://maps.oc.tc/DTM/Standard/DATAstation/map.png");'>
+<div class='top-box'>
+<div class='title'>Party <small>(US)</small></div>
+<div class='players'>
+6
+<small>
+/
+48
+players
+</small>
+</div>
+</div>
+<div class='bottom-box'>
+<div>
+<div class='current-map-label'>playing</div>
+<div class='current-map'>
+<nobr><a href="/maps/datastation">DATAstation</a></nobr>
+</div>
+</div>
+<div>
+<div class='next-map-label'>next</div>
+<div class='next-map'>
+<nobr><a href="/maps/hyperspace">Hyperspace</a></nobr>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class='server-container'>
+<div class='thumbnail'>
+<div class='server-box' style='background-image: 
+url("https://maps.oc.tc/Blitz/Rage/Standard/101%20Rooms/map.png");'>
+<div class='top-box'>
+<div class='title'>RAGE <small>(US)</small></div>
+<div class='players'>
+5
+<small>
+/
+40
+players
+</small>
+</div>
+</div>
+<div class='bottom-box'>
+<div>
+<div class='current-map-label'>playing</div>
+<div class='current-map'>
+<nobr><a href="/maps/101_rooms">101 Rooms</a></nobr>
+</div>
+</div>
+<div>
+<div class='next-map-label'>next</div>
+<div class='next-map'>
+<nobr><a href="/maps/gravestone">Gravestone</a></nobr>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class='server-container'>
+<div class='thumbnail'>
+<div class='server-box' style='background-image: 
+url("https://maps.oc.tc/CTW/Standard/Rooted/map.png");'>
+<div class='top-box'>
+<div class='title'>Capture2 <small>(US)</small></div>
+<div class='players'>
+5
+<small>
+/
+32
+players
+</small>
+</div>
+</div>
+<div class='bottom-box'>
+<div>
+<div class='current-map-label'>playing</div>
+<div class='current-map'>
+<nobr><a href="/maps/rooted">Rooted</a></nobr>
+</div>
+</div>
+<div>
+<div class='next-map-label'>next</div>
+<div class='next-map'>
+<nobr><a href="/maps/cargo">Cargo</a></nobr>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class='server-container'>
+<div class='thumbnail'>
+<div class='server-box' style='background-image: 
+url("https://maps.oc.tc/Mixed/Standard/Chimeric/map.png");'>
+<div class='top-box'>
+<div class='title'>Mini1 <small>(US)</small></div>
+<div class='players'>
+2
+<small>
+/
+22
+players
+</small>
+</div>
+</div>
+<div class='bottom-box'>
+<div>
+<div class='current-map-label'>playing</div>
+<div class='current-map'>
+<nobr><a href="/maps/chimeric">Chimeric</a></nobr>
+</div>
+</div>
+<div>
+<div class='next-map-label'>next</div>
+<div class='next-map'>
+<nobr><a href="/maps/placid_spring">Placid Spring</a></nobr>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class='server-container'>
+<div class='thumbnail'>
+<div class='server-box' style='background-image: 
+url("https://maps.oc.tc/Ranked/Deathmatch/Desert%20Sanctuary/map.png");'>
+<div class='top-box'>
+<div class='title'>Ranked2 <small>(US)</small></div>
+<div class='players'>
+0
+<small>
+/
+20
+players
+</small>
+</div>
+</div>
+<div class='bottom-box'>
+<div>
+<div class='current-map-label'>playing</div>
+<div class='current-map'>
+<nobr><a href="/maps/desert_sanctuary:ranked:production">Desert 
+Sanctuary</a></nobr>
+</div>
+</div>
+<div>
+<div class='next-map-label'>next</div>
+<div class='next-map'>
+<nobr><a href="/maps/wit_s_end:ranked:production">Wit&#39;s 
+End</a></nobr>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class='server-container'>
+<div class='thumbnail'>
+<div class='server-box' style='background-image: 
+url("https://maps.oc.tc/CTF/Standard/Concourse/map.png");'>
+<div class='top-box'>
+<div class='title'>Capture3 <small>(US)</small></div>
+<div class='players'>
+0
+<small>
+/
+40
+players
+</small>
+</div>
+</div>
+<div class='bottom-box'>
+<div>
+<div class='current-map-label'>playing</div>
+<div class='current-map'>
+<nobr><a href="/maps/concourse">Concourse</a></nobr>
+</div>
+</div>
+<div>
+<div class='next-map-label'>next</div>
+<div class='next-map'>
+<nobr><a href="/maps/palace_ctf">Palace CTF</a></nobr>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class='server-container'>
+<div class='thumbnail'>
+<div class='server-box' style='background-image: 
+url("https://maps.oc.tc/Ranked/Objectives/Golden%20Drought%20III/map.png");'>
+<div class='top-box'>
+<div class='title'>Ranked1 <small>(US)</small></div>
+<div class='players'>
+0
+<small>
+/
+20
+players
+</small>
+</div>
+</div>
+<div class='bottom-box'>
+<div>
+<div class='current-map-label'>playing</div>
+<div class='current-map'>
+<nobr><a href="/maps/golden_drought_iii:ranked:production">Golden Drought 
+III</a></nobr>
+</div>
+</div>
+<div>
+<div class='next-map-label'>next</div>
+<div class='next-map'>
+<nobr><a href="/maps/ascendance_02:ranked:production">Ascendance 
+02</a></nobr>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div></section>
+<hr>
+<div class='modal fade' id='contact'>
+<div class='modal-dialog'>
+<div class='modal-content'>
+<form class="simple_form new_inquiry" id="new_inquiry" action="/inquire" 
+accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" 
+value="&#x2713;"/><input type="hidden" name="authenticity_token" 
+value="vykfT3GEJrY+uY/L4KprfkTElmB7vD983q3g0giH5OnsDDCGexE+JHbB4+WIVRhHuZ/vu91etFMffHFCKQcMYw=="/><input 
+class='subj' name='type' type='hidden' value=''>
+<div class='modal-header'>
+<button class='close' data-dismiss='modal'>&times;</button>
+<h3 class='modal-title'>
+Contact Overcast Network
+<small class='subject'></small>
+</h3>
+</div>
+<div class='modal-body'>
+<div class='row'>
+<div class='col-md-6'>
+<div class='form-group'>
+<label class="string optional control-label" 
+for="inquiry_username">Username</label>
+<input required="required" class="form-control" type="text" 
+name="inquiry[username]" id="inquiry_username"/>
+</div>
+<div class='form-group'>
+<label class="string optional control-label" 
+for="inquiry_message">Message</label>
+<textarea rows="10" class="form-control" name="inquiry[message]" 
+id="inquiry_message">
+</textarea>
+</div>
+</div>
+<div class='col-md-6'>
+<div class='form-group'>
+<label class="email optional control-label" 
+for="inquiry_email">Email</label>
+<input required="required" class="form-control" type="email" 
+name="inquiry[email]" id="inquiry_email"/>
+</div>
+<div class='form-group'>
+<label class="string optional control-label" 
+for="inquiry_subject">Subject</label>
+<input required="required" class="form-control" type="text" 
+name="inquiry[subject]" id="inquiry_subject"/>
+</div>
+<p>We usually respond within 1-2 days if you provide a valid email</p>
+<p>Please be as clear and concise as possible. It will help us process 
+your inquiry faster.</p>
+</div>
+</div>
+</div>
+<div class='modal-footer'>
+<a class='btn btn-default' data-dismiss='modal' href='#'>Close</a>
+<input class='btn btn-primary' data-disable-with='Sending...' 
+type='submit' value='Send'>
+</div>
+</form>
+</div>
+</div>
+</div>
+<footer>
+<div class='row'>
+<div class='col-md-2 col-sm-4 col-xs-6'>
+<ul class='nav nav-pills nav-stacked'>
+<li class='heading'>
+Policies
+</li>
+<li>
+<a href='/rules'>Player Rules</a>
+</li>
+<li>
+<a href='/terms'>Terms of Service</a>
+</li>
+<li>
+<a href='/privacy'>Privacy Policy</a>
+</li>
+<li>
+<a href='/refund'>Refund Policy</a>
+</li>
+</ul>
+</div>
+<div class='col-md-2 col-sm-4 col-xs-6'>
+<ul class='nav nav-pills nav-stacked'>
+<li class='heading'>
+Moderation
+</li>
+<li>
+<a href='/report'>Report a Player</a>
+</li>
+<li>
+<a href='/appeal'>Appeal a Punishment</a>
+</li>
+<li>
+<a href='/punishments'>Recent Punishments</a>
+</li>
+</ul>
+</div>
+<div class='clearfix visible-xs-block' style='padding-bottom: 
+20px;'></div>
+<div class='col-md-2 col-sm-4 col-xs-6'>
+<ul class='nav nav-pills nav-stacked'>
+<li class='heading'>
+Organization
+</li>
+<li>
+<a href='/staff'>Staff Listing</a>
+</li>
+<li>
+<a href='/revisions'>Development Logs</a>
+</li>
+<li>
+<a href='https://github.com/OvercastNetwork/Issues'>Report a Bug</a>
+</li>
+</ul>
+</div>
+<div class='clearfix visible-sm-block' style='padding-bottom: 
+20px;'></div>
+<div class='col-md-2 col-sm-4 col-xs-6'>
+<ul class='nav nav-pills nav-stacked'>
+<li class='heading'>
+Contact Us
+</li>
+<li>
+<a class='inquiry' data-toggle='modal' href='#contact'>General 
+Inquiries</a>
+</li>
+<li>
+<a class='inquiry' data-toggle='modal' href='#contact'>Shop Purchases</a>
+</li>
+<li>
+<a href='/appeal'>Ban Appeals</a>
+</li>
+</ul>
+</div>
+<div class='clearfix visible-xs-block' style='padding-bottom: 
+20px;'></div>
+<div class='col-md-2 col-sm-4'>
+<ul class='nav nav-pills nav-stacked follow-us'>
+<li class='heading'>
+Follow Us
+</li>
+<li>
+<a href='https://twitter.com/OvercastPGM'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+Twitter
+</a>
+<a href='https://www.facebook.com/OvercastNetwork'>
+<img 
+src='https://static.oc.tc/assets/facebook_icon-34f4e0ba3a52886710c0360d3f8f35352b6c0a73c7181f690c135b1d24eaa8f0.png'>
+Facebook
+</a>
+<a href='https://www.youtube.com/c/OvercastNetwork'>
+<img 
+src='https://static.oc.tc/assets/youtube_icon-a724516a1d426e48bae525ea6e04abc3e1cf8234989b3f300ed294a61a6c893d.png'>
+YouTube
+</a>
+<a href='http://www.twitch.tv/ocnlive'>
+<img 
+src='https://static.oc.tc/assets/twitch_icon-6604f0ced4759bd1c8bb6a01de875a66024f422c14789a752024980d57ba7398.png'>
+Twitch
+</a>
+</li>
+</ul>
+</div>
+<div class='clearfix visible-xs-block' style='padding-bottom: 
+20px;'></div>
+<div class='col-md-2 col-sm-4' style='text-align: center;'>
+Servers provided by
+<a href='/host'>
+<img class='img-responsive' 
+src='https://static.oc.tc/assets/beastnode-844f199a7f8d0aa2903d26a73ce554bbea1d6030baf3f28bface484c944b5d50.png'>
+</a>
+<div class='copyright'>
+&copy; 2012-2016 Overcast Network
+</div>
+</div>
+</div>
+</footer>
+</div>
+</body>
+</html>

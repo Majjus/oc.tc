@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta name="csrf-param" content="authenticity_token"/>
+<meta name="csrf-token" 
+content="KC2JjoPqxEl085hZc/HLWY+JJ0wUTWEcXvjQR1Jeo/GYyEL2xJ2+iavD5T9Pp6v4SvuXy24Ml6RXDTkctGveAA=="/>
+<meta charset='utf-8'>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+<meta content='#337AB7' name='theme-color'>
+<title>
+Tournaments - Overcast Network
+</title>
+<link rel="shortcut icon" type="image/x-icon" 
+href="https://cdn.oc.tc/assets/favicon.ico"/>
+<link rel="apple-touch-icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-57x57-c773bb9eed44bec814183ea9c338a8d24261d8cf4dd837ebfd11316567fd81e6.png"/>
+<link rel="apple-touch-icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-76x76-9b6f7b609f77f40e69d6c3e05780e0fe93ce4fbf6e39c6c749df63a5c526e294.png" 
+sizes="76x76"/>
+<link rel="apple-touch-icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-120x120-4bf1cbf6c6c04c8b98dfd7c828b08c681c8d7533621ab949131c7542344e0a93.png" 
+sizes="120x120"/>
+<link rel="apple-touch-icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-152x152-9285e43ba8ebd0609dad331dc1edb03224b6237f088b999bfd14f81cf716cab6.png" 
+sizes="152x152"/>
+<link rel="apple-touch-icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-167x167-2b722464c6abcaddf5c0d3f64c3292de32c59c079a8ec829a34c0c064f13b55c.png" 
+sizes="167x167"/>
+<link rel="apple-touch-icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-180x180-feb73f6835138a9162af22513c17b7d077fd3ce7f9ef41744eca3e6cbcdee771.png" 
+sizes="180x180"/>
+<link rel="icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-128x128-e17c0fec61348260984daac0ffa7fb9471a25501ca49ef41b2a0daa3130f8ff4.png" 
+sizes="128x128"/>
+<link rel="icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-192x192-c93c1e496617fec85cd89aa9d3abc62db2232eb1cf901924b5bc81c32bc44ed6.png" 
+sizes="192x192"/>
+<link rel="stylesheet" media="screen" 
+href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css"/>
+<link rel="stylesheet" media="screen" 
+href="https://static.oc.tc/assets/application-bfa7ca518e1a8ca212fef53aaa0650a6f5b4475c06914e7178ff5bec94070752.css"/>
+<link rel="stylesheet" media="screen" 
+href="//fonts.googleapis.com/css?family=Lato:700,400,300"/>
+<link rel="stylesheet" media="screen" 
+href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"/>
+<script 
+src="https://static.oc.tc/assets/libraries-912fd655d5f42721ec0f4b257ad9e600219d21f56ed23b0125feaf20b7f6e28e.js"></script>
+<script 
+src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script 
+src="https://static.oc.tc/assets/application-279754d779d3df8a6e34571f7a04537497dcab3d7ff24f26101905b5bdcd2e1b.js"></script>
+<script 
+src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-3-typeahead/4.0.0/bootstrap3-typeahead.min.js"></script>
+<script>
+  var 
+_gaq=_gaq||[];_gaq.push(["_setAccount","UA-30515952-1"]);_gaq.push(["_trackPageview"]);(function(){var 
+e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var 
+t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})()
+</script>
+</head>
+<body>
+<nav class='navbar navbar-default navbar-static-top'>
+<div class='container'>
+<div class='navbar-header'>
+<button class='navbar-toggle collapsed' 
+data-target='#top-navbar-collapse' data-toggle='collapse' 
+id='top-navbar-collapse-button'>
+<span class='fa fa-bars'></span>
+</button>
+<a class='navbar-brand' href='/'>
+<img class='pull-left' height='34' 
+src='https://cdn.oc.tc/assets/logo.png'>
+Overcast Network
+</a>
+</div>
+<div class='navbar-collapse collapse' id='top-navbar-collapse'>
+<ul class='nav navbar-nav' style='margin-right: 0;'>
+<li>
+<a href='/play'>
+<i class='fa fa-play'></i>
+Play
+</a>
+</li>
+<li>
+<a href='/maps'>
+<i class='fa fa-cubes'></i>
+Maps
+</a>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+<i class='fa fa-user'></i>
+Players
+<b class='caret'></b>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a href='https://oc.tc/leaderboard'>
+<i class='fa fa-star'></i>
+Rankings
+</a>
+</li>
+<li>
+<a href='https://oc.tc/stats'>
+<i class='fa fa-line-chart'></i>
+Stats
+</a>
+</li>
+<li>
+<a href='/channels'>
+<i class='fa fa-youtube-play'></i>
+Channels
+</a>
+</li>
+<form class='player-search'>
+<input class='input-sm form-control typeahead' id='player-search' 
+name='search' placeholder='Search for a player' type='text'>
+</form>
+</ul>
+</li>
+<li class='active dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+<i class='fa fa-trophy'></i>
+League
+<b class='caret'></b>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a href='/teams'>
+<i class='fa fa-group'></i>
+Teams
+</a>
+</li>
+<li>
+<a href='/tournaments'>
+<i class='fa fa-flag'></i>
+Tournaments
+</a>
+</li>
+</ul>
+</li>
+<li>
+<a href='/forums'>
+<i class='fa fa-comments'></i>
+Forum
+</a>
+</li>
+</ul>
+<hr class='visible-xs visible-sm' style='margin: 4px; border-color: 
+#e7e7e7;'>
+<ul class='nav navbar-nav pull-right'>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#' 
+style='outline: none; '>
+<i class='fa fa-user'></i>
+<div class='visible-xs-inline visible-sm-inline'>
+Account
+</div>
+<b class='caret'></b>
+</a>
+<ul class='dropdown-menu dropdown-menu-right'>
+<li>
+<a href='/users/sign_in'>Login</a>
+</li>
+<li>
+<a href='/users/sign_up'>Register</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<div class='container'>
+<div class='flash' style='margin-top: 20px;'>
+</div>
+<section>
+<div class='page-header'>
+<h1>
+Current Tournament
+<a class='pull-right' href='/host' rel='tooltip' title='Servers by 
+BeastNode'>
+<img 
+src='https://static.oc.tc/assets/host/beastnode2-ff395c140276f29cee329726658e40927ff940b0d6c33d368075da823d4470f0.png'>
+</a>
+</h1>
+</div>
+<div class='row'>
+<div class='col-md-12'>
+<a class='tournament-banner' href='/tournaments/rogue-gamemodes'>
+<img class='tournament-banner img-responsive' 
+src='https://static.oc.tc/assets/tournaments/rogue_gamemodes-cce89fcc3f47ff8b677da0c3ae7714c44e1c962376d35338d1dbada05505f949.png'>
+</a>
+</div>
+</div>
+<div class='page-header'>
+<h1>
+Past Tournaments
+</h1>
+</div>
+<div class='row'>
+<div class='col-md-12'>
+<a class='tournament-banner' href='/tournaments/kung-fu-capture'>
+<img class='tournament-banner img-responsive' 
+src='https://static.oc.tc/assets/tournaments/kung_fu_capture-a3fc49400dfc5ff742aafe8676aa25ee9e6df81bfaf6b0db4f7d84f81e67bee1.png'>
+</a>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-12'>
+<a class='tournament-banner' href='/tournaments/the-legend-of-ares'>
+<img class='tournament-banner img-responsive' 
+src='https://static.oc.tc/assets/tournaments/the_legend_of_ares-aa0a9bcbc9da1f62cd6cebc4a67f8172b9b67ea4f68672d72c32a1d44843a646.png'>
+</a>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-12'>
+<a class='tournament-banner' href='/tournaments/straight-outta-capture'>
+<img class='tournament-banner img-responsive' 
+src='https://static.oc.tc/assets/tournaments/straight_outta_capture-ceb9860af1dd9fbdc0e9ebc46fdac6bd7c8165d3ea12c0362df22f45f2ce8f77.png'>
+</a>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-12'>
+<a class='tournament-banner' href='/tournaments/conquest-2'>
+<img class='tournament-banner img-responsive' 
+src='https://static.oc.tc/assets/tournaments/conquest_2-7208aca1a0713c408c1c7fbdbe328977ff72fa791dee7593ac897b59dcb64d1e.png'>
+</a>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-12'>
+<a class='tournament-banner' href='/tournaments/age-of-ares'>
+<img class='tournament-banner img-responsive' 
+src='https://static.oc.tc/assets/tournaments/age_of_ares-6baf076bc98e2943e6b03cdd511898e3cec905e920a5b1d3e459c66f15cefcd0.png'>
+</a>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-12'>
+<a class='tournament-banner' href='/tournaments/star-war-wars'>
+<img class='tournament-banner img-responsive' 
+src='https://static.oc.tc/assets/tournaments/star_war_wars-dcd2056787671d44100f31d84b2c747ebcf3cde55559beb03162d06d6cece376.png'>
+</a>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-12'>
+<a class='tournament-banner' href='/tournaments/house-of-cores'>
+<img class='tournament-banner img-responsive' 
+src='https://static.oc.tc/assets/tournaments/house_of_cores-8cf7e0aaf15b42e787234fa486960a9fa88f8e40e0792cd668d06801b5796911.png'>
+</a>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-12'>
+<a class='tournament-banner' href='/tournaments/conquest'>
+<img class='tournament-banner img-responsive' 
+src='https://static.oc.tc/assets/tournaments/conquest-e390d46de9b0d161486fbf7ad6d142a2e31be6337689974af2fc529c111dea2d.png'>
+</a>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-12'>
+<a class='tournament-banner' href='/tournaments/guardians-of-the-wool'>
+<img class='tournament-banner img-responsive' 
+src='https://static.oc.tc/assets/tournaments/guardians_of_the_wool-282412fb13f105361223054cbadbdd29ab03475d6b14f327ebafa85d2c9544d5.png'>
+</a>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-12'>
+<a class='tournament-banner' href='/tournaments/boom-in-a-box'>
+<img class='tournament-banner img-responsive' 
+src='https://static.oc.tc/assets/tournaments/boom_in_a_box-1676c273babf1114150b09aeeeec5cc87cc01f0a72628720e165589497acd2d7.png'>
+</a>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-12'>
+<a class='tournament-banner' href='/tournaments/queen-of-the-wool'>
+<img class='tournament-banner img-responsive' 
+src='https://static.oc.tc/assets/tournaments/queen_of_the_wool-1e05aa59c37a7e3ad66cba0041cfb554a68e220a9afe0199df4c0c151d67dcae.png'>
+</a>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-12'>
+<a class='tournament-banner' href='/tournaments/king-of-the-wool'>
+<img class='tournament-banner img-responsive' 
+src='https://static.oc.tc/assets/tournaments/king_of_the_wool-020b2e38cdfbee1a3dba0c10914001f0dea061bd37ea0a0070b576afdcbf1c74.png'>
+</a>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-12'>
+<a class='tournament-banner' href='/tournaments/breaking-core'>
+<img class='tournament-banner img-responsive' 
+src='https://static.oc.tc/assets/tournaments/breaking_core-305584d2ae9112b5599bb52be13cd1873e5590f34ae45c9c87676a9d3946e04a.png'>
+</a>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-12'>
+<a class='tournament-banner' href='/tournaments/return-of-the-hill'>
+<img class='tournament-banner img-responsive' 
+src='https://static.oc.tc/assets/tournaments/return_of_the_hill-e0f3191138b14c7220aa6b25a9134ebe647328514c79f5ae2308c8468d3d791f.png'>
+</a>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-12'>
+<a class='tournament-banner' href='/tournaments/goblet-of-gamemodes'>
+<img class='tournament-banner img-responsive' 
+src='https://static.oc.tc/assets/tournaments/goblet_of_gamemodes-1201deebd7bc8858f8c831d3165cf16844beb1cb0e7b453f62c6cd50b2c56873.png'>
+</a>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-12'>
+<a class='tournament-banner' 
+href='/tournaments/raiders-of-the-lost-wool'>
+<img class='tournament-banner img-responsive' 
+src='https://static.oc.tc/assets/tournaments/raiders_of_the_lost_wool-ce078f7223580b6f169249c891288062e9dbece082c926b6c114c61a4a3b2c6e.png'>
+</a>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-12'>
+<a class='tournament-banner' href='/tournaments/attack-of-the-cores'>
+<img class='tournament-banner img-responsive' 
+src='https://static.oc.tc/assets/tournaments/attack_of_the_cores-58990c1d7d229b87f0e9f28b6fb2ddbefec39baeb1ae8d3d062bb925338370b0.png'>
+</a>
+</div>
+</div>
+</section>
+<hr>
+<div class='modal fade' id='contact'>
+<div class='modal-dialog'>
+<div class='modal-content'>
+<form class="simple_form new_inquiry" id="new_inquiry" action="/inquire" 
+accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" 
+value="&#x2713;"/><input type="hidden" name="authenticity_token" 
+value="Fyo699dIrCGevQ2ZutejFiGTOrZFCINfGdlDvHTqlxenz/GPkD/W4UGNcP+GgcO35OGKMT9JdecQLKrnkt/q5g=="/><input 
+class='subj' name='type' type='hidden' value=''>
+<div class='modal-header'>
+<button class='close' data-dismiss='modal'>&times;</button>
+<h3 class='modal-title'>
+Contact Overcast Network
+<small class='subject'></small>
+</h3>
+</div>
+<div class='modal-body'>
+<div class='row'>
+<div class='col-md-6'>
+<div class='form-group'>
+<label class="string optional control-label" 
+for="inquiry_username">Username</label>
+<input required="required" class="form-control" type="text" 
+name="inquiry[username]" id="inquiry_username"/>
+</div>
+<div class='form-group'>
+<label class="string optional control-label" 
+for="inquiry_message">Message</label>
+<textarea rows="10" class="form-control" name="inquiry[message]" 
+id="inquiry_message">
+</textarea>
+</div>
+</div>
+<div class='col-md-6'>
+<div class='form-group'>
+<label class="email optional control-label" 
+for="inquiry_email">Email</label>
+<input required="required" class="form-control" type="email" 
+name="inquiry[email]" id="inquiry_email"/>
+</div>
+<div class='form-group'>
+<label class="string optional control-label" 
+for="inquiry_subject">Subject</label>
+<input required="required" class="form-control" type="text" 
+name="inquiry[subject]" id="inquiry_subject"/>
+</div>
+<p>We usually respond within 1-2 days if you provide a valid email</p>
+<p>Please be as clear and concise as possible. It will help us process 
+your inquiry faster.</p>
+</div>
+</div>
+</div>
+<div class='modal-footer'>
+<a class='btn btn-default' data-dismiss='modal' href='#'>Close</a>
+<input class='btn btn-primary' data-disable-with='Sending...' 
+type='submit' value='Send'>
+</div>
+</form>
+</div>
+</div>
+</div>
+<footer>
+<div class='row'>
+<div class='col-md-2 col-sm-4 col-xs-6'>
+<ul class='nav nav-pills nav-stacked'>
+<li class='heading'>
+Policies
+</li>
+<li>
+<a href='/rules'>Player Rules</a>
+</li>
+<li>
+<a href='/terms'>Terms of Service</a>
+</li>
+<li>
+<a href='/privacy'>Privacy Policy</a>
+</li>
+<li>
+<a href='/refund'>Refund Policy</a>
+</li>
+</ul>
+</div>
+<div class='col-md-2 col-sm-4 col-xs-6'>
+<ul class='nav nav-pills nav-stacked'>
+<li class='heading'>
+Moderation
+</li>
+<li>
+<a href='/report'>Report a Player</a>
+</li>
+<li>
+<a href='/appeal'>Appeal a Punishment</a>
+</li>
+<li>
+<a href='/punishments'>Recent Punishments</a>
+</li>
+</ul>
+</div>
+<div class='clearfix visible-xs-block' style='padding-bottom: 
+20px;'></div>
+<div class='col-md-2 col-sm-4 col-xs-6'>
+<ul class='nav nav-pills nav-stacked'>
+<li class='heading'>
+Organization
+</li>
+<li>
+<a href='/staff'>Staff Listing</a>
+</li>
+<li>
+<a href='/revisions'>Development Logs</a>
+</li>
+<li>
+<a href='https://github.com/OvercastNetwork/Issues'>Report a Bug</a>
+</li>
+</ul>
+</div>
+<div class='clearfix visible-sm-block' style='padding-bottom: 
+20px;'></div>
+<div class='col-md-2 col-sm-4 col-xs-6'>
+<ul class='nav nav-pills nav-stacked'>
+<li class='heading'>
+Contact Us
+</li>
+<li>
+<a class='inquiry' data-toggle='modal' href='#contact'>General 
+Inquiries</a>
+</li>
+<li>
+<a class='inquiry' data-toggle='modal' href='#contact'>Shop Purchases</a>
+</li>
+<li>
+<a href='/appeal'>Ban Appeals</a>
+</li>
+</ul>
+</div>
+<div class='clearfix visible-xs-block' style='padding-bottom: 
+20px;'></div>
+<div class='col-md-2 col-sm-4'>
+<ul class='nav nav-pills nav-stacked follow-us'>
+<li class='heading'>
+Follow Us
+</li>
+<li>
+<a href='https://twitter.com/OvercastPGM'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+Twitter
+</a>
+<a href='https://www.facebook.com/OvercastNetwork'>
+<img 
+src='https://static.oc.tc/assets/facebook_icon-34f4e0ba3a52886710c0360d3f8f35352b6c0a73c7181f690c135b1d24eaa8f0.png'>
+Facebook
+</a>
+<a href='https://www.youtube.com/c/OvercastNetwork'>
+<img 
+src='https://static.oc.tc/assets/youtube_icon-a724516a1d426e48bae525ea6e04abc3e1cf8234989b3f300ed294a61a6c893d.png'>
+YouTube
+</a>
+<a href='http://www.twitch.tv/ocnlive'>
+<img 
+src='https://static.oc.tc/assets/twitch_icon-6604f0ced4759bd1c8bb6a01de875a66024f422c14789a752024980d57ba7398.png'>
+Twitch
+</a>
+</li>
+</ul>
+</div>
+<div class='clearfix visible-xs-block' style='padding-bottom: 
+20px;'></div>
+<div class='col-md-2 col-sm-4' style='text-align: center;'>
+Servers provided by
+<a href='/host'>
+<img class='img-responsive' 
+src='https://static.oc.tc/assets/beastnode-844f199a7f8d0aa2903d26a73ce554bbea1d6030baf3f28bface484c944b5d50.png'>
+</a>
+<div class='copyright'>
+&copy; 2012-2016 Overcast Network
+</div>
+</div>
+</div>
+</footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,2411 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta name="csrf-param" content="authenticity_token"/>
+<meta name="csrf-token" 
+content="+JiitvGFDeK0JFhzwBg1bjaXil+JN7/Z2EqgZinXDHkIFSLBaRYxvtkStW8NS/w/QCi9V2aiaymN4y/BjGMjsw=="/>
+<meta charset='utf-8'>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+<meta content='#337AB7' name='theme-color'>
+<title>
+Staff - Overcast Network
+</title>
+<link rel="shortcut icon" type="image/x-icon" 
+href="https://cdn.oc.tc/assets/favicon.ico"/>
+<link rel="apple-touch-icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-57x57-c773bb9eed44bec814183ea9c338a8d24261d8cf4dd837ebfd11316567fd81e6.png"/>
+<link rel="apple-touch-icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-76x76-9b6f7b609f77f40e69d6c3e05780e0fe93ce4fbf6e39c6c749df63a5c526e294.png" 
+sizes="76x76"/>
+<link rel="apple-touch-icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-120x120-4bf1cbf6c6c04c8b98dfd7c828b08c681c8d7533621ab949131c7542344e0a93.png" 
+sizes="120x120"/>
+<link rel="apple-touch-icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-152x152-9285e43ba8ebd0609dad331dc1edb03224b6237f088b999bfd14f81cf716cab6.png" 
+sizes="152x152"/>
+<link rel="apple-touch-icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-167x167-2b722464c6abcaddf5c0d3f64c3292de32c59c079a8ec829a34c0c064f13b55c.png" 
+sizes="167x167"/>
+<link rel="apple-touch-icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-180x180-feb73f6835138a9162af22513c17b7d077fd3ce7f9ef41744eca3e6cbcdee771.png" 
+sizes="180x180"/>
+<link rel="icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-128x128-e17c0fec61348260984daac0ffa7fb9471a25501ca49ef41b2a0daa3130f8ff4.png" 
+sizes="128x128"/>
+<link rel="icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-192x192-c93c1e496617fec85cd89aa9d3abc62db2232eb1cf901924b5bc81c32bc44ed6.png" 
+sizes="192x192"/>
+<link rel="stylesheet" media="screen" 
+href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css"/>
+<link rel="stylesheet" media="screen" 
+href="https://static.oc.tc/assets/application-bfa7ca518e1a8ca212fef53aaa0650a6f5b4475c06914e7178ff5bec94070752.css"/>
+<link rel="stylesheet" media="screen" 
+href="//fonts.googleapis.com/css?family=Lato:700,400,300"/>
+<link rel="stylesheet" media="screen" 
+href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"/>
+<script 
+src="https://static.oc.tc/assets/libraries-912fd655d5f42721ec0f4b257ad9e600219d21f56ed23b0125feaf20b7f6e28e.js"></script>
+<script 
+src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script 
+src="https://static.oc.tc/assets/application-279754d779d3df8a6e34571f7a04537497dcab3d7ff24f26101905b5bdcd2e1b.js"></script>
+<script 
+src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-3-typeahead/4.0.0/bootstrap3-typeahead.min.js"></script>
+<script>
+  var 
+_gaq=_gaq||[];_gaq.push(["_setAccount","UA-30515952-1"]);_gaq.push(["_trackPageview"]);(function(){var 
+e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var 
+t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})()
+</script>
+</head>
+<body>
+<nav class='navbar navbar-default navbar-static-top'>
+<div class='container'>
+<div class='navbar-header'>
+<button class='navbar-toggle collapsed' 
+data-target='#top-navbar-collapse' data-toggle='collapse' 
+id='top-navbar-collapse-button'>
+<span class='fa fa-bars'></span>
+</button>
+<a class='navbar-brand' href='/'>
+<img class='pull-left' height='34' 
+src='https://cdn.oc.tc/assets/logo.png'>
+Overcast Network
+</a>
+</div>
+<div class='navbar-collapse collapse' id='top-navbar-collapse'>
+<ul class='nav navbar-nav' style='margin-right: 0;'>
+<li>
+<a href='/play'>
+<i class='fa fa-play'></i>
+Play
+</a>
+</li>
+<li>
+<a href='/maps'>
+<i class='fa fa-cubes'></i>
+Maps
+</a>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+<i class='fa fa-user'></i>
+Players
+<b class='caret'></b>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a href='https://oc.tc/leaderboard'>
+<i class='fa fa-star'></i>
+Rankings
+</a>
+</li>
+<li>
+<a href='https://oc.tc/stats'>
+<i class='fa fa-line-chart'></i>
+Stats
+</a>
+</li>
+<li>
+<a href='/channels'>
+<i class='fa fa-youtube-play'></i>
+Channels
+</a>
+</li>
+<form class='player-search'>
+<input class='input-sm form-control typeahead' id='player-search' 
+name='search' placeholder='Search for a player' type='text'>
+</form>
+</ul>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+<i class='fa fa-trophy'></i>
+League
+<b class='caret'></b>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a href='/teams'>
+<i class='fa fa-group'></i>
+Teams
+</a>
+</li>
+<li>
+<a href='/tournaments'>
+<i class='fa fa-flag'></i>
+Tournaments
+</a>
+</li>
+</ul>
+</li>
+<li>
+<a href='/forums'>
+<i class='fa fa-comments'></i>
+Forum
+</a>
+</li>
+</ul>
+<hr class='visible-xs visible-sm' style='margin: 4px; border-color: 
+#e7e7e7;'>
+<ul class='nav navbar-nav pull-right'>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#' 
+style='outline: none; '>
+<i class='fa fa-user'></i>
+<div class='visible-xs-inline visible-sm-inline'>
+Account
+</div>
+<b class='caret'></b>
+</a>
+<ul class='dropdown-menu dropdown-menu-right'>
+<li>
+<a href='/users/sign_in'>Login</a>
+</li>
+<li>
+<a href='/users/sign_up'>Register</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<div class='container'>
+<div class='flash' style='margin-top: 20px;'>
+</div>
+<section>
+<div class='page-header'>
+<h1>
+Staff
+<small>These folks help run and maintain Overcast Network</small>
+<a class='pull-right' href='/host' rel='tooltip' title='Servers by 
+BeastNode'>
+<img 
+src='https://static.oc.tc/assets/host/beastnode2-ff395c140276f29cee329726658e40927ff940b0d6c33d368075da823d4470f0.png'>
+</a>
+</h1>
+</div>
+<div class='row staff-group'>
+<div class='col-md-12'>
+<h2 style='color: #f89406'>
+Administrators
+<small>6</small>
+</h2>
+<p class='small'></p>
+<hr>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Cubist'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" src="https://cravatar.eu/helmavatar/
+Cubist/90.png
+"/>
+<div class='staff-username' style='color: #f89406; border-bottom-color: 
+#f89406;'>Cubist</div>
+<div class='staff-role'>Programming &amp; Technology</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Brottweiler'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+Brottweiler/90.png
+"/>
+<div class='staff-username' style='color: #f89406; border-bottom-color: 
+#f89406;'>Brottweiler</div>
+<div class='staff-role'>Moderation &amp; Support</div>
+</a>
+<div class='staff-social'>
+<a href='/cdn-cgi/l/email-protection#91f3e3fee5e5d1fef2bfe5f2'>
+<i class='fa fa-envelope'></i>
+</a>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/BrettOgden'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+BrettOgden/90.png
+"/>
+<div class='staff-username' style='color: #f89406; border-bottom-color: 
+#f89406;'>BrettOgden</div>
+<div class='staff-role'>Production</div>
+</a>
+<div class='staff-social'>
+<a href='/cdn-cgi/l/email-protection#a6e4d4c3d2d2e6c9c588d2c5'>
+<i class='fa fa-envelope'></i>
+</a>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/rteder'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" src="https://cravatar.eu/helmavatar/
+rteder/90.png
+"/>
+<div class='staff-username' style='color: #f89406; border-bottom-color: 
+#f89406;'>rteder</div>
+<div class='staff-role'>Captain</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/LifeboatLuke'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+LifeboatLuke/90.png
+"/>
+<div class='staff-username' style='color: #f89406; border-bottom-color: 
+#f89406;'>LifeboatLuke</div>
+<div class='staff-role'>Production &amp; Marketing</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/bcbwilla'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+bcbwilla/90.png
+"/>
+<div class='staff-username' style='color: #f89406; border-bottom-color: 
+#f89406;'>bcbwilla</div>
+<div class='staff-role'>Marketing &amp; Community</div>
+</a>
+<div class='staff-social'>
+<a href='http://twitter.com/bcbwilla' target='_blank'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class='row staff-group'>
+<div class='col-md-12'>
+<h2 style='color: purple'>
+Developers
+<small>2</small>
+</h2>
+<p class='small'></p>
+<hr>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Cubist'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" src="https://cravatar.eu/helmavatar/
+Cubist/90.png
+"/>
+<div class='staff-username' style='color: purple; border-bottom-color: 
+purple;'>Cubist</div>
+<div class='staff-role'>Lead Developer</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Pablete1234'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+Pablete1234/90.png
+"/>
+<div class='staff-username' style='color: purple; border-bottom-color: 
+purple;'>Pablete1234</div>
+<div class='staff-role'>Developer</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+</div>
+<div class='row staff-group'>
+<div class='col-md-12'>
+<h2 style='color: #0079A0'>
+Lifeboat PE
+<small>2</small>
+</h2>
+<p class='small'></p>
+<hr>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/potpotsie'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+potpotsie/90.png
+"/>
+<div class='staff-username' style='color: #0079A0; border-bottom-color: 
+#0079A0;'>potpotsie</div>
+<div class='staff-role'>Community Manager</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/RamenNoodless'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+RamenNoodless/90.png
+"/>
+<div class='staff-username' style='color: #0079A0; border-bottom-color: 
+#0079A0;'>RamenNoodless</div>
+<div class='staff-role'>Support Lead</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+</div>
+<div class='row staff-group'>
+<div class='col-md-12'>
+<h2 style='color: #A00'>
+Senior Moderators
+<small>5</small>
+</h2>
+<p class='small'></p>
+<hr>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Noel'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" src="https://cravatar.eu/helmavatar/
+Noel/90.png
+"/>
+<div class='staff-username' style='color: #A00; border-bottom-color: 
+#A00;'>Noel</div>
+<div class='staff-role'>Senior Moderator</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/majjus_'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" src="https://cravatar.eu/helmavatar/
+majjus_/90.png
+"/>
+<div class='staff-username' style='color: #A00; border-bottom-color: 
+#A00;'>majjus_</div>
+<div class='staff-role'>Senior Moderator</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Eudaldca'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+Eudaldca/90.png
+"/>
+<div class='staff-username' style='color: #A00; border-bottom-color: 
+#A00;'>Eudaldca</div>
+<div class='staff-role'>Senior Moderator</div>
+</a>
+<div class='staff-social'>
+<a href='http://twitter.com/Eudaldca' target='_blank'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+</a>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/stupid3700'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+stupid3700/90.png
+"/>
+<div class='staff-username' style='color: #A00; border-bottom-color: 
+#A00;'>stupid3700</div>
+<div class='staff-role'>Senior Moderator</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Deoz'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" src="https://cravatar.eu/helmavatar/
+Deoz/90.png
+"/>
+<div class='staff-username' style='color: #A00; border-bottom-color: 
+#A00;'>Deoz</div>
+<div class='staff-role'>Senior Moderator</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+</div>
+<div class='row staff-group'>
+<div class='col-md-12'>
+<h2 style='color: #2233aa'>
+Level Designers
+<small>12</small>
+</h2>
+<p class='small'></p>
+<hr>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Tywnis'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" src="https://cravatar.eu/helmavatar/
+Tywnis/90.png
+"/>
+<div class='staff-username' style='color: #2233aa; border-bottom-color: 
+#2233aa;'>Tywnis</div>
+<div class='staff-role'>Senior Level Designer</div>
+</a>
+<div class='staff-social'>
+<a href='http://twitter.com/Tywnis' target='_blank'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+</a>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Strangey'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+Strangey/90.png
+"/>
+<div class='staff-username' style='color: #2233aa; border-bottom-color: 
+#2233aa;'>Strangey</div>
+<div class='staff-role'>Senior Level Designer</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Equus'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" src="https://cravatar.eu/helmavatar/
+Equus/90.png
+"/>
+<div class='staff-username' style='color: #2233aa; border-bottom-color: 
+#2233aa;'>Equus</div>
+<div class='staff-role'>Level Designer</div>
+</a>
+<div class='staff-social'>
+<a href='http://twitter.com/Lord_Equus' target='_blank'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+</a>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/mitchiii_'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+mitchiii_/90.png
+"/>
+<div class='staff-username' style='color: #2233aa; border-bottom-color: 
+#2233aa;'>mitchiii_</div>
+<div class='staff-role'>Head Community Level Designer</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Pugzy'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" src="https://cravatar.eu/helmavatar/
+Pugzy/90.png
+"/>
+<div class='staff-username' style='color: #2233aa; border-bottom-color: 
+#2233aa;'>Pugzy</div>
+<div class='staff-role'>Level Designer</div>
+</a>
+<div class='staff-social'>
+<a href='http://twitter.com/Pugzy_' target='_blank'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+</a>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/NixaniaXi'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+NixaniaXi/90.png
+"/>
+<div class='staff-username' style='color: #2233aa; border-bottom-color: 
+#2233aa;'>NixaniaXi</div>
+<div class='staff-role'>Level Designer</div>
+</a>
+<div class='staff-social'>
+<a href='http://twitter.com/NixaniaXi' target='_blank'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+</a>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/samthecat43'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+samthecat43/90.png
+"/>
+<div class='staff-username' style='color: #2233aa; border-bottom-color: 
+#2233aa;'>samthecat43</div>
+<div class='staff-role'>Level Designer</div>
+</a>
+<div class='staff-social'>
+<a href='http://twitter.com/samthekitten' target='_blank'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+</a>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/triplezko'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+triplezko/90.png
+"/>
+<div class='staff-username' style='color: #2233aa; border-bottom-color: 
+#2233aa;'>triplezko</div>
+<div class='staff-role'>Level Designer</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Matic0B'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" src="https://cravatar.eu/helmavatar/
+Matic0B/90.png
+"/>
+<div class='staff-username' style='color: #2233aa; border-bottom-color: 
+#2233aa;'>Matic0B</div>
+<div class='staff-role'>Level Designer</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Poseidons'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+Poseidons/90.png
+"/>
+<div class='staff-username' style='color: #2233aa; border-bottom-color: 
+#2233aa;'>Poseidons</div>
+<div class='staff-role'>Community Level Designer</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Tigo'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" src="https://cravatar.eu/helmavatar/
+Tigo/90.png
+"/>
+<div class='staff-username' style='color: #2233aa; border-bottom-color: 
+#2233aa;'>Tigo</div>
+<div class='staff-role'>Community Level Designer</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/DoomyBoy'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+DoomyBoy/90.png
+"/>
+<div class='staff-username' style='color: #2233aa; border-bottom-color: 
+#2233aa;'>DoomyBoy</div>
+<div class='staff-role'>Level Designer</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+</div>
+<div class='row staff-group'>
+<div class='col-md-12'>
+<h2 style='color: #008888'>
+Event Coordinators
+<small>6</small>
+</h2>
+<p class='small'></p>
+<hr>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/majjus_'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" src="https://cravatar.eu/helmavatar/
+majjus_/90.png
+"/>
+<div class='staff-username' style='color: #008888; border-bottom-color: 
+#008888;'>majjus_</div>
+<div class='staff-role'>Senior Event Coordinator</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Lieutenantpants'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+Lieutenantpants/90.png
+"/>
+<div class='staff-username' style='color: #008888; border-bottom-color: 
+#008888;'>Lieutenantpants</div>
+<div class='staff-role'>Event Coordinator</div>
+</a>
+<div class='staff-social'>
+<a href='http://twitter.com/NathanCard_' target='_blank'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+</a>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Strangey'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+Strangey/90.png
+"/>
+<div class='staff-username' style='color: #008888; border-bottom-color: 
+#008888;'>Strangey</div>
+<div class='staff-role'>Event Coordinator</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Rahuul'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" src="https://cravatar.eu/helmavatar/
+Rahuul/90.png
+"/>
+<div class='staff-username' style='color: #008888; border-bottom-color: 
+#008888;'>Rahuul</div>
+<div class='staff-role'>Event Coordinator</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Strmr'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" src="https://cravatar.eu/helmavatar/
+Strmr/90.png
+"/>
+<div class='staff-username' style='color: #008888; border-bottom-color: 
+#008888;'>Strmr</div>
+<div class='staff-role'>Event Coordinator</div>
+</a>
+<div class='staff-social'>
+<a href='http://twitter.com/stormer1267' target='_blank'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+</a>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/bcbwilla'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+bcbwilla/90.png
+"/>
+<div class='staff-username' style='color: #008888; border-bottom-color: 
+#008888;'>bcbwilla</div>
+<div class='staff-role'>Event Coordinator</div>
+</a>
+<div class='staff-social'>
+<a href='http://twitter.com/bcbwilla' target='_blank'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class='row staff-group'>
+<div class='col-md-12'>
+<h2 style='color: #080'>
+Translators
+<small>2</small>
+</h2>
+<p class='small'></p>
+<hr>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Monti'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" src="https://cravatar.eu/helmavatar/
+Monti/90.png
+"/>
+<div class='staff-username' style='color: #080; border-bottom-color: 
+#080;'>Monti</div>
+<div class='staff-role'>Lead Translator</div>
+</a>
+<div class='staff-social'>
+<a 
+href='/cdn-cgi/l/email-protection#0773756669746b66736e686974476864297364'>
+<i class='fa fa-envelope'></i>
+</a>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Ceinrath'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+Ceinrath/90.png
+"/>
+<div class='staff-username' style='color: #080; border-bottom-color: 
+#080;'>Ceinrath</div>
+<div class='staff-role'>Lead Translator</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+</div>
+<div class='row staff-group'>
+<div class='col-md-12'>
+<h2 style='color: #F20'>
+Moderators
+<small>42</small>
+</h2>
+<p class='small'></p>
+<hr>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/koipen'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" src="https://cravatar.eu/helmavatar/
+koipen/90.png
+"/>
+<div class='staff-username' style='color: #F20; border-bottom-color: 
+#F20;'>koipen</div>
+<div class='staff-role'>Moderator</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/diamond22'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+diamond22/90.png
+"/>
+<div class='staff-username' style='color: #F20; border-bottom-color: 
+#F20;'>diamond22</div>
+<div class='staff-role'>Moderator</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Tjandra'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" src="https://cravatar.eu/helmavatar/
+Tjandra/90.png
+"/>
+<div class='staff-username' style='color: #F20; border-bottom-color: 
+#F20;'>Tjandra</div>
+<div class='staff-role'>Moderator</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Tywnis'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" src="https://cravatar.eu/helmavatar/
+Tywnis/90.png
+"/>
+<div class='staff-username' style='color: #F20; border-bottom-color: 
+#F20;'>Tywnis</div>
+<div class='staff-role'>Moderator</div>
+</a>
+<div class='staff-social'>
+<a href='http://twitter.com/Tywnis' target='_blank'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/GabeIsAwesome199'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+GabeIsAwesome199/90.png
+"/>
+<div class='staff-username' style='color: #F20; border-bottom-color: 
+#F20;'>GabeIsAwesome199</div>
+<div class='staff-role'>Moderator</div>
+</a>
+<div class='staff-social'>
+<a href='http://twitter.com/GabeIsAwesome199' target='_blank'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+</a>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/iamramsey'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+iamramsey/90.png
+"/>
+<div class='staff-username' style='color: #F20; border-bottom-color: 
+#F20;'>iamramsey</div>
+<div class='staff-role'>Moderator</div>
+</a>
+<div class='staff-social'>
+<a href='http://twitter.com/@iamramsey' target='_blank'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+</a>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/CaptainRei'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+CaptainRei/90.png
+"/>
+<div class='staff-username' style='color: #F20; border-bottom-color: 
+#F20;'>CaptainRei</div>
+<div class='staff-role'>Moderator</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/ShinyDialga'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+ShinyDialga/90.png
+"/>
+<div class='staff-username' style='color: #F20; border-bottom-color: 
+#F20;'>ShinyDialga</div>
+<div class='staff-role'>Moderator</div>
+</a>
+<div class='staff-social'>
+<a href='http://twitter.com/ShinyDialga45' target='_blank'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Lieutenantpants'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+Lieutenantpants/90.png
+"/>
+<div class='staff-username' style='color: #F20; border-bottom-color: 
+#F20;'>Lieutenantpants</div>
+<div class='staff-role'>Moderator</div>
+</a>
+<div class='staff-social'>
+<a href='http://twitter.com/NathanCard_' target='_blank'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+</a>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Brumlington'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+Brumlington/90.png
+"/>
+<div class='staff-username' style='color: #F20; border-bottom-color: 
+#F20;'>Brumlington</div>
+<div class='staff-role'>Moderator</div>
+</a>
+<div class='staff-social'>
+<a href='http://twitter.com/edballs/status/63623585020915713' 
+target='_blank'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+</a>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Equus'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" src="https://cravatar.eu/helmavatar/
+Equus/90.png
+"/>
+<div class='staff-username' style='color: #F20; border-bottom-color: 
+#F20;'>Equus</div>
+<div class='staff-role'>Moderator</div>
+</a>
+<div class='staff-social'>
+<a href='http://twitter.com/Lord_Equus' target='_blank'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+</a>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Arzanex'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" src="https://cravatar.eu/helmavatar/
+Arzanex/90.png
+"/>
+<div class='staff-username' style='color: #F20; border-bottom-color: 
+#F20;'>Arzanex</div>
+<div class='staff-role'>Moderator</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Pugzy'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" src="https://cravatar.eu/helmavatar/
+Pugzy/90.png
+"/>
+<div class='staff-username' style='color: #F20; border-bottom-color: 
+#F20;'>Pugzy</div>
+<div class='staff-role'>Moderator</div>
+</a>
+<div class='staff-social'>
+<a href='http://twitter.com/Pugzy_' target='_blank'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+</a>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Strangey'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+Strangey/90.png
+"/>
+<div class='staff-username' style='color: #F20; border-bottom-color: 
+#F20;'>Strangey</div>
+<div class='staff-role'>Moderator</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/SailorMojo'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+SailorMojo/90.png
+"/>
+<div class='staff-username' style='color: #F20; border-bottom-color: 
+#F20;'>SailorMojo</div>
+<div class='staff-role'>Moderator</div>
+</a>
+<div class='staff-social'>
+<a href='http://twitter.com/TheSailorMojo' target='_blank'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+</a>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/SheriffSoco'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+SheriffSoco/90.png
+"/>
+<div class='staff-username' style='color: #F20; border-bottom-color: 
+#F20;'>SheriffSoco</div>
+<div class='staff-role'>Moderator</div>
+</a>
+<div class='staff-social'>
+<a href='http://twitter.com/sheriffsoco' target='_blank'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Diamyx'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" src="https://cravatar.eu/helmavatar/
+Diamyx/90.png
+"/>
+<div class='staff-username' style='color: #F20; border-bottom-color: 
+#F20;'>Diamyx</div>
+<div class='staff-role'>Moderator</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Rahuul'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" src="https://cravatar.eu/helmavatar/
+Rahuul/90.png
+"/>
+<div class='staff-username' style='color: #F20; border-bottom-color: 
+#F20;'>Rahuul</div>
+<div class='staff-role'>Moderator</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/mitchiii_'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+mitchiii_/90.png
+"/>
+<div class='staff-username' style='color: #F20; border-bottom-color: 
+#F20;'>mitchiii_</div>
+<div class='staff-role'>Moderator</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/NixaniaXi'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+NixaniaXi/90.png
+"/>
+<div class='staff-username' style='color: #F20; border-bottom-color: 
+#F20;'>NixaniaXi</div>
+<div class='staff-role'>Moderator</div>
+</a>
+<div class='staff-social'>
+<a href='http://twitter.com/NixaniaXi' target='_blank'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/FoodsCloud'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+FoodsCloud/90.png
+"/>
+<div class='staff-username' style='color: #F20; border-bottom-color: 
+#F20;'>FoodsCloud</div>
+<div class='staff-role'>Moderator</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/AMSGamingTQ'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+AMSGamingTQ/90.png
+"/>
+<div class='staff-username' style='color: #F20; border-bottom-color: 
+#F20;'>AMSGamingTQ</div>
+<div class='staff-role'>Moderator</div>
+</a>
+<div class='staff-social'>
+<a href='http://twitter.com/AMSGamingTQ' target='_blank'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+</a>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/ItzaMeLuigi'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+ItzaMeLuigi/90.png
+"/>
+<div class='staff-username' style='color: #F20; border-bottom-color: 
+#F20;'>ItzaMeLuigi</div>
+<div class='staff-role'>Moderator</div>
+</a>
+<div class='staff-social'>
+<a href='http://twitter.com/ItzaMeLuigi' target='_blank'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+</a>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/amactus'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" src="https://cravatar.eu/helmavatar/
+amactus/90.png
+"/>
+<div class='staff-username' style='color: #F20; border-bottom-color: 
+#F20;'>amactus</div>
+<div class='staff-role'>Moderator</div>
+</a>
+<div class='staff-social'>
+<a href='http://twitter.com/amactus' target='_blank'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/jdvh'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" src="https://cravatar.eu/helmavatar/
+jdvh/90.png
+"/>
+<div class='staff-username' style='color: #F20; border-bottom-color: 
+#F20;'>jdvh</div>
+<div class='staff-role'>Moderator</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Melonnade'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+Melonnade/90.png
+"/>
+<div class='staff-username' style='color: #F20; border-bottom-color: 
+#F20;'>Melonnade</div>
+<div class='staff-role'>Moderator</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/AllttA'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" src="https://cravatar.eu/helmavatar/
+AllttA/90.png
+"/>
+<div class='staff-username' style='color: #F20; border-bottom-color: 
+#F20;'>AllttA</div>
+<div class='staff-role'>Moderator</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Merlijn'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" src="https://cravatar.eu/helmavatar/
+Merlijn/90.png
+"/>
+<div class='staff-username' style='color: #F20; border-bottom-color: 
+#F20;'>Merlijn</div>
+<div class='staff-role'>Moderator</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/luisgbr99OCN'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+luisgbr99OCN/90.png
+"/>
+<div class='staff-username' style='color: #F20; border-bottom-color: 
+#F20;'>luisgbr99OCN</div>
+<div class='staff-role'>Moderator</div>
+</a>
+<div class='staff-social'>
+<a href='http://twitter.com/luisgbr99' target='_blank'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+</a>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/samthecat43'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+samthecat43/90.png
+"/>
+<div class='staff-username' style='color: #F20; border-bottom-color: 
+#F20;'>samthecat43</div>
+<div class='staff-role'>Moderator</div>
+</a>
+<div class='staff-social'>
+<a href='http://twitter.com/samthekitten' target='_blank'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+</a>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Snuskenmaxi'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+Snuskenmaxi/90.png
+"/>
+<div class='staff-username' style='color: #F20; border-bottom-color: 
+#F20;'>Snuskenmaxi</div>
+<div class='staff-role'>Moderator</div>
+</a>
+<div class='staff-social'>
+<a href='http://twitter.com/Silas_RN' target='_blank'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+</a>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Tigo'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" src="https://cravatar.eu/helmavatar/
+Tigo/90.png
+"/>
+<div class='staff-username' style='color: #F20; border-bottom-color: 
+#F20;'>Tigo</div>
+<div class='staff-role'>Moderator</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Poseidons'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+Poseidons/90.png
+"/>
+<div class='staff-username' style='color: #F20; border-bottom-color: 
+#F20;'>Poseidons</div>
+<div class='staff-role'>Moderator</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/potpotsie'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+potpotsie/90.png
+"/>
+<div class='staff-username' style='color: #F20; border-bottom-color: 
+#F20;'>potpotsie</div>
+<div class='staff-role'>Moderator</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/RamenNoodless'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+RamenNoodless/90.png
+"/>
+<div class='staff-username' style='color: #F20; border-bottom-color: 
+#F20;'>RamenNoodless</div>
+<div class='staff-role'>Moderator</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Ro_G'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" src="https://cravatar.eu/helmavatar/
+Ro_G/90.png
+"/>
+<div class='staff-username' style='color: #F20; border-bottom-color: 
+#F20;'>Ro_G</div>
+<div class='staff-role'>Moderator</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/st_x'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" src="https://cravatar.eu/helmavatar/
+st_x/90.png
+"/>
+<div class='staff-username' style='color: #F20; border-bottom-color: 
+#F20;'>st_x</div>
+<div class='staff-role'>Moderator</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Kenner_'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" src="https://cravatar.eu/helmavatar/
+Kenner_/90.png
+"/>
+<div class='staff-username' style='color: #F20; border-bottom-color: 
+#F20;'>Kenner_</div>
+<div class='staff-role'>Moderator</div>
+</a>
+<div class='staff-social'>
+<a href='http://twitter.com/@ImKenner' target='_blank'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+</a>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Pablete1234'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+Pablete1234/90.png
+"/>
+<div class='staff-username' style='color: #F20; border-bottom-color: 
+#F20;'>Pablete1234</div>
+<div class='staff-role'>Moderator</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/2000thehecf1'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+2000thehecf1/90.png
+"/>
+<div class='staff-username' style='color: #F20; border-bottom-color: 
+#F20;'>2000thehecf1</div>
+<div class='staff-role'>Moderator</div>
+</a>
+<div class='staff-social'>
+<a href='http://twitter.com/2000thehecf1' target='_blank'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/DoomyBoy'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+DoomyBoy/90.png
+"/>
+<div class='staff-username' style='color: #F20; border-bottom-color: 
+#F20;'>DoomyBoy</div>
+<div class='staff-role'>Moderator</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Monti'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" src="https://cravatar.eu/helmavatar/
+Monti/90.png
+"/>
+<div class='staff-username' style='color: #F20; border-bottom-color: 
+#F20;'>Monti</div>
+<div class='staff-role'>Moderator</div>
+</a>
+<div class='staff-social'>
+<a 
+href='/cdn-cgi/l/email-protection#700402111e031c1104191f1e03301f135e0413'>
+<i class='fa fa-envelope'></i>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class='row staff-group'>
+<div class='col-md-12'>
+<h2 style='color: #F88'>
+Junior Moderators
+<small>8</small>
+</h2>
+<p class='small'></p>
+<hr>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Strmr'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" src="https://cravatar.eu/helmavatar/
+Strmr/90.png
+"/>
+<div class='staff-username' style='color: #F88; border-bottom-color: 
+#F88;'>Strmr</div>
+<div class='staff-role'>Junior Moderator</div>
+</a>
+<div class='staff-social'>
+<a href='http://twitter.com/stormer1267' target='_blank'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+</a>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Antnecb'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" src="https://cravatar.eu/helmavatar/
+Antnecb/90.png
+"/>
+<div class='staff-username' style='color: #F88; border-bottom-color: 
+#F88;'>Antnecb</div>
+<div class='staff-role'>Junior Moderator</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Pelpelajax'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+Pelpelajax/90.png
+"/>
+<div class='staff-username' style='color: #F88; border-bottom-color: 
+#F88;'>Pelpelajax</div>
+<div class='staff-role'>Junior Moderator</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/nigges60'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+nigges60/90.png
+"/>
+<div class='staff-username' style='color: #F88; border-bottom-color: 
+#F88;'>nigges60</div>
+<div class='staff-role'>Junior Moderator</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/OCNs_OMEN'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+OCNs_OMEN/90.png
+"/>
+<div class='staff-username' style='color: #F88; border-bottom-color: 
+#F88;'>OCNs_OMEN</div>
+<div class='staff-role'>Junior Moderator</div>
+</a>
+<div class='staff-social'>
+<a href='http://twitter.com/OCNs_OMEN' target='_blank'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+</a>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Samwellys'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+Samwellys/90.png
+"/>
+<div class='staff-username' style='color: #F88; border-bottom-color: 
+#F88;'>Samwellys</div>
+<div class='staff-role'>Junior Moderator</div>
+</a>
+<div class='staff-social'>
+<a href='http://twitter.com/Samwellys_' target='_blank'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+</a>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Crazy_'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" src="https://cravatar.eu/helmavatar/
+Crazy_/90.png
+"/>
+<div class='staff-username' style='color: #F88; border-bottom-color: 
+#F88;'>Crazy_</div>
+<div class='staff-role'>Junior Moderator</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/KingOfSquares'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+KingOfSquares/90.png
+"/>
+<div class='staff-username' style='color: #F88; border-bottom-color: 
+#F88;'>KingOfSquares</div>
+<div class='staff-role'>Junior Moderator</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+</div>
+<div class='row staff-group'>
+<div class='col-md-12'>
+<h2 style='color: #06d'>
+Builders
+<small>8</small>
+</h2>
+<p class='small'></p>
+<hr>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/SheriffSoco'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+SheriffSoco/90.png
+"/>
+<div class='staff-username' style='color: #06d; border-bottom-color: 
+#06d;'>SheriffSoco</div>
+<div class='staff-role'>Builder</div>
+</a>
+<div class='staff-social'>
+<a href='http://twitter.com/sheriffsoco' target='_blank'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+</a>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/rockymine'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+rockymine/90.png
+"/>
+<div class='staff-username' style='color: #06d; border-bottom-color: 
+#06d;'>rockymine</div>
+<div class='staff-role'>Builder</div>
+</a>
+<div class='staff-social'>
+<a href='http://twitter.com/rockymine_' target='_blank'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+</a>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/JcNumbers'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+JcNumbers/90.png
+"/>
+<div class='staff-username' style='color: #06d; border-bottom-color: 
+#06d;'>JcNumbers</div>
+<div class='staff-role'>Builder</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Claf'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" src="https://cravatar.eu/helmavatar/
+Claf/90.png
+"/>
+<div class='staff-username' style='color: #06d; border-bottom-color: 
+#06d;'>Claf</div>
+<div class='staff-role'>Builder</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/_DISTRACTION_'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+_DISTRACTION_/90.png
+"/>
+<div class='staff-username' style='color: #06d; border-bottom-color: 
+#06d;'>_DISTRACTION_</div>
+<div class='staff-role'>Builder</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Zintenka'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+Zintenka/90.png
+"/>
+<div class='staff-username' style='color: #06d; border-bottom-color: 
+#06d;'>Zintenka</div>
+<div class='staff-role'>Builder</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Jexel'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" src="https://cravatar.eu/helmavatar/
+Jexel/90.png
+"/>
+<div class='staff-username' style='color: #06d; border-bottom-color: 
+#06d;'>Jexel</div>
+<div class='staff-role'>Builder</div>
+</a>
+<div class='staff-social'>
+<a href='http://twitter.com/SirJexel' target='_blank'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+</a>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/_3Each'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" src="https://cravatar.eu/helmavatar/
+_3Each/90.png
+"/>
+<div class='staff-username' style='color: #06d; border-bottom-color: 
+#06d;'>_3Each</div>
+<div class='staff-role'>Builder</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+</div>
+<div class='row staff-group'>
+<div class='col-md-12'>
+<h2 style='color: #669999'>
+Officials
+<small>10</small>
+</h2>
+<p class='small'></p>
+<hr>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Pelpelajax'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+Pelpelajax/90.png
+"/>
+<div class='staff-username' style='color: #669999; border-bottom-color: 
+#669999;'>Pelpelajax</div>
+<div class='staff-role'>Official</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/nintendoboy11'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+nintendoboy11/90.png
+"/>
+<div class='staff-username' style='color: #669999; border-bottom-color: 
+#669999;'>nintendoboy11</div>
+<div class='staff-role'>Official</div>
+</a>
+<div class='staff-social'>
+<a href='http://twitter.com/nintendoboy11' target='_blank'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+</a>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Eudaldca'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+Eudaldca/90.png
+"/>
+<div class='staff-username' style='color: #669999; border-bottom-color: 
+#669999;'>Eudaldca</div>
+<div class='staff-role'>Official</div>
+</a>
+<div class='staff-social'>
+<a href='http://twitter.com/Eudaldca' target='_blank'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+</a>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Elly'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" src="https://cravatar.eu/helmavatar/
+Elly/90.png
+"/>
+<div class='staff-username' style='color: #669999; border-bottom-color: 
+#669999;'>Elly</div>
+<div class='staff-role'>Official</div>
+</a>
+<div class='staff-social'>
+<a href='http://twitter.com/iEli2tyree011' target='_blank'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Poseidons'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+Poseidons/90.png
+"/>
+<div class='staff-username' style='color: #669999; border-bottom-color: 
+#669999;'>Poseidons</div>
+<div class='staff-role'>Official</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Maracas95'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+Maracas95/90.png
+"/>
+<div class='staff-username' style='color: #669999; border-bottom-color: 
+#669999;'>Maracas95</div>
+<div class='staff-role'>Official</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/stupid3700'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+stupid3700/90.png
+"/>
+<div class='staff-username' style='color: #669999; border-bottom-color: 
+#669999;'>stupid3700</div>
+<div class='staff-role'>Official</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/amactus'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" src="https://cravatar.eu/helmavatar/
+amactus/90.png
+"/>
+<div class='staff-username' style='color: #669999; border-bottom-color: 
+#669999;'>amactus</div>
+<div class='staff-role'>Official</div>
+</a>
+<div class='staff-social'>
+<a href='http://twitter.com/amactus' target='_blank'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Shawnn'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" src="https://cravatar.eu/helmavatar/
+Shawnn/90.png
+"/>
+<div class='staff-username' style='color: #669999; border-bottom-color: 
+#669999;'>Shawnn</div>
+<div class='staff-role'>Official</div>
+</a>
+<div class='staff-social'>
+<a href='http://twitter.com/szboy422' target='_blank'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+</a>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Antnecb'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" src="https://cravatar.eu/helmavatar/
+Antnecb/90.png
+"/>
+<div class='staff-username' style='color: #669999; border-bottom-color: 
+#669999;'>Antnecb</div>
+<div class='staff-role'>Official</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+</div>
+<div class='row staff-group'>
+<div class='col-md-12'>
+<h2 style='color: #2ecc71'>
+Marketing
+<small>4</small>
+</h2>
+<p class='small'></p>
+<hr>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/amactus'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" src="https://cravatar.eu/helmavatar/
+amactus/90.png
+"/>
+<div class='staff-username' style='color: #2ecc71; border-bottom-color: 
+#2ecc71;'>amactus</div>
+<div class='staff-role'>Social Media</div>
+</a>
+<div class='staff-social'>
+<a href='http://twitter.com/amactus' target='_blank'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+</a>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Nadastorm'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+Nadastorm/90.png
+"/>
+<div class='staff-username' style='color: #2ecc71; border-bottom-color: 
+#2ecc71;'>Nadastorm</div>
+<div class='staff-role'>Social Media</div>
+</a>
+<div class='staff-social'>
+<a href='http://twitter.com/Traincrossin' target='_blank'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+</a>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Scorpioon'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" 
+src="https://cravatar.eu/helmavatar/
+Scorpioon/90.png
+"/>
+<div class='staff-username' style='color: #2ecc71; border-bottom-color: 
+#2ecc71;'>Scorpioon</div>
+<div class='staff-role'>Graphic Design</div>
+</a>
+<div class='staff-social'>
+<a href='http://twitter.com/ScorpioonGraphs' target='_blank'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+</a>
+</div>
+</div>
+</div>
+<div class='col-md-3 col-sm-6'>
+<div class='staff-entry'>
+<a href='/Matic0B'>
+<img style="width: 90px;height: 90px;border-radius: 5px;" width="90" 
+height="90" class="avatar" src="https://cravatar.eu/helmavatar/
+Matic0B/90.png
+"/>
+<div class='staff-username' style='color: #2ecc71; border-bottom-color: 
+#2ecc71;'>Matic0B</div>
+<div class='staff-role'>Social Relations</div>
+</a>
+<div class='staff-social'>
+</div>
+</div>
+</div>
+</div>
+</section>
+<hr>
+<div class='modal fade' id='contact'>
+<div class='modal-dialog'>
+<div class='modal-content'>
+<form class="simple_form new_inquiry" id="new_inquiry" action="/inquire" 
+accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" 
+value="&#x2713;"/><input type="hidden" name="authenticity_token" 
+value="K7tNCpWyCy85yEdYDw6WMt9awcDGYwr2+Secn/2W3rbbNs19DSE3c1T+qkTCXV9jqeX2yCn23gasjhM4WCLxfA=="/><input 
+class='subj' name='type' type='hidden' value=''>
+<div class='modal-header'>
+<button class='close' data-dismiss='modal'>&times;</button>
+<h3 class='modal-title'>
+Contact Overcast Network
+<small class='subject'></small>
+</h3>
+</div>
+<div class='modal-body'>
+<div class='row'>
+<div class='col-md-6'>
+<div class='form-group'>
+<label class="string optional control-label" 
+for="inquiry_username">Username</label>
+<input required="required" class="form-control" type="text" 
+name="inquiry[username]" id="inquiry_username"/>
+</div>
+<div class='form-group'>
+<label class="string optional control-label" 
+for="inquiry_message">Message</label>
+<textarea rows="10" class="form-control" name="inquiry[message]" 
+id="inquiry_message">
+</textarea>
+</div>
+</div>
+<div class='col-md-6'>
+<div class='form-group'>
+<label class="email optional control-label" 
+for="inquiry_email">Email</label>
+<input required="required" class="form-control" type="email" 
+name="inquiry[email]" id="inquiry_email"/>
+</div>
+<div class='form-group'>
+<label class="string optional control-label" 
+for="inquiry_subject">Subject</label>
+<input required="required" class="form-control" type="text" 
+name="inquiry[subject]" id="inquiry_subject"/>
+</div>
+<p>We usually respond within 1-2 days if you provide a valid email</p>
+<p>Please be as clear and concise as possible. It will help us process 
+your inquiry faster.</p>
+</div>
+</div>
+</div>
+<div class='modal-footer'>
+<a class='btn btn-default' data-dismiss='modal' href='#'>Close</a>
+<input class='btn btn-primary' data-disable-with='Sending...' 
+type='submit' value='Send'>
+</div>
+</form>
+</div>
+</div>
+</div>
+<footer>
+<div class='row'>
+<div class='col-md-2 col-sm-4 col-xs-6'>
+<ul class='nav nav-pills nav-stacked'>
+<li class='heading'>
+Policies
+</li>
+<li>
+<a href='/rules'>Player Rules</a>
+</li>
+<li>
+<a href='/terms'>Terms of Service</a>
+</li>
+<li>
+<a href='/privacy'>Privacy Policy</a>
+</li>
+<li>
+<a href='/refund'>Refund Policy</a>
+</li>
+</ul>
+</div>
+<div class='col-md-2 col-sm-4 col-xs-6'>
+<ul class='nav nav-pills nav-stacked'>
+<li class='heading'>
+Moderation
+</li>
+<li>
+<a href='/report'>Report a Player</a>
+</li>
+<li>
+<a href='/appeal'>Appeal a Punishment</a>
+</li>
+<li>
+<a href='/punishments'>Recent Punishments</a>
+</li>
+</ul>
+</div>
+<div class='clearfix visible-xs-block' style='padding-bottom: 
+20px;'></div>
+<div class='col-md-2 col-sm-4 col-xs-6'>
+<ul class='nav nav-pills nav-stacked'>
+<li class='heading'>
+Organization
+</li>
+<li>
+<a href='/staff'>Staff Listing</a>
+</li>
+<li>
+<a href='/revisions'>Development Logs</a>
+</li>
+<li>
+<a href='https://github.com/OvercastNetwork/Issues'>Report a Bug</a>
+</li>
+</ul>
+</div>
+<div class='clearfix visible-sm-block' style='padding-bottom: 
+20px;'></div>
+<div class='col-md-2 col-sm-4 col-xs-6'>
+<ul class='nav nav-pills nav-stacked'>
+<li class='heading'>
+Contact Us
+</li>
+<li>
+<a class='inquiry' data-toggle='modal' href='#contact'>General 
+Inquiries</a>
+</li>
+<li>
+<a class='inquiry' data-toggle='modal' href='#contact'>Shop Purchases</a>
+</li>
+<li>
+<a href='/appeal'>Ban Appeals</a>
+</li>
+</ul>
+</div>
+<div class='clearfix visible-xs-block' style='padding-bottom: 
+20px;'></div>
+<div class='col-md-2 col-sm-4'>
+<ul class='nav nav-pills nav-stacked follow-us'>
+<li class='heading'>
+Follow Us
+</li>
+<li>
+<a href='https://twitter.com/OvercastPGM'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+Twitter
+</a>
+<a href='https://www.facebook.com/OvercastNetwork'>
+<img 
+src='https://static.oc.tc/assets/facebook_icon-34f4e0ba3a52886710c0360d3f8f35352b6c0a73c7181f690c135b1d24eaa8f0.png'>
+Facebook
+</a>
+<a href='https://www.youtube.com/c/OvercastNetwork'>
+<img 
+src='https://static.oc.tc/assets/youtube_icon-a724516a1d426e48bae525ea6e04abc3e1cf8234989b3f300ed294a61a6c893d.png'>
+YouTube
+</a>
+<a href='http://www.twitch.tv/ocnlive'>
+<img 
+src='https://static.oc.tc/assets/twitch_icon-6604f0ced4759bd1c8bb6a01de875a66024f422c14789a752024980d57ba7398.png'>
+Twitch
+</a>
+</li>
+</ul>
+</div>
+<div class='clearfix visible-xs-block' style='padding-bottom: 
+20px;'></div>
+<div class='col-md-2 col-sm-4' style='text-align: center;'>
+Servers provided by
+<a href='/host'>
+<img class='img-responsive' 
+src='https://static.oc.tc/assets/beastnode-844f199a7f8d0aa2903d26a73ce554bbea1d6030baf3f28bface484c944b5d50.png'>
+</a>
+<div class='copyright'>
+&copy; 2012-2016 Overcast Network
+</div>
+</div>
+</div>
+</footer>
+</div>
+<script type="text/javascript">/* <![CDATA[ 
+*/(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* 
+]]> */</script></body>
+</html>

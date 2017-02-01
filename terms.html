@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta name="csrf-param" content="authenticity_token"/>
+<meta name="csrf-token" 
+content="GvZuQuDdvRx/MBQNkXBv452kh1MPgPvvHqfVGL6lWAJcXGo+0i+398URozSA6fNt6qzgbkkRQL85zOGwpgW/oQ=="/>
+<meta charset='utf-8'>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+<meta content='#337AB7' name='theme-color'>
+<title>
+Overcast Network - Minecraft PvP
+</title>
+<link rel="shortcut icon" type="image/x-icon" 
+href="https://cdn.oc.tc/assets/favicon.ico"/>
+<link rel="apple-touch-icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-57x57-c773bb9eed44bec814183ea9c338a8d24261d8cf4dd837ebfd11316567fd81e6.png"/>
+<link rel="apple-touch-icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-76x76-9b6f7b609f77f40e69d6c3e05780e0fe93ce4fbf6e39c6c749df63a5c526e294.png" 
+sizes="76x76"/>
+<link rel="apple-touch-icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-120x120-4bf1cbf6c6c04c8b98dfd7c828b08c681c8d7533621ab949131c7542344e0a93.png" 
+sizes="120x120"/>
+<link rel="apple-touch-icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-152x152-9285e43ba8ebd0609dad331dc1edb03224b6237f088b999bfd14f81cf716cab6.png" 
+sizes="152x152"/>
+<link rel="apple-touch-icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-167x167-2b722464c6abcaddf5c0d3f64c3292de32c59c079a8ec829a34c0c064f13b55c.png" 
+sizes="167x167"/>
+<link rel="apple-touch-icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-180x180-feb73f6835138a9162af22513c17b7d077fd3ce7f9ef41744eca3e6cbcdee771.png" 
+sizes="180x180"/>
+<link rel="icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-128x128-e17c0fec61348260984daac0ffa7fb9471a25501ca49ef41b2a0daa3130f8ff4.png" 
+sizes="128x128"/>
+<link rel="icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-192x192-c93c1e496617fec85cd89aa9d3abc62db2232eb1cf901924b5bc81c32bc44ed6.png" 
+sizes="192x192"/>
+<link rel="stylesheet" media="screen" 
+href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css"/>
+<link rel="stylesheet" media="screen" 
+href="https://static.oc.tc/assets/application-bfa7ca518e1a8ca212fef53aaa0650a6f5b4475c06914e7178ff5bec94070752.css"/>
+<link rel="stylesheet" media="screen" 
+href="//fonts.googleapis.com/css?family=Lato:700,400,300"/>
+<link rel="stylesheet" media="screen" 
+href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"/>
+<script 
+src="https://static.oc.tc/assets/libraries-912fd655d5f42721ec0f4b257ad9e600219d21f56ed23b0125feaf20b7f6e28e.js"></script>
+<script 
+src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script 
+src="https://static.oc.tc/assets/application-279754d779d3df8a6e34571f7a04537497dcab3d7ff24f26101905b5bdcd2e1b.js"></script>
+<script 
+src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-3-typeahead/4.0.0/bootstrap3-typeahead.min.js"></script>
+<script>
+  var 
+_gaq=_gaq||[];_gaq.push(["_setAccount","UA-30515952-1"]);_gaq.push(["_trackPageview"]);(function(){var 
+e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var 
+t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})()
+</script>
+</head>
+<body>
+<nav class='navbar navbar-default navbar-static-top'>
+<div class='container'>
+<div class='navbar-header'>
+<button class='navbar-toggle collapsed' 
+data-target='#top-navbar-collapse' data-toggle='collapse' 
+id='top-navbar-collapse-button'>
+<span class='fa fa-bars'></span>
+</button>
+<a class='navbar-brand' href='/'>
+<img class='pull-left' height='34' 
+src='https://cdn.oc.tc/assets/logo.png'>
+Overcast Network
+</a>
+</div>
+<div class='navbar-collapse collapse' id='top-navbar-collapse'>
+<ul class='nav navbar-nav' style='margin-right: 0;'>
+<li>
+<a href='/play'>
+<i class='fa fa-play'></i>
+Play
+</a>
+</li>
+<li>
+<a href='/maps'>
+<i class='fa fa-cubes'></i>
+Maps
+</a>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+<i class='fa fa-user'></i>
+Players
+<b class='caret'></b>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a href='https://oc.tc/leaderboard'>
+<i class='fa fa-star'></i>
+Rankings
+</a>
+</li>
+<li>
+<a href='https://oc.tc/stats'>
+<i class='fa fa-line-chart'></i>
+Stats
+</a>
+</li>
+<li>
+<a href='/channels'>
+<i class='fa fa-youtube-play'></i>
+Channels
+</a>
+</li>
+<form class='player-search'>
+<input class='input-sm form-control typeahead' id='player-search' 
+name='search' placeholder='Search for a player' type='text'>
+</form>
+</ul>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+<i class='fa fa-trophy'></i>
+League
+<b class='caret'></b>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a href='/teams'>
+<i class='fa fa-group'></i>
+Teams
+</a>
+</li>
+<li>
+<a href='/tournaments'>
+<i class='fa fa-flag'></i>
+Tournaments
+</a>
+</li>
+</ul>
+</li>
+<li>
+<a href='/forums'>
+<i class='fa fa-comments'></i>
+Forum
+</a>
+</li>
+</ul>
+<hr class='visible-xs visible-sm' style='margin: 4px; border-color: 
+#e7e7e7;'>
+<ul class='nav navbar-nav pull-right'>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#' 
+style='outline: none; '>
+<i class='fa fa-user'></i>
+<div class='visible-xs-inline visible-sm-inline'>
+Account
+</div>
+<b class='caret'></b>
+</a>
+<ul class='dropdown-menu dropdown-menu-right'>
+<li>
+<a href='/users/sign_in'>Login</a>
+</li>
+<li>
+<a href='/users/sign_up'>Register</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<div class='container'>
+<div class='flash' style='margin-top: 20px;'>
+</div>
+<section>
+<div class='page-header'>
+<h1>
+Terms of Service
+<small>Last Updated April 6, 2015</small>
+</h1>
+</div>
+<div class='row'>
+<div class='col-md-12'>
+<p>By using the oc.tc web site (&quot;Service&quot;), or any services of 
+Overcast Network (&quot;Overcast Network&quot;), you are agreeing to be 
+bound by the following terms and conditions (&quot;Terms of 
+Service&quot;).</p>
+<p>IF YOU ARE ENTERING INTO THIS AGREEMENT ON BEHALF OF A COMPANY OR 
+OTHER LEGAL ENTITY, YOU REPRESENT THAT YOU HAVE THE AUTHORITY TO BIND 
+SUCH ENTITY, ITS AFFILIATES AND ALL USERS WHO ACCESS OUR SERVICES THROUGH 
+YOUR ACCOUNT TO THESE TERMS AND CONDITIONS, IN WHICH CASE THE TERMS "YOU" 
+OR "YOUR" SHALL REFER TO SUCH ENTITY, ITS AFFILIATES AND USERS ASSOCIATED 
+WITH IT. IF YOU DO NOT HAVE SUCH AUTHORITY, OR IF YOU DO NOT AGREE WITH 
+THESE TERMS AND CONDITIONS, YOU MUST NOT ACCEPT THIS AGREEMENT AND MAY 
+NOT USE THE SERVICES.</p>
+<p>
+Overcast Network reserves the right to update and change the Terms of 
+Service from time to time without notice. Any new features that augment 
+or enhance the current Service, including the release of new tools and 
+resources, shall be subject to the Terms of Service. Continued use of the 
+Service after any such changes shall constitute your consent to such 
+changes. You can review the most current version of the Terms of Service 
+at any time at:
+<a href='/terms'>https://oc.tc/terms</a>
+</p>
+<p>Violation of any of the terms below will result in the termination of 
+your Account. While Overcast Network prohibits such conduct and Content 
+on the Service, you understand and agree that Overcast Network cannot be 
+responsible for the Content posted on the Service and you nonetheless may 
+be exposed to such materials. You agree to use the Service at your own 
+risk.</p>
+</div>
+</div>
+</section>
+<section>
+<div class='page-header'>
+<h2>A. Account Terms</h2>
+</div>
+<div class='row'>
+<div class='col-md-12'>
+<ol>
+<li>You must be a human. Accounts registered by "bots" or other automated 
+methods are not permitted.</li>
+<li>You must provide a valid email address, and any other information 
+requested in order to complete the signup process.</li>
+<li>Your login may only be used by one person - a single login shared by 
+multiple people is not permitted.</li>
+<li>You are responsible for maintaining the security of your account and 
+password. Overcast Network cannot and will not be liable for any loss or 
+damage from your failure to comply with this security obligation.</li>
+<li>You are responsible for all Content posted and activity that occurs 
+under your account (even when Content is posted by others who have 
+accounts under your account).</li>
+<li>You may not use the Service for any illegal or unauthorized purpose. 
+You must not, in the use of the Service, violate any laws in your 
+jurisdiction (including but not limited to copyright or trademark 
+laws).</li>
+</ol>
+</div>
+</div>
+</section>
+<section>
+<div class='page-header'>
+<h2>B. Payment, Refunds, Upgrading and Downgrading Terms</h2>
+</div>
+<div class='row'>
+<div class='col-md-12'>
+<ol>
+<li>All paid plans must provide a valid account through one of the 
+approved payment providers provided. Free accounts are not required to 
+provide an account through an approved payment provider.</li>
+<li>An upgrade from the free plan to any paying plan will immediately 
+bill you.</li>
+<li>The Service is billed instantly and is non-refundable. There will be 
+no refunds or credits for partial months of service, upgrade/downgrade 
+refunds, or refunds for months unused with an open account. In order to 
+treat everyone equally, no exceptions will be made.</li>
+<li>All fees are exclusive of all taxes, levies, or duties imposed by 
+taxing authorities, and you shall be responsible for payment of all such 
+taxes, levies, or duties, excluding only Spanish (federal or state) 
+taxes.</li>
+<li>For any upgrade or downgrade in plan level, your payment account that 
+you provided will automatically be charged the new rate.</li>
+<li>All "unlimited" and "lifetime" plans are only valid for the lifetime 
+of the Service.</li>
+</ol>
+</div>
+</div>
+</section>
+<section>
+<div class='page-header'>
+<h2>C. Cancellation and Termination</h2>
+</div>
+<div class='row'>
+<div class='col-md-12'>
+<ol>
+<li>
+You are solely responsible for properly canceling your account. In order 
+to cancel your account you must email
+<a href='/cdn-cgi/l/email-protection#bdcec8cdcdd2cfc9fdd2de93c9de'><span 
+class="__cf_email__" 
+data-cfemail="7f0c0a0f0f100d0b3f101c510b1c">[email&#160;protected]</span><script 
+data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ 
+*/!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return 
+t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* 
+]]> */</script></a>
+with your cancellation request.
+</li>
+<li>All of your Content will be immediately deleted from the Service upon 
+cancellation. This information can not be recovered once your account is 
+cancelled.</li>
+<li>If you cancel the Service before the end of your current paid up 
+month, your cancellation will take effect immediately and you will not be 
+charged again.</li>
+<li>Overcast Network, in its sole discretion, has the right to suspend or 
+terminate your account and refuse any and all current or future use of 
+the Service, or any other Overcast Network service, for any reason at any 
+time. Such termination of the Service will result in the deactivation or 
+deletion of your Account or your access to your Account, and the 
+forfeiture and relinquishment of all Content in your Account.</li>
+<li>Overcast Network reserves the right to refuse service to anyone for 
+any reason at any time.</li>
+</ol>
+</div>
+</div>
+</section>
+<section>
+<div class='page-header'>
+<h2>D. Modifications to the Service and Prices</h2>
+</div>
+<div class='row'>
+<div class='col-md-12'>
+<ol>
+<li>Overcast Network reserves the right at any time and from time to time 
+to modify or discontinue, temporarily or permanently, the Service (or any 
+part thereof) with or without notice.</li>
+<li>Prices of all Services, including but not limited to monthly 
+subscription plan fees to the Service, are subject to change upon 30 days 
+notice from us. Such notice may be provided at any time by posting the 
+changes to the Overcast Network site or the Service itself.</li>
+<li>Overcast Network shall not be liable to you or to any third party for 
+any modification, price change, suspension or discontinuance of the 
+Service.</li>
+</ol>
+</div>
+</div>
+</section>
+<section>
+<div class='page-header'>
+<h2>E. Copyright and Content Ownership</h2>
+</div>
+<div class='row'>
+<div class='col-md-12'>
+<ol>
+<li>We claim no intellectual property rights over the material you 
+provide to the Service. Your profile and materials remain yours. By 
+agreeing to these terms, you agree to allow others to view your 
+Content.</li>
+<li>Overcast Network does not pre-screen Content, but Overcast Network 
+and its designee have the right (but not the obligation) in their sole 
+discretion to refuse or remove any Content that is available via the 
+Service.</li>
+<li>You shall defend Overcast Network against any claim, demand, suit or 
+proceeding made or brought against Overcast Network by a third party 
+alleging that Your Content, or Your use of the Service in violation of 
+this Agreement, infringes or misappropriates the intellectual property 
+rights of a third party or violates applicable law, and shall indemnify 
+Overcast Network for any damages finally awarded against, and for 
+reasonable attorney’s fees incurred by, Overcast Network in connection 
+with any such claim, demand, suit or proceeding; provided, that Lifeboat 
+Network (a) promptly gives You written notice of the claim, demand, suit 
+or proceeding; (b) gives You sole control of the defense and settlement 
+of the claim, demand, suit or proceeding (provided that You may not 
+settle any claim, demand, suit or proceeding unless the settlement 
+unconditionally releases Overcast Network of all liability); and (c) 
+provides to You all reasonable assistance, at Your expense.</li>
+<li>The look and feel of the Service is copyright © 2017 Lifeboat 
+Network. All rights reserved. You may not duplicate, copy, or reuse any 
+portion of the HTML/CSS, Javascript, or visual design elements or 
+concepts without express written permission from Overcast Network.</li>
+</ol>
+</div>
+</div>
+</section>
+<section>
+<div class='page-header'>
+<h2>F. General Conditions</h2>
+</div>
+<div class='row'>
+<div class='col-md-12'>
+<ol>
+<li>Your use of the Service is at your sole risk. The service is provided 
+on an "as is" and "as available" basis.</li>
+<li>Technical support is only available via email.</li>
+<li>You understand that Overcast Network uses third party vendors and 
+hosting partners to provide the necessary hardware, software, networking, 
+storage, and related technology required to run the Service.</li>
+<li>You must not modify, adapt or hack the Service or modify another 
+website so as to falsely imply that it is associated with the Service, 
+Overcast Network, or any other Overcast Network service.</li>
+<li>You agree not to reproduce, duplicate, copy, sell, resell or exploit 
+any portion of the Service, use of the Service, or access to the Service 
+without the express written permission by Overcast Network.</li>
+<li>We may, but have no obligation to, remove Content and Accounts 
+containing Content that we determine in our sole discretion are unlawful, 
+offensive, threatening, libelous, defamatory, pornographic, obscene or 
+otherwise objectionable or violates any party's intellectual property or 
+these Terms of Service.</li>
+<li>Verbal, physical, written or other abuse (including threats of abuse 
+or retribution) of any Overcast Network customer, employee, member, or 
+officer will result in immediate account termination.</li>
+<li>You understand that the technical processing and transmission of the 
+Service, including your Content, may be transferred unencrypted and 
+involve (a) transmissions over various networks; and (b) changes to 
+conform and adapt to technical requirements of connecting networks or 
+devices.</li>
+<li>You must not upload, post, host, or transmit unsolicited email, SMSs, 
+or "spam" messages.</li>
+<li>You must not transmit any worms or viruses or any code of a 
+destructive nature.</li>
+<li>Overcast Network does not warrant that (i) the service will meet your 
+specific requirements, (ii) the service will be uninterrupted, timely, 
+secure, or error-free, (iii) the results that may be obtained from the 
+use of the service will be accurate or reliable, (iv) the quality of any 
+products, services, information, or other material purchased or obtained 
+by you through the service will meet your expectations, and (v) any 
+errors in the Service will be corrected.</li>
+<li>You expressly understand and agree that Overcast Network shall not be 
+liable for any direct, indirect, incidental, special, consequential or 
+exemplary damages, including but not limited to, damages for loss of 
+profits, goodwill, use, data or other intangible losses (even if Lifeboat 
+Network has been advised of the possibility of such damages), resulting 
+from: (i) the use or the inability to use the service; (ii) the cost of 
+procurement of substitute goods and services resulting from any goods, 
+data, information or services purchased or obtained or messages received 
+or transactions entered into through or from the service; (iii) 
+unauthorized access to or alteration of your transmissions or data; (iv) 
+statements or conduct of any third party on the service; (v) or any other 
+matter relating to the service.</li>
+<li>The failure of Overcast Network to exercise or enforce any right or 
+provision of the Terms of Service shall not constitute a waiver of such 
+right or provision. The Terms of Service constitutes the entire agreement 
+between you and Overcast Network and govern your use of the Service, 
+superseding any prior agreements between you and Overcast Network 
+(including, but not limited to, any prior versions of the Terms of 
+Service). You agree that these Terms of Service and Your use of the 
+Service are governed under law.</li>
+<li>
+Questions about the Terms of Service should be sent to
+<a href='/cdn-cgi/l/email-protection#dfacaaafafb0adab9fb0bcf1abbc'><span 
+class="__cf_email__" 
+data-cfemail="2c5f595c5c435e586c434f02584f">[email&#160;protected]</span><script 
+data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ 
+*/!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return 
+t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* 
+]]> */</script></a>
+</li>
+</ol>
+</div>
+</div>
+</section>
+<hr>
+<div class='modal fade' id='contact'>
+<div class='modal-dialog'>
+<div class='modal-content'>
+<form class="simple_form new_inquiry" id="new_inquiry" action="/inquire" 
+accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" 
+value="&#x2713;"/><input type="hidden" name="authenticity_token" 
+value="7f+nOIWLigwYHpPg4H/8nCU4SETF9G7CzwnmWKyx0x+rVaNEt3mA56I/JNnx5mASUjAveYNl1ZLoYtLwtBE0vA=="/><input 
+class='subj' name='type' type='hidden' value=''>
+<div class='modal-header'>
+<button class='close' data-dismiss='modal'>&times;</button>
+<h3 class='modal-title'>
+Contact Overcast Network
+<small class='subject'></small>
+</h3>
+</div>
+<div class='modal-body'>
+<div class='row'>
+<div class='col-md-6'>
+<div class='form-group'>
+<label class="string optional control-label" 
+for="inquiry_username">Username</label>
+<input required="required" class="form-control" type="text" 
+name="inquiry[username]" id="inquiry_username"/>
+</div>
+<div class='form-group'>
+<label class="string optional control-label" 
+for="inquiry_message">Message</label>
+<textarea rows="10" class="form-control" name="inquiry[message]" 
+id="inquiry_message">
+</textarea>
+</div>
+</div>
+<div class='col-md-6'>
+<div class='form-group'>
+<label class="email optional control-label" 
+for="inquiry_email">Email</label>
+<input required="required" class="form-control" type="email" 
+name="inquiry[email]" id="inquiry_email"/>
+</div>
+<div class='form-group'>
+<label class="string optional control-label" 
+for="inquiry_subject">Subject</label>
+<input required="required" class="form-control" type="text" 
+name="inquiry[subject]" id="inquiry_subject"/>
+</div>
+<p>We usually respond within 1-2 days if you provide a valid email</p>
+<p>Please be as clear and concise as possible. It will help us process 
+your inquiry faster.</p>
+</div>
+</div>
+</div>
+<div class='modal-footer'>
+<a class='btn btn-default' data-dismiss='modal' href='#'>Close</a>
+<input class='btn btn-primary' data-disable-with='Sending...' 
+type='submit' value='Send'>
+</div>
+</form>
+</div>
+</div>
+</div>
+<footer>
+<div class='row'>
+<div class='col-md-2 col-sm-4 col-xs-6'>
+<ul class='nav nav-pills nav-stacked'>
+<li class='heading'>
+Policies
+</li>
+<li>
+<a href='/rules'>Player Rules</a>
+</li>
+<li>
+<a href='/terms'>Terms of Service</a>
+</li>
+<li>
+<a href='/privacy'>Privacy Policy</a>
+</li>
+<li>
+<a href='/refund'>Refund Policy</a>
+</li>
+</ul>
+</div>
+<div class='col-md-2 col-sm-4 col-xs-6'>
+<ul class='nav nav-pills nav-stacked'>
+<li class='heading'>
+Moderation
+</li>
+<li>
+<a href='/report'>Report a Player</a>
+</li>
+<li>
+<a href='/appeal'>Appeal a Punishment</a>
+</li>
+<li>
+<a href='/punishments'>Recent Punishments</a>
+</li>
+</ul>
+</div>
+<div class='clearfix visible-xs-block' style='padding-bottom: 
+20px;'></div>
+<div class='col-md-2 col-sm-4 col-xs-6'>
+<ul class='nav nav-pills nav-stacked'>
+<li class='heading'>
+Organization
+</li>
+<li>
+<a href='/staff'>Staff Listing</a>
+</li>
+<li>
+<a href='/revisions'>Development Logs</a>
+</li>
+<li>
+<a href='https://github.com/OvercastNetwork/Issues'>Report a Bug</a>
+</li>
+</ul>
+</div>
+<div class='clearfix visible-sm-block' style='padding-bottom: 
+20px;'></div>
+<div class='col-md-2 col-sm-4 col-xs-6'>
+<ul class='nav nav-pills nav-stacked'>
+<li class='heading'>
+Contact Us
+</li>
+<li>
+<a class='inquiry' data-toggle='modal' href='#contact'>General 
+Inquiries</a>
+</li>
+<li>
+<a class='inquiry' data-toggle='modal' href='#contact'>Shop Purchases</a>
+</li>
+<li>
+<a href='/appeal'>Ban Appeals</a>
+</li>
+</ul>
+</div>
+<div class='clearfix visible-xs-block' style='padding-bottom: 
+20px;'></div>
+<div class='col-md-2 col-sm-4'>
+<ul class='nav nav-pills nav-stacked follow-us'>
+<li class='heading'>
+Follow Us
+</li>
+<li>
+<a href='https://twitter.com/OvercastPGM'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+Twitter
+</a>
+<a href='https://www.facebook.com/OvercastNetwork'>
+<img 
+src='https://static.oc.tc/assets/facebook_icon-34f4e0ba3a52886710c0360d3f8f35352b6c0a73c7181f690c135b1d24eaa8f0.png'>
+Facebook
+</a>
+<a href='https://www.youtube.com/c/OvercastNetwork'>
+<img 
+src='https://static.oc.tc/assets/youtube_icon-a724516a1d426e48bae525ea6e04abc3e1cf8234989b3f300ed294a61a6c893d.png'>
+YouTube
+</a>
+<a href='http://www.twitch.tv/ocnlive'>
+<img 
+src='https://static.oc.tc/assets/twitch_icon-6604f0ced4759bd1c8bb6a01de875a66024f422c14789a752024980d57ba7398.png'>
+Twitch
+</a>
+</li>
+</ul>
+</div>
+<div class='clearfix visible-xs-block' style='padding-bottom: 
+20px;'></div>
+<div class='col-md-2 col-sm-4' style='text-align: center;'>
+Servers provided by
+<a href='/host'>
+<img class='img-responsive' 
+src='https://static.oc.tc/assets/beastnode-844f199a7f8d0aa2903d26a73ce554bbea1d6030baf3f28bface484c944b5d50.png'>
+</a>
+<div class='copyright'>
+&copy; 2012-2016 Overcast Network
+</div>
+</div>
+</div>
+</footer>
+</div>
+<script type="text/javascript">/* <![CDATA[ 
+*/(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* 
+]]> */</script></body>
+</html>
