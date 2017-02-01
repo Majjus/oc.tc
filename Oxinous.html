@@ -1,0 +1,2984 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta name="csrf-param" content="authenticity_token"/>
+<meta name="csrf-token" 
+content="tart/nWgU0dWho2ZBwXyczvZ3hmFRfKTddE+IOKcd00e7QE9zCnXHZXyeTcLnsQCIczOg89AG5bPBK1dDW1btw=="/>
+<meta charset='utf-8'>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+<meta content='#337AB7' name='theme-color'>
+<title>
+Oxinous - Overcast Network
+</title>
+<link rel="shortcut icon" type="image/x-icon" 
+href="https://cdn.oc.tc/assets/favicon.ico"/>
+<link rel="apple-touch-icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-57x57-c773bb9eed44bec814183ea9c338a8d24261d8cf4dd837ebfd11316567fd81e6.png"/>
+<link rel="apple-touch-icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-76x76-9b6f7b609f77f40e69d6c3e05780e0fe93ce4fbf6e39c6c749df63a5c526e294.png" 
+sizes="76x76"/>
+<link rel="apple-touch-icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-120x120-4bf1cbf6c6c04c8b98dfd7c828b08c681c8d7533621ab949131c7542344e0a93.png" 
+sizes="120x120"/>
+<link rel="apple-touch-icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-152x152-9285e43ba8ebd0609dad331dc1edb03224b6237f088b999bfd14f81cf716cab6.png" 
+sizes="152x152"/>
+<link rel="apple-touch-icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-167x167-2b722464c6abcaddf5c0d3f64c3292de32c59c079a8ec829a34c0c064f13b55c.png" 
+sizes="167x167"/>
+<link rel="apple-touch-icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-180x180-feb73f6835138a9162af22513c17b7d077fd3ce7f9ef41744eca3e6cbcdee771.png" 
+sizes="180x180"/>
+<link rel="icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-128x128-e17c0fec61348260984daac0ffa7fb9471a25501ca49ef41b2a0daa3130f8ff4.png" 
+sizes="128x128"/>
+<link rel="icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-192x192-c93c1e496617fec85cd89aa9d3abc62db2232eb1cf901924b5bc81c32bc44ed6.png" 
+sizes="192x192"/>
+<link rel="stylesheet" media="screen" 
+href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css"/>
+<link rel="stylesheet" media="screen" 
+href="https://static.oc.tc/assets/application-bfa7ca518e1a8ca212fef53aaa0650a6f5b4475c06914e7178ff5bec94070752.css"/>
+<link rel="stylesheet" media="screen" 
+href="//fonts.googleapis.com/css?family=Lato:700,400,300"/>
+<link rel="stylesheet" media="screen" 
+href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"/>
+<script 
+src="https://static.oc.tc/assets/libraries-912fd655d5f42721ec0f4b257ad9e600219d21f56ed23b0125feaf20b7f6e28e.js"></script>
+<script 
+src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script 
+src="https://static.oc.tc/assets/application-279754d779d3df8a6e34571f7a04537497dcab3d7ff24f26101905b5bdcd2e1b.js"></script>
+<script 
+src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-3-typeahead/4.0.0/bootstrap3-typeahead.min.js"></script>
+<script>
+  var 
+_gaq=_gaq||[];_gaq.push(["_setAccount","UA-30515952-1"]);_gaq.push(["_trackPageview"]);(function(){var 
+e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var 
+t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})()
+</script>
+</head>
+<body>
+<nav class='navbar navbar-default navbar-static-top'>
+<div class='container'>
+<div class='navbar-header'>
+<button class='navbar-toggle collapsed' 
+data-target='#top-navbar-collapse' data-toggle='collapse' 
+id='top-navbar-collapse-button'>
+<span class='fa fa-bars'></span>
+</button>
+<a class='navbar-brand' href='/'>
+<img class='pull-left' height='34' 
+src='https://cdn.oc.tc/assets/logo.png'>
+Overcast Network
+</a>
+</div>
+<div class='navbar-collapse collapse' id='top-navbar-collapse'>
+<ul class='nav navbar-nav' style='margin-right: 0;'>
+<li>
+<a href='/oc.tc/play'>
+<i class='fa fa-play'></i>
+Play
+</a>
+</li>
+<li>
+<a href='/oc.tc/maps'>
+<i class='fa fa-cubes'></i>
+Maps
+</a>
+</li>
+<li class='active dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+<i class='fa fa-user'></i>
+Players
+<b class='caret'></b>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a href='https://oc.tc/leaderboard'>
+<i class='fa fa-star'></i>
+Rankings
+</a>
+</li>
+<li>
+<a href='https://oc.tc/stats'>
+<i class='fa fa-line-chart'></i>
+Stats
+</a>
+</li>
+<li>
+<a href='/oc.tc/channels'>
+<i class='fa fa-youtube-play'></i>
+Channels
+</a>
+</li>
+<form class='player-search'>
+<input class='input-sm form-control typeahead' id='player-search' 
+name='search' placeholder='Search for a player' type='text'>
+</form>
+</ul>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+<i class='fa fa-trophy'></i>
+League
+<b class='caret'></b>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a href='/oc.tc/teams'>
+<i class='fa fa-group'></i>
+Teams
+</a>
+</li>
+<li>
+<a href='/oc.tc/tournaments'>
+<i class='fa fa-flag'></i>
+Tournaments
+</a>
+</li>
+</ul>
+</li>
+<li>
+<a href='/oc.tc/forums'>
+<i class='fa fa-comments'></i>
+Forum
+</a>
+</li>
+</ul>
+<hr class='visible-xs visible-sm' style='margin: 4px; border-color: 
+#e7e7e7;'>
+<ul class='nav navbar-nav pull-right'>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#' 
+style='outline: none; '>
+<i class='fa fa-user'></i>
+<div class='visible-xs-inline visible-sm-inline'>
+Account
+</div>
+<b class='caret'></b>
+</a>
+<ul class='dropdown-menu dropdown-menu-right'>
+<li>
+<a href='/oc.tc/users/sign_in'>Login</a>
+</li>
+<li>
+<a href='/oc.tc/users/sign_up'>Register</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<div class='container'>
+<div class='flash' style='margin-top: 20px;'>
+</div>
+<section>
+<div class='row'>
+<div class='col-md-12'>
+<div class='alert alert-warning'>
+<i class='fa fa-gift'></i>
+<strong>Happy Cake Day!</strong>
+Oxinous joined us 3 years ago, today. Wish them a happy Cake Day!
+</div>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-12'>
+<h1 style='margin-top: 0'>
+<span style='color: #3EBCBC'>
+Oxinous
+</span>
+</h1>
+<div>
+<a class="label" style="background-color: #3EBCBC; color: white" 
+href="/staff">Referee</a>
+</div>
+</div>
+</div>
+<div class='row' style='margin-top: 20px'>
+<div class='col-md-2 col-sm-3 col-xs-6'>
+<a href='#' style='width: 130px; height: 130px;'>
+<img style="width: 130px;height: 130px;border-radius: 7px;" width="130" 
+height="130" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/130.png" 
+alt="Oxinous" title="Oxinous"/>
+</a>
+<div class='last-seen'>
+<div class='offline'>last seen</div>
+<div class='server'>
+<a href='/oc.tc/play'>
+01official
+<div class='datacenter'>
+[TM]
+</div>
+</a>
+</div>
+<div class='time' data-container='body' data-placement='bottom' 
+rel='tooltip' title='November 20th, 2016 -  3:21 PM'>
+2 months
+ago
+</div>
+</div>
+</div>
+<div class='col-md-6 col-sm-3 col-xs-6'>
+<div class='row heads'>
+<div class='col-md-4'>
+<div class='hidden-sm hidden-xs'>
+<a href="/AnnaPvp"><img style="width: 32px;height: 32px;border-radius: 
+3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/d9af4757f1b3417bac823885fad086b9/32.png" 
+alt="AnnaPvp" title="AnnaPvp" rel="tooltip"/></a><a href="/Kyorge"><img 
+style="width: 32px;height: 32px;border-radius: 3px;" width="32" 
+height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/5810a65e858343de919f0699ff2727e6/32.png" 
+alt="Kyorge" title="Kyorge" rel="tooltip"/></a><a href="/WALT12"><img 
+style="width: 32px;height: 32px;border-radius: 3px;" width="32" 
+height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/70b83148b84a4decbc91202b3a615f02/32.png" 
+alt="WALT12" title="WALT12" rel="tooltip"/></a><a href="/AnnaPvp"><img 
+style="width: 32px;height: 32px;border-radius: 3px;" width="32" 
+height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/d9af4757f1b3417bac823885fad086b9/32.png" 
+alt="AnnaPvp" title="AnnaPvp" rel="tooltip"/></a><a 
+href="/ALTHEPALROCKS"><img style="width: 32px;height: 32px;border-radius: 
+3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/16aa7d5033b94fe4b2d74d165d01dcf9/32.png" 
+alt="ALTHEPALROCKS" title="ALTHEPALROCKS" rel="tooltip"/></a><a 
+href="/Kyorge"><img style="width: 32px;height: 32px;border-radius: 3px;" 
+width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/5810a65e858343de919f0699ff2727e6/32.png" 
+alt="Kyorge" title="Kyorge" rel="tooltip"/></a><a href="/monty4uga"><img 
+style="width: 32px;height: 32px;border-radius: 3px;" width="32" 
+height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/79dd5c49c5b94ca98d595dd7c8119986/32.png" 
+alt="monty4uga" title="monty4uga" rel="tooltip"/></a><a 
+href="/Uli152"><img style="width: 32px;height: 32px;border-radius: 3px;" 
+width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/6ad389ca461542888bfc9ea82b694568/32.png" 
+alt="Uli152" title="Uli152" rel="tooltip"/></a><a href="/TheRottMC"><img 
+style="width: 32px;height: 32px;border-radius: 3px;" width="32" 
+height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/8d4abc074bf5434294392185dd43524b/32.png" 
+alt="TheRottMC" title="TheRottMC" rel="tooltip"/></a><a 
+href="/Uli152"><img style="width: 32px;height: 32px;border-radius: 3px;" 
+width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/6ad389ca461542888bfc9ea82b694568/32.png" 
+alt="Uli152" title="Uli152" rel="tooltip"/></a><a href="/monty4uga"><img 
+style="width: 32px;height: 32px;border-radius: 3px;" width="32" 
+height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/79dd5c49c5b94ca98d595dd7c8119986/32.png" 
+alt="monty4uga" title="monty4uga" rel="tooltip"/></a><a 
+href="/FariasMC"><img style="width: 32px;height: 32px;border-radius: 
+3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/dbdc5e1e0e5545a8ab57306542b944e7/32.png" 
+alt="FariasMC" title="FariasMC" rel="tooltip"/></a><a 
+href="/monty4uga"><img style="width: 32px;height: 32px;border-radius: 
+3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/79dd5c49c5b94ca98d595dd7c8119986/32.png" 
+alt="monty4uga" title="monty4uga" rel="tooltip"/></a><a 
+href="/Salty_Dude"><img style="width: 32px;height: 32px;border-radius: 
+3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/6972affb504d4114b52f696e5b567095/32.png" 
+alt="Salty_Dude" title="Salty_Dude" rel="tooltip"/></a><a 
+href="/Glatoz"><img style="width: 32px;height: 32px;border-radius: 3px;" 
+width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/5d1b81c5b0df4b5d936d206b58853643/32.png" 
+alt="Glatoz" title="Glatoz" rel="tooltip"/></a><a href="/xMCBGaming"><img 
+style="width: 32px;height: 32px;border-radius: 3px;" width="32" 
+height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/3d7a479577a54461b8b40b17ba554678/32.png" 
+alt="xMCBGaming" title="xMCBGaming" rel="tooltip"/></a>
+</div>
+<div class='name'>kills</div>
+<div class='number' data-placement='top' rel='' title='20907 kills'>
+20907
+</div>
+</div>
+<div class='col-md-4'>
+<div class='hidden-sm hidden-xs'>
+<a href="/AaroniKH"><img style="width: 32px;height: 32px;border-radius: 
+3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/ca44236f3ff44232a7b42bfe87dac334/32.png" 
+alt="AaroniKH" title="AaroniKH" rel="tooltip"/></a><a 
+href="/Chicharri"><img style="width: 32px;height: 32px;border-radius: 
+3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/4266a5d82dc64ac7afd481f356201eac/32.png" 
+alt="Chicharri" title="Chicharri" rel="tooltip"/></a><a 
+href="/Chicharri"><img style="width: 32px;height: 32px;border-radius: 
+3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/4266a5d82dc64ac7afd481f356201eac/32.png" 
+alt="Chicharri" title="Chicharri" rel="tooltip"/></a><a 
+href="/Chicharri"><img style="width: 32px;height: 32px;border-radius: 
+3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/4266a5d82dc64ac7afd481f356201eac/32.png" 
+alt="Chicharri" title="Chicharri" rel="tooltip"/></a><a 
+href="/AaroniKH"><img style="width: 32px;height: 32px;border-radius: 
+3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/ca44236f3ff44232a7b42bfe87dac334/32.png" 
+alt="AaroniKH" title="AaroniKH" rel="tooltip"/></a><a href="/Rauuuh"><img 
+style="width: 32px;height: 32px;border-radius: 3px;" width="32" 
+height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/ede70777d6aa421093f90e50da925272/32.png" 
+alt="Rauuuh" title="Rauuuh" rel="tooltip"/></a><a href="/Rauuuh"><img 
+style="width: 32px;height: 32px;border-radius: 3px;" width="32" 
+height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/ede70777d6aa421093f90e50da925272/32.png" 
+alt="Rauuuh" title="Rauuuh" rel="tooltip"/></a><a href="/AnnaPvp"><img 
+style="width: 32px;height: 32px;border-radius: 3px;" width="32" 
+height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/d9af4757f1b3417bac823885fad086b9/32.png" 
+alt="AnnaPvp" title="AnnaPvp" rel="tooltip"/></a><a 
+href="/Salty_Dude"><img style="width: 32px;height: 32px;border-radius: 
+3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/6972affb504d4114b52f696e5b567095/32.png" 
+alt="Salty_Dude" title="Salty_Dude" rel="tooltip"/></a><a 
+href="/Darkooo"><img style="width: 32px;height: 32px;border-radius: 3px;" 
+width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/e50f0c682f9a438a8a9972b5ecb1cb8a/32.png" 
+alt="Darkooo" title="Darkooo" rel="tooltip"/></a><a href="/Darkooo"><img 
+style="width: 32px;height: 32px;border-radius: 3px;" width="32" 
+height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/e50f0c682f9a438a8a9972b5ecb1cb8a/32.png" 
+alt="Darkooo" title="Darkooo" rel="tooltip"/></a><a href="/Joseen10"><img 
+style="width: 32px;height: 32px;border-radius: 3px;" width="32" 
+height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/d5b5427bf14c4c689fde81ef9335ec86/32.png" 
+alt="Joseen10" title="Joseen10" rel="tooltip"/></a><a 
+href="/AnnaPvp"><img style="width: 32px;height: 32px;border-radius: 3px;" 
+width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/d9af4757f1b3417bac823885fad086b9/32.png" 
+alt="AnnaPvp" title="AnnaPvp" rel="tooltip"/></a><a href="/TewFingz"><img 
+style="width: 32px;height: 32px;border-radius: 3px;" width="32" 
+height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/a09ecf0026494b6ea5f173f28ae9928d/32.png" 
+alt="TewFingz" title="TewFingz" rel="tooltip"/></a><a href="/Rauuuh"><img 
+style="width: 32px;height: 32px;border-radius: 3px;" width="32" 
+height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/ede70777d6aa421093f90e50da925272/32.png" 
+alt="Rauuuh" title="Rauuuh" rel="tooltip"/></a><a href="/AnnaPvp"><img 
+style="width: 32px;height: 32px;border-radius: 3px;" width="32" 
+height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/d9af4757f1b3417bac823885fad086b9/32.png" 
+alt="AnnaPvp" title="AnnaPvp" rel="tooltip"/></a>
+</div>
+<div class='name'>deaths</div>
+<div class='number' data-placement='top' rel='' title='19318 deaths'>
+19318
+</div>
+</div>
+<div class='col-md-4'>
+<div class='hidden-sm hidden-xs'>
+<a href="/Ludcha"><img style="width: 32px;height: 32px;border-radius: 
+3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/ae581e8ee8764471a725c7b79ce540c4/32.png" 
+alt="Ludcha" title="Ludcha" rel="tooltip"/></a><a 
+href="/MajorMcDonalds"><img style="width: 32px;height: 
+32px;border-radius: 3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/a53b7c56ddc64fcba1219a3829aabc28/32.png" 
+alt="MajorMcDonalds" title="MajorMcDonalds" rel="tooltip"/></a><a 
+href="/gushingblood"><img style="width: 32px;height: 32px;border-radius: 
+3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/2e05eb91e64b46f88a49368d205d26fd/32.png" 
+alt="gushingblood" title="gushingblood" rel="tooltip"/></a><a 
+href="/Pelpelajax"><img style="width: 32px;height: 32px;border-radius: 
+3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/c4a072b2abe647a396bbc8ce07c90b60/32.png" 
+alt="Pelpelajax" title="Pelpelajax" rel="tooltip"/></a><a 
+href="/HeroK"><img style="width: 32px;height: 32px;border-radius: 3px;" 
+width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/f3aa8fd3d46c42bb9d2f99efc5c32d4e/32.png" 
+alt="HeroK" title="HeroK" rel="tooltip"/></a><a href="/l1ttle"><img 
+style="width: 32px;height: 32px;border-radius: 3px;" width="32" 
+height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/e264469101c8448780ad35d62a27fd13/32.png" 
+alt="l1ttle" title="l1ttle" rel="tooltip"/></a><a href="/Joel_"><img 
+style="width: 32px;height: 32px;border-radius: 3px;" width="32" 
+height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/5918ee40462b4c84ba32b9e71761a8ff/32.png" 
+alt="Joel_" title="Joel_" rel="tooltip"/></a><a href="/Rhombocombo"><img 
+style="width: 32px;height: 32px;border-radius: 3px;" width="32" 
+height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/ba5225ed487c4a79aa3875aad9d3fb3b/32.png" 
+alt="Rhombocombo" title="Rhombocombo" rel="tooltip"/></a><a 
+href="/Scorpioon"><img style="width: 32px;height: 32px;border-radius: 
+3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/b2b2e914e7c0402e8441143cdc6a871b/32.png" 
+alt="Scorpioon" title="Scorpioon" rel="tooltip"/></a><a 
+href="/Klasy"><img style="width: 32px;height: 32px;border-radius: 3px;" 
+width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/ef28fddd36144152b03908df83bccbac/32.png" 
+alt="Klasy" title="Klasy" rel="tooltip"/></a><a href="/MacrosKa"><img 
+style="width: 32px;height: 32px;border-radius: 3px;" width="32" 
+height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/4427dcbb964e4db9b3cd15ecbbf17101/32.png" 
+alt="MacrosKa" title="MacrosKa" rel="tooltip"/></a><a 
+href="/Lemon____"><img style="width: 32px;height: 32px;border-radius: 
+3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/37bd64bbf72b4ebaa761976207a1aa66/32.png" 
+alt="Lemon____" title="Lemon____" rel="tooltip"/></a><a 
+href="/Whitie_White"><img style="width: 32px;height: 32px;border-radius: 
+3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/42e111f86d0041cd906ef1fcc18cc30b/32.png" 
+alt="Whitie_White" title="Whitie_White" rel="tooltip"/></a><a 
+href="/ThePepGamer"><img style="width: 32px;height: 32px;border-radius: 
+3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/252ec388f1e94dcfb6331455f768c3d4/32.png" 
+alt="ThePepGamer" title="ThePepGamer" rel="tooltip"/></a><a 
+href="/PolskYT"><img style="width: 32px;height: 32px;border-radius: 3px;" 
+width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/14ec0bb86945482184f4c2b1d63838a1/32.png" 
+alt="PolskYT" title="PolskYT" rel="tooltip"/></a><a href="/Eslakon"><img 
+style="width: 32px;height: 32px;border-radius: 3px;" width="32" 
+height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/8f1cdf73e3d1400d8fa8e935a0c2bed9/32.png" 
+alt="Eslakon" title="Eslakon" rel="tooltip"/></a>
+</div>
+<div class='name'>friends</div>
+<div class='number'>
+89
+</div>
+</div>
+</div>
+</div>
+<div class='col-md-4 col-sm-6 col-xs-12'>
+<div class='stats'>
+<div class='well'>
+<div class='unqualified'>
+<a href='/oc.tc/leaderboard'>
+not enough recent matches for ranking
+</a>
+</div>
+<div class='rule'></div>
+<div><div class='total'>
+<div class='name'>matches</div>
+<div class='number'>0</div>
+</div><div class='total'>
+<div class='name'>wins</div>
+<div class='number'>0</div>
+</div><div class='total'>
+<div class='name'>losses</div>
+<div class='number'>0</div>
+</div><div class='total'>
+<div class='name'>forfeits</div>
+<div class='number'>0</div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section>
+<div class='row'>
+<div class='col-md-12'>
+<div class='tabbable'>
+<ul class='nav nav-tabs' id='user-tabs'>
+<li class='active'>
+<a data-toggle='tab' href='#about'>About</a>
+</li>
+<li>
+<a data-toggle='tab' href='#trophycase'>Trophy Case</a>
+</li>
+<li>
+<a data-toggle='tab' href='#stats'>Stats</a>
+</li>
+<li>
+<a data-toggle='tab' href='#pvp-encounters'>PvP</a>
+</li>
+<li>
+<a data-toggle='tab' href='#objectives'>Objectives</a>
+</li>
+<li>
+<a data-toggle='tab' href='#matches'>Ranked Matches</a>
+</li>
+<li>
+<a data-toggle='tab' href='#maps'>Maps</a>
+</li>
+<li>
+<a data-toggle='tab' href='#infractions'>Infractions</a>
+</li>
+</ul>
+<div class='tab-content' style='overflow: visible;'>
+<div class='tab-pane active' id='about'>
+<div class='row'>
+<div class='col-md-4 col-sm-6'>
+<h5>Twitter</h5>
+<blockquote>
+<p>
+<a href='http://twitter.com/Oxinous' target='_blank'>Oxinous</a>
+</p>
+</blockquote>
+</div>
+<div class='col-md-4 col-sm-6'>
+<h5>Steam</h5>
+<blockquote>
+<p>
+<a href='http://steamcommunity.com/id/Oxinous' 
+target='_blank'>Oxinous</a>
+</p>
+</blockquote>
+</div>
+<div class='col-md-4 col-sm-6'>
+<h5>YouTube</h5>
+<blockquote>
+<p>
+<a><a target="_blank" 
+href="https://www.youtube.com/channel/UCvwqiNPRYwETby5641pfbnw">Oxinous</a></a>
+</p>
+</blockquote>
+</div>
+<div class='col-md-4 col-sm-6'>
+<h5>Discord</h5>
+<blockquote>
+<p style='color: #666'>
+Oxinous#2680
+</p>
+</blockquote>
+</div>
+<div class='col-md-4 col-sm-6'>
+<h5>Team</h5>
+<blockquote>
+<p>
+<a href='/oc.tc/teams/dominex'>Dominex</a>
+</p>
+</blockquote>
+</div>
+</div>
+<div class='row'>
+<div class='col-sm-6'>
+<h5>Interests</h5>
+<pre>Ludcha ლ(◕ ᗜ ◕)ლ</pre>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-12'>
+<h5>About Oxinous</h5>
+<pre class='about-me'>Thanks for all those great moments Overcast Network 
+<img alt="heart" src="https://static.oc.tc/images/emoji/unicode/2764.png" 
+width="20" height="20" style="vertical-align:middle;"> 
+
+PC Specs:
+i3-6100
+8GB RAM
+GTX 960
+120GB SSD</pre>
+</div>
+</div>
+</div>
+<div class='tab-pane' id='trophycase'>
+<div class='row'>
+<div class='col-md-12'>
+<ul class='thumbnails list-unstyled'>
+<li class='col-md-3 col-sm-6'>
+<div class='thumbnail trophy' rel='tooltip' title='Register and confirm 
+email address'>
+<div style='background: #eee; color: #444;'>
+<i class='fa fa-edit'></i>
+</div>
+<h4>Sign Me Up</h4>
+</div>
+</li>
+<li class='col-md-3 col-sm-6'>
+<div class='thumbnail trophy' rel='tooltip' title='Licensed TNT handler'>
+<div style='background: #eee; color: #444;'>
+<i class='fa fa-bomb'></i>
+</div>
+<h4>Sapper</h4>
+</div>
+</li>
+<li class='col-md-3 col-sm-6'>
+<div class='thumbnail trophy' rel='tooltip' title='Referee a tournament'>
+<div style='background: #eee; color: #444;'>
+<i class='fa fa-flag'></i>
+</div>
+<h4>Ref</h4>
+</div>
+</li>
+<li class='col-md-3 col-sm-6'>
+<div class='thumbnail trophy' rel='tooltip' title='Reach 10k kills'>
+<div style='background: #eee; color: #444;'>
+<i class='fa fa-list-ol'></i>
+</div>
+<h4>Oooh, kill em!</h4>
+</div>
+</li>
+<li class='clearfix'></li>
+</ul>
+</div>
+</div>
+</div>
+<div class='tab-pane' id='stats'>
+<div class='row'>
+<div class='col-md-3 col-sm-6'>
+<h3 data-placement='top' rel='tooltip' title='First joined on Jan 26th 
+2014'>
+1096
+<small>days since first seen</small>
+</h3>
+</div>
+<div class='col-md-3 col-sm-6'>
+<h3>
+429
+<small>hours played</small>
+</h3>
+</div>
+<div class='col-md-3 col-sm-6'>
+<h3>
+16039
+<small>teams joined</small>
+</h3>
+</div>
+<div class='col-md-3 col-sm-6'>
+<h3>
+42848
+<small>raindrops</small>
+</h3>
+</div>
+</div>
+<hr>
+<h4>Forum Stats</h4>
+<div class='row'>
+<div class='col-md-3 col-sm-6'>
+<h3>
+3387
+<small>forum posts</small>
+</h3>
+</div>
+<div class='col-md-3 col-sm-6'>
+<h3>
+70
+<small>topics started</small>
+</h3>
+</div>
+</div>
+<hr>
+<h4>
+Project Ares Stats
+</h4>
+<div class='row'>
+<div class='col-md-4'>
+<div class='row'>
+<div class='col-sm-6'>
+<h3>
+20430
+<small>kills</small>
+</h3>
+</div>
+<div class='col-sm-6'>
+<h3>
+18884
+<small>deaths</small>
+</h3>
+</div>
+</div>
+</div>
+<div class='col-md-3'>
+<div class='row'>
+<div class='col-sm-6'>
+<h3>
+1.082
+<small>kd</small>
+</h3>
+</div>
+<div class='col-sm-6'>
+<h3>
+1.266
+<small>kk</small>
+</h3>
+</div>
+</div>
+</div>
+<div class='col-md-5'>
+<div class='row'>
+<div class='col-md-6'>
+<h3>
+15.54
+<small>days played</small>
+</h3>
+</div>
+</div>
+</div>
+</div>
+<hr>
+<h4>
+Mini Stats
+</h4>
+<div class='row'>
+<div class='col-md-4'>
+<div class='row'>
+<div class='col-sm-6'>
+<h3>
+39
+<small>kills</small>
+</h3>
+</div>
+<div class='col-sm-6'>
+<h3>
+24
+<small>deaths</small>
+</h3>
+</div>
+</div>
+</div>
+<div class='col-md-3'>
+<div class='row'>
+<div class='col-sm-6'>
+<h3>
+1.625
+<small>kd</small>
+</h3>
+</div>
+<div class='col-sm-6'>
+<h3>
+1.773
+<small>kk</small>
+</h3>
+</div>
+</div>
+</div>
+<div class='col-md-5'>
+<div class='row'>
+<div class='col-md-6'>
+<h3>
+0.02
+<small>days played</small>
+</h3>
+</div>
+</div>
+</div>
+</div>
+<hr>
+<h4>
+Blitz Stats
+</h4>
+<div class='row'>
+<div class='col-md-4'>
+<div class='row'>
+<div class='col-sm-6'>
+<h3>
+390
+<small>kills</small>
+</h3>
+</div>
+<div class='col-sm-6'>
+<h3>
+352
+<small>deaths</small>
+</h3>
+</div>
+</div>
+</div>
+<div class='col-md-3'>
+<div class='row'>
+<div class='col-sm-6'>
+<h3>
+1.108
+<small>kd</small>
+</h3>
+</div>
+<div class='col-sm-6'>
+<h3>
+1.147
+<small>kk</small>
+</h3>
+</div>
+</div>
+</div>
+<div class='col-md-5'>
+<div class='row'>
+<div class='col-md-6'>
+<h3>
+0.23
+<small>days played</small>
+</h3>
+</div>
+</div>
+</div>
+</div>
+<hr>
+<h4>
+Ghost Squadron Stats
+</h4>
+<div class='row'>
+<div class='col-md-4'>
+<div class='row'>
+<div class='col-sm-6'>
+<h3>
+29
+<small>kills</small>
+</h3>
+</div>
+<div class='col-sm-6'>
+<h3>
+21
+<small>deaths</small>
+</h3>
+</div>
+</div>
+</div>
+<div class='col-md-3'>
+<div class='row'>
+<div class='col-sm-6'>
+<h3>
+1.381
+<small>kd</small>
+</h3>
+</div>
+<div class='col-sm-6'>
+<h3>
+1.933
+<small>kk</small>
+</h3>
+</div>
+</div>
+</div>
+<div class='col-md-5'>
+<div class='row'>
+<div class='col-md-6'>
+<h3>
+0.03
+<small>days played</small>
+</h3>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='tab-pane' id='pvp-encounters'>
+<div class='row'>
+<div class='col-sm-6'>
+<p>
+<a href="/AaroniKH"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/ca44236f3ff44232a7b42bfe87dac334/16.png" 
+alt="AaroniKH" title="AaroniKH"/></a>
+<b><a style="color: #08c; " href="/AaroniKH">AaroniKH</a></b>
+killed
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+on
+<a href='/oc.tc/maps/directrix'>Directrix</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a6f8c8f2dbc9aa42fba9' rel='tooltip' title='September 
+24th, 2016 - 11:20 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+killed
+<a href="/AnnaPvp"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/d9af4757f1b3417bac823885fad086b9/16.png" 
+alt="AnnaPvp" title="AnnaPvp"/></a>
+<b><a style="color: #08c; " href="/AnnaPvp">AnnaPvp</a></b>
+on
+<a href='/oc.tc/maps/directrix'>Directrix</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a6f8c8f2dbc9aa42fba9' rel='tooltip' title='September 
+24th, 2016 - 11:20 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+killed
+<a href="/Kyorge"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/5810a65e858343de919f0699ff2727e6/16.png" 
+alt="Kyorge" title="Kyorge"/></a>
+<b><a style="color: #08c; " href="/Kyorge">Kyorge</a></b>
+on
+<a href='/oc.tc/maps/directrix'>Directrix</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a6f8c8f2dbc9aa42fba9' rel='tooltip' title='September 
+24th, 2016 - 11:20 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/Chicharri"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/4266a5d82dc64ac7afd481f356201eac/16.png" 
+alt="Chicharri" title="Chicharri"/></a>
+<b><a style="color: #08c; " href="/Chicharri">Chicharri</a></b>
+killed
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+on
+<a href='/oc.tc/maps/directrix'>Directrix</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a6f8c8f2dbc9aa42fba9' rel='tooltip' title='September 
+24th, 2016 - 11:19 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/Chicharri"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/4266a5d82dc64ac7afd481f356201eac/16.png" 
+alt="Chicharri" title="Chicharri"/></a>
+<b><a style="color: #08c; " href="/Chicharri">Chicharri</a></b>
+killed
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+on
+<a href='/oc.tc/maps/directrix'>Directrix</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a6f8c8f2dbc9aa42fba9' rel='tooltip' title='September 
+24th, 2016 - 11:19 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/Chicharri"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/4266a5d82dc64ac7afd481f356201eac/16.png" 
+alt="Chicharri" title="Chicharri"/></a>
+<b><a style="color: #08c; " href="/Chicharri">Chicharri</a></b>
+killed
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+on
+<a href='/oc.tc/maps/directrix'>Directrix</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a6f8c8f2dbc9aa42fba9' rel='tooltip' title='September 
+24th, 2016 - 11:19 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+killed
+<a href="/WALT12"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/70b83148b84a4decbc91202b3a615f02/16.png" 
+alt="WALT12" title="WALT12"/></a>
+<b><a style="color: #08c; " href="/WALT12">WALT12</a></b>
+on
+<a href='/oc.tc/maps/directrix'>Directrix</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a6f8c8f2dbc9aa42fba9' rel='tooltip' title='September 
+24th, 2016 - 11:18 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/AaroniKH"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/ca44236f3ff44232a7b42bfe87dac334/16.png" 
+alt="AaroniKH" title="AaroniKH"/></a>
+<b><a style="color: #08c; " href="/AaroniKH">AaroniKH</a></b>
+killed
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+on
+<a href='/oc.tc/maps/directrix'>Directrix</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a6f8c8f2dbc9aa42fba9' rel='tooltip' title='September 
+24th, 2016 - 11:18 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+killed
+<a href="/AnnaPvp"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/d9af4757f1b3417bac823885fad086b9/16.png" 
+alt="AnnaPvp" title="AnnaPvp"/></a>
+<b><a style="color: #08c; " href="/AnnaPvp">AnnaPvp</a></b>
+on
+<a href='/oc.tc/maps/directrix'>Directrix</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a6f8c8f2dbc9aa42fba9' rel='tooltip' title='September 
+24th, 2016 - 11:18 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+killed
+<a href="/ALTHEPALROCKS"><img style="width: 16px;height: 
+16px;border-radius: 3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/16aa7d5033b94fe4b2d74d165d01dcf9/16.png" 
+alt="ALTHEPALROCKS" title="ALTHEPALROCKS"/></a>
+<b><a style="color: #08c; " href="/ALTHEPALROCKS">ALTHEPALROCKS</a></b>
+on
+<a href='/oc.tc/maps/directrix'>Directrix</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a6f8c8f2dbc9aa42fba9' rel='tooltip' title='September 
+24th, 2016 - 11:17 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/Rauuuh"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/ede70777d6aa421093f90e50da925272/16.png" 
+alt="Rauuuh" title="Rauuuh"/></a>
+<b><a style="color: #08c; " href="/Rauuuh">Rauuuh</a></b>
+killed
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+on
+<a href='/oc.tc/maps/directrix'>Directrix</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a6f8c8f2dbc9aa42fba9' rel='tooltip' title='September 
+24th, 2016 - 11:17 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+killed
+<a href="/Kyorge"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/5810a65e858343de919f0699ff2727e6/16.png" 
+alt="Kyorge" title="Kyorge"/></a>
+<b><a style="color: #08c; " href="/Kyorge">Kyorge</a></b>
+on
+<a href='/oc.tc/maps/directrix'>Directrix</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a6f8c8f2dbc9aa42fba9' rel='tooltip' title='September 
+24th, 2016 - 11:17 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+killed
+<a href="/monty4uga"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/79dd5c49c5b94ca98d595dd7c8119986/16.png" 
+alt="monty4uga" title="monty4uga"/></a>
+<b><a style="color: #08c; " href="/monty4uga">monty4uga</a></b>
+on
+<a href='/oc.tc/maps/blockrage'>BlockRAGE</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a4eec8f2dbc9aa42f354' rel='tooltip' title='September 
+24th, 2016 - 11:16 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/Rauuuh"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/ede70777d6aa421093f90e50da925272/16.png" 
+alt="Rauuuh" title="Rauuuh"/></a>
+<b><a style="color: #08c; " href="/Rauuuh">Rauuuh</a></b>
+killed
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+on
+<a href='/oc.tc/maps/blockrage'>BlockRAGE</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a4eec8f2dbc9aa42f354' rel='tooltip' title='September 
+24th, 2016 - 11:16 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/AnnaPvp"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/d9af4757f1b3417bac823885fad086b9/16.png" 
+alt="AnnaPvp" title="AnnaPvp"/></a>
+<b><a style="color: #08c; " href="/AnnaPvp">AnnaPvp</a></b>
+killed
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+on
+<a href='/oc.tc/maps/blockrage'>BlockRAGE</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a4eec8f2dbc9aa42f354' rel='tooltip' title='September 
+24th, 2016 - 11:16 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+killed
+<a href="/Uli152"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/6ad389ca461542888bfc9ea82b694568/16.png" 
+alt="Uli152" title="Uli152"/></a>
+<b><a style="color: #08c; " href="/Uli152">Uli152</a></b>
+on
+<a href='/oc.tc/maps/blockrage'>BlockRAGE</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a4eec8f2dbc9aa42f354' rel='tooltip' title='September 
+24th, 2016 - 11:15 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+killed
+<a href="/TheRottMC"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/8d4abc074bf5434294392185dd43524b/16.png" 
+alt="TheRottMC" title="TheRottMC"/></a>
+<b><a style="color: #08c; " href="/TheRottMC">TheRottMC</a></b>
+on
+<a href='/oc.tc/maps/blockrage'>BlockRAGE</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a4eec8f2dbc9aa42f354' rel='tooltip' title='September 
+24th, 2016 - 11:15 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/Salty_Dude"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/6972affb504d4114b52f696e5b567095/16.png" 
+alt="Salty_Dude" title="Salty_Dude"/></a>
+<b><a style="color: #08c; " href="/Salty_Dude">Salty_Dude</a></b>
+killed
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+on
+<a href='/oc.tc/maps/blockrage'>BlockRAGE</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a4eec8f2dbc9aa42f354' rel='tooltip' title='September 
+24th, 2016 - 11:15 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+killed
+<a href="/Uli152"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/6ad389ca461542888bfc9ea82b694568/16.png" 
+alt="Uli152" title="Uli152"/></a>
+<b><a style="color: #08c; " href="/Uli152">Uli152</a></b>
+on
+<a href='/oc.tc/maps/blockrage'>BlockRAGE</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a4eec8f2dbc9aa42f354' rel='tooltip' title='September 
+24th, 2016 - 11:15 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+killed
+<a href="/monty4uga"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/79dd5c49c5b94ca98d595dd7c8119986/16.png" 
+alt="monty4uga" title="monty4uga"/></a>
+<b><a style="color: #08c; " href="/monty4uga">monty4uga</a></b>
+on
+<a href='/oc.tc/maps/blockrage'>BlockRAGE</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a4eec8f2dbc9aa42f354' rel='tooltip' title='September 
+24th, 2016 - 11:15 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+killed
+<a href="/FariasMC"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/dbdc5e1e0e5545a8ab57306542b944e7/16.png" 
+alt="FariasMC" title="FariasMC"/></a>
+<b><a style="color: #08c; " href="/FariasMC">FariasMC</a></b>
+on
+<a href='/oc.tc/maps/blockrage'>BlockRAGE</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a4eec8f2dbc9aa42f354' rel='tooltip' title='September 
+24th, 2016 - 11:15 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+killed
+<a href="/monty4uga"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/79dd5c49c5b94ca98d595dd7c8119986/16.png" 
+alt="monty4uga" title="monty4uga"/></a>
+<b><a style="color: #08c; " href="/monty4uga">monty4uga</a></b>
+on
+<a href='/oc.tc/maps/blockrage'>BlockRAGE</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a4eec8f2dbc9aa42f354' rel='tooltip' title='September 
+24th, 2016 - 11:14 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/Darkooo"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/e50f0c682f9a438a8a9972b5ecb1cb8a/16.png" 
+alt="Darkooo" title="Darkooo"/></a>
+<b><a style="color: #08c; " href="/Darkooo">Darkooo</a></b>
+killed
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+on
+<a href='/oc.tc/maps/blockrage'>BlockRAGE</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a4eec8f2dbc9aa42f354' rel='tooltip' title='September 
+24th, 2016 - 11:14 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/Darkooo"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/e50f0c682f9a438a8a9972b5ecb1cb8a/16.png" 
+alt="Darkooo" title="Darkooo"/></a>
+<b><a style="color: #08c; " href="/Darkooo">Darkooo</a></b>
+killed
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+on
+<a href='/oc.tc/maps/blockrage'>BlockRAGE</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a4eec8f2dbc9aa42f354' rel='tooltip' title='September 
+24th, 2016 - 11:14 AM'>4 months ago</a>
+</p>
+</div>
+<div class='col-sm-6'>
+<p>
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+killed
+<a href="/Salty_Dude"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/6972affb504d4114b52f696e5b567095/16.png" 
+alt="Salty_Dude" title="Salty_Dude"/></a>
+<b><a style="color: #08c; " href="/Salty_Dude">Salty_Dude</a></b>
+on
+<a href='/oc.tc/maps/blockrage'>BlockRAGE</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a4eec8f2dbc9aa42f354' rel='tooltip' title='September 
+24th, 2016 - 11:14 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+killed
+<a href="/Glatoz"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/5d1b81c5b0df4b5d936d206b58853643/16.png" 
+alt="Glatoz" title="Glatoz"/></a>
+<b><a style="color: #08c; " href="/Glatoz">Glatoz</a></b>
+on
+<a href='/oc.tc/maps/blockrage'>BlockRAGE</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a4eec8f2dbc9aa42f354' rel='tooltip' title='September 
+24th, 2016 - 11:14 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/Joseen10"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/d5b5427bf14c4c689fde81ef9335ec86/16.png" 
+alt="Joseen10" title="Joseen10"/></a>
+<b><a style="color: #08c; " href="/Joseen10">Joseen10</a></b>
+killed
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+on
+<a href='/oc.tc/maps/blockrage'>BlockRAGE</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a4eec8f2dbc9aa42f354' rel='tooltip' title='September 
+24th, 2016 - 11:13 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+killed
+<a href="/xMCBGaming"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/3d7a479577a54461b8b40b17ba554678/16.png" 
+alt="xMCBGaming" title="xMCBGaming"/></a>
+<b><a style="color: #08c; " href="/xMCBGaming">xMCBGaming</a></b>
+on
+<a href='/oc.tc/maps/blockrage'>BlockRAGE</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a4eec8f2dbc9aa42f354' rel='tooltip' title='September 
+24th, 2016 - 11:13 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+killed
+<a href="/Rauuuh"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/ede70777d6aa421093f90e50da925272/16.png" 
+alt="Rauuuh" title="Rauuuh"/></a>
+<b><a style="color: #08c; " href="/Rauuuh">Rauuuh</a></b>
+on
+<a href='/oc.tc/maps/blockrage'>BlockRAGE</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a4eec8f2dbc9aa42f354' rel='tooltip' title='September 
+24th, 2016 - 11:13 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/AnnaPvp"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/d9af4757f1b3417bac823885fad086b9/16.png" 
+alt="AnnaPvp" title="AnnaPvp"/></a>
+<b><a style="color: #08c; " href="/AnnaPvp">AnnaPvp</a></b>
+killed
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+on
+<a href='/oc.tc/maps/blockrage'>BlockRAGE</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a4eec8f2dbc9aa42f354' rel='tooltip' title='September 
+24th, 2016 - 11:13 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/TewFingz"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/a09ecf0026494b6ea5f173f28ae9928d/16.png" 
+alt="TewFingz" title="TewFingz"/></a>
+<b><a style="color: #08c; " href="/TewFingz">TewFingz</a></b>
+killed
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+on
+<a href='/oc.tc/maps/blockrage'>BlockRAGE</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a4eec8f2dbc9aa42f354' rel='tooltip' title='September 
+24th, 2016 - 11:13 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+killed
+<a href="/TewFingz"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/a09ecf0026494b6ea5f173f28ae9928d/16.png" 
+alt="TewFingz" title="TewFingz"/></a>
+<b><a style="color: #08c; " href="/TewFingz">TewFingz</a></b>
+on
+<a href='/oc.tc/maps/blockrage'>BlockRAGE</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a4eec8f2dbc9aa42f354' rel='tooltip' title='September 
+24th, 2016 - 11:13 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+killed
+<a href="/69EXOSTRIKER69"><img style="width: 16px;height: 
+16px;border-radius: 3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/e1e50f8f99c948f4813acdc81330cb9e/16.png" 
+alt="69EXOSTRIKER69" title="69EXOSTRIKER69"/></a>
+<b><a style="color: #08c; " href="/69EXOSTRIKER69">69EXOSTRIKER69</a></b>
+on
+<a href='/oc.tc/maps/blockrage'>BlockRAGE</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a4eec8f2dbc9aa42f354' rel='tooltip' title='September 
+24th, 2016 - 11:12 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/Rauuuh"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/ede70777d6aa421093f90e50da925272/16.png" 
+alt="Rauuuh" title="Rauuuh"/></a>
+<b><a style="color: #08c; " href="/Rauuuh">Rauuuh</a></b>
+killed
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+on
+<a href='/oc.tc/maps/blockrage'>BlockRAGE</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a4eec8f2dbc9aa42f354' rel='tooltip' title='September 
+24th, 2016 - 11:12 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+killed
+<a href="/FariasMC"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/dbdc5e1e0e5545a8ab57306542b944e7/16.png" 
+alt="FariasMC" title="FariasMC"/></a>
+<b><a style="color: #08c; " href="/FariasMC">FariasMC</a></b>
+on
+<a href='/oc.tc/maps/blockrage'>BlockRAGE</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a4eec8f2dbc9aa42f354' rel='tooltip' title='September 
+24th, 2016 - 11:12 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/AnnaPvp"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/d9af4757f1b3417bac823885fad086b9/16.png" 
+alt="AnnaPvp" title="AnnaPvp"/></a>
+<b><a style="color: #08c; " href="/AnnaPvp">AnnaPvp</a></b>
+killed
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+on
+<a href='/oc.tc/maps/blockrage'>BlockRAGE</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a4eec8f2dbc9aa42f354' rel='tooltip' title='September 
+24th, 2016 - 11:11 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+killed
+<a href="/Tigo"><img style="width: 16px;height: 16px;border-radius: 3px;" 
+width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/037d948e4bbb441f8a59068ab65af822/16.png" 
+alt="Tigo" title="Tigo"/></a>
+<b><a style="color: #2233aa; " href="/Tigo">Tigo</a></b>
+on
+<a href='/oc.tc/maps/blockrage'>BlockRAGE</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a4eec8f2dbc9aa42f354' rel='tooltip' title='September 
+24th, 2016 - 11:11 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+killed
+<a href="/thedragon455"><img style="width: 16px;height: 
+16px;border-radius: 3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b83f7de99d69468a8ceadc3864b584cb/16.png" 
+alt="thedragon455" title="thedragon455"/></a>
+<b><a style="color: #08c; " href="/thedragon455">thedragon455</a></b>
+on
+<a href='/oc.tc/maps/blockrage'>BlockRAGE</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a4eec8f2dbc9aa42f354' rel='tooltip' title='September 
+24th, 2016 - 11:11 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+killed
+<a href="/Alyshii"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/ae7cc71fc99b4b3cae72f4ad935c6c41/16.png" 
+alt="Alyshii" title="Alyshii"/></a>
+<b><a style="color: #08c; " href="/Alyshii">Alyshii</a></b>
+on
+<a href='/oc.tc/maps/blockrage'>BlockRAGE</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a4eec8f2dbc9aa42f354' rel='tooltip' title='September 
+24th, 2016 - 11:11 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/Neaathhhhhh"><img style="width: 16px;height: 
+16px;border-radius: 3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/659915cc90d847b682415a07a7375690/16.png" 
+alt="Neaathhhhhh" title="Neaathhhhhh"/></a>
+<b><a style="color: #08c; " href="/Neaathhhhhh">Neaathhhhhh</a></b>
+killed
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+on
+<a href='/oc.tc/maps/blockrage'>BlockRAGE</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a4eec8f2dbc9aa42f354' rel='tooltip' title='September 
+24th, 2016 - 11:11 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+killed
+<a href="/gofeniz"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/4abb542d68f54c2db9a8da6a3de3b2f0/16.png" 
+alt="gofeniz" title="gofeniz"/></a>
+<b><a style="color: #08c; " href="/gofeniz">gofeniz</a></b>
+on
+<a href='/oc.tc/maps/blockrage'>BlockRAGE</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a4eec8f2dbc9aa42f354' rel='tooltip' title='September 
+24th, 2016 - 11:11 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+killed
+<a href="/69EXOSTRIKER69"><img style="width: 16px;height: 
+16px;border-radius: 3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/e1e50f8f99c948f4813acdc81330cb9e/16.png" 
+alt="69EXOSTRIKER69" title="69EXOSTRIKER69"/></a>
+<b><a style="color: #08c; " href="/69EXOSTRIKER69">69EXOSTRIKER69</a></b>
+on
+<a href='/oc.tc/maps/blockrage'>BlockRAGE</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a4eec8f2dbc9aa42f354' rel='tooltip' title='September 
+24th, 2016 - 11:11 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+killed
+<a href="/monty4uga"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/79dd5c49c5b94ca98d595dd7c8119986/16.png" 
+alt="monty4uga" title="monty4uga"/></a>
+<b><a style="color: #08c; " href="/monty4uga">monty4uga</a></b>
+on
+<a href='/oc.tc/maps/blockrage'>BlockRAGE</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a4eec8f2dbc9aa42f354' rel='tooltip' title='September 
+24th, 2016 - 11:11 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+killed
+<a href="/Darkooo"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/e50f0c682f9a438a8a9972b5ecb1cb8a/16.png" 
+alt="Darkooo" title="Darkooo"/></a>
+<b><a style="color: #08c; " href="/Darkooo">Darkooo</a></b>
+on
+<a href='/oc.tc/maps/blockrage'>BlockRAGE</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a4eec8f2dbc9aa42f354' rel='tooltip' title='September 
+24th, 2016 - 11:11 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/69EXOSTRIKER69"><img style="width: 16px;height: 
+16px;border-radius: 3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/e1e50f8f99c948f4813acdc81330cb9e/16.png" 
+alt="69EXOSTRIKER69" title="69EXOSTRIKER69"/></a>
+<b><a style="color: #08c; " href="/69EXOSTRIKER69">69EXOSTRIKER69</a></b>
+killed
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+on
+<a href='/oc.tc/maps/blockrage'>BlockRAGE</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a4eec8f2dbc9aa42f354' rel='tooltip' title='September 
+24th, 2016 - 11:10 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+killed
+<a href="/Tigo"><img style="width: 16px;height: 16px;border-radius: 3px;" 
+width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/037d948e4bbb441f8a59068ab65af822/16.png" 
+alt="Tigo" title="Tigo"/></a>
+<b><a style="color: #2233aa; " href="/Tigo">Tigo</a></b>
+on
+<a href='/oc.tc/maps/blockrage'>BlockRAGE</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a4eec8f2dbc9aa42f354' rel='tooltip' title='September 
+24th, 2016 - 11:10 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+killed
+<a href="/Salty_Dude"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/6972affb504d4114b52f696e5b567095/16.png" 
+alt="Salty_Dude" title="Salty_Dude"/></a>
+<b><a style="color: #08c; " href="/Salty_Dude">Salty_Dude</a></b>
+on
+<a href='/oc.tc/maps/blockrage'>BlockRAGE</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a4eec8f2dbc9aa42f354' rel='tooltip' title='September 
+24th, 2016 - 11:10 AM'>4 months ago</a>
+</p>
+<p>
+<a href="/Rauuuh"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/ede70777d6aa421093f90e50da925272/16.png" 
+alt="Rauuuh" title="Rauuuh"/></a>
+<b><a style="color: #08c; " href="/Rauuuh">Rauuuh</a></b>
+killed
+<a href="/Oxinous"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/829ed9dfe94740a1933e81aa7cb05189/16.png" 
+alt="Oxinous" title="Oxinous"/></a>
+on
+<a href='/oc.tc/maps/blockrage'>BlockRAGE</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57e6a4eec8f2dbc9aa42f354' rel='tooltip' title='September 
+24th, 2016 - 11:10 AM'>4 months ago</a>
+</p>
+</div>
+</div>
+</div>
+<div class='tab-pane' id='objectives'>
+<div class='row'>
+<div class='col-md-12'>
+<h2>
+444
+<small>monuments destroyed</small>
+</h2>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-4 col-sm-6'>
+<p>
+<strong>1%</strong>
+of
+<strong style='color: none'>Ship</strong>
+on
+<a href="/maps/datastation">DATAstation</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57dc1e0ac8f2cd268a29fe12' rel='tooltip' title='September 
+16th, 2016 - 11:40 AM'>
+4 months
+ago
+</a>
+</p>
+<p>
+<strong>25%</strong>
+of
+<strong style='color: none'>Left Monument</strong>
+on
+<a href="/maps/fractal_descent">Fractal Descent</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57dc197ac8f2cd268a29f9af' rel='tooltip' title='September 
+16th, 2016 - 11:22 AM'>
+4 months
+ago
+</a>
+</p>
+<p>
+<strong>45%</strong>
+of
+<strong style='color: none'>Antenna B</strong>
+on
+<a href="/maps/spaceship_battles">Spaceship Battles</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/578a34d7c8f2c09cad6832c8' rel='tooltip' title='July 16th, 
+2016 -  8:44 AM'>
+6 months
+ago
+</a>
+</p>
+<p>
+<strong>67%</strong>
+of
+<strong style='color: none'>Ice Pillar</strong>
+on
+<a href="/maps/boombox">BoomBox</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/578a3176c8f2c09cad682f36' rel='tooltip' title='July 16th, 
+2016 -  8:20 AM'>
+6 months
+ago
+</a>
+</p>
+<p>
+<strong>100%</strong>
+of
+<strong style='color: none'>Monument A</strong>
+on
+<a href="/maps/sunrise_over_paradise">Sunrise Over Paradise</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5701584ac8f2f0a93704791d' rel='tooltip' title='April 3rd, 
+2016 - 12:56 PM'>
+10 months
+ago
+</a>
+</p>
+<p>
+<strong>47%</strong>
+of
+<strong style='color: none'>Ice Pillar</strong>
+on
+<a href="/maps/boombox">BoomBox</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56ffc076c8f24eb90162873a' rel='tooltip' title='April 2nd, 
+2016 -  8:10 AM'>
+10 months
+ago
+</a>
+</p>
+<p>
+<strong>6%</strong>
+of
+<strong style='color: none'>Cuboid</strong>
+on
+<a href="/maps/ender_blast">Ender Blast</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56ffbed9c8f24eb9016285d3' rel='tooltip' title='April 2nd, 
+2016 -  7:50 AM'>
+10 months
+ago
+</a>
+</p>
+<p>
+<strong>2%</strong>
+of
+<strong style='color: none'>Ice Pillar</strong>
+on
+<a href="/maps/boombox">BoomBox</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56fed718c8f2bcf192792622' rel='tooltip' title='April 1st, 
+2016 -  3:33 PM'>
+10 months
+ago
+</a>
+</p>
+</div>
+<div class='col-md-4 col-sm-6'>
+<p>
+<strong>50%</strong>
+of
+<strong style='color: none'>Monument</strong>
+on
+<a href="/maps/desert_cataract">Desert Cataract</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56fa81afc8f24c315005b01b' rel='tooltip' title='March 29th, 
+2016 -  8:28 AM'>
+10 months
+ago
+</a>
+</p>
+<p>
+<strong>50%</strong>
+of
+<strong style='color: none'>Monument A</strong>
+on
+<a href="/maps/sunrise_over_paradise">Sunrise Over Paradise</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56fa7b6dc8f24c315005abb2' rel='tooltip' title='March 29th, 
+2016 -  8:13 AM'>
+10 months
+ago
+</a>
+</p>
+<p>
+<strong>38%</strong>
+of
+<strong style='color: none'>Ice Pillar</strong>
+on
+<a href="/maps/boombox">BoomBox</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56ec2d20c8f2d075e5046cd9' rel='tooltip' title='March 18th, 
+2016 - 11:40 AM'>
+10 months
+ago
+</a>
+</p>
+<p>
+<strong>7%</strong>
+of
+<strong style='color: none'>Cuboid</strong>
+on
+<a href="/maps/ender_blast">Ender Blast</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56e2e5cac8f2c0840242d055' rel='tooltip' title='March 11th, 
+2016 -  9:43 AM'>
+11 months
+ago
+</a>
+</p>
+<p>
+<strong>52%</strong>
+of
+<strong style='color: none'>Left Monument</strong>
+on
+<a href="/maps/relic">Relic</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56df149cc8f219b0b258e6eb' rel='tooltip' title='March 8th, 
+2016 - 12:18 PM'>
+11 months
+ago
+</a>
+</p>
+<p>
+<strong>2%</strong>
+of
+<strong style='color: none'>Ship</strong>
+on
+<a href="/maps/datastation">DATAstation</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56df0064c8f21976a330c4b5' rel='tooltip' title='March 8th, 
+2016 - 10:47 AM'>
+11 months
+ago
+</a>
+</p>
+<p>
+<strong>9%</strong>
+of
+<strong style='color: none'>Ice Pillar</strong>
+on
+<a href="/maps/boombox">BoomBox</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56def8a8c8f21976a330bd53' rel='tooltip' title='March 8th, 
+2016 - 10:18 AM'>
+11 months
+ago
+</a>
+</p>
+<p>
+<strong>2%</strong>
+of
+<strong style='color: none'>Tower</strong>
+on
+<a href="/maps/sand_wars_dte">Sand Wars: DTE</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56ca2455c8f27a6d0669e7e8' rel='tooltip' title='February 
+21st, 2016 -  3:00 PM'>
+11 months
+ago
+</a>
+</p>
+</div>
+<div class='col-md-4 col-sm-6'>
+<p>
+<strong>100%</strong>
+of
+<strong style='color: none'>Monument</strong>
+on
+<a href="/maps/sugar_cane_valley">Sugar Cane Valley</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56ca1da8c8f27a6d0669df32' rel='tooltip' title='February 
+21st, 2016 -  2:30 PM'>
+11 months
+ago
+</a>
+</p>
+<p>
+<strong>52%</strong>
+of
+<strong style='color: none'>Left Monument</strong>
+on
+<a href="/maps/bamboo_valley_iii">Bamboo Valley III</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56b8eb30c8f2f71e18b5ca89' rel='tooltip' title='February 
+8th, 2016 -  1:42 PM'>
+12 months
+ago
+</a>
+</p>
+<p>
+<strong>50%</strong>
+of
+<strong style='color: none'>Right Monument</strong>
+on
+<a href="/maps/mystic_point">Mystic Point</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56b621bbc8f23bbc8c825fcf' rel='tooltip' title='February 
+6th, 2016 - 10:43 AM'>
+12 months
+ago
+</a>
+</p>
+<p>
+<strong>11%</strong>
+of
+<strong style='color: none'>Left Monument</strong>
+on
+<a href="/maps/bamboo_valley_iii">Bamboo Valley III</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56b4b640c8f26e180f91b257' rel='tooltip' title='February 
+5th, 2016 -  8:55 AM'>
+12 months
+ago
+</a>
+</p>
+<p>
+<strong>87%</strong>
+of
+<strong style='color: none'>Antenna B</strong>
+on
+<a href="/maps/spaceship_battles">Spaceship Battles</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56ace781c8f2b31e7e40ac5d' rel='tooltip' title='January 
+30th, 2016 - 10:59 AM'>
+12 months
+ago
+</a>
+</p>
+<p>
+<strong>8%</strong>
+of
+<strong style='color: none'>Antenna A</strong>
+on
+<a href="/maps/spaceship_battles">Spaceship Battles</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56ace781c8f2b31e7e40ac5d' rel='tooltip' title='January 
+30th, 2016 - 10:56 AM'>
+12 months
+ago
+</a>
+</p>
+<p>
+<strong>6%</strong>
+of
+<strong style='color: none'>Left Monument</strong>
+on
+<a href="/maps/fractal_descent">Fractal Descent</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56ab8f0dc8f2719c9743b9c6' rel='tooltip' title='January 
+29th, 2016 - 10:13 AM'>
+12 months
+ago
+</a>
+</p>
+<p>
+<strong>33%</strong>
+of
+<strong style='color: none'>Monument</strong>
+on
+<a href="/maps/monument_valley">Monument Valley</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56a7d77bc8f269cb8efef04b' rel='tooltip' title='January 
+26th, 2016 -  2:32 PM'>
+1 year
+ago
+</a>
+</p>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-12'>
+<h2>
+193
+<small>cores leaked</small>
+</h2>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-4 col-sm-6'>
+<p>
+<strong style='color: none'>Core</strong>
+on
+<a href="/maps/bamboo_valley_iii">Bamboo Valley III</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57dd51f4c8f2701b694acf0b' rel='tooltip' title='September 
+17th, 2016 -  9:39 AM'>
+4 months
+ago
+</a>
+</p>
+<p>
+<strong style='color: none'>Core</strong>
+on
+<a href="/maps/fractal_descent">Fractal Descent</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57dc197ac8f2cd268a29f9af' rel='tooltip' title='September 
+16th, 2016 - 11:28 AM'>
+4 months
+ago
+</a>
+</p>
+<p>
+<strong style='color: none'>Core</strong>
+on
+<a href="/maps/fractal_descent">Fractal Descent</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/578a3e22c8f2c09cad68395c' rel='tooltip' title='July 16th, 
+2016 -  9:06 AM'>
+6 months
+ago
+</a>
+</p>
+<p>
+<strong style='color: none'>Right Core</strong>
+on
+<a href="/maps/ion">Ion</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/571132a6c8f2be6bad80c06d' rel='tooltip' title='April 15th, 
+2016 -  1:43 PM'>
+10 months
+ago
+</a>
+</p>
+<p>
+<strong style='color: none'>Left Core</strong>
+on
+<a href="/maps/ion">Ion</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/571132a6c8f2be6bad80c06d' rel='tooltip' title='April 15th, 
+2016 -  1:41 PM'>
+10 months
+ago
+</a>
+</p>
+<p>
+<strong style='color: none'>Stern Core</strong>
+on
+<a href="/maps/tanker_tnt">Tanker TNT</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56fa83bec8f24c315005b24d' rel='tooltip' title='March 29th, 
+2016 -  8:41 AM'>
+10 months
+ago
+</a>
+</p>
+<p>
+<strong style='color: none'>Core</strong>
+on
+<a href="/maps/iris_dtc">Iris DTC</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56f8f629c8f29d6dbb99eb73' rel='tooltip' title='March 28th, 
+2016 -  4:20 AM'>
+10 months
+ago
+</a>
+</p>
+<p>
+<strong style='color: none'>Left Core</strong>
+on
+<a href="/maps/ion">Ion</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56d9b0a5c8f26c250536bb87' rel='tooltip' title='March 4th, 
+2016 - 10:14 AM'>
+11 months
+ago
+</a>
+</p>
+</div>
+<div class='col-md-4 col-sm-6'>
+<p>
+<strong style='color: none'>Core</strong>
+on
+<a href="/maps/wintery_cabin">Wintery Cabin</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56c74027c8f27de0c2604f8c' rel='tooltip' title='February 
+19th, 2016 - 10:35 AM'>
+11 months
+ago
+</a>
+</p>
+<p>
+<strong style='color: none'>Core</strong>
+on
+<a href="/maps/retaliation">Retaliation</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56b8e658c8f257873cdcf0cd' rel='tooltip' title='February 
+8th, 2016 -  1:18 PM'>
+12 months
+ago
+</a>
+</p>
+<p>
+<strong style='color: none'>Back Core</strong>
+on
+<a href="/maps/totally_war_ii">Totally War II</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56acbe6bc8f2769faa849267' rel='tooltip' title='January 
+30th, 2016 -  8:08 AM'>
+12 months
+ago
+</a>
+</p>
+<p>
+<strong style='color: none'>Front Core</strong>
+on
+<a href="/maps/totally_war_ii">Totally War II</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56acbe6bc8f2769faa849267' rel='tooltip' title='January 
+30th, 2016 -  8:05 AM'>
+12 months
+ago
+</a>
+</p>
+<p>
+<strong style='color: none'>Prow Core</strong>
+on
+<a href="/maps/tanker_tnt">Tanker TNT</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56a8eb87c8f27ee5dd7db770' rel='tooltip' title='January 
+27th, 2016 - 10:13 AM'>
+almost 1 year
+ago
+</a>
+</p>
+<p>
+<strong style='color: none'>Core</strong>
+on
+<a href="/maps/bamboo_valley_iii">Bamboo Valley III</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56a8e7dac8f2501cfb2dc72a' rel='tooltip' title='January 
+27th, 2016 - 10:03 AM'>
+almost 1 year
+ago
+</a>
+</p>
+<p>
+<strong style='color: none'>Core</strong>
+on
+<a href="/maps/sky_traffic_2">Sky Traffic 2</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56a8e369c8f2fc8c202b084a' rel='tooltip' title='January 
+27th, 2016 -  9:52 AM'>
+almost 1 year
+ago
+</a>
+</p>
+<p>
+<strong style='color: none'>Left Core</strong>
+on
+<a href="/maps/ion">Ion</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56a7c5b1c8f269cb8efee359' rel='tooltip' title='January 
+26th, 2016 -  1:19 PM'>
+1 year
+ago
+</a>
+</p>
+</div>
+<div class='col-md-4 col-sm-6'>
+<p>
+<strong style='color: none'>Core</strong>
+on
+<a href="/maps/battle_of_tenjin">Battle of Tenjin</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56a7b150c8f23d396cfabcee' rel='tooltip' title='January 
+26th, 2016 - 11:55 AM'>
+1 year
+ago
+</a>
+</p>
+<p>
+<strong style='color: none'>Core</strong>
+on
+<a href="/maps/dangerous_cargo">Dangerous Cargo</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56a51d42c8f257d76f2f2499' rel='tooltip' title='January 
+24th, 2016 -  1:05 PM'>
+1 year
+ago
+</a>
+</p>
+<p>
+<strong style='color: none'>Right Core</strong>
+on
+<a href="/maps/ion">Ion</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56a3ee23c8f2174435e1b748' rel='tooltip' title='January 
+23rd, 2016 -  3:27 PM'>
+1 year
+ago
+</a>
+</p>
+<p>
+<strong style='color: none'>Back Core</strong>
+on
+<a href="/maps/totally_war_ii">Totally War II</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56a39aaac8f2b7469e50206a' rel='tooltip' title='January 
+23rd, 2016 -  9:43 AM'>
+1 year
+ago
+</a>
+</p>
+<p>
+<strong style='color: none'>Front Core</strong>
+on
+<a href="/maps/astro">Astro</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5666e0a5c8f28d2595fc833e' rel='tooltip' title='December 
+8th, 2015 -  8:01 AM'>
+1 year
+ago
+</a>
+</p>
+<p>
+<strong style='color: none'>Core</strong>
+on
+<a href="/maps/royal_garden_dtc">Royal Garden DTC</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5666da89c8f28d2595fc803d' rel='tooltip' title='December 
+8th, 2015 -  7:29 AM'>
+1 year
+ago
+</a>
+</p>
+<p>
+<strong style='color: none'>Core</strong>
+on
+<a href="/maps/temple_run">Temple Run</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5666cb37c8f2d71ec4dc153c' rel='tooltip' title='December 
+8th, 2015 -  6:23 AM'>
+1 year
+ago
+</a>
+</p>
+<p>
+<strong style='color: none'>Core</strong>
+on
+<a href="/maps/mayan_apocalypse">Mayan Apocalypse</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5666c946c8f2d71ec4dc148b' rel='tooltip' title='December 
+8th, 2015 -  6:20 AM'>
+1 year
+ago
+</a>
+</p>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-12'>
+<h2>
+147
+<small>wools placed</small>
+</h2>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-4 col-sm-6'>
+<p>
+<strong style='color: rgb(53,70,27)'>Green Wool</strong>
+on
+<a href="/maps/mushroom_gorge">Mushroom Gorge</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56fa746bc8f2b8a5f4033f5f' rel='tooltip' title='March 29th, 
+2016 -  7:33 AM'>
+10 months
+ago
+</a>
+</p>
+<p>
+<strong style='color: rgb(53,70,27)'>Green Wool</strong>
+on
+<a href="/maps/9th_law">9th Law</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56d1bda9c8f245e5a8f9d444' rel='tooltip' title='February 
+27th, 2016 -  9:21 AM'>
+11 months
+ago
+</a>
+</p>
+<p>
+<strong style='color: rgb(107,138,201)'>Light Blue Wool</strong>
+on
+<a href="/maps/fourchette">Fourchette</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56c86ea5c8f2135b7926d13c' rel='tooltip' title='February 
+20th, 2016 -  8:15 AM'>
+11 months
+ago
+</a>
+</p>
+<p>
+<strong style='color: rgb(228,177,29)'>Yellow Wool</strong>
+on
+<a href="/maps/fourchette">Fourchette</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56c86ea5c8f2135b7926d13c' rel='tooltip' title='February 
+20th, 2016 -  8:15 AM'>
+11 months
+ago
+</a>
+</p>
+<p>
+<strong style='color: rgb(126,61,181)'>Purple Wool</strong>
+on
+<a href="/maps/placid_spring">Placid Spring</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56ba208fc8f265ba6d743924' rel='tooltip' title='February 
+9th, 2016 - 11:28 AM'>
+12 months
+ago
+</a>
+</p>
+<p>
+<strong style='color: rgb(46,110,137)'>Cyan Wool</strong>
+on
+<a href="/maps/race_for_victory_3">Race for Victory 3</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56ae646fc8f24042dd2b824b' rel='tooltip' title='January 
+31st, 2016 -  2:13 PM'>
+12 months
+ago
+</a>
+</p>
+<p>
+<strong style='color: rgb(53,70,27)'>Green Wool</strong>
+on
+<a href="/maps/golden_drought">Golden Drought</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56a5227dc8f257d76f2f279f' rel='tooltip' title='January 
+24th, 2016 -  1:18 PM'>
+1 year
+ago
+</a>
+</p>
+<p>
+<strong style='color: rgb(65,174,56)'>Lime Wool</strong>
+on
+<a href="/maps/battle_ecliptica_ii">Battle Ecliptica II</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56a3dad6c8f2f7e8481eb824' rel='tooltip' title='January 
+23rd, 2016 -  2:04 PM'>
+1 year
+ago
+</a>
+</p>
+</div>
+<div class='col-md-4 col-sm-6'>
+<p>
+<strong style='color: rgb(53,70,27)'>Green Wool</strong>
+on
+<a href="/maps/connected_christmas">Connected Christmas</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5665a016c8f2684609ffdd19' rel='tooltip' title='December 
+7th, 2015 -  9:20 AM'>
+1 year
+ago
+</a>
+</p>
+<p>
+<strong style='color: rgb(46,56,141)'>Blue Wool</strong>
+on
+<a href="/maps/dynabooo">DynaboOo</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/563679d3c8f200196fe10840' rel='tooltip' title='November 
+1st, 2015 -  2:49 PM'>
+1 year
+ago
+</a>
+</p>
+<p>
+<strong style='color: rgb(65,174,56)'>Lime Wool</strong>
+on
+<a href="/maps/banana_split">Banana Split</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56069e9ac8f2a061086b9d47' rel='tooltip' title='September 
+26th, 2015 -  8:37 AM'>
+over 1 year
+ago
+</a>
+</p>
+<p>
+<strong style='color: rgb(46,56,141)'>Blue Wool</strong>
+on
+<a href="/maps/battle_ecliptica_ii">Battle Ecliptica II</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56057ff2c8f288832afdc85f' rel='tooltip' title='September 
+25th, 2015 - 12:33 PM'>
+over 1 year
+ago
+</a>
+</p>
+<p>
+<strong style='color: rgb(126,61,181)'>Purple Wool</strong>
+on
+<a href="/maps/deepwind_jungle">Deepwind Jungle</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/55f0486cc8f2f012d421ae89' rel='tooltip' title='September 
+9th, 2015 - 10:00 AM'>
+over 1 year
+ago
+</a>
+</p>
+<p>
+<strong style='color: rgb(53,70,27)'>Green Wool</strong>
+on
+<a href="/maps/mushroom_gorge">Mushroom Gorge</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/55ec04cfc8f20b02bb05e274' rel='tooltip' title='September 
+6th, 2015 -  4:24 AM'>
+over 1 year
+ago
+</a>
+</p>
+<p>
+<strong style='color: rgb(46,56,141)'>Blue Wool</strong>
+on
+<a href="/maps/dynamo">Dynamo</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/55e95cd9c8f2f44515346ea9' rel='tooltip' title='September 
+4th, 2015 -  4:00 AM'>
+over 1 year
+ago
+</a>
+</p>
+<p>
+<strong style='color: rgb(126,61,181)'>Purple Wool</strong>
+on
+<a href="/maps/mushroom_gorge">Mushroom Gorge</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5549eaa8c8f2fd0c575e102c' rel='tooltip' title='May 6th, 
+2015 -  5:40 AM'>
+over 1 year
+ago
+</a>
+</p>
+</div>
+<div class='col-md-4 col-sm-6'>
+<p>
+<strong style='color: rgb(150,52,48)'>Red Wool</strong>
+on
+<a href="/maps/dynamo">Dynamo</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5544b0f5c8f2f01e660267f6' rel='tooltip' title='May 2nd, 
+2015 -  6:26 AM'>
+over 1 year
+ago
+</a>
+</p>
+<p>
+<strong style='color: rgb(179,80,188)'>Magenta Wool</strong>
+on
+<a href="/maps/golden_drought_iii">Golden Drought III</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/552273cec8f2ee1698447db2' rel='tooltip' title='April 6th, 
+2015 -  6:57 AM'>
+almost 2 years
+ago
+</a>
+</p>
+<p>
+<strong style='color: rgb(53,70,27)'>Green Wool</strong>
+on
+<a href="/maps/fairy_tales_2_a_tale_or_two">Fairy Tales 2: A Tale or 
+Two</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/55213459c8f2549b48c572eb' rel='tooltip' title='April 5th, 
+2015 -  8:18 AM'>
+almost 2 years
+ago
+</a>
+</p>
+<p>
+<strong style='color: rgb(150,52,48)'>Red Wool</strong>
+on
+<a href="/maps/infernal_shadow">Infernal Shadow</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/552016a7c8f254e293e1b5c5' rel='tooltip' title='April 4th, 
+2015 - 12:05 PM'>
+almost 2 years
+ago
+</a>
+</p>
+<p>
+<strong style='color: rgb(53,70,27)'>Green Wool</strong>
+on
+<a href="/maps/golden_drought_iii">Golden Drought III</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/551bc29ac8f21dcdccace102' rel='tooltip' title='April 1st, 
+2015 -  5:08 AM'>
+almost 2 years
+ago
+</a>
+</p>
+<p>
+<strong style='color: rgb(150,52,48)'>Red Wool</strong>
+on
+<a href="/maps/battle_ecliptica_iii">Battle Ecliptica III</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/55191fd1c8f2af1c89832f43' rel='tooltip' title='March 30th, 
+2015 -  5:08 AM'>
+almost 2 years
+ago
+</a>
+</p>
+<p>
+<strong style='color: rgb(228,177,29)'>Yellow Wool</strong>
+on
+<a href="/maps/battle_ecliptica_iii">Battle Ecliptica III</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/55191fd1c8f2af1c89832f43' rel='tooltip' title='March 30th, 
+2015 -  5:07 AM'>
+almost 2 years
+ago
+</a>
+</p>
+<p>
+<strong style='color: rgb(53,70,27)'>Green Wool</strong>
+on
+<a href="/maps/placid_spring">Placid Spring</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/54e5c17fc8f2365567c11e76' rel='tooltip' title='February 
+19th, 2015 -  5:04 AM'>
+almost 2 years
+ago
+</a>
+</p>
+</div>
+</div>
+</div>
+<div class='tab-pane' id='matches'>
+<div class='row'>
+<div class='col-md-12'>
+<div class='table-container'>
+<table class='table table-bordered table-striped'>
+<thead>
+<tr>
+<th width='15%'>When</th>
+<th>Server</th>
+<th>Map</th>
+<th width='12%'>Length</th>
+<th width='12%'>Participants</th>
+<th width='20%'>
+Result
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a data-container='body' data-placement='left' 
+href='/matches/56363016c8f25a1f15c46465' rel='tooltip' title='November 
+1st, 2015 -  9:43 AM'>
+1 year ago
+</a>
+</td>
+<td>
+<a href="/play">Ranked1 (US)</a>
+</td>
+<td>
+<a href="/maps/wit_s_end:ranked:production">Wit&#39;s End</a>
+</td>
+<td>
+11:18
+</td>
+<td>
+20
+</td>
+<td>
+<div class='result-win'>Win</div>
+</td>
+</tr>
+<tr>
+<td>
+<a data-container='body' data-placement='left' 
+href='/matches/562b9d02c8f2febf19cddb79' rel='tooltip' title='October 
+24th, 2015 - 10:13 AM'>
+over 1 year ago
+</a>
+</td>
+<td>
+<a href="/play">Ranked2 (US)</a>
+</td>
+<td>
+<a href="/maps/nextgen">NextGen</a>
+</td>
+<td>
+10:03
+</td>
+<td>
+24
+</td>
+<td>
+<div class='result-loss'>Loss</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class='tab-pane' id='maps'>
+<div class='row'>
+<div class='col-md-12'>
+<h4>
+3
+maps
+created by
+<span style="color: #3EBCBC; ">Oxinous</span>
+</h4>
+<div class='row maps'>
+<div class='col-md-4 col-sm-6 col-xs-12'>
+<div class='map-container'>
+<div class='map thumbnail' id='a_journey_through_history'>
+<div class='img'>
+<div class='actions'>
+<div class='servers'>
+</div>
+</div>
+<a href='/oc.tc/maps/a_journey_through_history'>
+<img alt='A Journey Through History' class='img-responsive' 
+src='https://maps.oc.tc/Arcade/Rush/History%20Rush%20Map/map.png'>
+</a>
+</div>
+<div class='caption' style='text-align: center;'>
+<h1 class='lead'><a href="/maps/a_journey_through_history">A Journey 
+Through History</a></h1>
+<small>
+by
+<a href='/oc.tc/chle_'>chle_</a>,
+<a href='/oc.tc/_Bread__'>_Bread__</a>,
+<a href='/oc.tc/_3Each'>_3Each</a>
+</small>
+<div data-container='body' data-placement='bottom' rel='tooltip' 
+title='No player rating'>
+<div class='stars' style='height: 16px; width: 85px'>
+<div class='stars-inner'>
+<div class='stars-bg fa fa-star' style='font-size: 16px; margin: 
+0px'></div>
+<div class='stars-bg fa fa-star' style='font-size: 16px; margin: 
+0px'></div>
+<div class='stars-bg fa fa-star' style='font-size: 16px; margin: 
+0px'></div>
+<div class='stars-bg fa fa-star' style='font-size: 16px; margin: 
+0px'></div>
+<div class='stars-bg fa fa-star' style='font-size: 16px; margin: 
+0px'></div>
+</div>
+<div class='stars-inner' style='left: 1px; top: 1px;'>
+<nobr>
+</nobr>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='col-md-4 col-sm-6 col-xs-12'>
+<div class='map-container'>
+<div class='map thumbnail' id='bifrost'>
+<div class='img'>
+<div class='actions'>
+<div class='servers'>
+</div>
+</div>
+<a href='/oc.tc/maps/bifrost'>
+<img alt='Bifrost' class='img-responsive' 
+src='https://maps.oc.tc/FFA/Bifrost/map.png'>
+</a>
+</div>
+<div class='caption' style='text-align: center;'>
+<h1 class='lead'><a href="/maps/bifrost">Bifrost</a></h1>
+<small>
+by
+<a href='/oc.tc/Oxinous'>Oxinous</a>,
+<a href='/oc.tc/MontiG'>MontiG</a>
+</small>
+<div data-container='body' data-placement='bottom' rel='tooltip' 
+title='No player rating'>
+<div class='stars' style='height: 16px; width: 85px'>
+<div class='stars-inner'>
+<div class='stars-bg fa fa-star' style='font-size: 16px; margin: 
+0px'></div>
+<div class='stars-bg fa fa-star' style='font-size: 16px; margin: 
+0px'></div>
+<div class='stars-bg fa fa-star' style='font-size: 16px; margin: 
+0px'></div>
+<div class='stars-bg fa fa-star' style='font-size: 16px; margin: 
+0px'></div>
+<div class='stars-bg fa fa-star' style='font-size: 16px; margin: 
+0px'></div>
+</div>
+<div class='stars-inner' style='left: 1px; top: 1px;'>
+<nobr>
+</nobr>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='col-md-4 col-sm-6 col-xs-12'>
+<div class='map-container'>
+<div class='map thumbnail' id='the_wonders_of_the_world'>
+<div class='img'>
+<div class='actions'>
+<div class='servers'>
+</div>
+</div>
+<a href='/oc.tc/maps/the_wonders_of_the_world'>
+<img alt='The Wonders of the World' class='img-responsive' 
+src='https://maps.oc.tc/Arcade/Rush/The%20Wonders%20of%20The%20World/map.png'>
+</a>
+</div>
+<div class='caption' style='text-align: center;'>
+<h1 class='lead'><a href="/maps/the_wonders_of_the_world">The Wonders of 
+the World</a></h1>
+<small>
+by
+<a href='/oc.tc/samthecat43'>samthecat43</a>,
+<a href='/oc.tc/Ny_'>Ny_</a>,
+<a href='/oc.tc/xCand'>xCand</a>
+</small>
+<div data-container='body' data-placement='bottom' rel='tooltip' 
+title='No player rating'>
+<div class='stars' style='height: 16px; width: 85px'>
+<div class='stars-inner'>
+<div class='stars-bg fa fa-star' style='font-size: 16px; margin: 
+0px'></div>
+<div class='stars-bg fa fa-star' style='font-size: 16px; margin: 
+0px'></div>
+<div class='stars-bg fa fa-star' style='font-size: 16px; margin: 
+0px'></div>
+<div class='stars-bg fa fa-star' style='font-size: 16px; margin: 
+0px'></div>
+<div class='stars-bg fa fa-star' style='font-size: 16px; margin: 
+0px'></div>
+</div>
+<div class='stars-inner' style='left: 1px; top: 1px;'>
+<nobr>
+</nobr>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='tab-pane' id='infractions'>
+<div class='row'>
+<div class='col-md-12'>
+<center>
+<p>No punishments to display.</p>
+</center>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<hr>
+<div class='modal fade' id='contact'>
+<div class='modal-dialog'>
+<div class='modal-content'>
+<form class="simple_form new_inquiry" id="new_inquiry" action="/inquire" 
+accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" 
+value="&#x2713;"/><input type="hidden" name="authenticity_token" 
+value="4GYL6D9cX+TMHWrPJp1NOlI0kz4wxmkpEWPIWJb0jjFLIecrhtXbvg9pnmEqBntLSCGDpHrDgCyrtlsleQWiyw=="/><input 
+class='subj' name='type' type='hidden' value=''>
+<div class='modal-header'>
+<button class='close' data-dismiss='modal'>&times;</button>
+<h3 class='modal-title'>
+Contact Overcast Network
+<small class='subject'></small>
+</h3>
+</div>
+<div class='modal-body'>
+<div class='row'>
+<div class='col-md-6'>
+<div class='form-group'>
+<label class="string optional control-label" 
+for="inquiry_username">Username</label>
+<input required="required" class="form-control" type="text" 
+name="inquiry[username]" id="inquiry_username"/>
+</div>
+<div class='form-group'>
+<label class="string optional control-label" 
+for="inquiry_message">Message</label>
+<textarea rows="10" class="form-control" name="inquiry[message]" 
+id="inquiry_message">
+</textarea>
+</div>
+</div>
+<div class='col-md-6'>
+<div class='form-group'>
+<label class="email optional control-label" 
+for="inquiry_email">Email</label>
+<input required="required" class="form-control" type="email" 
+name="inquiry[email]" id="inquiry_email"/>
+</div>
+<div class='form-group'>
+<label class="string optional control-label" 
+for="inquiry_subject">Subject</label>
+<input required="required" class="form-control" type="text" 
+name="inquiry[subject]" id="inquiry_subject"/>
+</div>
+<p>We usually respond within 1-2 days if you provide a valid email</p>
+<p>Please be as clear and concise as possible. It will help us process 
+your inquiry faster.</p>
+</div>
+</div>
+</div>
+<div class='modal-footer'>
+<a class='btn btn-default' data-dismiss='modal' href='#'>Close</a>
+<input class='btn btn-primary' data-disable-with='Sending...' 
+type='submit' value='Send'>
+</div>
+</form>
+</div>
+</div>
+</div>
+<footer>
+<div class='row'>
+<div class='col-md-2 col-sm-4 col-xs-6'>
+<ul class='nav nav-pills nav-stacked'>
+<li class='heading'>
+Policies
+</li>
+<li>
+<a href='/oc.tc/rules'>Player Rules</a>
+</li>
+<li>
+<a href='/oc.tc/terms'>Terms of Service</a>
+</li>
+<li>
+<a href='/oc.tc/privacy'>Privacy Policy</a>
+</li>
+<li>
+<a href='/oc.tc/refund'>Refund Policy</a>
+</li>
+</ul>
+</div>
+<div class='col-md-2 col-sm-4 col-xs-6'>
+<ul class='nav nav-pills nav-stacked'>
+<li class='heading'>
+Moderation
+</li>
+<li>
+<a href='/oc.tc/report'>Report a Player</a>
+</li>
+<li>
+<a href='/oc.tc/appeal'>Appeal a Punishment</a>
+</li>
+<li>
+<a href='/oc.tc/punishments'>Recent Punishments</a>
+</li>
+</ul>
+</div>
+<div class='clearfix visible-xs-block' style='padding-bottom: 
+20px;'></div>
+<div class='col-md-2 col-sm-4 col-xs-6'>
+<ul class='nav nav-pills nav-stacked'>
+<li class='heading'>
+Organization
+</li>
+<li>
+<a href='/oc.tc/staff'>Staff Listing</a>
+</li>
+<li>
+<a href='/oc.tc/revisions'>Development Logs</a>
+</li>
+<li>
+<a href='https://github.com/OvercastNetwork/Issues'>Report a Bug</a>
+</li>
+</ul>
+</div>
+<div class='clearfix visible-sm-block' style='padding-bottom: 
+20px;'></div>
+<div class='col-md-2 col-sm-4 col-xs-6'>
+<ul class='nav nav-pills nav-stacked'>
+<li class='heading'>
+Contact Us
+</li>
+<li>
+<a class='inquiry' data-toggle='modal' href='#contact'>General 
+Inquiries</a>
+</li>
+<li>
+<a class='inquiry' data-toggle='modal' href='#contact'>Shop Purchases</a>
+</li>
+<li>
+<a href='/oc.tc/appeal'>Ban Appeals</a>
+</li>
+</ul>
+</div>
+<div class='clearfix visible-xs-block' style='padding-bottom: 
+20px;'></div>
+<div class='col-md-2 col-sm-4'>
+<ul class='nav nav-pills nav-stacked follow-us'>
+<li class='heading'>
+Follow Us
+</li>
+<li>
+<a href='https://twitter.com/OvercastPGM'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+Twitter
+</a>
+<a href='https://www.facebook.com/OvercastNetwork'>
+<img 
+src='https://static.oc.tc/assets/facebook_icon-34f4e0ba3a52886710c0360d3f8f35352b6c0a73c7181f690c135b1d24eaa8f0.png'>
+Facebook
+</a>
+<a href='https://www.youtube.com/c/OvercastNetwork'>
+<img 
+src='https://static.oc.tc/assets/youtube_icon-a724516a1d426e48bae525ea6e04abc3e1cf8234989b3f300ed294a61a6c893d.png'>
+YouTube
+</a>
+<a href='http://www.twitch.tv/ocnlive'>
+<img 
+src='https://static.oc.tc/assets/twitch_icon-6604f0ced4759bd1c8bb6a01de875a66024f422c14789a752024980d57ba7398.png'>
+Twitch
+</a>
+</li>
+</ul>
+</div>
+<div class='clearfix visible-xs-block' style='padding-bottom: 
+20px;'></div>
+<div class='col-md-2 col-sm-4' style='text-align: center;'>
+Servers provided by
+<a href='/oc.tc/host'>
+<img class='img-responsive' 
+src='https://static.oc.tc/assets/beastnode-844f199a7f8d0aa2903d26a73ce554bbea1d6030baf3f28bface484c944b5d50.png'>
+</a>
+<div class='copyright'>
+&copy; 2012-2016 Overcast Network
+</div>
+</div>
+</div>
+</footer>
+</div>
+</body>
+</html>

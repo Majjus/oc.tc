@@ -1,0 +1,2936 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta name="csrf-param" content="authenticity_token"/>
+<meta name="csrf-token" 
+content="f0wNdQYHA7n07pGPwiNzMqEcPHudbLsOoyXoKcDXlYkE/6hAZ9daunlIvoeKnbav6CBa+3UfyjrYkEpg9o0ouQ=="/>
+<meta charset='utf-8'>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+<meta content='#337AB7' name='theme-color'>
+<title>
+Zeluph - Overcast Network
+</title>
+<link rel="shortcut icon" type="image/x-icon" 
+href="https://cdn.oc.tc/assets/favicon.ico"/>
+<link rel="apple-touch-icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-57x57-c773bb9eed44bec814183ea9c338a8d24261d8cf4dd837ebfd11316567fd81e6.png"/>
+<link rel="apple-touch-icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-76x76-9b6f7b609f77f40e69d6c3e05780e0fe93ce4fbf6e39c6c749df63a5c526e294.png" 
+sizes="76x76"/>
+<link rel="apple-touch-icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-120x120-4bf1cbf6c6c04c8b98dfd7c828b08c681c8d7533621ab949131c7542344e0a93.png" 
+sizes="120x120"/>
+<link rel="apple-touch-icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-152x152-9285e43ba8ebd0609dad331dc1edb03224b6237f088b999bfd14f81cf716cab6.png" 
+sizes="152x152"/>
+<link rel="apple-touch-icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-167x167-2b722464c6abcaddf5c0d3f64c3292de32c59c079a8ec829a34c0c064f13b55c.png" 
+sizes="167x167"/>
+<link rel="apple-touch-icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-180x180-feb73f6835138a9162af22513c17b7d077fd3ce7f9ef41744eca3e6cbcdee771.png" 
+sizes="180x180"/>
+<link rel="icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-128x128-e17c0fec61348260984daac0ffa7fb9471a25501ca49ef41b2a0daa3130f8ff4.png" 
+sizes="128x128"/>
+<link rel="icon" type="image/png" 
+href="https://static.oc.tc/assets/icons/icon-192x192-c93c1e496617fec85cd89aa9d3abc62db2232eb1cf901924b5bc81c32bc44ed6.png" 
+sizes="192x192"/>
+<link rel="stylesheet" media="screen" 
+href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css"/>
+<link rel="stylesheet" media="screen" 
+href="https://static.oc.tc/assets/application-bfa7ca518e1a8ca212fef53aaa0650a6f5b4475c06914e7178ff5bec94070752.css"/>
+<link rel="stylesheet" media="screen" 
+href="//fonts.googleapis.com/css?family=Lato:700,400,300"/>
+<link rel="stylesheet" media="screen" 
+href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"/>
+<script 
+src="https://static.oc.tc/assets/libraries-912fd655d5f42721ec0f4b257ad9e600219d21f56ed23b0125feaf20b7f6e28e.js"></script>
+<script 
+src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script 
+src="https://static.oc.tc/assets/application-279754d779d3df8a6e34571f7a04537497dcab3d7ff24f26101905b5bdcd2e1b.js"></script>
+<script 
+src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-3-typeahead/4.0.0/bootstrap3-typeahead.min.js"></script>
+<script>
+  var 
+_gaq=_gaq||[];_gaq.push(["_setAccount","UA-30515952-1"]);_gaq.push(["_trackPageview"]);(function(){var 
+e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var 
+t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})()
+</script>
+</head>
+<body>
+<nav class='navbar navbar-default navbar-static-top'>
+<div class='container'>
+<div class='navbar-header'>
+<button class='navbar-toggle collapsed' 
+data-target='#top-navbar-collapse' data-toggle='collapse' 
+id='top-navbar-collapse-button'>
+<span class='fa fa-bars'></span>
+</button>
+<a class='navbar-brand' href='/'>
+<img class='pull-left' height='34' 
+src='https://cdn.oc.tc/assets/logo.png'>
+Overcast Network
+</a>
+</div>
+<div class='navbar-collapse collapse' id='top-navbar-collapse'>
+<ul class='nav navbar-nav' style='margin-right: 0;'>
+<li>
+<a href='/oc.tc/play'>
+<i class='fa fa-play'></i>
+Play
+</a>
+</li>
+<li>
+<a href='/oc.tc/maps'>
+<i class='fa fa-cubes'></i>
+Maps
+</a>
+</li>
+<li class='active dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+<i class='fa fa-user'></i>
+Players
+<b class='caret'></b>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a href='https://oc.tc/leaderboard'>
+<i class='fa fa-star'></i>
+Rankings
+</a>
+</li>
+<li>
+<a href='https://oc.tc/stats'>
+<i class='fa fa-line-chart'></i>
+Stats
+</a>
+</li>
+<li>
+<a href='/oc.tc/channels'>
+<i class='fa fa-youtube-play'></i>
+Channels
+</a>
+</li>
+<form class='player-search'>
+<input class='input-sm form-control typeahead' id='player-search' 
+name='search' placeholder='Search for a player' type='text'>
+</form>
+</ul>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+<i class='fa fa-trophy'></i>
+League
+<b class='caret'></b>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a href='/oc.tc/teams'>
+<i class='fa fa-group'></i>
+Teams
+</a>
+</li>
+<li>
+<a href='/oc.tc/tournaments'>
+<i class='fa fa-flag'></i>
+Tournaments
+</a>
+</li>
+</ul>
+</li>
+<li>
+<a href='/oc.tc/forums'>
+<i class='fa fa-comments'></i>
+Forum
+</a>
+</li>
+</ul>
+<hr class='visible-xs visible-sm' style='margin: 4px; border-color: 
+#e7e7e7;'>
+<ul class='nav navbar-nav pull-right'>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#' 
+style='outline: none; '>
+<i class='fa fa-user'></i>
+<div class='visible-xs-inline visible-sm-inline'>
+Account
+</div>
+<b class='caret'></b>
+</a>
+<ul class='dropdown-menu dropdown-menu-right'>
+<li>
+<a href='/oc.tc/users/sign_in'>Login</a>
+</li>
+<li>
+<a href='/oc.tc/users/sign_up'>Register</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<div class='container'>
+<div class='flash' style='margin-top: 20px;'>
+</div>
+<section>
+<div class='row'>
+<div class='col-md-12'>
+<h1 style='margin-top: 0'>
+<span style='color: #3EBCBC'>
+Zeluph
+</span>
+</h1>
+<div>
+<a class="label" style="background-color: #3EBCBC; color: white" 
+href="/staff">Referee</a>
+<a class="label" style="background-color: rgb(32, 114, 143); color: 
+white" href="/shop">Praetor</a>
+</div>
+</div>
+</div>
+<div class='row' style='margin-top: 20px'>
+<div class='col-md-2 col-sm-3 col-xs-6'>
+<a href='#' style='width: 130px; height: 130px;'>
+<img style="width: 130px;height: 130px;border-radius: 7px;" width="130" 
+height="130" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/130.png" 
+alt="Zeluph" title="Zeluph"/>
+</a>
+<div class='last-seen'>
+<div class='offline'>last seen</div>
+<div class='server'>
+<a href='/oc.tc/play'>
+Capture1
+<div class='datacenter'>
+[US]
+</div>
+</a>
+</div>
+<div class='time' data-container='body' data-placement='bottom' 
+rel='tooltip' title='December 30th, 2016 -  6:55 PM'>
+27 days
+ago
+</div>
+</div>
+</div>
+<div class='col-md-6 col-sm-3 col-xs-6'>
+<div class='row heads'>
+<div class='col-md-4'>
+<div class='hidden-sm hidden-xs'>
+<a href="/Swanbow"><img style="width: 32px;height: 32px;border-radius: 
+3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/7d88007f4c3d4b3ca7cfd629954a4b97/32.png" 
+alt="Swanbow" title="Swanbow" rel="tooltip"/></a><a 
+href="/jockeurtman"><img style="width: 32px;height: 32px;border-radius: 
+3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/02e7b7041d734e77905399dcf82da917/32.png" 
+alt="jockeurtman" title="jockeurtman" rel="tooltip"/></a><a 
+href="/77_Loli_77"><img style="width: 32px;height: 32px;border-radius: 
+3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/f4544368fda84b89a745974adcee8c4f/32.png" 
+alt="77_Loli_77" title="77_Loli_77" rel="tooltip"/></a><a 
+href="/ImnotVirus"><img style="width: 32px;height: 32px;border-radius: 
+3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/909f5cf2aef147a2a5b3855b5b05cc29/32.png" 
+alt="ImnotVirus" title="ImnotVirus" rel="tooltip"/></a><a 
+href="/Bix3L"><img style="width: 32px;height: 32px;border-radius: 3px;" 
+width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/a8e67b80bbcf47c4a457f4142705aeb4/32.png" 
+alt="Bix3L" title="Bix3L" rel="tooltip"/></a><a 
+href="/NoHacksJustJumb"><img style="width: 32px;height: 
+32px;border-radius: 3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/380216c600d44a9e837730dbe6e91fe0/32.png" 
+alt="NoHacksJustJumb" title="NoHacksJustJumb" rel="tooltip"/></a><a 
+href="/xXMaityXx"><img style="width: 32px;height: 32px;border-radius: 
+3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/a9f90c4a7e754c4f9ed300cae10c2a13/32.png" 
+alt="xXMaityXx" title="xXMaityXx" rel="tooltip"/></a><a 
+href="/nigges60"><img style="width: 32px;height: 32px;border-radius: 
+3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/7cbf21687f494fb3aea86df8048a7ade/32.png" 
+alt="nigges60" title="nigges60" rel="tooltip"/></a><a 
+href="/NoHacksJustJumb"><img style="width: 32px;height: 
+32px;border-radius: 3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/380216c600d44a9e837730dbe6e91fe0/32.png" 
+alt="NoHacksJustJumb" title="NoHacksJustJumb" rel="tooltip"/></a><a 
+href="/Magnet_K"><img style="width: 32px;height: 32px;border-radius: 
+3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/8f54cb7436324f5bb4487e500b010978/32.png" 
+alt="Magnet_K" title="Magnet_K" rel="tooltip"/></a><a 
+href="/afemojji"><img style="width: 32px;height: 32px;border-radius: 
+3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/8b854921c04e4311b15062608ea28976/32.png" 
+alt="afemojji" title="afemojji" rel="tooltip"/></a><a href="/ZulTGL"><img 
+style="width: 32px;height: 32px;border-radius: 3px;" width="32" 
+height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/5b8c0418526a429dbca6e21ae5206881/32.png" 
+alt="ZulTGL" title="ZulTGL" rel="tooltip"/></a><a href="/ALifF"><img 
+style="width: 32px;height: 32px;border-radius: 3px;" width="32" 
+height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/da157d8e844e445a98247d9f73170d16/32.png" 
+alt="ALifF" title="ALifF" rel="tooltip"/></a><a href="/gabriacsta"><img 
+style="width: 32px;height: 32px;border-radius: 3px;" width="32" 
+height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/ac461ee05e384980ba3aac6e8d8ad873/32.png" 
+alt="gabriacsta" title="gabriacsta" rel="tooltip"/></a><a 
+href="/Saiinty"><img style="width: 32px;height: 32px;border-radius: 3px;" 
+width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/98da5f5d41264139af4b72e45f017371/32.png" 
+alt="Saiinty" title="Saiinty" rel="tooltip"/></a><a href="/nigges60"><img 
+style="width: 32px;height: 32px;border-radius: 3px;" width="32" 
+height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/7cbf21687f494fb3aea86df8048a7ade/32.png" 
+alt="nigges60" title="nigges60" rel="tooltip"/></a>
+</div>
+<div class='name'>kills</div>
+<div class='number' data-placement='top' rel='' title='9574 kills'>
+9574
+</div>
+</div>
+<div class='col-md-4'>
+<div class='hidden-sm hidden-xs'>
+<a href="/diiegoq"><img style="width: 32px;height: 32px;border-radius: 
+3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/7e24eb650cdc4f99a00d9210de86c913/32.png" 
+alt="diiegoq" title="diiegoq" rel="tooltip"/></a><a 
+href="/JhinTheVirtuoso"><img style="width: 32px;height: 
+32px;border-radius: 3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/318051d7901146e3b2d6d439895c3df2/32.png" 
+alt="JhinTheVirtuoso" title="JhinTheVirtuoso" rel="tooltip"/></a><a 
+href="/pureness_"><img style="width: 32px;height: 32px;border-radius: 
+3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/3e38f8cca2784021ab33dd6dabd4508d/32.png" 
+alt="pureness_" title="pureness_" rel="tooltip"/></a><a 
+href="/Cosmic111"><img style="width: 32px;height: 32px;border-radius: 
+3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/8192c23d4934437296dfb52c5ff4abc1/32.png" 
+alt="Cosmic111" title="Cosmic111" rel="tooltip"/></a><a 
+href="/ketto_"><img style="width: 32px;height: 32px;border-radius: 3px;" 
+width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/5e43167ac2484fb5a29a9d8c84fd851b/32.png" 
+alt="ketto_" title="ketto_" rel="tooltip"/></a><a 
+href="/Ghost_Wizard_"><img style="width: 32px;height: 32px;border-radius: 
+3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/0219db44a30149d9be75f2851063d4cb/32.png" 
+alt="Ghost_Wizard_" title="Ghost_Wizard_" rel="tooltip"/></a><a 
+href="/Ghost_Wizard_"><img style="width: 32px;height: 32px;border-radius: 
+3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/0219db44a30149d9be75f2851063d4cb/32.png" 
+alt="Ghost_Wizard_" title="Ghost_Wizard_" rel="tooltip"/></a><a 
+href="/Eggrigore"><img style="width: 32px;height: 32px;border-radius: 
+3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/9dc1f6c1960f49f2ac48a3fc5c5ba784/32.png" 
+alt="Eggrigore" title="Eggrigore" rel="tooltip"/></a><a 
+href="/Dazly"><img style="width: 32px;height: 32px;border-radius: 3px;" 
+width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/68641a0bc9c3472fb42f9a8f3c643fdb/32.png" 
+alt="Dazly" title="Dazly" rel="tooltip"/></a><a href="/Scrumdidduly"><img 
+style="width: 32px;height: 32px;border-radius: 3px;" width="32" 
+height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/f7c5f85d2b1d44e882b9ef1505cca734/32.png" 
+alt="Scrumdidduly" title="Scrumdidduly" rel="tooltip"/></a><a 
+href="/Payoutube"><img style="width: 32px;height: 32px;border-radius: 
+3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/49ca06b912e04fffabe4cce6c40e2ec9/32.png" 
+alt="Payoutube" title="Payoutube" rel="tooltip"/></a><a 
+href="/lento9"><img style="width: 32px;height: 32px;border-radius: 3px;" 
+width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/3f86fcb5a2cc4642b94e793c1dc226cb/32.png" 
+alt="lento9" title="lento9" rel="tooltip"/></a><a 
+href="/Dubstep_Girl"><img style="width: 32px;height: 32px;border-radius: 
+3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/63708b3f3e154f42ada401e5989a7702/32.png" 
+alt="Dubstep_Girl" title="Dubstep_Girl" rel="tooltip"/></a><a 
+href="/n00bs"><img style="width: 32px;height: 32px;border-radius: 3px;" 
+width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/95ea29d08a5f45fcb2346ff343c12cbc/32.png" 
+alt="n00bs" title="n00bs" rel="tooltip"/></a><a href="/n00bs"><img 
+style="width: 32px;height: 32px;border-radius: 3px;" width="32" 
+height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/95ea29d08a5f45fcb2346ff343c12cbc/32.png" 
+alt="n00bs" title="n00bs" rel="tooltip"/></a><a href="/Maracas95"><img 
+style="width: 32px;height: 32px;border-radius: 3px;" width="32" 
+height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/e7e75b53a0dc46a1b0f0e9f24c21710e/32.png" 
+alt="Maracas95" title="Maracas95" rel="tooltip"/></a>
+</div>
+<div class='name'>deaths</div>
+<div class='number' data-placement='top' rel='' title='6983 deaths'>
+6983
+</div>
+</div>
+<div class='col-md-4'>
+<div class='hidden-sm hidden-xs'>
+<a href="/triplezko"><img style="width: 32px;height: 32px;border-radius: 
+3px;" width="32" height="32" class="avatar glow" 
+src="https://cravatar.eu/helmavatar/9929437a9b7d4d7ab05de22fe93ac042/32.png" 
+alt="triplezko" title="triplezko" rel="tooltip"/></a><a 
+href="/BrettOgden"><img style="width: 32px;height: 32px;border-radius: 
+3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/1987fc00a5b243b5b94be3c0d25776e9/32.png" 
+alt="BrettOgden" title="BrettOgden" rel="tooltip"/></a><a 
+href="/TheAfroOfDoom"><img style="width: 32px;height: 32px;border-radius: 
+3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/b4b31396312d49aab9c21ee9bf8261f2/32.png" 
+alt="TheAfroOfDoom" title="TheAfroOfDoom" rel="tooltip"/></a><a 
+href="/Losty0Fan"><img style="width: 32px;height: 32px;border-radius: 
+3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/995af32a61fd4ee393adc2bfdc2df078/32.png" 
+alt="Losty0Fan" title="Losty0Fan" rel="tooltip"/></a><a 
+href="/LegoGameLegend"><img style="width: 32px;height: 
+32px;border-radius: 3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/6601833413ca4e6585381f34d0e1ad53/32.png" 
+alt="LegoGameLegend" title="LegoGameLegend" rel="tooltip"/></a><a 
+href="/CaptainDiddler"><img style="width: 32px;height: 
+32px;border-radius: 3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/127c7681e80c47c0a856b5e70558317d/32.png" 
+alt="CaptainDiddler" title="CaptainDiddler" rel="tooltip"/></a><a 
+href="/ChillerFrost"><img style="width: 32px;height: 32px;border-radius: 
+3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/f62b53d6a39f4da9b790ff599f0d25ab/32.png" 
+alt="ChillerFrost" title="ChillerFrost" rel="tooltip"/></a><a 
+href="/Taken"><img style="width: 32px;height: 32px;border-radius: 3px;" 
+width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/8a0bd669479542deaf16f615b39d82c0/32.png" 
+alt="Taken" title="Taken" rel="tooltip"/></a><a href="/NeonSparkles"><img 
+style="width: 32px;height: 32px;border-radius: 3px;" width="32" 
+height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/4c2fad7be23747398f9660bbef3bf94b/32.png" 
+alt="NeonSparkles" title="NeonSparkles" rel="tooltip"/></a><a 
+href="/kurbee"><img style="width: 32px;height: 32px;border-radius: 3px;" 
+width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/a6b8527e3bad4a5db02477a2b13b0c51/32.png" 
+alt="kurbee" title="kurbee" rel="tooltip"/></a><a href="/Streact"><img 
+style="width: 32px;height: 32px;border-radius: 3px;" width="32" 
+height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/03b6ad99e77d46f39f76b5289d07119a/32.png" 
+alt="Streact" title="Streact" rel="tooltip"/></a><a href="/Jukka"><img 
+style="width: 32px;height: 32px;border-radius: 3px;" width="32" 
+height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/e22523ec1cd74446b858f3746b389ad7/32.png" 
+alt="Jukka" title="Jukka" rel="tooltip"/></a><a href="/Zilish"><img 
+style="width: 32px;height: 32px;border-radius: 3px;" width="32" 
+height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/fad56b2979654aa6b292fd16d8a060c8/32.png" 
+alt="Zilish" title="Zilish" rel="tooltip"/></a><a 
+href="/NiggaTalkinShit"><img style="width: 32px;height: 
+32px;border-radius: 3px;" width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/a2650272dfc9441098b77f934870cbdd/32.png" 
+alt="NiggaTalkinShit" title="NiggaTalkinShit" rel="tooltip"/></a><a 
+href="/blvi"><img style="width: 32px;height: 32px;border-radius: 3px;" 
+width="32" height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/08aa0cd53dc449909cba7eb13e9e6337/32.png" 
+alt="blvi" title="blvi" rel="tooltip"/></a><a href="/PixxelP"><img 
+style="width: 32px;height: 32px;border-radius: 3px;" width="32" 
+height="32" class="avatar" 
+src="https://cravatar.eu/helmavatar/847dfa2597d2410eb75eb2ea21f1ad9b/32.png" 
+alt="PixxelP" title="PixxelP" rel="tooltip"/></a>
+</div>
+<div class='name'>friends</div>
+<div class='number'>
+80
+</div>
+</div>
+</div>
+</div>
+<div class='col-md-4 col-sm-6 col-xs-12'>
+<div class='stats'>
+<div class='well'>
+<div class='unqualified'>
+<a href='/oc.tc/leaderboard'>
+not enough recent matches for ranking
+</a>
+</div>
+<div class='rule'></div>
+<div><div class='total'>
+<div class='name'>matches</div>
+<div class='number'>0</div>
+</div><div class='total'>
+<div class='name'>wins</div>
+<div class='number'>0</div>
+</div><div class='total'>
+<div class='name'>losses</div>
+<div class='number'>0</div>
+</div><div class='total'>
+<div class='name'>forfeits</div>
+<div class='number'>0</div>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section>
+<div class='row'>
+<div class='col-md-12'>
+<div class='tabbable'>
+<ul class='nav nav-tabs' id='user-tabs'>
+<li class='active'>
+<a data-toggle='tab' href='#about'>About</a>
+</li>
+<li>
+<a data-toggle='tab' href='#trophycase'>Trophy Case</a>
+</li>
+<li>
+<a data-toggle='tab' href='#stats'>Stats</a>
+</li>
+<li>
+<a data-toggle='tab' href='#pvp-encounters'>PvP</a>
+</li>
+<li>
+<a data-toggle='tab' href='#objectives'>Objectives</a>
+</li>
+<li>
+<a data-toggle='tab' href='#matches'>Ranked Matches</a>
+</li>
+<li>
+<a data-toggle='tab' href='#infractions'>Infractions</a>
+</li>
+</ul>
+<div class='tab-content' style='overflow: visible;'>
+<div class='tab-pane active' id='about'>
+<div class='row'>
+<div class='col-md-4 col-sm-6'>
+<h5>Skype</h5>
+<blockquote>
+<p>
+<a href='skype:Icey5331?userinfo' target='_blank'>Icey5331</a>
+</p>
+</blockquote>
+</div>
+<div class='col-md-4 col-sm-6'>
+<h5>Twitter</h5>
+<blockquote>
+<p>
+<a href='http://twitter.com/Zeluph_' target='_blank'>Zeluph_</a>
+</p>
+</blockquote>
+</div>
+<div class='col-md-4 col-sm-6'>
+<h5>YouTube</h5>
+<blockquote>
+<p>
+<a><a target="_blank" 
+href="https://www.youtube.com/channel/UCDjwttm3VpA1JIeBow6gQcg">Zeluph</a></a>
+</p>
+</blockquote>
+</div>
+</div>
+<div class='row'>
+<div class='col-sm-6'>
+<h5>Gender</h5>
+<pre>Male</pre>
+</div>
+<div class='col-sm-6'>
+<h5>Location</h5>
+<pre>Florida</pre>
+</div>
+<div class='col-sm-6'>
+<h5>Occupation</h5>
+<pre>Student</pre>
+</div>
+<div class='col-sm-6'>
+<h5>Interests</h5>
+<pre>Mathematics, Theoretical Physics, Computer Science</pre>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-12'>
+<h5>About Zeluph</h5>
+<pre class='about-me'><a class="btn btn-large disabled btn-block">
+    <h1>Zeluph</h1>
+</a>
+<img src="http://i.imgur.com/mEMWdPr.png"></pre>
+</div>
+</div>
+</div>
+<div class='tab-pane' id='trophycase'>
+<div class='row'>
+<div class='col-md-12'>
+<ul class='thumbnails list-unstyled'>
+<li class='col-md-3 col-sm-6'>
+<div class='thumbnail trophy' rel='tooltip' title='Register and confirm 
+email address'>
+<div style='background: #eee; color: #444;'>
+<i class='fa fa-edit'></i>
+</div>
+<h4>Sign Me Up</h4>
+</div>
+</li>
+<li class='col-md-3 col-sm-6'>
+<div class='thumbnail trophy' rel='tooltip' title='Licensed TNT handler'>
+<div style='background: #eee; color: #444;'>
+<i class='fa fa-bomb'></i>
+</div>
+<h4>Sapper</h4>
+</div>
+</li>
+<li class='col-md-3 col-sm-6'>
+<div class='thumbnail trophy' rel='tooltip' title='Referee a tournament'>
+<div style='background: #eee; color: #444;'>
+<i class='fa fa-flag'></i>
+</div>
+<h4>Ref</h4>
+</div>
+</li>
+<li class='clearfix'></li>
+</ul>
+</div>
+</div>
+</div>
+<div class='tab-pane' id='stats'>
+<div class='row'>
+<div class='col-md-3 col-sm-6'>
+<h3 data-placement='top' rel='tooltip' title='First joined on Jun 4th 
+2014'>
+968
+<small>days since first seen</small>
+</h3>
+</div>
+<div class='col-md-3 col-sm-6'>
+<h3>
+161
+<small>hours played</small>
+</h3>
+</div>
+<div class='col-md-3 col-sm-6'>
+<h3>
+4410
+<small>teams joined</small>
+</h3>
+</div>
+<div class='col-md-3 col-sm-6'>
+<h3>
+6772
+<small>raindrops</small>
+</h3>
+</div>
+</div>
+<hr>
+<h4>Forum Stats</h4>
+<div class='row'>
+<div class='col-md-3 col-sm-6'>
+<h3>
+567
+<small>forum posts</small>
+</h3>
+</div>
+<div class='col-md-3 col-sm-6'>
+<h3>
+33
+<small>topics started</small>
+</h3>
+</div>
+</div>
+<hr>
+<h4>
+Project Ares Stats
+</h4>
+<div class='row'>
+<div class='col-md-4'>
+<div class='row'>
+<div class='col-sm-6'>
+<h3>
+9108
+<small>kills</small>
+</h3>
+</div>
+<div class='col-sm-6'>
+<h3>
+6529
+<small>deaths</small>
+</h3>
+</div>
+</div>
+</div>
+<div class='col-md-3'>
+<div class='row'>
+<div class='col-sm-6'>
+<h3>
+1.395
+<small>kd</small>
+</h3>
+</div>
+<div class='col-sm-6'>
+<h3>
+1.783
+<small>kk</small>
+</h3>
+</div>
+</div>
+</div>
+<div class='col-md-5'>
+<div class='row'>
+<div class='col-md-6'>
+<h3>
+6.19
+<small>days played</small>
+</h3>
+</div>
+</div>
+</div>
+</div>
+<hr>
+<h4>
+Mini Stats
+</h4>
+<div class='row'>
+<div class='col-md-4'>
+<div class='row'>
+<div class='col-sm-6'>
+<h3>
+26
+<small>kills</small>
+</h3>
+</div>
+<div class='col-sm-6'>
+<h3>
+11
+<small>deaths</small>
+</h3>
+</div>
+</div>
+</div>
+<div class='col-md-3'>
+<div class='row'>
+<div class='col-sm-6'>
+<h3>
+2.364
+<small>kd</small>
+</h3>
+</div>
+<div class='col-sm-6'>
+<h3>
+2.6
+<small>kk</small>
+</h3>
+</div>
+</div>
+</div>
+<div class='col-md-5'>
+<div class='row'>
+<div class='col-md-6'>
+<h3>
+0.01
+<small>days played</small>
+</h3>
+</div>
+</div>
+</div>
+</div>
+<hr>
+<h4>
+Blitz Stats
+</h4>
+<div class='row'>
+<div class='col-md-4'>
+<div class='row'>
+<div class='col-sm-6'>
+<h3>
+39
+<small>kills</small>
+</h3>
+</div>
+<div class='col-sm-6'>
+<h3>
+48
+<small>deaths</small>
+</h3>
+</div>
+</div>
+</div>
+<div class='col-md-3'>
+<div class='row'>
+<div class='col-sm-6'>
+<h3>
+0.813
+<small>kd</small>
+</h3>
+</div>
+<div class='col-sm-6'>
+<h3>
+0.83
+<small>kk</small>
+</h3>
+</div>
+</div>
+</div>
+<div class='col-md-5'>
+<div class='row'>
+<div class='col-md-6'>
+<h3>
+0.03
+<small>days played</small>
+</h3>
+</div>
+</div>
+</div>
+</div>
+<hr>
+<h4>
+Ghost Squadron Stats
+</h4>
+<div class='row'>
+<div class='col-md-4'>
+<div class='row'>
+<div class='col-sm-6'>
+<h3>
+0
+<small>kills</small>
+</h3>
+</div>
+<div class='col-sm-6'>
+<h3>
+3
+<small>deaths</small>
+</h3>
+</div>
+</div>
+</div>
+<div class='col-md-3'>
+<div class='row'>
+<div class='col-sm-6'>
+<h3>
+0.0
+<small>kd</small>
+</h3>
+</div>
+<div class='col-sm-6'>
+<h3>
+0.0
+<small>kk</small>
+</h3>
+</div>
+</div>
+</div>
+<div class='col-md-5'>
+<div class='row'>
+<div class='col-md-6'>
+<h3>
+0.0
+<small>days played</small>
+</h3>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='tab-pane' id='pvp-encounters'>
+<div class='row'>
+<div class='col-sm-6'>
+<p>
+<a href="/diiegoq"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/7e24eb650cdc4f99a00d9210de86c913/16.png" 
+alt="diiegoq" title="diiegoq"/></a>
+<b><a style="color: #08c; " href="/diiegoq">diiegoq</a></b>
+killed
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+on
+<a href='/oc.tc/maps/anirniit'>Anirniit</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5866fb57c8f2c9f35c385b46' rel='tooltip' title='December 
+30th, 2016 -  6:55 PM'>27 days ago</a>
+</p>
+<p>
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+killed
+<a href="/Swanbow"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/7d88007f4c3d4b3ca7cfd629954a4b97/16.png" 
+alt="Swanbow" title="Swanbow"/></a>
+<b><a style="color: #08c; " href="/Swanbow">Swanbow</a></b>
+on
+<a href='/oc.tc/maps/anirniit'>Anirniit</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5866fb57c8f2c9f35c385b46' rel='tooltip' title='December 
+30th, 2016 -  6:55 PM'>27 days ago</a>
+</p>
+<p>
+<a href="/JhinTheVirtuoso"><img style="width: 16px;height: 
+16px;border-radius: 3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/318051d7901146e3b2d6d439895c3df2/16.png" 
+alt="JhinTheVirtuoso" title="JhinTheVirtuoso"/></a>
+<b><a style="color: #08c; " 
+href="/JhinTheVirtuoso">JhinTheVirtuoso</a></b>
+killed
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+on
+<a href='/oc.tc/maps/cargo'>Cargo</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/585ed73bc8f2eefae1ae1c6f' rel='tooltip' title='December 
+24th, 2016 -  2:21 PM'>1 month ago</a>
+</p>
+<p>
+<a href="/pureness_"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/3e38f8cca2784021ab33dd6dabd4508d/16.png" 
+alt="pureness_" title="pureness_"/></a>
+<b><a style="color: #08c; " href="/pureness_">pureness_</a></b>
+killed
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+on
+<a href='/oc.tc/maps/blocks_ctw'>Blocks CTW</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5856903cc8f2dd1d3c7c566d' rel='tooltip' title='December 
+18th, 2016 -  7:52 AM'>1 month ago</a>
+</p>
+<p>
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+killed
+<a href="/jockeurtman"><img style="width: 16px;height: 
+16px;border-radius: 3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/02e7b7041d734e77905399dcf82da917/16.png" 
+alt="jockeurtman" title="jockeurtman"/></a>
+<b><a style="color: #08c; " href="/jockeurtman">jockeurtman</a></b>
+on
+<a href='/oc.tc/maps/blocks_ctw'>Blocks CTW</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5856903cc8f2dd1d3c7c566d' rel='tooltip' title='December 
+18th, 2016 -  7:50 AM'>1 month ago</a>
+</p>
+<p>
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+killed
+<a href="/77_Loli_77"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/f4544368fda84b89a745974adcee8c4f/16.png" 
+alt="77_Loli_77" title="77_Loli_77"/></a>
+<b><a style="color: #08c; " href="/77_Loli_77">77_Loli_77</a></b>
+on
+<a href='/oc.tc/maps/blocks_ctw'>Blocks CTW</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5856903cc8f2dd1d3c7c566d' rel='tooltip' title='December 
+18th, 2016 -  7:47 AM'>1 month ago</a>
+</p>
+<p>
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+killed
+<a href="/ImnotVirus"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/909f5cf2aef147a2a5b3855b5b05cc29/16.png" 
+alt="ImnotVirus" title="ImnotVirus"/></a>
+<b><a style="color: #08c; " href="/ImnotVirus">ImnotVirus</a></b>
+on
+<a href='/oc.tc/maps/blocks_ctw'>Blocks CTW</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5856903cc8f2dd1d3c7c566d' rel='tooltip' title='December 
+18th, 2016 -  7:45 AM'>1 month ago</a>
+</p>
+<p>
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+killed
+<a href="/Bix3L"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/a8e67b80bbcf47c4a457f4142705aeb4/16.png" 
+alt="Bix3L" title="Bix3L"/></a>
+<b><a style="color: #08c; " href="/Bix3L">Bix3L</a></b>
+on
+<a href='/oc.tc/maps/blocks_ctw'>Blocks CTW</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5856903cc8f2dd1d3c7c566d' rel='tooltip' title='December 
+18th, 2016 -  7:40 AM'>1 month ago</a>
+</p>
+<p>
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+killed
+<a href="/NoHacksJustJumb"><img style="width: 16px;height: 
+16px;border-radius: 3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/380216c600d44a9e837730dbe6e91fe0/16.png" 
+alt="NoHacksJustJumb" title="NoHacksJustJumb"/></a>
+<b><a style="color: #08c; " 
+href="/NoHacksJustJumb">NoHacksJustJumb</a></b>
+on
+<a href='/oc.tc/maps/blocks_ctw'>Blocks CTW</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5856903cc8f2dd1d3c7c566d' rel='tooltip' title='December 
+18th, 2016 -  7:40 AM'>1 month ago</a>
+</p>
+<p>
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+killed
+<a href="/xXMaityXx"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/a9f90c4a7e754c4f9ed300cae10c2a13/16.png" 
+alt="xXMaityXx" title="xXMaityXx"/></a>
+<b><a style="color: #08c; " href="/xXMaityXx">xXMaityXx</a></b>
+on
+<a href='/oc.tc/maps/blocks_ctw'>Blocks CTW</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5856903cc8f2dd1d3c7c566d' rel='tooltip' title='December 
+18th, 2016 -  7:39 AM'>1 month ago</a>
+</p>
+<p>
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+killed
+<a href="/nigges60"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/7cbf21687f494fb3aea86df8048a7ade/16.png" 
+alt="nigges60" title="nigges60"/></a>
+<b><a style="color: #F88; " href="/nigges60">nigges60</a></b>
+on
+<a href='/oc.tc/maps/blocks_ctw'>Blocks CTW</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5856903cc8f2dd1d3c7c566d' rel='tooltip' title='December 
+18th, 2016 -  7:36 AM'>1 month ago</a>
+</p>
+<p>
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+killed
+<a href="/NoHacksJustJumb"><img style="width: 16px;height: 
+16px;border-radius: 3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/380216c600d44a9e837730dbe6e91fe0/16.png" 
+alt="NoHacksJustJumb" title="NoHacksJustJumb"/></a>
+<b><a style="color: #08c; " 
+href="/NoHacksJustJumb">NoHacksJustJumb</a></b>
+on
+<a href='/oc.tc/maps/blocks_ctw'>Blocks CTW</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5856903cc8f2dd1d3c7c566d' rel='tooltip' title='December 
+18th, 2016 -  7:36 AM'>1 month ago</a>
+</p>
+<p>
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+killed
+<a href="/Magnet_K"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/8f54cb7436324f5bb4487e500b010978/16.png" 
+alt="Magnet_K" title="Magnet_K"/></a>
+<b><a style="color: #08c; " href="/Magnet_K">Magnet_K</a></b>
+on
+<a href='/oc.tc/maps/mushroom_gorge'>Mushroom Gorge</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/58568ee6c8f2dd1d3c7c5566' rel='tooltip' title='December 
+18th, 2016 -  7:31 AM'>1 month ago</a>
+</p>
+<p>
+<a href="/Cosmic111"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/8192c23d4934437296dfb52c5ff4abc1/16.png" 
+alt="Cosmic111" title="Cosmic111"/></a>
+<b><a style="color: #08c; " href="/Cosmic111">Cosmic111</a></b>
+killed
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+on
+<a href='/oc.tc/maps/mushroom_gorge'>Mushroom Gorge</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/58568ee6c8f2dd1d3c7c5566' rel='tooltip' title='December 
+18th, 2016 -  7:30 AM'>1 month ago</a>
+</p>
+<p>
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+killed
+<a href="/afemojji"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/8b854921c04e4311b15062608ea28976/16.png" 
+alt="afemojji" title="afemojji"/></a>
+<b><a style="color: #08c; " href="/afemojji">afemojji</a></b>
+on
+<a href='/oc.tc/maps/race_for_victory_3'>Race for Victory 3</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/58568cbfc8f2dd1d3c7c5328' rel='tooltip' title='December 
+18th, 2016 -  7:26 AM'>1 month ago</a>
+</p>
+<p>
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+killed
+<a href="/ZulTGL"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/5b8c0418526a429dbca6e21ae5206881/16.png" 
+alt="ZulTGL" title="ZulTGL"/></a>
+<b><a style="color: #08c; " href="/ZulTGL">ZulTGL</a></b>
+on
+<a href='/oc.tc/maps/race_for_victory_3'>Race for Victory 3</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/58568cbfc8f2dd1d3c7c5328' rel='tooltip' title='December 
+18th, 2016 -  7:26 AM'>1 month ago</a>
+</p>
+<p>
+<a href="/ketto_"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/5e43167ac2484fb5a29a9d8c84fd851b/16.png" 
+alt="ketto_" title="ketto_"/></a>
+<b><a style="color: #08c; " href="/ketto_">ketto_</a></b>
+killed
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+on
+<a href='/oc.tc/maps/race_for_victory_3'>Race for Victory 3</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/58568cbfc8f2dd1d3c7c5328' rel='tooltip' title='December 
+18th, 2016 -  7:24 AM'>1 month ago</a>
+</p>
+<p>
+<a href="/Ghost_Wizard_"><img style="width: 16px;height: 
+16px;border-radius: 3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/0219db44a30149d9be75f2851063d4cb/16.png" 
+alt="Ghost_Wizard_" title="Ghost_Wizard_"/></a>
+<b><a style="color: #08c; " href="/Ghost_Wizard_">Ghost_Wizard_</a></b>
+killed
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+on
+<a href='/oc.tc/maps/rooted'>Rooted</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5855bd9bc8f293315c9da06c' rel='tooltip' title='December 
+17th, 2016 -  4:41 PM'>1 month ago</a>
+</p>
+<p>
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+killed
+<a href="/ALifF"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/da157d8e844e445a98247d9f73170d16/16.png" 
+alt="ALifF" title="ALifF"/></a>
+<b><a style="color: #08c; " href="/ALifF">ALifF</a></b>
+on
+<a href='/oc.tc/maps/rooted'>Rooted</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5855bd9bc8f293315c9da06c' rel='tooltip' title='December 
+17th, 2016 -  4:40 PM'>1 month ago</a>
+</p>
+<p>
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+killed
+<a href="/gabriacsta"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/ac461ee05e384980ba3aac6e8d8ad873/16.png" 
+alt="gabriacsta" title="gabriacsta"/></a>
+<b><a style="color: #08c; " href="/gabriacsta">gabriacsta</a></b>
+on
+<a href='/oc.tc/maps/rooted'>Rooted</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5855bd9bc8f293315c9da06c' rel='tooltip' title='December 
+17th, 2016 -  4:40 PM'>1 month ago</a>
+</p>
+<p>
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+killed
+<a href="/Saiinty"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/98da5f5d41264139af4b72e45f017371/16.png" 
+alt="Saiinty" title="Saiinty"/></a>
+<b><a style="color: #08c; " href="/Saiinty">Saiinty</a></b>
+on
+<a href='/oc.tc/maps/rooted'>Rooted</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5855bd9bc8f293315c9da06c' rel='tooltip' title='December 
+17th, 2016 -  4:40 PM'>1 month ago</a>
+</p>
+<p>
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+killed
+<a href="/nigges60"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/7cbf21687f494fb3aea86df8048a7ade/16.png" 
+alt="nigges60" title="nigges60"/></a>
+<b><a style="color: #F88; " href="/nigges60">nigges60</a></b>
+on
+<a href='/oc.tc/maps/rooted'>Rooted</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5855bd9bc8f293315c9da06c' rel='tooltip' title='December 
+17th, 2016 -  4:40 PM'>1 month ago</a>
+</p>
+<p>
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+killed
+<a href="/dartheric1"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/129d899370734cfd95cd4ac0e331a26a/16.png" 
+alt="dartheric1" title="dartheric1"/></a>
+<b><a style="color: #08c; " href="/dartheric1">dartheric1</a></b>
+on
+<a href='/oc.tc/maps/rooted'>Rooted</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5855bd9bc8f293315c9da06c' rel='tooltip' title='December 
+17th, 2016 -  4:39 PM'>1 month ago</a>
+</p>
+<p>
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+killed
+<a href="/MarcosB2005"><img style="width: 16px;height: 
+16px;border-radius: 3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/72f3b62b7b6941369b7fd41b3a8ed17d/16.png" 
+alt="MarcosB2005" title="MarcosB2005"/></a>
+<b><a style="color: #08c; " href="/MarcosB2005">MarcosB2005</a></b>
+on
+<a href='/oc.tc/maps/rooted'>Rooted</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5855bd9bc8f293315c9da06c' rel='tooltip' title='December 
+17th, 2016 -  4:38 PM'>1 month ago</a>
+</p>
+</div>
+<div class='col-sm-6'>
+<p>
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+killed
+<a href="/iKhaos_"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/cad58a2060584a74b0a47e8213cf5a30/16.png" 
+alt="iKhaos_" title="iKhaos_"/></a>
+<b><a style="color: #08c; " href="/iKhaos_">iKhaos_</a></b>
+on
+<a href='/oc.tc/maps/rooted'>Rooted</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5855bd9bc8f293315c9da06c' rel='tooltip' title='December 
+17th, 2016 -  4:38 PM'>1 month ago</a>
+</p>
+<p>
+<a href="/Ghost_Wizard_"><img style="width: 16px;height: 
+16px;border-radius: 3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/0219db44a30149d9be75f2851063d4cb/16.png" 
+alt="Ghost_Wizard_" title="Ghost_Wizard_"/></a>
+<b><a style="color: #08c; " href="/Ghost_Wizard_">Ghost_Wizard_</a></b>
+killed
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+on
+<a href='/oc.tc/maps/rooted'>Rooted</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5855bd9bc8f293315c9da06c' rel='tooltip' title='December 
+17th, 2016 -  4:37 PM'>1 month ago</a>
+</p>
+<p>
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+killed
+<a href="/MarcosB2005"><img style="width: 16px;height: 
+16px;border-radius: 3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/72f3b62b7b6941369b7fd41b3a8ed17d/16.png" 
+alt="MarcosB2005" title="MarcosB2005"/></a>
+<b><a style="color: #08c; " href="/MarcosB2005">MarcosB2005</a></b>
+on
+<a href='/oc.tc/maps/rooted'>Rooted</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5855bd9bc8f293315c9da06c' rel='tooltip' title='December 
+17th, 2016 -  4:36 PM'>1 month ago</a>
+</p>
+<p>
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+killed
+<a href="/albertoreyees_"><img style="width: 16px;height: 
+16px;border-radius: 3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/420921e66cf54bceaee8b26bd4bfbe10/16.png" 
+alt="albertoreyees_" title="albertoreyees_"/></a>
+<b><a style="color: #08c; " href="/albertoreyees_">albertoreyees_</a></b>
+on
+<a href='/oc.tc/maps/circus_ctw'>Circus CTW</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5855b5eec8f20b7aae887008' rel='tooltip' title='December 
+17th, 2016 -  4:33 PM'>1 month ago</a>
+</p>
+<p>
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+killed
+<a href="/Tiny_Frog"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/fd0cee46377f49bdbda5db68c31a0203/16.png" 
+alt="Tiny_Frog" title="Tiny_Frog"/></a>
+<b><a style="color: #08c; " href="/Tiny_Frog">Tiny_Frog</a></b>
+on
+<a href='/oc.tc/maps/circus_ctw'>Circus CTW</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5855b5eec8f20b7aae887008' rel='tooltip' title='December 
+17th, 2016 -  4:33 PM'>1 month ago</a>
+</p>
+<p>
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+killed
+<a href="/poisson_lune"><img style="width: 16px;height: 
+16px;border-radius: 3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/5576f763b26041fda3623cdf59dab8f2/16.png" 
+alt="poisson_lune" title="poisson_lune"/></a>
+<b><a style="color: #08c; " href="/poisson_lune">poisson_lune</a></b>
+on
+<a href='/oc.tc/maps/circus_ctw'>Circus CTW</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5855b5eec8f20b7aae887008' rel='tooltip' title='December 
+17th, 2016 -  4:33 PM'>1 month ago</a>
+</p>
+<p>
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+killed
+<a href="/TalonIII"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/d36f8cb9cb24470280e777242ac48251/16.png" 
+alt="TalonIII" title="TalonIII"/></a>
+<b><a style="color: #08c; " href="/TalonIII">TalonIII</a></b>
+on
+<a href='/oc.tc/maps/circus_ctw'>Circus CTW</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5855b5eec8f20b7aae887008' rel='tooltip' title='December 
+17th, 2016 -  4:33 PM'>1 month ago</a>
+</p>
+<p>
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+killed
+<a href="/PaydruCTW"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/d7f802a15b964848bfbb1303b3f170ab/16.png" 
+alt="PaydruCTW" title="PaydruCTW"/></a>
+<b><a style="color: #08c; " href="/PaydruCTW">PaydruCTW</a></b>
+on
+<a href='/oc.tc/maps/circus_ctw'>Circus CTW</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5855b5eec8f20b7aae887008' rel='tooltip' title='December 
+17th, 2016 -  4:32 PM'>1 month ago</a>
+</p>
+<p>
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+killed
+<a href="/TalonIII"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/d36f8cb9cb24470280e777242ac48251/16.png" 
+alt="TalonIII" title="TalonIII"/></a>
+<b><a style="color: #08c; " href="/TalonIII">TalonIII</a></b>
+on
+<a href='/oc.tc/maps/circus_ctw'>Circus CTW</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5855b5eec8f20b7aae887008' rel='tooltip' title='December 
+17th, 2016 -  4:32 PM'>1 month ago</a>
+</p>
+<p>
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+killed
+<a href="/Silly__Billy"><img style="width: 16px;height: 
+16px;border-radius: 3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/4809bbf5343f47d288647d3194851591/16.png" 
+alt="Silly__Billy" title="Silly__Billy"/></a>
+<b><a style="color: #08c; " href="/Silly__Billy">Silly__Billy</a></b>
+on
+<a href='/oc.tc/maps/circus_ctw'>Circus CTW</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5855b5eec8f20b7aae887008' rel='tooltip' title='December 
+17th, 2016 -  4:28 PM'>1 month ago</a>
+</p>
+<p>
+<a href="/Eggrigore"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/9dc1f6c1960f49f2ac48a3fc5c5ba784/16.png" 
+alt="Eggrigore" title="Eggrigore"/></a>
+<b><a style="color: #08c; " href="/Eggrigore">Eggrigore</a></b>
+killed
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+on
+<a href='/oc.tc/maps/circus_ctw'>Circus CTW</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5855b5eec8f20b7aae887008' rel='tooltip' title='December 
+17th, 2016 -  4:26 PM'>1 month ago</a>
+</p>
+<p>
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+killed
+<a href="/Itzluckypvp"><img style="width: 16px;height: 
+16px;border-radius: 3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/4722a89e90ec481690c41fdb05605c6e/16.png" 
+alt="Itzluckypvp" title="Itzluckypvp"/></a>
+<b><a style="color: #08c; " href="/Itzluckypvp">Itzluckypvp</a></b>
+on
+<a href='/oc.tc/maps/circus_ctw'>Circus CTW</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5855b5eec8f20b7aae887008' rel='tooltip' title='December 
+17th, 2016 -  4:24 PM'>1 month ago</a>
+</p>
+<p>
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+killed
+<a href="/MyrThanos"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/ce8f5eb2fefd438389922097a6c0271b/16.png" 
+alt="MyrThanos" title="MyrThanos"/></a>
+<b><a style="color: #08c; " href="/MyrThanos">MyrThanos</a></b>
+on
+<a href='/oc.tc/maps/circus_ctw'>Circus CTW</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5855b5eec8f20b7aae887008' rel='tooltip' title='December 
+17th, 2016 -  4:24 PM'>1 month ago</a>
+</p>
+<p>
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+killed
+<a href="/Eggrigore"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/9dc1f6c1960f49f2ac48a3fc5c5ba784/16.png" 
+alt="Eggrigore" title="Eggrigore"/></a>
+<b><a style="color: #08c; " href="/Eggrigore">Eggrigore</a></b>
+on
+<a href='/oc.tc/maps/circus_ctw'>Circus CTW</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5855b5eec8f20b7aae887008' rel='tooltip' title='December 
+17th, 2016 -  4:23 PM'>1 month ago</a>
+</p>
+<p>
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+killed
+<a href="/Eggrigore"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/9dc1f6c1960f49f2ac48a3fc5c5ba784/16.png" 
+alt="Eggrigore" title="Eggrigore"/></a>
+<b><a style="color: #08c; " href="/Eggrigore">Eggrigore</a></b>
+on
+<a href='/oc.tc/maps/circus_ctw'>Circus CTW</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5855b5eec8f20b7aae887008' rel='tooltip' title='December 
+17th, 2016 -  4:22 PM'>1 month ago</a>
+</p>
+<p>
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+killed
+<a href="/Ender_Flame_77"><img style="width: 16px;height: 
+16px;border-radius: 3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/2f0de8636df644c0ac067bab0f66fddc/16.png" 
+alt="Ender_Flame_77" title="Ender_Flame_77"/></a>
+<b><a style="color: #08c; " href="/Ender_Flame_77">Ender_Flame_77</a></b>
+on
+<a href='/oc.tc/maps/circus_ctw'>Circus CTW</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5855b5eec8f20b7aae887008' rel='tooltip' title='December 
+17th, 2016 -  4:20 PM'>1 month ago</a>
+</p>
+<p>
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+killed
+<a href="/drakedude13"><img style="width: 16px;height: 
+16px;border-radius: 3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/a2de455344bd4d1699018bf9599f585f/16.png" 
+alt="drakedude13" title="drakedude13"/></a>
+<b><a style="color: #08c; " href="/drakedude13">drakedude13</a></b>
+on
+<a href='/oc.tc/maps/circus_ctw'>Circus CTW</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5855b5eec8f20b7aae887008' rel='tooltip' title='December 
+17th, 2016 -  4:16 PM'>1 month ago</a>
+</p>
+<p>
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+killed
+<a href="/Pablitus_wtf"><img style="width: 16px;height: 
+16px;border-radius: 3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/d1a015588d2e48539ec44178e378a60b/16.png" 
+alt="Pablitus_wtf" title="Pablitus_wtf"/></a>
+<b><a style="color: #08c; " href="/Pablitus_wtf">Pablitus_wtf</a></b>
+on
+<a href='/oc.tc/maps/mushroom_gorge'>Mushroom Gorge</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/58338aafc8f27aa2c1a732c4' rel='tooltip' title='November 
+21st, 2016 -  6:07 PM'>2 months ago</a>
+</p>
+<p>
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+killed
+<a href="/Pablitus_wtf"><img style="width: 16px;height: 
+16px;border-radius: 3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/d1a015588d2e48539ec44178e378a60b/16.png" 
+alt="Pablitus_wtf" title="Pablitus_wtf"/></a>
+<b><a style="color: #08c; " href="/Pablitus_wtf">Pablitus_wtf</a></b>
+on
+<a href='/oc.tc/maps/mushroom_gorge'>Mushroom Gorge</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/58338aafc8f27aa2c1a732c4' rel='tooltip' title='November 
+21st, 2016 -  6:06 PM'>2 months ago</a>
+</p>
+<p>
+<a href="/Dazly"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/68641a0bc9c3472fb42f9a8f3c643fdb/16.png" 
+alt="Dazly" title="Dazly"/></a>
+<b><a style="color: #08c; " href="/Dazly">Dazly</a></b>
+killed
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+on
+<a href='/oc.tc/maps/mushroom_gorge'>Mushroom Gorge</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/58338aafc8f27aa2c1a732c4' rel='tooltip' title='November 
+21st, 2016 -  6:04 PM'>2 months ago</a>
+</p>
+<p>
+<a href="/Scrumdidduly"><img style="width: 16px;height: 
+16px;border-radius: 3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/f7c5f85d2b1d44e882b9ef1505cca734/16.png" 
+alt="Scrumdidduly" title="Scrumdidduly"/></a>
+<b><a style="color: #08c; " href="/Scrumdidduly">Scrumdidduly</a></b>
+killed
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+on
+<a href='/oc.tc/maps/mushroom_gorge'>Mushroom Gorge</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/58338aafc8f27aa2c1a732c4' rel='tooltip' title='November 
+21st, 2016 -  6:03 PM'>2 months ago</a>
+</p>
+<p>
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+killed
+<a href="/agusloler"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/72c25a8ff3ce4f828dbfa499aaaae172/16.png" 
+alt="agusloler" title="agusloler"/></a>
+<b><a style="color: #08c; " href="/agusloler">agusloler</a></b>
+on
+<a href='/oc.tc/maps/mushroom_gorge'>Mushroom Gorge</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/58338aafc8f27aa2c1a732c4' rel='tooltip' title='November 
+21st, 2016 -  6:03 PM'>2 months ago</a>
+</p>
+<p>
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+killed
+<a href="/TheFlash_A"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/0b6dedbec6284aeb9f8cec2cb7ea8e20/16.png" 
+alt="TheFlash_A" title="TheFlash_A"/></a>
+<b><a style="color: #08c; " href="/TheFlash_A">TheFlash_A</a></b>
+on
+<a href='/oc.tc/maps/mushroom_gorge'>Mushroom Gorge</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/58338aafc8f27aa2c1a732c4' rel='tooltip' title='November 
+21st, 2016 -  6:02 PM'>2 months ago</a>
+</p>
+<p>
+<a href="/Zeluph"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/b654791371eb4f1e9609a1b9a780ace3/16.png" 
+alt="Zeluph" title="Zeluph"/></a>
+killed
+<a href="/BrassGlass"><img style="width: 16px;height: 16px;border-radius: 
+3px;" width="16" height="16" class="avatar" 
+src="https://cravatar.eu/helmavatar/38a830899d3c49878772ca57530f39a1/16.png" 
+alt="BrassGlass" title="BrassGlass"/></a>
+<b><a style="color: #08c; " href="/BrassGlass">BrassGlass</a></b>
+on
+<a href='/oc.tc/maps/race_for_victory_3'>Race for Victory 3</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5833878fc8f27aa2c1a7310a' rel='tooltip' title='November 
+21st, 2016 -  5:58 PM'>2 months ago</a>
+</p>
+</div>
+</div>
+</div>
+<div class='tab-pane' id='objectives'>
+<div class='row'>
+<div class='col-md-12'>
+<h2>
+191
+<small>monuments destroyed</small>
+</h2>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-4 col-sm-6'>
+<p>
+<strong>2%</strong>
+of
+<strong style='color: none'>Nexus</strong>
+on
+<a href="/maps/rift">Rift</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57cce34ec8f219b48fa7bc9f' rel='tooltip' title='September 
+4th, 2016 - 10:22 PM'>
+5 months
+ago
+</a>
+</p>
+<p>
+<strong>24%</strong>
+of
+<strong style='color: none'>Middle Inhibitor</strong>
+on
+<a href="/maps/rift">Rift</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57cce34ec8f219b48fa7bc9f' rel='tooltip' title='September 
+4th, 2016 - 10:18 PM'>
+5 months
+ago
+</a>
+</p>
+<p>
+<strong>50%</strong>
+of
+<strong style='color: none'>Monument A</strong>
+on
+<a href="/maps/sunrise_over_paradise">Sunrise Over Paradise</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5682fee8c8f2a75ce13e4c82' rel='tooltip' title='December 
+29th, 2015 -  4:03 PM'>
+1 year
+ago
+</a>
+</p>
+<p>
+<strong>50%</strong>
+of
+<strong style='color: none'>Monument A</strong>
+on
+<a href="/maps/sunrise_over_paradise">Sunrise Over Paradise</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56030970c8f2187d8657cdb2' rel='tooltip' title='September 
+23rd, 2015 -  3:35 PM'>
+over 1 year
+ago
+</a>
+</p>
+<p>
+<strong>100%</strong>
+of
+<strong style='color: none'>Monument B</strong>
+on
+<a href="/maps/sunrise_over_paradise">Sunrise Over Paradise</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56030970c8f2187d8657cdb2' rel='tooltip' title='September 
+23rd, 2015 -  3:22 PM'>
+over 1 year
+ago
+</a>
+</p>
+<p>
+<strong>100%</strong>
+of
+<strong style='color: none'>Monument</strong>
+on
+<a href="/maps/the_fenland">The Fenland</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/55e38fcac8f2df2324abf857' rel='tooltip' title='August 
+30th, 2015 -  6:35 PM'>
+over 1 year
+ago
+</a>
+</p>
+<p>
+<strong>66%</strong>
+of
+<strong style='color: none'>Antenna B</strong>
+on
+<a href="/maps/spaceship_battles">Spaceship Battles</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/55be8c9dc8f238733fe69aee' rel='tooltip' title='August 2nd, 
+2015 -  4:40 PM'>
+over 1 year
+ago
+</a>
+</p>
+<p>
+<strong>100%</strong>
+of
+<strong style='color: none'>Monument</strong>
+on
+<a href="/maps/warlock">Warlock</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/559e9719c8f273e7d2346744' rel='tooltip' title='July 9th, 
+2015 - 10:46 AM'>
+over 1 year
+ago
+</a>
+</p>
+</div>
+<div class='col-md-4 col-sm-6'>
+<p>
+<strong>18%</strong>
+of
+<strong style='color: none'>Left Monument</strong>
+on
+<a href="/maps/fractal_descent">Fractal Descent</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/559858dbc8f2c954149e1980' rel='tooltip' title='July 4th, 
+2015 -  5:11 PM'>
+over 1 year
+ago
+</a>
+</p>
+<p>
+<strong>25%</strong>
+of
+<strong style='color: none'>Right Monument</strong>
+on
+<a href="/maps/fractal_descent">Fractal Descent</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/559858dbc8f2c954149e1980' rel='tooltip' title='July 4th, 
+2015 -  5:10 PM'>
+over 1 year
+ago
+</a>
+</p>
+<p>
+<strong>7%</strong>
+of
+<strong style='color: none'>Ship</strong>
+on
+<a href="/maps/datastation">DATAstation</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5597f28fc8f21f8e5e8caa49' rel='tooltip' title='July 4th, 
+2015 - 10:00 AM'>
+over 1 year
+ago
+</a>
+</p>
+<p>
+<strong>6%</strong>
+of
+<strong style='color: none'>Left Monument</strong>
+on
+<a href="/maps/fractal_descent">Fractal Descent</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5597efa7c8f21f8e5e8ca8fb' rel='tooltip' title='July 4th, 
+2015 -  9:41 AM'>
+over 1 year
+ago
+</a>
+</p>
+<p>
+<strong>14%</strong>
+of
+<strong style='color: none'>Endstone Cuboid</strong>
+on
+<a href="/maps/ender_blast">Ender Blast</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/558feaaec8f2846ce0db74f3' rel='tooltip' title='June 28th, 
+2015 -  7:49 AM'>
+over 1 year
+ago
+</a>
+</p>
+<p>
+<strong>100%</strong>
+of
+<strong style='color: none'>Antenna B</strong>
+on
+<a href="/maps/spaceship_battles">Spaceship Battles</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/551ec78cc8f2cd67d200df74' rel='tooltip' title='April 3rd, 
+2015 - 12:03 PM'>
+almost 2 years
+ago
+</a>
+</p>
+<p>
+<strong>1%</strong>
+of
+<strong style='color: none'>Ship</strong>
+on
+<a href="/maps/datastation">DATAstation</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/551ec17ac8f2cd67d200da24' rel='tooltip' title='April 3rd, 
+2015 - 11:43 AM'>
+almost 2 years
+ago
+</a>
+</p>
+<p>
+<strong>2%</strong>
+of
+<strong style='color: none'>North Monument</strong>
+on
+<a href="/maps/retaliation_2">Retaliation 2</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/551eb4bdc8f299525ce42d04' rel='tooltip' title='April 3rd, 
+2015 - 10:52 AM'>
+almost 2 years
+ago
+</a>
+</p>
+</div>
+<div class='col-md-4 col-sm-6'>
+<p>
+<strong>89%</strong>
+of
+<strong style='color: none'>North Monument</strong>
+on
+<a href="/maps/retaliation_2">Retaliation 2</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/54f852a1c8f2ce0a08b2d275' rel='tooltip' title='March 5th, 
+2015 -  7:01 AM'>
+almost 2 years
+ago
+</a>
+</p>
+<p>
+<strong>100%</strong>
+of
+<strong style='color: none'>South Monument</strong>
+on
+<a href="/maps/retaliation_2">Retaliation 2</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/54f852a1c8f2ce0a08b2d275' rel='tooltip' title='March 5th, 
+2015 -  7:01 AM'>
+almost 2 years
+ago
+</a>
+</p>
+<p>
+<strong>3%</strong>
+of
+<strong style='color: none'>Endstone Cuboid</strong>
+on
+<a href="/maps/ender_blast">Ender Blast</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/54e8f310c8f20a49bb616ca2' rel='tooltip' title='February 
+21st, 2015 -  3:17 PM'>
+almost 2 years
+ago
+</a>
+</p>
+<p>
+<strong>5%</strong>
+of
+<strong style='color: none'>South Monument</strong>
+on
+<a href="/maps/retaliation_2">Retaliation 2</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/54e7c016c8f268108a452cc7' rel='tooltip' title='February 
+20th, 2015 -  5:21 PM'>
+almost 2 years
+ago
+</a>
+</p>
+<p>
+<strong>92%</strong>
+of
+<strong style='color: none'>East Monument</strong>
+on
+<a href="/maps/interitus">Interitus</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/54e5ded9c8f26cc52c1def07' rel='tooltip' title='February 
+19th, 2015 -  7:04 AM'>
+almost 2 years
+ago
+</a>
+</p>
+<p>
+<strong>100%</strong>
+of
+<strong style='color: none'>Antenna B</strong>
+on
+<a href="/maps/spaceship_battles">Spaceship Battles</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/54e3386ac8f23f367d7485b1' rel='tooltip' title='February 
+17th, 2015 -  6:54 AM'>
+almost 2 years
+ago
+</a>
+</p>
+<p>
+<strong>100%</strong>
+of
+<strong style='color: none'>Antenna A</strong>
+on
+<a href="/maps/spaceship_battles">Spaceship Battles</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/54e3386ac8f23f367d7485b1' rel='tooltip' title='February 
+17th, 2015 -  6:54 AM'>
+almost 2 years
+ago
+</a>
+</p>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-12'>
+<h2>
+78
+<small>wools placed</small>
+</h2>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-4 col-sm-6'>
+<p>
+<strong style='color: rgb(53,70,27)'>Green Wool</strong>
+on
+<a href="/maps/blocks_ctw">Blocks CTW</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5856903cc8f2dd1d3c7c566d' rel='tooltip' title='December 
+18th, 2016 -  7:44 AM'>
+1 month
+ago
+</a>
+</p>
+<p>
+<strong style='color: rgb(53,70,27)'>Green Wool</strong>
+on
+<a href="/maps/mushroom_gorge">Mushroom Gorge</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/58338aafc8f27aa2c1a732c4' rel='tooltip' title='November 
+21st, 2016 -  6:09 PM'>
+2 months
+ago
+</a>
+</p>
+<p>
+<strong style='color: rgb(46,110,137)'>Cyan Wool</strong>
+on
+<a href="/maps/deepwind_jungle">Deepwind Jungle</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/580cd832c8f2c0aaff8a80ad' rel='tooltip' title='October 
+23rd, 2016 - 10:34 AM'>
+3 months
+ago
+</a>
+</p>
+<p>
+<strong style='color: rgb(126,61,181)'>Purple Wool</strong>
+on
+<a href="/maps/placid_spring">Placid Spring</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/58024975c8f26cfb9970f520' rel='tooltip' title='October 
+15th, 2016 - 10:37 AM'>
+3 months
+ago
+</a>
+</p>
+<p>
+<strong style='color: rgb(150,52,48)'>Red Wool</strong>
+on
+<a href="/maps/desert_country">Desert Country</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/580245b0c8f244b2a590ce96' rel='tooltip' title='October 
+15th, 2016 - 10:13 AM'>
+3 months
+ago
+</a>
+</p>
+<p>
+<strong style='color: rgb(150,52,48)'>Red Wool</strong>
+on
+<a href="/maps/jungle_beat">Jungle Beat</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57fa4ebdc8f24b725b2ad34a' rel='tooltip' title='October 
+9th, 2016 -  9:12 AM'>
+4 months
+ago
+</a>
+</p>
+<p>
+<strong style='color: rgb(126,61,181)'>Purple Wool</strong>
+on
+<a href="/maps/desert_country">Desert Country</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57f926b9c8f2c52119192c48' rel='tooltip' title='October 
+8th, 2016 - 12:10 PM'>
+4 months
+ago
+</a>
+</p>
+<p>
+<strong style='color: rgb(219,125,62)'>Orange Wool</strong>
+on
+<a href="/maps/woolirium">Woolirium</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57c64e8bc8f23811974f8027' rel='tooltip' title='August 
+30th, 2016 - 10:29 PM'>
+5 months
+ago
+</a>
+</p>
+</div>
+<div class='col-md-4 col-sm-6'>
+<p>
+<strong style='color: rgb(65,174,56)'>Lime Wool</strong>
+on
+<a href="/maps/banana_split">Banana Split</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57c64cc0c8f23811974f7ecb' rel='tooltip' title='August 
+30th, 2016 - 10:21 PM'>
+5 months
+ago
+</a>
+</p>
+<p>
+<strong style='color: rgb(46,56,141)'>Blue Wool</strong>
+on
+<a href="/maps/ouroboros">Ouroboros</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57c64956c8f23811974f7bde' rel='tooltip' title='August 
+30th, 2016 - 10:06 PM'>
+5 months
+ago
+</a>
+</p>
+<p>
+<strong style='color: rgb(179,80,188)'>Magenta Wool</strong>
+on
+<a href="/maps/golden_drought_iii">Golden Drought III</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/57b7c70dc8f299955b5dfc2b' rel='tooltip' title='August 
+19th, 2016 - 10:03 PM'>
+5 months
+ago
+</a>
+</p>
+<p>
+<strong style='color: rgb(228,177,29)'>Yellow Wool</strong>
+on
+<a href="/maps/battle_ecliptica_iii">Battle Ecliptica III</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/576b3657c8f20bb621711fa8' rel='tooltip' title='June 22nd, 
+2016 -  8:52 PM'>
+7 months
+ago
+</a>
+</p>
+<p>
+<strong style='color: rgb(46,110,137)'>Cyan Wool</strong>
+on
+<a href="/maps/golden_drought_iv">Golden Drought IV</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56f04a5dc8f27ac847820e1e' rel='tooltip' title='March 21st, 
+2016 -  2:27 PM'>
+10 months
+ago
+</a>
+</p>
+<p>
+<strong style='color: rgb(126,61,181)'>Purple Wool</strong>
+on
+<a href="/maps/two_tier">Two Tier</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56f0476dc8f27ac847820ac0' rel='tooltip' title='March 21st, 
+2016 -  2:23 PM'>
+10 months
+ago
+</a>
+</p>
+<p>
+<strong style='color: rgb(46,56,141)'>Blue Wool</strong>
+on
+<a href="/maps/jungle_beat">Jungle Beat</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56ef4e58c8f278015c517192' rel='tooltip' title='March 20th, 
+2016 -  8:50 PM'>
+10 months
+ago
+</a>
+</p>
+<p>
+<strong style='color: rgb(53,70,27)'>Green Wool</strong>
+on
+<a href="/maps/jungle_beat">Jungle Beat</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56ef4e58c8f278015c517192' rel='tooltip' title='March 20th, 
+2016 -  8:50 PM'>
+10 months
+ago
+</a>
+</p>
+</div>
+<div class='col-md-4 col-sm-6'>
+<p>
+<strong style='color: rgb(65,174,56)'>Lime Wool</strong>
+on
+<a href="/maps/golden_drought">Golden Drought</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/56030105c8f284209a065681' rel='tooltip' title='September 
+23rd, 2015 -  2:59 PM'>
+over 1 year
+ago
+</a>
+</p>
+<p>
+<strong style='color: rgb(228,177,29)'>Yellow Wool</strong>
+on
+<a href="/maps/battle_ecliptica_iii">Battle Ecliptica III</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/55c3ed19c8f207bc04bf7c3e' rel='tooltip' title='August 6th, 
+2015 -  6:33 PM'>
+over 1 year
+ago
+</a>
+</p>
+<p>
+<strong style='color: rgb(46,56,141)'>Blue Wool</strong>
+on
+<a href="/maps/ring_race">Ring Race</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/559e97d6c8f2f037560d062c' rel='tooltip' title='July 9th, 
+2015 - 10:51 AM'>
+over 1 year
+ago
+</a>
+</p>
+<p>
+<strong style='color: rgb(65,174,56)'>Lime Wool</strong>
+on
+<a href="/maps/ring_race">Ring Race</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/559e97d6c8f2f037560d062c' rel='tooltip' title='July 9th, 
+2015 - 10:51 AM'>
+over 1 year
+ago
+</a>
+</p>
+<p>
+<strong style='color: rgb(208,132,153)'>Pink Wool</strong>
+on
+<a href="/maps/golden_drought">Golden Drought</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/559aa0cbc8f2c490ae58ecde' rel='tooltip' title='July 6th, 
+2015 - 11:05 AM'>
+over 1 year
+ago
+</a>
+</p>
+<p>
+<strong style='color: rgb(228,177,29)'>Yellow Wool</strong>
+on
+<a href="/maps/tetrad">Tetrad</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/559aa2edc8f2c5ab2c1c3eee' rel='tooltip' title='July 6th, 
+2015 - 10:53 AM'>
+over 1 year
+ago
+</a>
+</p>
+<p>
+<strong style='color: rgb(46,110,137)'>Cyan Wool</strong>
+on
+<a href="/maps/two_tier">Two Tier</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/559a9e6cc8f2c5ab2c1c3b68' rel='tooltip' title='July 6th, 
+2015 - 10:46 AM'>
+over 1 year
+ago
+</a>
+</p>
+<p>
+<strong style='color: rgb(228,177,29)'>Yellow Wool</strong>
+on
+<a href="/maps/mushroom_gorge">Mushroom Gorge</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5597e848c8f25941da325409' rel='tooltip' title='July 4th, 
+2015 -  9:22 AM'>
+over 1 year
+ago
+</a>
+</p>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-12'>
+<h2>
+40
+<small>cores leaked</small>
+</h2>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-4 col-sm-6'>
+<p>
+<strong style='color: none'>Core</strong>
+on
+<a href="/maps/interitus_te">Interitus TE</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/55eb44cec8f27af4965bb0b7' rel='tooltip' title='September 
+5th, 2015 -  2:47 PM'>
+over 1 year
+ago
+</a>
+</p>
+<p>
+<strong style='color: none'>Core</strong>
+on
+<a href="/maps/fortress_battles">Fortress Battles</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/55e39004c8f2f06028e25d33' rel='tooltip' title='August 
+30th, 2015 -  6:24 PM'>
+over 1 year
+ago
+</a>
+</p>
+<p>
+<strong style='color: none'>Core</strong>
+on
+<a href="/maps/bamboo_valley_iii">Bamboo Valley III</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/554624e9c8f2662904c61f02' rel='tooltip' title='May 3rd, 
+2015 -  8:52 AM'>
+over 1 year
+ago
+</a>
+</p>
+<p>
+<strong style='color: none'>Core</strong>
+on
+<a href="/maps/spaceship_battles">Spaceship Battles</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/551ec78cc8f2cd67d200df74' rel='tooltip' title='April 3rd, 
+2015 - 12:06 PM'>
+almost 2 years
+ago
+</a>
+</p>
+<p>
+<strong style='color: none'>Core</strong>
+on
+<a href="/maps/retaliation_2">Retaliation 2</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/551717c0c8f2443e2fa63cbe' rel='tooltip' title='March 28th, 
+2015 -  4:12 PM'>
+almost 2 years
+ago
+</a>
+</p>
+<p>
+<strong style='color: none'>Core</strong>
+on
+<a href="/maps/royal_garden_dtc">Royal Garden DTC</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/550f3625c8f29e7243ede31e' rel='tooltip' title='March 22nd, 
+2015 -  5:07 PM'>
+almost 2 years
+ago
+</a>
+</p>
+<p>
+<strong style='color: none'>Core</strong>
+on
+<a href="/maps/retaliation">Retaliation</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/54fecd6dc8f2c4f2d76233b1' rel='tooltip' title='March 10th, 
+2015 -  5:57 AM'>
+almost 2 years
+ago
+</a>
+</p>
+<p>
+<strong style='color: none'>Core</strong>
+on
+<a href="/maps/iris_dtc">Iris DTC</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/54e5dd64c8f26cc52c1dee15' rel='tooltip' title='February 
+19th, 2015 -  7:01 AM'>
+almost 2 years
+ago
+</a>
+</p>
+</div>
+<div class='col-md-4 col-sm-6'>
+<p>
+<strong style='color: none'>Core</strong>
+on
+<a href="/maps/retaliation_2">Retaliation 2</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/54de86afc8f24d959e0a15e1' rel='tooltip' title='February 
+13th, 2015 -  5:24 PM'>
+almost 2 years
+ago
+</a>
+</p>
+<p>
+<strong style='color: none'>Core</strong>
+on
+<a href="/maps/fortress_battles">Fortress Battles</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/54de8403c8f24d959e0a13eb' rel='tooltip' title='February 
+13th, 2015 -  5:11 PM'>
+almost 2 years
+ago
+</a>
+</p>
+<p>
+<strong style='color: none'>Core</strong>
+on
+<a href="/maps/cake_wars">Cake Wars</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/54de824cc8f2929f98a4f589' rel='tooltip' title='February 
+13th, 2015 -  5:03 PM'>
+almost 2 years
+ago
+</a>
+</p>
+<p>
+<strong style='color: none'>Core</strong>
+on
+<a href="/maps/airship_battle">Airship Battle</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/54ccf398c8f2692749227fba' rel='tooltip' title='January 
+31st, 2015 -  9:32 AM'>
+almost 2 years
+ago
+</a>
+</p>
+<p>
+<strong style='color: none'>Core</strong>
+on
+<a href="/maps/fractal_descent">Fractal Descent</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/54a47397c8f25ebeb414a15d' rel='tooltip' title='December 
+31st, 2014 -  4:19 PM'>
+2 years
+ago
+</a>
+</p>
+<p>
+<strong style='color: none'>Core</strong>
+on
+<a href="/maps/fortress_battles">Fortress Battles</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/549b0850c8f2a5669223e37c' rel='tooltip' title='December 
+24th, 2014 - 12:42 PM'>
+2 years
+ago
+</a>
+</p>
+<p>
+<strong style='color: none'>Core</strong>
+on
+<a href="/maps/solitudemc">SolitudeMC</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/54975fb7c8f25f14c7485f69' rel='tooltip' title='December 
+21st, 2014 -  6:05 PM'>
+2 years
+ago
+</a>
+</p>
+<p>
+<strong style='color: none'>Core</strong>
+on
+<a href="/maps/spaceship_battles">Spaceship Battles</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5484a067c8f2dbc1bf1c3303' rel='tooltip' title='December 
+7th, 2014 - 12:48 PM'>
+2 years
+ago
+</a>
+</p>
+</div>
+<div class='col-md-4 col-sm-6'>
+<p>
+<strong style='color: none'>Core</strong>
+on
+<a href="/maps/fortress_battles">Fortress Battles</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/54830e29c8f2fa56b4d2ed2f' rel='tooltip' title='December 
+6th, 2014 -  8:21 AM'>
+2 years
+ago
+</a>
+</p>
+<p>
+<strong style='color: none'>Core</strong>
+on
+<a href="/maps/retaliation_2">Retaliation 2</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/547a1a5ec8f2c658929c73dc' rel='tooltip' title='November 
+29th, 2014 -  1:24 PM'>
+2 years
+ago
+</a>
+</p>
+<p>
+<strong style='color: none'>Core</strong>
+on
+<a href="/maps/mayan_apocalypse">Mayan Apocalypse</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/5456a90ec8f275b5be3da4f3' rel='tooltip' title='November 
+2nd, 2014 -  4:01 PM'>
+2 years
+ago
+</a>
+</p>
+<p>
+<strong style='color: none'>Core</strong>
+on
+<a href="/maps/retaliation">Retaliation</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/544d5201c8f2fedc884d5779' rel='tooltip' title='October 
+26th, 2014 -  3:14 PM'>
+over 2 years
+ago
+</a>
+</p>
+<p>
+<strong style='color: none'>High Core</strong>
+on
+<a href="/maps/to">To</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/543721bdc8f2bcf6befebc13' rel='tooltip' title='October 
+9th, 2014 -  7:12 PM'>
+over 2 years
+ago
+</a>
+</p>
+<p>
+<strong style='color: none'>Core</strong>
+on
+<a href="/maps/spaceship_battles">Spaceship Battles</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/542dcf2ec8f2b37382b9ae3a' rel='tooltip' title='October 
+2nd, 2014 -  5:23 PM'>
+over 2 years
+ago
+</a>
+</p>
+<p>
+<strong style='color: none'>Core</strong>
+on
+<a href="/maps/fortress_battles">Fortress Battles</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/542895e3c8f2dc4ddb9e89aa' rel='tooltip' title='September 
+28th, 2014 -  6:21 PM'>
+over 2 years
+ago
+</a>
+</p>
+<p>
+<strong style='color: none'>Core</strong>
+on
+<a href="/maps/spaceship_battles">Spaceship Battles</a>
+<a class='profile-timestamp' data-container='body' data-placement='top' 
+href='/matches/54249a0ac8f2525ea61d3481' rel='tooltip' title='September 
+25th, 2014 -  5:49 PM'>
+over 2 years
+ago
+</a>
+</p>
+</div>
+</div>
+</div>
+<div class='tab-pane' id='matches'>
+<div class='row'>
+<div class='col-md-12'>
+<div class='table-container'>
+<table class='table table-bordered table-striped'>
+<thead>
+<tr>
+<th width='15%'>When</th>
+<th>Server</th>
+<th>Map</th>
+<th width='12%'>Length</th>
+<th width='12%'>Participants</th>
+<th width='20%'>
+Result
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<a data-container='body' data-placement='left' 
+href='/matches/55f9f2e8c8f229ec827c97bd' rel='tooltip' title='September 
+16th, 2015 -  6:02 PM'>
+over 1 year ago
+</a>
+</td>
+<td>
+<a href="/play">Ranked1 (US)</a>
+</td>
+<td>
+<a href="/maps/deepwind_jungle">Deepwind Jungle</a>
+</td>
+<td>
+07:02
+</td>
+<td>
+16
+</td>
+<td>
+<div class='result-win'>Win</div>
+</td>
+</tr>
+<tr>
+<td>
+<a data-container='body' data-placement='left' 
+href='/matches/55f9ef3cc8f235c1c036a087' rel='tooltip' title='September 
+16th, 2015 -  5:50 PM'>
+over 1 year ago
+</a>
+</td>
+<td>
+<a href="/play">Ranked4 (US)</a>
+</td>
+<td>
+<a href="/maps/golden_drought_iii">Golden Drought III</a>
+</td>
+<td>
+11:13
+</td>
+<td>
+16
+</td>
+<td>
+<div class='result-win'>Win</div>
+</td>
+</tr>
+<tr>
+<td>
+<a data-container='body' data-placement='left' 
+href='/matches/55f9edd2c8f235c1c0369f87' rel='tooltip' title='September 
+16th, 2015 -  5:37 PM'>
+over 1 year ago
+</a>
+</td>
+<td>
+<a href="/play">Ranked4 (US)</a>
+</td>
+<td>
+<a href="/maps/fractal_descent">Fractal Descent</a>
+</td>
+<td>
+05:11
+</td>
+<td>
+20
+</td>
+<td>
+<div class='result-loss'>Loss</div>
+</td>
+</tr>
+<tr>
+<td>
+<a data-container='body' data-placement='left' 
+href='/matches/55eb4712c8f27af4965bb1f0' rel='tooltip' title='September 
+5th, 2015 -  2:54 PM'>
+over 1 year ago
+</a>
+</td>
+<td>
+<a href="/play">Ranked1 (US)</a>
+</td>
+<td>
+<a href="/maps/deepwind_jungle">Deepwind Jungle</a>
+</td>
+<td>
+04:11
+</td>
+<td>
+16
+</td>
+<td>
+<div class='result-loss'>Loss</div>
+</td>
+</tr>
+<tr>
+<td>
+<a data-container='body' data-placement='left' 
+href='/matches/55eb44cec8f27af4965bb0b7' rel='tooltip' title='September 
+5th, 2015 -  2:47 PM'>
+over 1 year ago
+</a>
+</td>
+<td>
+<a href="/play">Ranked1 (US)</a>
+</td>
+<td>
+<a href="/maps/interitus_te">Interitus TE</a>
+</td>
+<td>
+07:13
+</td>
+<td>
+18
+</td>
+<td>
+<div class='result-win'>Win</div>
+</td>
+</tr>
+<tr>
+<td>
+<a data-container='body' data-placement='left' 
+href='/matches/55eb421ec8f27af4965baead' rel='tooltip' title='September 
+5th, 2015 -  2:36 PM'>
+over 1 year ago
+</a>
+</td>
+<td>
+<a href="/play">Ranked1 (US)</a>
+</td>
+<td>
+<a href="/maps/the_fenland_ctf">The Fenland CTF</a>
+</td>
+<td>
+04:50
+</td>
+<td>
+20
+</td>
+<td>
+<div class='result-loss'>Loss</div>
+</td>
+</tr>
+<tr>
+<td>
+<a data-container='body' data-placement='left' 
+href='/matches/55eb3ea3c8f27af4965bad0d' rel='tooltip' title='September 
+5th, 2015 -  2:24 PM'>
+over 1 year ago
+</a>
+</td>
+<td>
+<a href="/play">Ranked1 (US)</a>
+</td>
+<td>
+<a href="/maps/spaceship_battles_te">Spaceship Battles TE</a>
+</td>
+<td>
+10:38
+</td>
+<td>
+20
+</td>
+<td>
+<div class='result-loss'>Loss</div>
+</td>
+</tr>
+<tr>
+<td>
+<a data-container='body' data-placement='left' 
+href='/matches/55eb39d2c8f27af4965baa36' rel='tooltip' title='September 
+5th, 2015 -  2:12 PM'>
+over 1 year ago
+</a>
+</td>
+<td>
+<a href="/play">Ranked1 (US)</a>
+</td>
+<td>
+<a href="/maps/golden_drought_iii">Golden Drought III</a>
+</td>
+<td>
+19:56
+</td>
+<td>
+20
+</td>
+<td>
+<div class='result-loss'>Loss</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class='tab-pane' id='infractions'>
+<div class='row'>
+<div class='col-md-12'>
+<center>
+<p>No punishments to display.</p>
+</center>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<hr>
+<div class='modal fade' id='contact'>
+<div class='modal-dialog'>
+<div class='modal-content'>
+<form class="simple_form new_inquiry" id="new_inquiry" action="/inquire" 
+accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" 
+value="&#x2713;"/><input type="hidden" name="authenticity_token" 
+value="+UGVh2/aBAWZGAIt8zGa3ZEoLynSrE2m1d0PTUA0n+GC8jCyDgpdBhS+LSW7j19A2BRJqTrfPJKuaK0Edm4i0Q=="/><input 
+class='subj' name='type' type='hidden' value=''>
+<div class='modal-header'>
+<button class='close' data-dismiss='modal'>&times;</button>
+<h3 class='modal-title'>
+Contact Overcast Network
+<small class='subject'></small>
+</h3>
+</div>
+<div class='modal-body'>
+<div class='row'>
+<div class='col-md-6'>
+<div class='form-group'>
+<label class="string optional control-label" 
+for="inquiry_username">Username</label>
+<input required="required" class="form-control" type="text" 
+name="inquiry[username]" id="inquiry_username"/>
+</div>
+<div class='form-group'>
+<label class="string optional control-label" 
+for="inquiry_message">Message</label>
+<textarea rows="10" class="form-control" name="inquiry[message]" 
+id="inquiry_message">
+</textarea>
+</div>
+</div>
+<div class='col-md-6'>
+<div class='form-group'>
+<label class="email optional control-label" 
+for="inquiry_email">Email</label>
+<input required="required" class="form-control" type="email" 
+name="inquiry[email]" id="inquiry_email"/>
+</div>
+<div class='form-group'>
+<label class="string optional control-label" 
+for="inquiry_subject">Subject</label>
+<input required="required" class="form-control" type="text" 
+name="inquiry[subject]" id="inquiry_subject"/>
+</div>
+<p>We usually respond within 1-2 days if you provide a valid email</p>
+<p>Please be as clear and concise as possible. It will help us process 
+your inquiry faster.</p>
+</div>
+</div>
+</div>
+<div class='modal-footer'>
+<a class='btn btn-default' data-dismiss='modal' href='#'>Close</a>
+<input class='btn btn-primary' data-disable-with='Sending...' 
+type='submit' value='Send'>
+</div>
+</form>
+</div>
+</div>
+</div>
+<footer>
+<div class='row'>
+<div class='col-md-2 col-sm-4 col-xs-6'>
+<ul class='nav nav-pills nav-stacked'>
+<li class='heading'>
+Policies
+</li>
+<li>
+<a href='/oc.tc/rules'>Player Rules</a>
+</li>
+<li>
+<a href='/oc.tc/terms'>Terms of Service</a>
+</li>
+<li>
+<a href='/oc.tc/privacy'>Privacy Policy</a>
+</li>
+<li>
+<a href='/oc.tc/refund'>Refund Policy</a>
+</li>
+</ul>
+</div>
+<div class='col-md-2 col-sm-4 col-xs-6'>
+<ul class='nav nav-pills nav-stacked'>
+<li class='heading'>
+Moderation
+</li>
+<li>
+<a href='/oc.tc/report'>Report a Player</a>
+</li>
+<li>
+<a href='/oc.tc/appeal'>Appeal a Punishment</a>
+</li>
+<li>
+<a href='/oc.tc/punishments'>Recent Punishments</a>
+</li>
+</ul>
+</div>
+<div class='clearfix visible-xs-block' style='padding-bottom: 
+20px;'></div>
+<div class='col-md-2 col-sm-4 col-xs-6'>
+<ul class='nav nav-pills nav-stacked'>
+<li class='heading'>
+Organization
+</li>
+<li>
+<a href='/oc.tc/staff'>Staff Listing</a>
+</li>
+<li>
+<a href='/oc.tc/revisions'>Development Logs</a>
+</li>
+<li>
+<a href='https://github.com/OvercastNetwork/Issues'>Report a Bug</a>
+</li>
+</ul>
+</div>
+<div class='clearfix visible-sm-block' style='padding-bottom: 
+20px;'></div>
+<div class='col-md-2 col-sm-4 col-xs-6'>
+<ul class='nav nav-pills nav-stacked'>
+<li class='heading'>
+Contact Us
+</li>
+<li>
+<a class='inquiry' data-toggle='modal' href='#contact'>General 
+Inquiries</a>
+</li>
+<li>
+<a class='inquiry' data-toggle='modal' href='#contact'>Shop Purchases</a>
+</li>
+<li>
+<a href='/oc.tc/appeal'>Ban Appeals</a>
+</li>
+</ul>
+</div>
+<div class='clearfix visible-xs-block' style='padding-bottom: 
+20px;'></div>
+<div class='col-md-2 col-sm-4'>
+<ul class='nav nav-pills nav-stacked follow-us'>
+<li class='heading'>
+Follow Us
+</li>
+<li>
+<a href='https://twitter.com/OvercastPGM'>
+<img 
+src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+Twitter
+</a>
+<a href='https://www.facebook.com/OvercastNetwork'>
+<img 
+src='https://static.oc.tc/assets/facebook_icon-34f4e0ba3a52886710c0360d3f8f35352b6c0a73c7181f690c135b1d24eaa8f0.png'>
+Facebook
+</a>
+<a href='https://www.youtube.com/c/OvercastNetwork'>
+<img 
+src='https://static.oc.tc/assets/youtube_icon-a724516a1d426e48bae525ea6e04abc3e1cf8234989b3f300ed294a61a6c893d.png'>
+YouTube
+</a>
+<a href='http://www.twitch.tv/ocnlive'>
+<img 
+src='https://static.oc.tc/assets/twitch_icon-6604f0ced4759bd1c8bb6a01de875a66024f422c14789a752024980d57ba7398.png'>
+Twitch
+</a>
+</li>
+</ul>
+</div>
+<div class='clearfix visible-xs-block' style='padding-bottom: 
+20px;'></div>
+<div class='col-md-2 col-sm-4' style='text-align: center;'>
+Servers provided by
+<a href='/oc.tc/host'>
+<img class='img-responsive' 
+src='https://static.oc.tc/assets/beastnode-844f199a7f8d0aa2903d26a73ce554bbea1d6030baf3f28bface484c944b5d50.png'>
+</a>
+<div class='copyright'>
+&copy; 2012-2016 Overcast Network
+</div>
+</div>
+</div>
+</footer>
+</div>
+</body>
+</html>
