@@ -1,0 +1,1352 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta name="csrf-param" content="authenticity_token"/>
+<meta name="csrf-token" content="SzjR/hjPmaoegX/ihxyu9pR2PZFsqjI++kXBF2rC6XdwgI4Rw591KL9faOngcd5wcSFshad4JXKbwBLiSPnKSQ=="/>
+<meta charset='utf-8'>
+<meta content='width=device-width, initial-scale=1' name='viewport'>
+<meta content='#337AB7' name='theme-color'>
+<title>
+Rogue Gamemodes: An Overcast Story - Tournament Information - Lifeboat Network Forum
+</title>
+<link rel="shortcut icon" type="image/x-icon" href="https://static.oc.tc/favicon.ico?v=3"/>
+<link rel="apple-touch-icon" type="image/png" href="https://static.oc.tc/assets/icons/icon-57x57-c773bb9eed44bec814183ea9c338a8d24261d8cf4dd837ebfd11316567fd81e6.png"/>
+<link rel="apple-touch-icon" type="image/png" href="https://static.oc.tc/assets/icons/icon-76x76-9b6f7b609f77f40e69d6c3e05780e0fe93ce4fbf6e39c6c749df63a5c526e294.png" sizes="76x76"/>
+<link rel="apple-touch-icon" type="image/png" href="https://static.oc.tc/assets/icons/icon-120x120-4bf1cbf6c6c04c8b98dfd7c828b08c681c8d7533621ab949131c7542344e0a93.png" sizes="120x120"/>
+<link rel="apple-touch-icon" type="image/png" href="https://static.oc.tc/assets/icons/icon-152x152-9285e43ba8ebd0609dad331dc1edb03224b6237f088b999bfd14f81cf716cab6.png" sizes="152x152"/>
+<link rel="apple-touch-icon" type="image/png" href="https://static.oc.tc/assets/icons/icon-167x167-2b722464c6abcaddf5c0d3f64c3292de32c59c079a8ec829a34c0c064f13b55c.png" sizes="167x167"/>
+<link rel="apple-touch-icon" type="image/png" href="https://static.oc.tc/assets/icons/icon-180x180-feb73f6835138a9162af22513c17b7d077fd3ce7f9ef41744eca3e6cbcdee771.png" sizes="180x180"/>
+<link rel="icon" type="image/png" href="https://static.oc.tc/assets/icons/icon-128x128-e17c0fec61348260984daac0ffa7fb9471a25501ca49ef41b2a0daa3130f8ff4.png" sizes="128x128"/>
+<link rel="icon" type="image/png" href="https://static.oc.tc/assets/icons/icon-192x192-c93c1e496617fec85cd89aa9d3abc62db2232eb1cf901924b5bc81c32bc44ed6.png" sizes="192x192"/>
+<link rel="stylesheet" media="screen" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css"/>
+<link rel="stylesheet" media="screen" href="https://static.oc.tc/assets/application-bfa7ca518e1a8ca212fef53aaa0650a6f5b4475c06914e7178ff5bec94070752.css"/>
+<link rel="stylesheet" media="screen" href="//fonts.googleapis.com/css?family=Lato:700,400,300"/>
+<link rel="stylesheet" media="screen" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"/>
+<script src="https://static.oc.tc/assets/libraries-912fd655d5f42721ec0f4b257ad9e600219d21f56ed23b0125feaf20b7f6e28e.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="https://static.oc.tc/assets/application-279754d779d3df8a6e34571f7a04537497dcab3d7ff24f26101905b5bdcd2e1b.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-3-typeahead/4.0.0/bootstrap3-typeahead.min.js"></script>
+<script>
+  var _gaq=_gaq||[];_gaq.push(["_setAccount","UA-30515952-1"]);_gaq.push(["_trackPageview"]);(function(){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src=("https:"==document.location.protocol?"https://ssl":"http://www")+".google-analytics.com/ga.js";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)})()
+</script>
+</head>
+<body>
+<nav class='navbar navbar-default navbar-static-top'>
+<div class='container'>
+<div class='navbar-header'>
+<button class='navbar-toggle collapsed' data-target='#top-navbar-collapse' data-toggle='collapse' id='top-navbar-collapse-button'>
+<span class='fa fa-bars'></span>
+</button>
+<a class='navbar-brand' href='/'>
+<img class='pull-left' height='34' src='https://static.oc.tc/assets/logo-d21fa4a4fc78ea882d0a906d9ae73cf126ab8c09e0b1cd757e9f4e4b61732f82.png'>
+</a>
+</div>
+<div class='navbar-collapse collapse' id='top-navbar-collapse'>
+<ul class='nav navbar-nav' style='margin-right: 0;'>
+<li>
+<a href='/play'>
+<i class='fa fa-play'></i>
+Play
+</a>
+</li>
+<li>
+<a href='/maps'>
+<i class='fa fa-cubes'></i>
+Maps
+</a>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+<i class='fa fa-user'></i>
+Players
+<b class='caret'></b>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a href='https://oc.tc/leaderboard'>
+<i class='fa fa-star'></i>
+Rankings
+</a>
+</li>
+<li>
+<a href='https://oc.tc/stats'>
+<i class='fa fa-line-chart'></i>
+Stats
+</a>
+</li>
+<li>
+<a href='/channels'>
+<i class='fa fa-youtube-play'></i>
+Channels
+</a>
+</li>
+<form class='player-search'>
+<input class='input-sm form-control typeahead' id='player-search' name='search' placeholder='Search for a player' type='text'>
+</form>
+</ul>
+</li>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#'>
+<i class='fa fa-trophy'></i>
+League
+<b class='caret'></b>
+</a>
+<ul class='dropdown-menu'>
+<li>
+<a href='/teams'>
+<i class='fa fa-group'></i>
+Teams
+</a>
+</li>
+<li>
+<a href='/tournaments'>
+<i class='fa fa-flag'></i>
+Tournaments
+</a>
+</li>
+</ul>
+</li>
+<li class='active'>
+<a href='/forums'>
+<i class='fa fa-comments'></i>
+Forum
+</a>
+</li>
+</ul>
+<hr class='visible-xs visible-sm' style='margin: 4px; border-color: #e7e7e7;'>
+<ul class='nav navbar-nav pull-right'>
+<li class='dropdown'>
+<a class='dropdown-toggle' data-toggle='dropdown' href='#' style='outline: none; '>
+<i class='fa fa-user'></i>
+<div class='visible-xs-inline visible-sm-inline'>
+Account
+</div>
+<b class='caret'></b>
+</a>
+<ul class='dropdown-menu dropdown-menu-right'>
+<li>
+<a href='/users/sign_in'>Login</a>
+</li>
+<li>
+<a href='/users/sign_up'>Register</a>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+<div class='container'>
+<div class='flash' style='margin-top: 20px;'>
+</div>
+<section>
+<div class='page-header'>
+<div class='row'>
+<div class='col-md-9'>
+<div class='pull-right'>
+<button class='btn btn-warning btn-sm visible-xs visible-sm' data-target='#subforum-list' data-toggle='collapse' onclick="$(this).toggleClass('active');">
+<i class='fa fa-th-list'></i>
+Subforums
+</button>
+</div>
+<h1 style='margin-top: 0'>
+Forums
+<small>Socialize with your friends</small>
+</h1>
+</div>
+<div class='col-md-3'>
+<script>
+  (function() {
+      var cx = '008943541052059734538:koqmcyiy3cw';
+      var gcse = document.createElement('script');
+      gcse.type = 'text/javascript';
+      gcse.async = true;
+      gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only></gcse:searchbox-only>
+</div>
+</div>
+</div>
+<div class='row'>
+<div class='col-md-3 forum-sidebar'>
+<div class='collapse' id='subforum-list'>
+<ul class='nav nav-pills nav-stacked'>
+<li class=''>
+<a href='/forums/'>What's New?</a>
+</li>
+</ul>
+<h4>Lifeboat Network</h4>
+<ul class='nav nav-pills nav-stacked'>
+<li>
+<a href='/forums/4fc17119c463751492000018'>
+Announcements
+</a>
+</li>
+<li>
+<a href='/forums/5704dd50c2963502110000a5'>
+All About Lifeboat
+</a>
+</li>
+<li>
+<a href='/forums/4fc17142c46375149200001c'>
+Questions &amp; Feedback
+</a>
+</li>
+<li>
+<a href='/forums/557e21685f35b92506006f9e'>
+Ask the Admins
+</a>
+</li>
+</ul>
+<h4>Community</h4>
+<ul class='nav nav-pills nav-stacked'>
+<li>
+<a href='/forums/4fc171b7c463751492000020'>
+General Discussion
+</a>
+</li>
+<li>
+<a href='/forums/513014bfba6087c5760002b0'>
+Introduce Yourself
+</a>
+</li>
+<li>
+<a href='/forums/4fc171fcc46375149200002c'>
+Skill &amp; Strategy
+</a>
+</li>
+<li>
+<a href='/forums/4fc17212c463751492000030'>
+Creative Content
+</a>
+</li>
+<li>
+<a href='/forums/54f6928667d522d227000340'>
+Let's Play Applications
+</a>
+</li>
+<li>
+<a href='/forums/4fc17a47c4637515f7000020'>
+Other Games
+</a>
+</li>
+<li>
+<a href='/forums/4fc17a31c4637515f700001e'>
+Off Topic
+</a>
+</li>
+</ul>
+<h4>Map Making</h4>
+<ul class='nav nav-pills nav-stacked'>
+<li>
+<a href='/forums/4fc17267c463751492000034'>
+Information
+</a>
+</li>
+<li>
+<a href='/forums/53f7a8d0d7c83698b7b67498'>
+Discussion
+</a>
+</li>
+<li>
+<a href='/forums/4fc17996c4637515f7000016'>
+Maps
+</a>
+</li>
+<li>
+<a href='/forums/53f7a8d1d7c83698b7b67499'>
+Submissions
+</a>
+</li>
+</ul>
+<h4>Events</h4>
+<ul class='nav nav-pills nav-stacked'>
+<li class='active'>
+<a href='/forums/53f7ed775f35b9e339000a9a'>
+Information
+</a>
+</li>
+<li>
+<a href='/forums/52e4937c12ca952d000010f9'>
+Discussion
+</a>
+</li>
+<li>
+<a href='/forums/52e48f6d12ca959a96000e76'>
+Looking for Team
+</a>
+</li>
+<li>
+<a href='/forums/52e48f8612ca95ab56000fc1'>
+Looking for Members
+</a>
+</li>
+<li>
+<a href='/forums/52e48f9c12ca959ad0000daa'>
+Looking for Scrimmage
+</a>
+</li>
+</ul>
+</div>
+<div class='hidden-xs hidden-sm'>
+<h4>
+Online Users
+<small>72</small>
+</h4>
+<small><a style="color: #008888" href="/Lieutenantpants">Lieutenantpants</a>, <a style="color: #F20" href="/2000thehecf1">2000thehecf1</a>, <a style="color: #F20" href="/Snuskenmaxi">Snuskenmaxi</a>, <a style="color: #F88" href="/OCNs_OMEN">OCNs_OMEN</a>, <a style="color: #F88" href="/Pelpelajax">Pelpelajax</a>, <a style="color: #06d" href="/rockymine">rockymine</a>, <a style="color: #3EBCBC" href="/CIPato">CIPato</a>, <a style="color: #08c" href="/Spintown">Spintown</a>, <a style="color: #08c" href="/Karatedude">Karatedude</a>, <a style="color: #08c" href="/Flanyu">Flanyu</a>, <a style="color: #08c" href="/Yoyo_">Yoyo_</a>, <a style="color: #08c" href="/snatter">snatter</a>, <a style="color: #08c" href="/qlados">qlados</a>, <a style="color: #08c" href="/Queznel">Queznel</a>, <a style="color: #08c" href="/AdamChen">AdamChen</a>, <a style="color: #08c" href="/arilysm">arilysm</a>, <a style="color: #08c" href="/Maxinoxo">Maxinoxo</a>, <a style="color: #08c" href="/HugMe_">HugMe_</a>, <a style="color: #08c" href="/ttiku">ttiku</a>, <a style="color: #08c" href="/Meegathrainer">Meegathrainer</a>, <a style="color: #08c" href="/Kahlersforge">Kahlersforge</a>, <a style="color: #08c" href="/_oxyoshi_">_oxyoshi_</a>, <a style="color: #08c" href="/Lauty">Lauty</a>, <a style="color: #08c" href="/TiTo_418">TiTo_418</a>, <a style="color: #08c" href="/Dartho">Dartho</a>, <a style="color: #08c" href="/AudreyDx">AudreyDx</a>, <a style="color: #08c" href="/Circus">Circus</a>, <a style="color: #08c" href="/Macromy">Macromy</a>, <a style="color: #08c" href="/Lorys">Lorys</a>, <a style="color: #08c" href="/captaintheus">captaintheus</a>, <a style="color: #08c" href="/PdPr0x">PdPr0x</a>, <a style="color: #08c" href="/Arqueopterix">Arqueopterix</a>, <a style="color: #08c" href="/Ralloi">Ralloi</a>, <a style="color: #08c" href="/Symphtic">Symphtic</a>, <a style="color: #08c" href="/Selfie">Selfie</a>, <a style="color: #08c" href="/Mai">Mai</a>, <a style="color: #08c" href="/NocturnalBoy">NocturnalBoy</a>, <a style="color: #08c" href="/Zaoki">Zaoki</a>, <a style="color: #08c" href="/lechampionkev">lechampionkev</a>, <a style="color: #08c" href="/Lordblox">Lordblox</a>, <a style="color: #08c" href="/jofa56">jofa56</a>, <a style="color: #08c" href="/Keenn">Keenn</a>, <a style="color: #08c" href="/byRobo">byRobo</a>, <a style="color: #08c" href="/BlackLizard">BlackLizard</a>, <a style="color: #08c" href="/ManuMezclado_HN">ManuMezclado_HN</a>, <a style="color: #08c" href="/xBouh">xBouh</a>, <a style="color: #08c" href="/ALEXIU75">ALEXIU75</a>, <a style="color: #08c" href="/D4w1t0">D4w1t0</a>, <a style="color: #08c" href="/Cip">Cip</a>, <a style="color: #08c" href="/Yiel96">Yiel96</a>, <a style="color: #08c" href="/xCaivio">xCaivio</a>, <a style="color: #08c" href="/paqi">paqi</a>, <a style="color: #08c" href="/Wikiblox">Wikiblox</a>, <a style="color: #08c" href="/Samukah_">Samukah_</a>, <a style="color: #08c" href="/Yesaii">Yesaii</a>, <a style="color: #08c" href="/stiMULEating">stiMULEating</a>, <a style="color: #08c" href="/Nachoo_">Nachoo_</a>, <a style="color: #08c" href="/Tezehk">Tezehk</a>, <a style="color: #08c" href="/Yenien">Yenien</a>, <a style="color: #08c" href="/Koro_">Koro_</a>, <a style="color: #08c" href="/Sylvadan">Sylvadan</a>, <a style="color: #08c" href="/Neaathhhhhh">Neaathhhhhh</a>, <a style="color: #08c" href="/francesca19">francesca19</a>, <a style="color: #08c" href="/BB_8__">BB_8__</a>, <a style="color: #08c" href="/Spalgra">Spalgra</a>, <a style="color: #08c" href="/Foscra">Foscra</a>, <a style="color: #08c" href="/Ammzzy">Ammzzy</a>, <a style="color: #08c" href="/Cqmp3r_">Cqmp3r_</a>, <a style="color: #08c" href="/26ellas">26ellas</a>, <a style="color: #08c" href="/Darkooo">Darkooo</a>, <a style="color: #08c" href="/blackhornet36">blackhornet36</a>, <a style="color: #08c" href="/HopscotchPilgrim">HopscotchPilgrim</a></small>
+<h4>
+Discord
+</h4>
+<div class='text-center'>
+<a href='https://discord.gg/PGM'>
+<img src='https://discordapp.com/api/guilds/86514356862320640/widget.png?style=shield'>
+</a>
+</div>
+</div>
+</div>
+<div class='col-md-9 clearfix'>
+<style>.btn-toolbar>.btn.btn-default{margin-left:10px;}</style>
+<form action="/forums/53f7ed775f35b9e339000a9a/moderate/posts" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;"/><input type="hidden" name="_method" value="put"/><input type="hidden" name="authenticity_token" value="BhvV16OcuBNGpTehyge3zt02FV17w6jvZcEQeN/fWSA9o4o4eMxUked7IKqtasdIOGFESbARv6MERMON/eR6Hg=="/>
+<div class='topic-breadcrumbs visible-sm visible-xs'>
+<a href='/forums/'>Forums</a>
+&raquo;
+<a href="/forums/53f7ed775f35b9e339000a9a">Information</a>
+</div>
+<div class='page-header' style='margin: 0px;'>
+<h3>
+<a href='/forums/topics/587d898567d52233dd000012'>
+<img alt="book" src="https://static.oc.tc/images/emoji/unicode/1f4d6.png" style="vertical-align:middle;" width="20" height="20"/> Rogue Gamemodes: An Overcast Story - Tournament Information
+</a>
+<small>
+by
+<a style="color: #A00; " href="/majjus_">majjus_</a>
+<i class='fa fa-thumb-tack' rel='tooltip' title='Pinned'></i>
+<i class='fa fa-bookmark' rel='tooltip' title='Official Response'></i>
+</small>
+</h3>
+</div>
+<br>
+<div class='btn-toolbar pull-right' style='margin: 0 0 10px;'>
+</div>
+<ul class='pagination pagination-sm'>
+<li class='active'>
+<a>1</a>
+</li>
+<li>
+<a href='/forums/topics/587d898567d52233dd000012?page=2'>2</a>
+</li>
+<li>
+<a href='/forums/topics/587d898567d52233dd000012?page=3'>3</a>
+</li>
+<li>
+<a href='/forums/topics/587d898567d52233dd000012?page=4'>4</a>
+</li>
+<li>
+<a href='/forums/topics/587d898567d52233dd000012?page=5'>5</a>
+</li>
+<li class='disabled'>
+<a>&hellip;</a>
+</li>
+<li>
+<a href='/forums/topics/587d898567d52233dd000012?page=8'>Last &raquo;</a>
+</li>
+</ul>
+<div class='clearfix'></div>
+<div class='posts'>
+<hr class='post-divider'>
+<div id='587d898567d52233dd000014'>
+<div class='post-header'>
+<div class='pull-right'>
+</div>
+<div>
+<a class='pull-left' href='/majjus_' style='margin: 4px 5px 0 0;'>
+<img style="width: 32px;height: 32px;border-radius: 3px;vertical-align: bottom;" width="32" height="32" class="avatar" src="https://avatar.oc.tc/453003c1d3a24b0ab4911205e503de90/32@2x.png" alt="majjus_" title="majjus_"/>
+</a>
+<div style='margin-left: 37px;'>
+<a style="color: #A00; font-weight: bold; margin-right: 3px" href="/majjus_">majjus_</a>
+<a class="label" style="background-color: #A00; color: white" href="/staff">Senior Moderator</a>
+<a class="label" style="background-color: #008888; color: white" rel="tooltip" title="Senior Event Coordinator" href="/staff">Event Coordinator</a>
+<a class="label" style="background-color: purple; color: white" href="/shop">Dux</a>
+<span class="label" style="background-color: #ffffff; color: #CC033C">♥</span>
+</div>
+<div style='margin-left: 37px;'>
+<a class='post-timestamp' data-container='body' data-placement='right' href='/forums/posts/587d898567d52233dd000014' rel='tooltip' title='January 21st, 2017 -  4:00 PM (Posted on January 16th, 2017 -  9:03 PM)'>
+<small>
+updated
+5 days
+ago
+</small>
+</a>
+</div>
+</div>
+</div>
+<br>
+<div class='forum-post'>
+<div class='converted post-content'>
+<p>Rogue Gamemodes: An Overcast Story
+Tournament Information
+<img src="https://cdn.discordapp.com/attachments/270270409335635968/270625390299447303/Rouge-Gamemodes-Poster.png" alt="enter image description here"></p>
+<p>Photo by <a href="/Scorpioon"><img width="20" height="20" src="https://avatar.oc.tc/b2b2e914e7c0402e8441143cdc6a871b/20@2x.png" alt="Scorpioon" title="Scorpioon" class="avatar" style="width:20px;height:20px;border-radius:3px;"></a> <a href="/Scorpioon" style="color:#3ebcbc;">Scorpioon</a>!</p>
+<p>Hello, everyone!</p>
+<p>We are very excited to announce our 15th tournament, Rogue Gamemodes: An Overcast Story!</p>
+<p><strong>By registering for this tournament you are agreeing to our rule set and punishments within it.</strong></p>
+<blockquote>
+<p>Gamemode and Format </p>
+</blockquote>
+<p>This event will feature a mixed gamemode style, using the best maps of Capture (CTW), Conquest (TDM, 5CP, CTF, and KoTH) and Destroy (DTC/M). The event is <strong>single elimination</strong>. The tournament style will reflect the Beta tournament, with unique maps selected for each of the rounds.</p>
+<p>Each round will be best of 3 (Bo3), using a pre-determined order of Capture followed by Conquest and then Destroy.</p>
+<p>CTW and DTC matches will last a maximum of 45 minutes. Conquest matches will have a time limit of ~12 minutes. As such, the Conquest gamemode will be best of three maps.</p>
+<p>In the event of a tie, a round-specific and predetermined tiebreaker map will be played. This is also the case with the maps used in the tournament. Each round’s chosen tiebreaker maps can be seen below in the maps section of this post.</p>
+<p>When signing up, you must be prepared to play on the following dates:
+January 28 - Round of 32 to Quarterfinals (Starting at 10:00 am EST)
+January 29 - Semifinals and Finals (Starting at 10:00 am EST)
+<a href="http://www.thetimezoneconverter.com/?t=10:00%20am&amp;tz=EST%20(Eastern%20Standard%20Time)&amp;"><em>Use this converter to convert to your local time</em></a></p>
+<blockquote>
+<p>Team Information</p>
+</blockquote>
+<p>We will be accepting <strong>up to 32 teams</strong> into this tournament. All teams may not have less than 10 players or <strong>more than 20</strong> players registered for the event. </p>
+<p><strong>Teams will need at least 6 active players to play per match with a maximum of 8.</strong></p>
+<p>Email <a href="/cdn-cgi/l/email-protection#a0d2c5c6d3e0cfc38ed4c3"><span class="__cf_email__" data-cfemail="c8baadaebb88a7abe6bcab">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a> regarding any issues with our team systems.</p>
+<blockquote>
+<p>Maps</p>
+</blockquote>
+<p>Each round will use different pre-selected maps. The maps chosen are some of the finest and most memorable maps on the network. The order of the maps can be found below.</p>
+<p><strong><strong>Ro32 Jan 28 - 10:00am EST</strong></strong><br>
+<strong>CTW</strong>: Race for Victory<br>
+<strong>Conquest (Bo3)</strong>: Smoke, Battle of Lyndanisse, Ascendance 02<br>
+<strong>DTC/M</strong>: Runes Of Ruin<br>
+<em>Tie Breaker: Blitzkrieg</em> </p>
+<p><strong><strong>Ro16 Jan. 28 - 12:30pm EST</strong></strong><br>
+<strong>CTW</strong>: Deepwind Jungle<br>
+<strong>Conquest (Bo3)</strong>: Limbo, Urban Jungle, Storm<br>
+<strong>DTC/M</strong>: Fortress Battles<br>
+<em>Tie Breaker: No Return</em> </p>
+<p><strong><strong>Quarterfinals Jan. 28 - 3:00pm EST</strong></strong><br>
+<strong>CTW</strong>: Golden Drought III<br>
+<strong>Conquest (Bo3)</strong>: Nartica, Verdant Corridors, Desert Sanctuary<br>
+<strong>DTC/M</strong>: Retaliation 2<br>
+<em>Tie Breaker: Dead Heat</em> </p>
+<p><strong><strong>Semifinals Jan. 29 - 10:00am EST</strong></strong><br>
+<strong>CTW</strong>: NextGen<br>
+<strong>Conquest (Bo3)</strong>: Harb, Bliss, Abandoned Zoo<br>
+<strong>DTC/M</strong>: Iris<br>
+<em>Tie Breaker: Boom</em> </p>
+<p><strong><strong>Final Jan. 29 - 15 minutes after the end of semifinals</strong></strong><br>
+<strong>CTW</strong>: Fairy Tales 2: A Tale or Two<br>
+<strong>Conquest (Bo3)</strong>: Facility, Ascendance, Limbo II<br>
+<strong>DTC/M</strong>: SSB<br>
+<em>Tie Breaker: The Complex</em> </p>
+<blockquote>
+<p>Registration</p>
+</blockquote>
+<p>Team leaders are required to work with their team members to decide who will participate in the tournament. When registration opens, team leaders will have to submit their rosters and individual team members will have to confirm their participation. If you do not confirm your participation, it is assumed that you will not show up.
+If you have issues with players that will not be available during the confirmation period, please send an email to <a href="/cdn-cgi/l/email-protection#0e7c6b687d4e616d207a6d"><span class="__cf_email__" data-cfemail="89fbeceffac9e6eaa7fdea">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a> before the registration period closes.
+Individual teams may not have less than 10 or more than 20 players registered for the tournament. Remember, adding alternate accounts to your team to meet the minimal requirement is illegal.</p>
+<blockquote>
+<p>Discord</p>
+</blockquote>
+<p>For this tournament we’re going to be <strong>using Discord instead of Mumble</strong>. This is mainly due to players having Mumble issues in the past, and Discord is much more user-friendly. You can join the Discord server now with the link below.</p>
+<p>Once your team has been confirmed, your team leader must write an email to <a href="/cdn-cgi/l/email-protection#0f7d6a697c4f606c217b6c"><span class="__cf_email__" data-cfemail="0e7c6b687d4e616d207a6d">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">/* <![CDATA[ */!function(t,e,r,n,c,a,p){try{t=document.currentScript||function(){for(t=document.getElementsByTagName('script'),e=t.length;e--;)if(t[e].getAttribute('data-cfhash'))return t[e]}();if(t&&(c=t.previousSibling)){p=t.parentNode;if(a=c.getAttribute('data-cfemail')){for(e='',r='0x'+a.substr(0,2)|0,n=2;a.length-n;n+=2)e+='%'+('0'+('0x'+a.substr(n,2)^r).toString(16)).slice(-2);p.replaceChild(document.createTextNode(decodeURIComponent(e)),c)}p.removeChild(t)}}catch(u){}}()/* ]]> */</script></a> with their Discord name &amp; tag (e.g. username#1234). The team leaders will then be contacted and asked to provide the Discord information for their team members.</p>
+<h2><a href="https://discord.gg/SB3kmMr">Click to join Discord</a></h2>
+<blockquote>
+<p>Rules </p>
+</blockquote>
+<p>All teams must have at least 2 players who can speak English fluently present at all times so our referees can communicate with your team. Your entire team must stay in Discord for the duration of the match - the use of other voice communication software will not be allowed.</p>
+<p><a href="https://oc.tc/forums/topics/587d7f6f5f35b96a12000004">Here is the ruleset for Rogue Gamemodes: An Overcast Story</a></p>
+<p><strong>Important Dates:</strong> </p>
+<ul>
+<li>Registration opens - Tuesday, January 17 at 18:00 EST</li>
+<li>Registration closes - Monday, January 23 at 18:00 EST<br>
+</li>
+<li>Teams confirmed by - Tuesday, January 24<br>
+</li>
+<li> Round of 32 to Quarterfinals - January 28 (Starting at 10:00 am EST)<br>
+</li>
+<li> Semifinals and Finals - January 29 (Starting at 10:00 am EST)<br>
+</li>
+</ul>
+<blockquote>
+<p>Prizes </p>
+</blockquote>
+<p>The 1st and 2nd place teams will be receiving a trophy that’s out of this galaxy!</p>
+</div>
+</div>
+</div>
+<hr class='post-divider'>
+<div id='587d913e67d52233e300000f'>
+<div class='post-header'>
+<div class='pull-right'>
+<a class='btn btn-default btn-sm' data-method='get' href='/forums/topics/587d898567d52233dd000012/posts/new?reply_to_id=587d913e67d52233e300000f'>Quote</a>
+</div>
+<div>
+<a class='pull-left' href='/majjus_' style='margin: 4px 5px 0 0;'>
+<img style="width: 32px;height: 32px;border-radius: 3px;vertical-align: bottom;" width="32" height="32" class="avatar" src="https://avatar.oc.tc/453003c1d3a24b0ab4911205e503de90/32@2x.png" alt="majjus_" title="majjus_"/>
+</a>
+<div style='margin-left: 37px;'>
+<a style="color: #A00; font-weight: bold; margin-right: 3px" href="/majjus_">majjus_</a>
+<a class="label" style="background-color: #A00; color: white" href="/staff">Senior Moderator</a>
+<a class="label" style="background-color: #008888; color: white" rel="tooltip" title="Senior Event Coordinator" href="/staff">Event Coordinator</a>
+<a class="label" style="background-color: purple; color: white" href="/shop">Dux</a>
+<span class="label" style="background-color: #ffffff; color: #CC033C">♥</span>
+</div>
+<div style='margin-left: 37px;'>
+<i class='fa fa-bookmark'></i>
+<span style='color: #0a0; font-weight: bold;'>Official Response</span>
+<a class='post-timestamp' data-container='body' data-placement='right' href='/forums/posts/587d913e67d52233e300000f' rel='tooltip' title='January 16th, 2017 -  9:36 PM (Posted on January 16th, 2017 -  9:36 PM)'>
+<small>
+updated
+10 days
+ago
+</small>
+</a>
+</div>
+</div>
+</div>
+<br>
+<div class='forum-post'>
+<blockquote>
+<div class='collapse' id='collapse-587d913e67d52233e300000f'>
+<p>Practice Servers?</p>
+</div>
+<small>
+<a data-target='#collapse-587d913e67d52233e300000f' data-toggle='collapse' style='cursor: pointer;'>
+<span style='color: #08c'>AdamChen</span>
+<span>10 days ago</span>
+</a>
+<a href='/forums/posts/587d90e167d52233dd000019' style='color: #999;'>
+<i class='fa fa-angle-up'></i>
+</a>
+</small>
+</blockquote>
+<div class='converted post-content'>
+<p>Practice servers will be provided shortly after the registration closes.</p>
+</div>
+</div>
+</div>
+<hr class='post-divider'>
+<div id='5883d621c2963530a6000077'>
+<div class='post-header'>
+<div class='pull-right'>
+<a class='btn btn-default btn-sm' data-method='get' href='/forums/topics/587d898567d52233dd000012/posts/new?reply_to_id=5883d621c2963530a6000077'>Quote</a>
+</div>
+<div>
+<a class='pull-left' href='/majjus_' style='margin: 4px 5px 0 0;'>
+<img style="width: 32px;height: 32px;border-radius: 3px;vertical-align: bottom;" width="32" height="32" class="avatar" src="https://avatar.oc.tc/453003c1d3a24b0ab4911205e503de90/32@2x.png" alt="majjus_" title="majjus_"/>
+</a>
+<div style='margin-left: 37px;'>
+<a style="color: #A00; font-weight: bold; margin-right: 3px" href="/majjus_">majjus_</a>
+<a class="label" style="background-color: #A00; color: white" href="/staff">Senior Moderator</a>
+<a class="label" style="background-color: #008888; color: white" rel="tooltip" title="Senior Event Coordinator" href="/staff">Event Coordinator</a>
+<a class="label" style="background-color: purple; color: white" href="/shop">Dux</a>
+<span class="label" style="background-color: #ffffff; color: #CC033C">♥</span>
+</div>
+<div style='margin-left: 37px;'>
+<i class='fa fa-bookmark'></i>
+<span style='color: #0a0; font-weight: bold;'>Official Response</span>
+<a class='post-timestamp' data-container='body' data-placement='right' href='/forums/posts/5883d621c2963530a6000077' rel='tooltip' title='January 21st, 2017 -  3:44 PM (Posted on January 21st, 2017 -  3:44 PM)'>
+<small>
+updated
+5 days
+ago
+</small>
+</a>
+</div>
+</div>
+</div>
+<br>
+<div class='forum-post'>
+<div class='converted post-content'>
+<p>Due to several requests, registration will remain open one more day. It will now close at Monday 23 January 18:00 EST.</p>
+</div>
+</div>
+</div>
+<hr class='post-divider'>
+<div id='587d8e01c29635333300000e'>
+<div class='post-header'>
+<div class='pull-right'>
+<a class='btn btn-default btn-sm' data-method='get' href='/forums/topics/587d898567d52233dd000012/posts/new?reply_to_id=587d8e01c29635333300000e'>Quote</a>
+</div>
+<div>
+<a class='pull-left' href='/Shawnn' style='margin: 4px 5px 0 0;'>
+<img style="width: 32px;height: 32px;border-radius: 3px;vertical-align: bottom;" width="32" height="32" class="avatar" src="https://avatar.oc.tc/94812eb711604db4b349c2eac0792218/32@2x.png" alt="Shawnn" title="Shawnn"/>
+</a>
+<div style='margin-left: 37px;'>
+<a style="color: #669999; font-weight: bold; margin-right: 3px" href="/Shawnn">Shawnn</a>
+<a class="label" style="background-color: #669999; color: white" href="/staff">Official</a>
+<a class="label" style="background-color: rgb(32, 114, 143); color: white" href="/shop">Praetor</a>
+<span class="label" style="background-color: #ffffff; color: #CC033C">♥</span>
+</div>
+<div style='margin-left: 37px;'>
+<a class='post-timestamp' data-container='body' data-placement='right' href='/forums/posts/587d8e01c29635333300000e' rel='tooltip' title='January 16th, 2017 -  9:24 PM (Posted on January 16th, 2017 -  9:22 PM)'>
+<small>
+updated
+10 days
+ago
+</small>
+</a>
+</div>
+</div>
+</div>
+<br>
+<div class='forum-post'>
+<div class='converted post-content'>
+<p>Hype!!</p>
+</div>
+</div>
+</div>
+<hr class='post-divider'>
+<div id='587d8e02c2963532fd000011'>
+<div class='post-header'>
+<div class='pull-right'>
+<a class='btn btn-default btn-sm' data-method='get' href='/forums/topics/587d898567d52233dd000012/posts/new?reply_to_id=587d8e02c2963532fd000011'>Quote</a>
+</div>
+<div>
+<a class='pull-left' href='/nintendoboy11' style='margin: 4px 5px 0 0;'>
+<img style="width: 32px;height: 32px;border-radius: 3px;vertical-align: bottom;" width="32" height="32" class="avatar" src="https://avatar.oc.tc/022321a8578b4438b0358a3ca735639f/32@2x.png" alt="nintendoboy11" title="nintendoboy11"/>
+</a>
+<div style='margin-left: 37px;'>
+<a style="color: #669999; font-weight: bold; margin-right: 3px" href="/nintendoboy11">nintendoboy11</a>
+<a class="label" style="background-color: #669999; color: white" href="/staff">Official</a>
+<a class="label" style="background-color: purple; color: white" href="/shop">Dux</a>
+</div>
+<div style='margin-left: 37px;'>
+<a class='post-timestamp' data-container='body' data-placement='right' href='/forums/posts/587d8e02c2963532fd000011' rel='tooltip' title='January 16th, 2017 -  9:24 PM (Posted on January 16th, 2017 -  9:22 PM)'>
+<small>
+updated
+10 days
+ago
+</small>
+</a>
+</div>
+</div>
+</div>
+<br>
+<div class='forum-post'>
+<div class='converted post-content'>
+<p>HYPE!</p>
+</div>
+</div>
+</div>
+<hr class='post-divider'>
+<div id='587d8e0467d52219e700000e'>
+<div class='post-header'>
+<div class='pull-right'>
+<a class='btn btn-default btn-sm' data-method='get' href='/forums/topics/587d898567d52233dd000012/posts/new?reply_to_id=587d8e0467d52219e700000e'>Quote</a>
+</div>
+<div>
+<a class='pull-left' href='/Jexel' style='margin: 4px 5px 0 0;'>
+<img style="width: 32px;height: 32px;border-radius: 3px;vertical-align: bottom;" width="32" height="32" class="avatar" src="https://avatar.oc.tc/9225421c3c094d97bb80f6a77c1f360b/32@2x.png" alt="Jexel" title="Jexel"/>
+</a>
+<div style='margin-left: 37px;'>
+<a style="color: #06d; font-weight: bold; margin-right: 3px" href="/Jexel">Jexel</a>
+<a class="label" style="background-color: #06d; color: white" href="/staff">Builder</a>
+<a class="label" style="background-color: #3EBCBC; color: white" href="/staff">Referee</a>
+<a class="label" style="background-color: rgb(143, 7, 12); color: white" href="/shop">Imperator</a>
+</div>
+<div style='margin-left: 37px;'>
+<a class='post-timestamp' data-container='body' data-placement='right' href='/forums/posts/587d8e0467d52219e700000e' rel='tooltip' title='January 16th, 2017 -  9:24 PM (Posted on January 16th, 2017 -  9:22 PM)'>
+<small>
+updated
+10 days
+ago
+</small>
+</a>
+</div>
+</div>
+</div>
+<br>
+<div class='forum-post'>
+<div class='converted post-content'>
+<p>May the force be with Overcast</p>
+</div>
+</div>
+</div>
+<hr class='post-divider'>
+<div id='587d8e05c29635333900000c'>
+<div class='post-header'>
+<div class='pull-right'>
+<a class='btn btn-default btn-sm' data-method='get' href='/forums/topics/587d898567d52233dd000012/posts/new?reply_to_id=587d8e05c29635333900000c'>Quote</a>
+</div>
+<div>
+<a class='pull-left' href='/Antnecb' style='margin: 4px 5px 0 0;'>
+<img style="width: 32px;height: 32px;border-radius: 3px;vertical-align: bottom;" width="32" height="32" class="avatar" src="https://avatar.oc.tc/b152107269934fe4ae60dbeeb7dc0cfa/32@2x.png" alt="Antnecb" title="Antnecb"/>
+</a>
+<div style='margin-left: 37px;'>
+<a style="color: #F88; font-weight: bold; margin-right: 3px" href="/Antnecb">Antnecb</a>
+<a class="label" style="background-color: #F88; color: white" href="/staff">Junior Moderator</a>
+<a class="label" style="background-color: #669999; color: white" href="/staff">Official</a>
+<a class="label" style="background-color: purple; color: white" href="/shop">Dux</a>
+</div>
+<div style='margin-left: 37px;'>
+<a class='post-timestamp' data-container='body' data-placement='right' href='/forums/posts/587d8e05c29635333900000c' rel='tooltip' title='January 16th, 2017 -  9:24 PM (Posted on January 16th, 2017 -  9:22 PM)'>
+<small>
+updated
+10 days
+ago
+</small>
+</a>
+</div>
+</div>
+</div>
+<br>
+<div class='forum-post'>
+<div class='converted post-content'>
+<p>Hype!</p>
+</div>
+</div>
+</div>
+<hr class='post-divider'>
+<div id='587d8e4fc29635334000001d'>
+<div class='post-header'>
+<div class='pull-right'>
+<a class='btn btn-default btn-sm' data-method='get' href='/forums/topics/587d898567d52233dd000012/posts/new?reply_to_id=587d8e4fc29635334000001d'>Quote</a>
+</div>
+<div>
+<a class='pull-left' href='/GoldenOre' style='margin: 4px 5px 0 0;'>
+<img style="width: 32px;height: 32px;border-radius: 3px;vertical-align: bottom;" width="32" height="32" class="avatar" src="https://avatar.oc.tc/38ab65dd95f9406f917c6accc995421f/32@2x.png" alt="GoldenOre" title="GoldenOre"/>
+</a>
+<div style='margin-left: 37px;'>
+<a style="color: #08c; font-weight: bold; margin-right: 3px" href="/GoldenOre">GoldenOre</a>
+<span class="label" style="background-color: #00cdcd; color: white">Contest Winner</span>
+<a class="label" style="background-color: purple; color: white" href="/shop">Dux</a>
+</div>
+<div style='margin-left: 37px;'>
+<a class='post-timestamp' data-container='body' data-placement='right' href='/forums/posts/587d8e4fc29635334000001d' rel='tooltip' title='January 16th, 2017 -  9:23 PM'>
+<small>
+posted
+10 days
+ago
+</small>
+</a>
+</div>
+</div>
+</div>
+<br>
+<div class='forum-post'>
+<div class='converted post-content'>
+<p>??? no coral reef ???</p>
+</div>
+</div>
+</div>
+<hr class='post-divider'>
+<div id='587d8e58c2963532eb000011'>
+<div class='post-header'>
+<div class='pull-right'>
+<a class='btn btn-default btn-sm' data-method='get' href='/forums/topics/587d898567d52233dd000012/posts/new?reply_to_id=587d8e58c2963532eb000011'>Quote</a>
+</div>
+<div>
+<a class='pull-left' href='/Wenaa' style='margin: 4px 5px 0 0;'>
+<img style="width: 32px;height: 32px;border-radius: 3px;vertical-align: bottom;" width="32" height="32" class="avatar" src="https://avatar.oc.tc/c9932db0e7424b91b67809bc10b0b9b2/32@2x.png" alt="Wenaa" title="Wenaa"/>
+</a>
+<div style='margin-left: 37px;'>
+<a style="color: #08c; font-weight: bold; margin-right: 3px" href="/Wenaa">Wenaa</a>
+</div>
+<div style='margin-left: 37px;'>
+<a class='post-timestamp' data-container='body' data-placement='right' href='/forums/posts/587d8e58c2963532eb000011' rel='tooltip' title='January 16th, 2017 -  9:24 PM'>
+<small>
+posted
+10 days
+ago
+</small>
+</a>
+</div>
+</div>
+</div>
+<br>
+<div class='forum-post'>
+<div class='converted post-content'>
+<p>HYPE</p>
+</div>
+</div>
+</div>
+<hr class='post-divider'>
+<div id='587d8e5967d522343600000f'>
+<div class='post-header'>
+<div class='pull-right'>
+<a class='btn btn-default btn-sm' data-method='get' href='/forums/topics/587d898567d52233dd000012/posts/new?reply_to_id=587d8e5967d522343600000f'>Quote</a>
+</div>
+<div>
+<a class='pull-left' href='/Arqueopterix' style='margin: 4px 5px 0 0;'>
+<img style="width: 32px;height: 32px;border-radius: 3px;vertical-align: bottom;" width="32" height="32" class="avatar" src="https://avatar.oc.tc/8d07127429844ff3aa3a17aba7e40887/32@2x.png" alt="Arqueopterix" title="Arqueopterix"/>
+</a>
+<div style='margin-left: 37px;'>
+<a style="color: #08c; font-weight: bold; margin-right: 3px" href="/Arqueopterix">Arqueopterix</a>
+<a class="label" style="background-color: purple; color: white" href="/shop">Dux</a>
+</div>
+<div style='margin-left: 37px;'>
+<a class='post-timestamp' data-container='body' data-placement='right' href='/forums/posts/587d8e5967d522343600000f' rel='tooltip' title='January 16th, 2017 -  9:24 PM'>
+<small>
+posted
+10 days
+ago
+</small>
+</a>
+</div>
+</div>
+</div>
+<br>
+<div class='forum-post'>
+<div class='converted post-content'>
+<p><img src="http://i.ytimg.com/vi/YRXgFu3RpYk/hqdefault.jpg" alt="enter image description here"></p>
+</div>
+</div>
+</div>
+<hr class='post-divider'>
+<div id='587d8e605f35b96aaa000004'>
+<div class='post-header'>
+<div class='pull-right'>
+<a class='btn btn-default btn-sm' data-method='get' href='/forums/topics/587d898567d52233dd000012/posts/new?reply_to_id=587d8e605f35b96aaa000004'>Quote</a>
+</div>
+<div>
+<a class='pull-left' href='/_SaySo' style='margin: 4px 5px 0 0;'>
+<img style="width: 32px;height: 32px;border-radius: 3px;vertical-align: bottom;" width="32" height="32" class="avatar glow" src="https://avatar.oc.tc/a7f22f1e924848c09dd68b08a8d42f08/32@2x.png" alt="_SaySo" title="_SaySo"/>
+</a>
+<div style='margin-left: 37px;'>
+<a style="color: #08c; font-weight: bold; margin-right: 3px" href="/_SaySo">_SaySo</a>
+</div>
+<div style='margin-left: 37px;'>
+<a class='post-timestamp' data-container='body' data-placement='right' href='/forums/posts/587d8e605f35b96aaa000004' rel='tooltip' title='January 16th, 2017 -  9:24 PM'>
+<small>
+posted
+10 days
+ago
+</small>
+</a>
+</div>
+</div>
+</div>
+<br>
+<div class='forum-post'>
+<div class='converted post-content'>
+<p>JIPHE!!</p>
+</div>
+</div>
+</div>
+<hr class='post-divider'>
+<div id='587d8e81c296351489000009'>
+<div class='post-header'>
+<div class='pull-right'>
+<a class='btn btn-default btn-sm' data-method='get' href='/forums/topics/587d898567d52233dd000012/posts/new?reply_to_id=587d8e81c296351489000009'>Quote</a>
+</div>
+<div>
+<a class='pull-left' href='/Recoovery' style='margin: 4px 5px 0 0;'>
+<img style="width: 32px;height: 32px;border-radius: 3px;vertical-align: bottom;" width="32" height="32" class="avatar glow" src="https://avatar.oc.tc/2b0161abd1e84d919cea1cc771ca55f0/32@2x.png" alt="Recoovery" title="Recoovery"/>
+</a>
+<div style='margin-left: 37px;'>
+<a style="color: #08c; font-weight: bold; margin-right: 3px" href="/Recoovery">Recoovery</a>
+</div>
+<div style='margin-left: 37px;'>
+<a class='post-timestamp' data-container='body' data-placement='right' href='/forums/posts/587d8e81c296351489000009' rel='tooltip' title='January 16th, 2017 -  9:24 PM'>
+<small>
+posted
+10 days
+ago
+</small>
+</a>
+</div>
+</div>
+</div>
+<br>
+<div class='forum-post'>
+<div class='converted post-content'>
+<p>HYPE MAMÁ!!!!!!!</p>
+</div>
+</div>
+</div>
+<hr class='post-divider'>
+<div id='587d8e895f35b96ac0000009'>
+<div class='post-header'>
+<div class='pull-right'>
+<a class='btn btn-default btn-sm' data-method='get' href='/forums/topics/587d898567d52233dd000012/posts/new?reply_to_id=587d8e895f35b96ac0000009'>Quote</a>
+</div>
+<div>
+<a class='pull-left' href='/Kaskito' style='margin: 4px 5px 0 0;'>
+<img style="width: 32px;height: 32px;border-radius: 3px;vertical-align: bottom;" width="32" height="32" class="avatar" src="https://avatar.oc.tc/cbd5c47c11374f0293dd626a46bdd779/32@2x.png" alt="Kaskito" title="Kaskito"/>
+</a>
+<div style='margin-left: 37px;'>
+<a style="color: #08c; font-weight: bold; margin-right: 3px" href="/Kaskito">Kaskito</a>
+<a class="label" style="background-color: purple; color: white" href="/shop">Dux</a>
+</div>
+<div style='margin-left: 37px;'>
+<a class='post-timestamp' data-container='body' data-placement='right' href='/forums/posts/587d8e895f35b96ac0000009' rel='tooltip' title='January 16th, 2017 -  9:24 PM'>
+<small>
+posted
+10 days
+ago
+</small>
+</a>
+</div>
+</div>
+</div>
+<br>
+<div class='forum-post'>
+<div class='converted post-content'>
+<p>Décimo ahr hype</p>
+</div>
+</div>
+</div>
+<hr class='post-divider'>
+<div id='587d8e8ec2963532fd000012'>
+<div class='post-header'>
+<div class='pull-right'>
+<a class='btn btn-default btn-sm' data-method='get' href='/forums/topics/587d898567d52233dd000012/posts/new?reply_to_id=587d8e8ec2963532fd000012'>Quote</a>
+</div>
+<div>
+<a class='pull-left' href='/OreMiner28' style='margin: 4px 5px 0 0;'>
+<img style="width: 32px;height: 32px;border-radius: 3px;vertical-align: bottom;" width="32" height="32" class="avatar" src="https://avatar.oc.tc/204512986861482ea089f8e8c6a88997/32@2x.png" alt="OreMiner28" title="OreMiner28"/>
+</a>
+<div style='margin-left: 37px;'>
+<a style="color: #08c; font-weight: bold; margin-right: 3px" href="/OreMiner28">OreMiner28</a>
+</div>
+<div style='margin-left: 37px;'>
+<a class='post-timestamp' data-container='body' data-placement='right' href='/forums/posts/587d8e8ec2963532fd000012' rel='tooltip' title='January 16th, 2017 -  9:25 PM'>
+<small>
+posted
+10 days
+ago
+</small>
+</a>
+</div>
+</div>
+</div>
+<br>
+<div class='forum-post'>
+<div class='converted post-content'>
+<p>rouge </p>
+</div>
+</div>
+</div>
+<hr class='post-divider'>
+<div id='587d8eaa67d5223427000071'>
+<div class='post-header'>
+<div class='pull-right'>
+<a class='btn btn-default btn-sm' data-method='get' href='/forums/topics/587d898567d52233dd000012/posts/new?reply_to_id=587d8eaa67d5223427000071'>Quote</a>
+</div>
+<div>
+<a class='pull-left' href='/HardstyleRaver2' style='margin: 4px 5px 0 0;'>
+<img style="width: 32px;height: 32px;border-radius: 3px;vertical-align: bottom;" width="32" height="32" class="avatar" src="https://avatar.oc.tc/8d812ffae5f14658bb47a18b785ccd27/32@2x.png" alt="HardstyleRaver2" title="HardstyleRaver2"/>
+</a>
+<div style='margin-left: 37px;'>
+<a style="color: #08c; font-weight: bold; margin-right: 3px" href="/HardstyleRaver2">HardstyleRaver2</a>
+<a class="label" style="background-color: purple; color: white" href="/shop">Dux</a>
+</div>
+<div style='margin-left: 37px;'>
+<a class='post-timestamp' data-container='body' data-placement='right' href='/forums/posts/587d8eaa67d5223427000071' rel='tooltip' title='January 16th, 2017 -  9:25 PM'>
+<small>
+posted
+10 days
+ago
+</small>
+</a>
+</div>
+</div>
+</div>
+<br>
+<div class='forum-post'>
+<div class='converted post-content'>
+<p>Hype! All of the DTC/M are wet! Hype!</p>
+</div>
+</div>
+</div>
+<hr class='post-divider'>
+<div id='587d8f1b67d52233e300000b'>
+<div class='post-header'>
+<div class='pull-right'>
+<a class='btn btn-default btn-sm' data-method='get' href='/forums/topics/587d898567d52233dd000012/posts/new?reply_to_id=587d8f1b67d52233e300000b'>Quote</a>
+</div>
+<div>
+<a class='pull-left' href='/Karatedude' style='margin: 4px 5px 0 0;'>
+<img style="width: 32px;height: 32px;border-radius: 3px;vertical-align: bottom;" width="32" height="32" class="avatar" src="https://avatar.oc.tc/80040c3dcaa74d8f810cc2b468181cdf/32@2x.png" alt="Karatedude" title="Karatedude"/>
+</a>
+<div style='margin-left: 37px;'>
+<a style="color: #08c; font-weight: bold; margin-right: 3px" href="/Karatedude">Karatedude</a>
+<a class="label" style="background-color: purple; color: white" href="/shop">Dux</a>
+<span class="label" style="background-color: #ffffff; color: #CC033C">♥</span>
+</div>
+<div style='margin-left: 37px;'>
+<a class='post-timestamp' data-container='body' data-placement='right' href='/forums/posts/587d8f1b67d52233e300000b' rel='tooltip' title='January 16th, 2017 -  9:27 PM'>
+<small>
+posted
+10 days
+ago
+</small>
+</a>
+</div>
+</div>
+</div>
+<br>
+<div class='forum-post'>
+<div class='converted post-content'>
+<p>hypea</p>
+</div>
+</div>
+</div>
+<hr class='post-divider'>
+<div id='587d8f3cc2963532f900000d'>
+<div class='post-header'>
+<div class='pull-right'>
+<a class='btn btn-default btn-sm' data-method='get' href='/forums/topics/587d898567d52233dd000012/posts/new?reply_to_id=587d8f3cc2963532f900000d'>Quote</a>
+</div>
+<div>
+<a class='pull-left' href='/Elly' style='margin: 4px 5px 0 0;'>
+<img style="width: 32px;height: 32px;border-radius: 3px;vertical-align: bottom;" width="32" height="32" class="avatar" src="https://avatar.oc.tc/208c84af790a41dabf7eeb184f17bdf8/32@2x.png" alt="Elly" title="Elly"/>
+</a>
+<div style='margin-left: 37px;'>
+<a style="color: #669999; font-weight: bold; margin-right: 3px" href="/Elly">Elly</a>
+<a class="label" style="background-color: #669999; color: white" href="/staff">Official</a>
+<a class="label" style="background-color: purple; color: white" href="/shop">Dux</a>
+</div>
+<div style='margin-left: 37px;'>
+<a class='post-timestamp' data-container='body' data-placement='right' href='/forums/posts/587d8f3cc2963532f900000d' rel='tooltip' title='January 16th, 2017 -  9:27 PM'>
+<small>
+posted
+10 days
+ago
+</small>
+</a>
+</div>
+</div>
+</div>
+<br>
+<div class='forum-post'>
+<div class='converted post-content'>
+<p>ayy</p>
+</div>
+</div>
+</div>
+<hr class='post-divider'>
+<div id='587d8f3e5f35b96a1f000004'>
+<div class='post-header'>
+<div class='pull-right'>
+<a class='btn btn-default btn-sm' data-method='get' href='/forums/topics/587d898567d52233dd000012/posts/new?reply_to_id=587d8f3e5f35b96a1f000004'>Quote</a>
+</div>
+<div>
+<a class='pull-left' href='/AdamChen' style='margin: 4px 5px 0 0;'>
+<img style="width: 32px;height: 32px;border-radius: 3px;vertical-align: bottom;" width="32" height="32" class="avatar" src="https://avatar.oc.tc/c62a665521654d6ba68eac20fe52a038/32@2x.png" alt="AdamChen" title="AdamChen"/>
+</a>
+<div style='margin-left: 37px;'>
+<a style="color: #08c; font-weight: bold; margin-right: 3px" href="/AdamChen">AdamChen</a>
+<a class="label" style="background-color: purple; color: white" href="/shop">Dux</a>
+<a target="_blank" rel="tooltip" title="YouTube channel" href="https://www.youtube.com/channel/UCIj81SOReuM2Sz851KYSB2Q"><img width="26" height="18" src="https://static.oc.tc/assets/youtube36-fcf434c4758fe87128e160d7c9eacf8a3f0f9fc77b22e185f16d41a83f6da359.png" alt="Youtube36 fcf434c4758fe87128e160d7c9eacf8a3f0f9fc77b22e185f16d41a83f6da359"/></a>
+</div>
+<div style='margin-left: 37px;'>
+<a class='post-timestamp' data-container='body' data-placement='right' href='/forums/posts/587d8f3e5f35b96a1f000004' rel='tooltip' title='January 16th, 2017 -  9:27 PM'>
+<small>
+posted
+10 days
+ago
+</small>
+</a>
+</div>
+</div>
+</div>
+<br>
+<div class='forum-post'>
+<div class='converted post-content'>
+<p>Is it possible to consider RFV2 for the finals instead of Fairy Tales?</p>
+</div>
+</div>
+</div>
+<hr class='post-divider'>
+<div id='587d8fd067d5223427000074'>
+<div class='post-header'>
+<div class='pull-right'>
+<a class='btn btn-default btn-sm' data-method='get' href='/forums/topics/587d898567d52233dd000012/posts/new?reply_to_id=587d8fd067d5223427000074'>Quote</a>
+</div>
+<div>
+<a class='pull-left' href='/lgmatias' style='margin: 4px 5px 0 0;'>
+<img style="width: 32px;height: 32px;border-radius: 3px;vertical-align: bottom;" width="32" height="32" class="avatar" src="https://avatar.oc.tc/7dcb1605a6414f6f99efea04278b6f7c/32@2x.png" alt="lgmatias" title="lgmatias"/>
+</a>
+<div style='margin-left: 37px;'>
+<a style="color: #08c; font-weight: bold; margin-right: 3px" href="/lgmatias">lgmatias</a>
+<a class="label" style="background-color: rgb(32, 114, 143); color: white" href="/shop">Praetor</a>
+</div>
+<div style='margin-left: 37px;'>
+<a class='post-timestamp' data-container='body' data-placement='right' href='/forums/posts/587d8fd067d5223427000074' rel='tooltip' title='January 16th, 2017 -  9:35 PM (Posted on January 16th, 2017 -  9:30 PM)'>
+<small>
+updated
+10 days
+ago
+</small>
+</a>
+</div>
+</div>
+</div>
+<br>
+<div class='forum-post'>
+<div class='converted post-content'>
+<p>maybe use rfv2 for finals and use a kfc map for first round? make finals a slightly better map than fairy tales at least</p>
+</div>
+</div>
+</div>
+<hr class='post-divider'>
+<div id='587d8ffec29635330000000a'>
+<div class='post-header'>
+<div class='pull-right'>
+<a class='btn btn-default btn-sm' data-method='get' href='/forums/topics/587d898567d52233dd000012/posts/new?reply_to_id=587d8ffec29635330000000a'>Quote</a>
+</div>
+<div>
+<a class='pull-left' href='/Junuh' style='margin: 4px 5px 0 0;'>
+<img style="width: 32px;height: 32px;border-radius: 3px;vertical-align: bottom;" width="32" height="32" class="avatar" src="https://avatar.oc.tc/14ead3f40c264cf0931e80093f88ed5f/32@2x.png" alt="Junuh" title="Junuh"/>
+</a>
+<div style='margin-left: 37px;'>
+<a style="color: #08c; font-weight: bold; margin-right: 3px" href="/Junuh">Junuh</a>
+<a class="label" style="background-color: purple; color: white" href="/shop">Dux</a>
+</div>
+<div style='margin-left: 37px;'>
+<a class='post-timestamp' data-container='body' data-placement='right' href='/forums/posts/587d8ffec29635330000000a' rel='tooltip' title='January 16th, 2017 -  9:31 PM'>
+<small>
+posted
+10 days
+ago
+</small>
+</a>
+</div>
+</div>
+</div>
+<br>
+<div class='forum-post'>
+<div class='converted post-content'>
+<p>HYPE
+but rip</p>
+</div>
+</div>
+</div>
+<hr class='post-divider'>
+<div id='587d900b5f35b969fc00000a'>
+<div class='post-header'>
+<div class='pull-right'>
+<a class='btn btn-default btn-sm' data-method='get' href='/forums/topics/587d898567d52233dd000012/posts/new?reply_to_id=587d900b5f35b969fc00000a'>Quote</a>
+</div>
+<div>
+<a class='pull-left' href='/AMSGamingTQ' style='margin: 4px 5px 0 0;'>
+<img style="width: 32px;height: 32px;border-radius: 3px;vertical-align: bottom;" width="32" height="32" class="avatar" src="https://avatar.oc.tc/0fdf1faa6a984f27983c968648e12720/32@2x.png" alt="AMSGamingTQ" title="AMSGamingTQ"/>
+</a>
+<div style='margin-left: 37px;'>
+<a style="color: #F20; font-weight: bold; margin-right: 3px" href="/AMSGamingTQ">AMSGamingTQ</a>
+<a class="label" style="background-color: #F20; color: white" href="/staff">Moderator</a>
+<a class="label" style="background-color: #3EBCBC; color: white" href="/staff">Referee</a>
+<a class="label" style="background-color: purple; color: white" href="/shop">Dux</a>
+<a target="_blank" rel="tooltip" title="YouTube channel" href="https://www.youtube.com/channel/UCXa2Hm7-oFfRetHNaV8zrOQ"><img width="26" height="18" src="https://static.oc.tc/assets/youtube36-fcf434c4758fe87128e160d7c9eacf8a3f0f9fc77b22e185f16d41a83f6da359.png" alt="Youtube36 fcf434c4758fe87128e160d7c9eacf8a3f0f9fc77b22e185f16d41a83f6da359"/></a>
+</div>
+<div style='margin-left: 37px;'>
+<a class='post-timestamp' data-container='body' data-placement='right' href='/forums/posts/587d900b5f35b969fc00000a' rel='tooltip' title='January 16th, 2017 -  9:31 PM'>
+<small>
+posted
+10 days
+ago
+</small>
+</a>
+</div>
+</div>
+</div>
+<br>
+<div class='forum-post'>
+<div class='converted post-content'>
+<p>Woahhhhhhhhh </p>
+</div>
+</div>
+</div>
+<hr class='post-divider'>
+</div>
+<br>
+<div class='btn-toolbar pull-right' style='margin: 0 0 10px;'>
+</div>
+<ul class='pagination pagination-sm'>
+<li class='active'>
+<a>1</a>
+</li>
+<li>
+<a href='/forums/topics/587d898567d52233dd000012?page=2'>2</a>
+</li>
+<li>
+<a href='/forums/topics/587d898567d52233dd000012?page=3'>3</a>
+</li>
+<li>
+<a href='/forums/topics/587d898567d52233dd000012?page=4'>4</a>
+</li>
+<li>
+<a href='/forums/topics/587d898567d52233dd000012?page=5'>5</a>
+</li>
+<li class='disabled'>
+<a>&hellip;</a>
+</li>
+<li>
+<a href='/forums/topics/587d898567d52233dd000012?page=8'>Last &raquo;</a>
+</li>
+</ul>
+</form>
+</div>
+<div class='col-xs-12 visible-xs visible-sm'>
+<div class='forum-footer'>
+<h4>
+Online Users
+<small>72</small>
+</h4>
+<small><a style="color: #008888" href="/Lieutenantpants">Lieutenantpants</a>, <a style="color: #F20" href="/2000thehecf1">2000thehecf1</a>, <a style="color: #F20" href="/Snuskenmaxi">Snuskenmaxi</a>, <a style="color: #F88" href="/OCNs_OMEN">OCNs_OMEN</a>, <a style="color: #F88" href="/Pelpelajax">Pelpelajax</a>, <a style="color: #06d" href="/rockymine">rockymine</a>, <a style="color: #3EBCBC" href="/CIPato">CIPato</a>, <a style="color: #08c" href="/Spintown">Spintown</a>, <a style="color: #08c" href="/Karatedude">Karatedude</a>, <a style="color: #08c" href="/Flanyu">Flanyu</a>, <a style="color: #08c" href="/Yoyo_">Yoyo_</a>, <a style="color: #08c" href="/snatter">snatter</a>, <a style="color: #08c" href="/qlados">qlados</a>, <a style="color: #08c" href="/Queznel">Queznel</a>, <a style="color: #08c" href="/AdamChen">AdamChen</a>, <a style="color: #08c" href="/arilysm">arilysm</a>, <a style="color: #08c" href="/Maxinoxo">Maxinoxo</a>, <a style="color: #08c" href="/HugMe_">HugMe_</a>, <a style="color: #08c" href="/ttiku">ttiku</a>, <a style="color: #08c" href="/Meegathrainer">Meegathrainer</a>, <a style="color: #08c" href="/Kahlersforge">Kahlersforge</a>, <a style="color: #08c" href="/_oxyoshi_">_oxyoshi_</a>, <a style="color: #08c" href="/Lauty">Lauty</a>, <a style="color: #08c" href="/TiTo_418">TiTo_418</a>, <a style="color: #08c" href="/Dartho">Dartho</a>, <a style="color: #08c" href="/AudreyDx">AudreyDx</a>, <a style="color: #08c" href="/Circus">Circus</a>, <a style="color: #08c" href="/Macromy">Macromy</a>, <a style="color: #08c" href="/Lorys">Lorys</a>, <a style="color: #08c" href="/captaintheus">captaintheus</a>, <a style="color: #08c" href="/PdPr0x">PdPr0x</a>, <a style="color: #08c" href="/Arqueopterix">Arqueopterix</a>, <a style="color: #08c" href="/Ralloi">Ralloi</a>, <a style="color: #08c" href="/Symphtic">Symphtic</a>, <a style="color: #08c" href="/Selfie">Selfie</a>, <a style="color: #08c" href="/Mai">Mai</a>, <a style="color: #08c" href="/NocturnalBoy">NocturnalBoy</a>, <a style="color: #08c" href="/Zaoki">Zaoki</a>, <a style="color: #08c" href="/lechampionkev">lechampionkev</a>, <a style="color: #08c" href="/Lordblox">Lordblox</a>, <a style="color: #08c" href="/jofa56">jofa56</a>, <a style="color: #08c" href="/Keenn">Keenn</a>, <a style="color: #08c" href="/byRobo">byRobo</a>, <a style="color: #08c" href="/BlackLizard">BlackLizard</a>, <a style="color: #08c" href="/ManuMezclado_HN">ManuMezclado_HN</a>, <a style="color: #08c" href="/xBouh">xBouh</a>, <a style="color: #08c" href="/ALEXIU75">ALEXIU75</a>, <a style="color: #08c" href="/D4w1t0">D4w1t0</a>, <a style="color: #08c" href="/Cip">Cip</a>, <a style="color: #08c" href="/Yiel96">Yiel96</a>, <a style="color: #08c" href="/xCaivio">xCaivio</a>, <a style="color: #08c" href="/paqi">paqi</a>, <a style="color: #08c" href="/Wikiblox">Wikiblox</a>, <a style="color: #08c" href="/Samukah_">Samukah_</a>, <a style="color: #08c" href="/Yesaii">Yesaii</a>, <a style="color: #08c" href="/stiMULEating">stiMULEating</a>, <a style="color: #08c" href="/Nachoo_">Nachoo_</a>, <a style="color: #08c" href="/Tezehk">Tezehk</a>, <a style="color: #08c" href="/Yenien">Yenien</a>, <a style="color: #08c" href="/Koro_">Koro_</a>, <a style="color: #08c" href="/Sylvadan">Sylvadan</a>, <a style="color: #08c" href="/Neaathhhhhh">Neaathhhhhh</a>, <a style="color: #08c" href="/francesca19">francesca19</a>, <a style="color: #08c" href="/BB_8__">BB_8__</a>, <a style="color: #08c" href="/Spalgra">Spalgra</a>, <a style="color: #08c" href="/Foscra">Foscra</a>, <a style="color: #08c" href="/Ammzzy">Ammzzy</a>, <a style="color: #08c" href="/Cqmp3r_">Cqmp3r_</a>, <a style="color: #08c" href="/26ellas">26ellas</a>, <a style="color: #08c" href="/Darkooo">Darkooo</a>, <a style="color: #08c" href="/blackhornet36">blackhornet36</a>, <a style="color: #08c" href="/HopscotchPilgrim">HopscotchPilgrim</a></small>
+</div>
+</div>
+</div>
+</section>
+<hr>
+<div class='modal fade' id='contact'>
+<div class='modal-dialog'>
+<div class='modal-content'>
+<form class="simple_form new_inquiry" id="new_inquiry" action="/inquire" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;"/><input type="hidden" name="authenticity_token" value="b14OxvbB633lIGpbdB49XiL8HlnWh3dUbmdOuU6idMxU5lEpLZEH/0T+fVATc03Yx6tPTR1VYBgP4p1MbJlX8g=="/><input class='subj' name='type' type='hidden' value=''>
+<div class='modal-header'>
+<button class='close' data-dismiss='modal'>&times;</button>
+<h3 class='modal-title'>
+Contact Lifeboat Network
+<small class='subject'></small>
+</h3>
+</div>
+<div class='modal-body'>
+<div class='row'>
+<div class='col-md-6'>
+<div class='form-group'>
+<label class="string optional control-label" for="inquiry_username">Username</label>
+<input required="required" class="form-control" type="text" name="inquiry[username]" id="inquiry_username"/>
+</div>
+<div class='form-group'>
+<label class="string optional control-label" for="inquiry_message">Message</label>
+<textarea rows="10" class="form-control" name="inquiry[message]" id="inquiry_message">
+</textarea>
+</div>
+</div>
+<div class='col-md-6'>
+<div class='form-group'>
+<label class="email optional control-label" for="inquiry_email">Email</label>
+<input required="required" class="form-control" type="email" name="inquiry[email]" id="inquiry_email"/>
+</div>
+<div class='form-group'>
+<label class="string optional control-label" for="inquiry_subject">Subject</label>
+<input required="required" class="form-control" type="text" name="inquiry[subject]" id="inquiry_subject"/>
+</div>
+<p>We usually respond within 1-2 days if you provide a valid email</p>
+<p>Please be as clear and concise as possible. It will help us process your inquiry faster.</p>
+</div>
+</div>
+</div>
+<div class='modal-footer'>
+<a class='btn btn-default' data-dismiss='modal' href='#'>Close</a>
+<input class='btn btn-primary' data-disable-with='Sending...' type='submit' value='Send'>
+</div>
+</form>
+</div>
+</div>
+</div>
+<footer>
+<div class='row'>
+<div class='col-md-2 col-sm-4 col-xs-6'>
+<ul class='nav nav-pills nav-stacked'>
+<li class='heading'>
+Policies
+</li>
+<li>
+<a href='/rules'>Player Rules</a>
+</li>
+<li>
+<a href='/terms'>Terms of Service</a>
+</li>
+<li>
+<a href='/privacy'>Privacy Policy</a>
+</li>
+<li>
+<a href='/refund'>Refund Policy</a>
+</li>
+</ul>
+</div>
+<div class='col-md-2 col-sm-4 col-xs-6'>
+<ul class='nav nav-pills nav-stacked'>
+<li class='heading'>
+Moderation
+</li>
+<li>
+<a href='/report'>Report a Player</a>
+</li>
+<li>
+<a href='/appeal'>Appeal a Punishment</a>
+</li>
+<li>
+<a href='/punishments'>Recent Punishments</a>
+</li>
+</ul>
+</div>
+<div class='clearfix visible-xs-block' style='padding-bottom: 20px;'></div>
+<div class='col-md-2 col-sm-4 col-xs-6'>
+<ul class='nav nav-pills nav-stacked'>
+<li class='heading'>
+Organization
+</li>
+<li>
+<a href='/staff'>Staff Listing</a>
+</li>
+<li>
+<a href='/revisions'>Development Logs</a>
+</li>
+<li>
+<a href='https://github.com/OvercastNetwork/Issues'>Report a Bug</a>
+</li>
+</ul>
+</div>
+<div class='clearfix visible-sm-block' style='padding-bottom: 20px;'></div>
+<div class='col-md-2 col-sm-4 col-xs-6'>
+<ul class='nav nav-pills nav-stacked'>
+<li class='heading'>
+Contact Us
+</li>
+<li>
+<a class='inquiry' data-toggle='modal' href='#contact'>General Inquiries</a>
+</li>
+<li>
+<a class='inquiry' data-toggle='modal' href='#contact'>Shop Purchases</a>
+</li>
+<li>
+<a href='/appeal'>Ban Appeals</a>
+</li>
+</ul>
+</div>
+<div class='clearfix visible-xs-block' style='padding-bottom: 20px;'></div>
+<div class='col-md-2 col-sm-4'>
+<ul class='nav nav-pills nav-stacked follow-us'>
+<li class='heading'>
+Follow Us
+</li>
+<li>
+<a href='https://twitter.com/LifeboatPC'>
+<img src='https://static.oc.tc/assets/twitter_icon-ce65c4f4c6d6212c05301d0f3c1a38e8a0b6b0baa8c98853b0ddc310372b6e58.png'>
+Twitter
+</a>
+<a href='https://www.facebook.com/OvercastNetwork'>
+<img src='https://static.oc.tc/assets/facebook_icon-34f4e0ba3a52886710c0360d3f8f35352b6c0a73c7181f690c135b1d24eaa8f0.png'>
+Facebook
+</a>
+<a href='https://www.youtube.com/c/OvercastNetwork'>
+<img src='https://static.oc.tc/assets/youtube_icon-a724516a1d426e48bae525ea6e04abc3e1cf8234989b3f300ed294a61a6c893d.png'>
+YouTube
+</a>
+<a href='http://www.twitch.tv/ocnlive'>
+<img src='https://static.oc.tc/assets/twitch_icon-6604f0ced4759bd1c8bb6a01de875a66024f422c14789a752024980d57ba7398.png'>
+Twitch
+</a>
+</li>
+</ul>
+</div>
+<div class='clearfix visible-xs-block' style='padding-bottom: 20px;'></div>
+<div class='col-md-2 col-sm-4' style='text-align: center;'>
+Servers provided by
+<a href='/host'>
+<img class='img-responsive' src='https://static.oc.tc/assets/beastnode-844f199a7f8d0aa2903d26a73ce554bbea1d6030baf3f28bface484c944b5d50.png'>
+</a>
+<div class='copyright'>
+&copy; 2017 Lifeboat Network
+</div>
+</div>
+</div>
+</footer>
+</div>
+<script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body>
+</html>
